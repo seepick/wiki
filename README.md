@@ -2,6 +2,8 @@
 
 Lindy and Zouk wikis using KotlinJS.
 
+See: https://christophpickl.github.io/wiki/
+
 # TODOs
 
 * landing page, with links to wikis
