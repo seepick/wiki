@@ -15,3 +15,16 @@ kotlin {
         binaries.executable()
     }
 }
+
+val deployDocs = tasks.register("deployDocs") {
+    doFirst {
+        delete(File("docs").listFiles())
+        copy {
+            from("build/dist/js/productionExecutable")
+            into("docs/")
+        }
+    }
+}
+tasks.named("assemble") {
+    finalizedBy("deployDocs")
+}

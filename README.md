@@ -4,7 +4,6 @@ Lindy and Zouk wikis using KotlinJS.
 
 # TODOs
 
-* deploy to GitHub docs
 * landing page, with links to wikis
 * styling with (programmatic) CSS
 * reusable video container (HTML builder)
