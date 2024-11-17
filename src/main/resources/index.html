@@ -17,36 +17,48 @@
             cursor: pointer;
             width: 200px;
             float: left;
+            padding: 30px;
+            margin-bottom: 50px;
             text-align: center;
             border-radius: 15px;
             -moz-border-radius: 15px;
+            background-color: #FDF2D3;
+        }
+        .tile > img {
+            filter: grayscale(100%);
         }
         .tile:hover {
             background-color: #F7D9C4;
+        }
+        .tile:hover > img {
+            filter: grayscale(0%);
+        }
+        .tile:hover > .title {
+            color: #000000;
         }
         .tile:first-child {
             margin-right: 40px;
         }
         .title {
-            padding: 0;
-            margin: 0;
-            margin-top: 10px;
-            margin-bottom: 10px;
+            font-family: Arial;
+            color: #1C1C1C;
             font-size: 18pt;
             font-weight: bold;
-            font-family: Arial;
+            padding: 0;
+            margin: 0;
+            padding-bottom: 20px;
         }
     </style>
 </head>
 <body>
 <div id="root">
-    <div class="tile" onclick="javascript:window.location.href='lindy.html'">
-        <p class="title">Lindy</p>
-        <img src="lindy.png" width="184" height="251"/>
+    <div class="tile" onclick="javascript:window.location.href='lindy'">
+        <p class="title">Lindy Hop</p>
+        <img src="lindy.png" width="184" height="251" class="tileImg" alt="Lindy Hop" />
     </div>
-    <div class="tile" onclick="javascript:window.location.href='zouk.html'">
+    <div class="tile" onclick="javascript:window.location.href='zouk'">
         <p class="title">Zouk</p>
-        <img src="zouk.png" width="184" height="251" />
+        <img src="zouk.png" width="184" height="251" class="tileImg" alt="Brazilian Zouk" />
     </div>
 </div>
 </body>

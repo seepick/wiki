@@ -1,0 +1,7 @@
+:root {
+    --color-bright: rgba(232,226,215,1);
+    --color-normal: rgba(226,185,148,1);
+    --color-main: rgba(136,92,54,1);
+    --color-dark: rgba(113,80,46,1);
+    --color-complement: rgba(177,197,195,1);
+}

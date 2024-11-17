@@ -6,7 +6,6 @@ See: https://christophpickl.github.io/wiki/
 
 # TODOs
 
-* landing page, with links to wikis
 * styling with (programmatic) CSS
 * reusable video container (HTML builder)
 * migrate content

@@ -8,6 +8,9 @@ repositories {
     mavenCentral()
     gradlePluginPortal()
 }
+dependencies {
+    implementation("org.jetbrains.kotlinx:kotlinx-html-js:0.11.0")
+}
 kotlin {
     js {
         browser {
