@@ -8,28 +8,33 @@ import zouk.ZoukWiki
 
 abstract class Wiki {
     protected abstract val titleText: String
+    protected abstract val tabs: List<Tab>
     fun renderIn(root: HTMLElement) {
         root.append.wikiTitle(titleText)
         root.append.div {
             id = "middleWrapper"
             div {
                 id = "middleCentered"
-                renderContentIn(this)
+                val recentTabId = Cookies.read(CookieKey.RECENT_TAB_ID)
+                renderTabBar(tabs, this, recentTabId)
+
+                tabs.forEachIndexed { index, tab ->
+                    val visible = if(recentTabId != null) tab.tabId == recentTabId else index == 0
+                    tab.render(this, visible)
+                }
             }
         }
     }
-    protected abstract fun renderContentIn(root: HtmlBlockTag)
 }
 
 fun main() {
-    val wiki = parseWikiType()
-    println("Starting ${wiki::class.simpleName} ...")
     window.onload = { e ->
         val root = document.getElementById("root") as? HTMLElement ?: error("Main container 'root' not found!")
-        wiki.renderIn(root)
+        parseWikiType().renderIn(root)
         e
     }
 }
+
 private fun parseWikiType() = when (val raw = js("wikiType")) {
     "lindy" -> LindyWiki
     "zouk" -> ZoukWiki

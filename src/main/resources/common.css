@@ -6,6 +6,9 @@ body, div, p, h1, h2, h3, h4, h5, h6, .pseudoH3 {
     margin: 0;
     padding: 0;
 }
+:root {
+    --color-button-bg: rgba(239,239,239,1);
+}
 
 /* HEADERS */
 /* ============================================================================ */
@@ -53,6 +56,16 @@ img {
     margin-top: 4px;
     margin-bottom: 4px;
 }
+button, input, select, textarea, optgroup {
+    font: inherit;
+    margin: 0;
+    overflow: visible;
+    text-transform: none;
+    cursor: pointer;
+}
+.invisible {
+    display: none;
+}
 
 /* TITLE */
 /* ============================================================================ */
@@ -82,12 +95,49 @@ img {
     margin-bottom: 15px;
 }
 #middleCentered {
-    max-width: 800px;
+    width: 800px;
     padding-top: 15px;
 }
 .center {
     display: flex;
     justify-content: center;
+}
+#navigationContainer {
+    border-bottom: 2px solid var(--color-button-bg);
+}
+/* TABS */
+/* ============================================================================ */
+.tabBar {
+    width: 100%;
+    overflow: hidden;
+    border-bottom: 2px solid var(--color-button-bg);
+}
+.tabBar > .tabButton:first-child {
+    -webkit-border-top-left-radius: 10px;
+    -moz-border-radius-topleft: 10px;
+    border-top-left-radius: 10px;
+}
+.tabBar > .tabButton:last-child {
+    -webkit-border-top-right-radius: 10px;
+    -moz-border-radius-topright: 10px;
+    border-top-right-radius: 10px;
+}
+.tabButton {
+    padding: 8px 16px;
+    float: left;
+    width: auto;
+    border: none;
+    display: block;
+    outline: 0;
+    background-color: var(--color-button-bg);
+}
+.tabButton:hover {
+    color: white;
+    background: var(--color-normal);
+}
+.tabActive {
+    color: white;
+    background: var(--color-complement);
 }
 
 /* YOUTUBE VIDEO */

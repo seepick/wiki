@@ -1,16 +1,18 @@
 plugins {
-//    kotlin("multiplatform") version "2.0.21" // FIXME official way doesn't work?!?
     kotlin("js") version "2.0.21"
 }
+
 repositories {
     mavenLocal()
     google()
     mavenCentral()
     gradlePluginPortal()
 }
+
 dependencies {
     implementation("org.jetbrains.kotlinx:kotlinx-html-js:0.11.0")
 }
+
 kotlin {
     js {
         browser {
@@ -28,6 +30,7 @@ val deployDocs = tasks.register("deployDocs") {
         }
     }
 }
+
 tasks.named("assemble") {
     finalizedBy("deployDocs")
 }

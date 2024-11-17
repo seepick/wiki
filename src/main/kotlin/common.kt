@@ -28,3 +28,6 @@ fun FlowContent.youtube(id: String, caption: String) {
         p(classes = "caption") { +caption }
     }
 }
+
+external fun encodeURIComponent(str: String): String
+external fun decodeURIComponent(str: String): String
