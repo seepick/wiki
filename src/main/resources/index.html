@@ -18,17 +18,18 @@
             width: 200px;
             float: left;
             padding: 30px;
-            margin-bottom: 50px;
             text-align: center;
             border-radius: 15px;
             -moz-border-radius: 15px;
             background-color: #FDF2D3;
+            filter: drop-shadow(rgba(0,0,0,0.1) 2px 5px 4px);
         }
         .tile > img {
             filter: grayscale(100%);
         }
         .tile:hover {
             background-color: #F7D9C4;
+            filter: drop-shadow(rgba(0,0,0,0.2) 2px 5px 4px);
         }
         .tile:hover > img {
             filter: grayscale(0%);
@@ -36,29 +37,38 @@
         .tile:hover > .title {
             color: #000000;
         }
-        .tile:first-child {
-            margin-right: 40px;
-        }
         .title {
             font-family: Arial;
+            filter: drop-shadow(rgba(0,0,0,0.3) 2px 2px 3px);
             color: #1C1C1C;
             font-size: 18pt;
             font-weight: bold;
             padding: 0;
             margin: 0;
-            padding-bottom: 20px;
+            margin-bottom: 10px;
+        }
+        #tileContainer {
+            display: grid;
+            grid-template-columns: auto auto auto;
+            gap: 0 50px;
         }
     </style>
 </head>
 <body>
 <div id="root">
-    <div class="tile" onclick="javascript:window.location.href='lindy'">
-        <p class="title">Lindy Hop</p>
-        <img src="lindy.png" width="184" height="251" class="tileImg" alt="Lindy Hop" />
-    </div>
-    <div class="tile" onclick="javascript:window.location.href='zouk'">
-        <p class="title">Zouk</p>
-        <img src="zouk.png" width="184" height="251" class="tileImg" alt="Brazilian Zouk" />
+    <div id="tileContainer">
+        <div class="tile" onclick="javascript:window.location.href='contact'">
+            <p class="title">Contact</p>
+            <img src="contact/tile.png" width="184" height="251" class="tileImg" alt="Contact Improvisation" />
+        </div>
+        <div class="tile" onclick="javascript:window.location.href='lindy'">
+            <p class="title">Lindy</p>
+            <img src="lindy/tile.png" width="184" height="251" class="tileImg" alt="Lindy Hop" />
+        </div>
+        <div class="tile" onclick="javascript:window.location.href='zouk'">
+            <p class="title">Zouk</p>
+            <img src="zouk/tile.png" width="184" height="251" class="tileImg" alt="Brazilian Zouk" />
+        </div>
     </div>
 </div>
 </body>

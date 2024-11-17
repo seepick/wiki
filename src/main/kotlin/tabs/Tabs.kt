@@ -38,9 +38,11 @@ fun renderTabBar(tabs: List<Tab>, root: HtmlBlockTag, recentTabId: String?) {
                 if (recentTabId != null) {
                     if (recentTabId == tab.tabId) {
                         classes += "tabActive"
+                        disabled = true
                     }
                 } else if (index == 0) {
                     classes += "tabActive"
+                    disabled = true
                 }
                 +tab.title
                 onClickFunction = {
@@ -52,6 +54,7 @@ fun renderTabBar(tabs: List<Tab>, root: HtmlBlockTag, recentTabId: String?) {
 }
 
 fun openTab(tabIdToOpen: String) {
+    println("openTab($tabIdToOpen)")
     Cookies.write(CookieKey.RECENT_TAB_ID, tabIdToOpen)
 
     val buttons: HTMLCollection = document.getElementsByClassName("tabButton")
@@ -62,12 +65,14 @@ fun openTab(tabIdToOpen: String) {
         val tab = document.getElementById(currentTabId) ?: error("Tab not found by ID [$currentTabId]!")
         if (button.id == "$TAB_BTN_ID_PREFIX$tabIdToOpen") {
             button.classList.add("tabActive")
+            button.setAttribute("disabled", "")
             if (tab.classList.contains("invisible")) {
                 tab.classList.remove("invisible")
             }
         } else {
             if (button.classList.contains("tabActive")) {
                 button.classList.remove("tabActive")
+                button.removeAttribute("disabled")
             }
             tab.classList.add("invisible")
         }

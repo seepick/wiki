@@ -1,7 +1,6 @@
+import contact.ContactWiki
 import kotlinx.browser.document
 import kotlinx.browser.window
-import kotlinx.html.*
-import kotlinx.html.dom.*
 import lindy.LindyWiki
 import org.w3c.dom.HTMLElement
 import zouk.ZoukWiki
@@ -17,5 +16,6 @@ fun main() {
 private fun parseWikiType() = when (val raw = js("wikiType")) {
     "lindy" -> LindyWiki
     "zouk" -> ZoukWiki
+    "contact" -> ContactWiki
     else -> error("Invalid wiki type [$raw]!")
 }

@@ -4,7 +4,7 @@ class Section(
     id: String,
     val title: String,
     val subSections: List<SubSection>,
-    val renderer: (FlowContent) -> Unit,
+    val renderer: FlowContent.() -> Unit,
 ) {
     val id: String = "section_$id"
 }
@@ -12,7 +12,7 @@ class Section(
 class SubSection(
     id: String,
     val title: String,
-    val renderer: (FlowContent) -> Unit,
+    val renderer: FlowContent.() -> Unit,
 ) {
     val partialId: String = "subsection_$id"
 }

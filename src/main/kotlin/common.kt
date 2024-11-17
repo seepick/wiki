@@ -31,3 +31,8 @@ fun FlowContent.youtube(id: String, caption: String) {
 
 external fun encodeURIComponent(str: String): String
 external fun decodeURIComponent(str: String): String
+
+fun buildId(string: String): String =
+    string.replace(" ", "_")
+        .filter { it.isLetterOrDigit() || it == '_' }
+        .lowercase()

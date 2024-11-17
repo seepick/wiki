@@ -1,16 +1,11 @@
-package lindy
+package contact
 
-import Section
-import tabs.SectionedTab
-import SubSection
-import tabs.Tab
 import Wiki
-import kotlinx.html.*
+import kotlinx.html.p
 import tabs.sectionedTab
-import youtube
 
-object LindyWiki : Wiki() {
-    override val titleText = "Lindy Hop Wiki"
+object ContactWiki : Wiki() {
+    override val titleText = "Contact Improvisation Wiki"
     override val tabs = listOf(
         sectionedTab("Introduction") {
             section("Resources") {
@@ -26,7 +21,6 @@ object LindyWiki : Wiki() {
                 subSection("Butterfly") {
                     render {
                         p { +"Some description" }
-                        youtube(id = "7e2SjRIfD4U?si=R4WWwPD0DGrYyjdX", caption = "some caption")
                     }
                 }
             }

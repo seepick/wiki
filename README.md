@@ -7,6 +7,7 @@ See: https://christophpickl.github.io/wiki/
 # TODOs
 
 * delayed load youtube videos only when "being viewed"
+* better (transparent) favicons
 * migrate content
 * multiplatform (official way) doesn't work, but oldschool JS does?! ''kotlin("multiplatform") version "2.0.21"''
 
