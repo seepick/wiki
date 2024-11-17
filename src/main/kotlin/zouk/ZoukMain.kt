@@ -1,6 +1,6 @@
 package zouk
 
-import Tab
+import tabs.Tab
 import Wiki
 import kotlinx.html.*
 
@@ -11,9 +11,7 @@ object ZoukWiki : Wiki() {
     )
 }
 
-object IntroTab : Tab() {
-    override val tabId = "intro"
-    override val title = "Intro"
+object IntroTab : Tab(tabId = "intro", title = "Intro") {
     override fun renderContentIn(root: HtmlBlockTag) {
         root.p { +"Some intro disclaimer" }
     }

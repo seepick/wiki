@@ -1,44 +1,57 @@
 package lindy
 
 import Section
-import SectionedTab
+import tabs.SectionedTab
 import SubSection
-import Tab
+import tabs.Tab
 import Wiki
 import kotlinx.html.*
-import kotlinx.html.dom.*
-import kotlinx.html.js.onClickFunction
-import org.w3c.dom.HTMLElement
 import youtube
 
 object LindyWiki : Wiki() {
     override val titleText = "Lindy Hop Cheatsheet"
-    override val tabs = listOf(
-        IntroTab, BeginnerTab, IntermediateTab
-    )
+    override val tabs = listOf(IntroTab, BeginnerTab, IntermediateTab)
 }
 
-object IntroTab : Tab() {
-    override val tabId = "intro"
-    override val title = "Intro"
+object IntroTab : Tab(tabId = "intro", title = "Intro") {
     override fun renderContentIn(root: HtmlBlockTag) {
         root.p { +"Some intro disclaimer" }
     }
 }
-
-object BeginnerTab : SectionedTab() {
-    override val tabId = "beginner"
-    override val title = "Beginner"
+/*
+// infer IDs by title (filter A-Za-z and lowercase first, remove whitespace and uppercase first)
+listOf(
+    sectionedTab("Beginner") {
+        section("Techniques") {
+            render {
+                p { +"Some description" }
+            }
+            subSection("Butterfly") {
+                render {
+                    p { +"Some description" }
+                    youtube(id = "7e2SjRIfD4U?si=R4WWwPD0DGrYyjdX", caption = "some caption")
+                }
+            }
+        }
+    }
+)
+ */
+object BeginnerTab : SectionedTab(tabId = "beginner", title = "Beginner") {
     override val sections = listOf(
         Section(id = "first", title = "My first section",
             renderer = { root ->
                 root.div {
-                    p { +"sub text" }
-                    youtube(id = "7e2SjRIfD4U?si=R4WWwPD0DGrYyjdX", caption = "some caption")
+                    p { +"section text" }
                 }
             },
             subSections = listOf(
-                SubSection(id = "foo", title = "Foo")
+                SubSection(id = "foo", title = "Foo",
+                    renderer = { root ->
+                        root.div {
+                            p { +"sub section text" }
+                            youtube(id = "7e2SjRIfD4U?si=R4WWwPD0DGrYyjdX", caption = "some caption")
+                        }
+                    })
             ),
         ),
         Section(id = "second", title = "Second",
@@ -52,21 +65,6 @@ object BeginnerTab : SectionedTab() {
     )
 }
 
-object IntermediateTab : SectionedTab() {
-    override val tabId = "intermediate"
-    override val title = "Intermediate"
+object IntermediateTab : SectionedTab(tabId = "intermediate", title = "Intermediate") {
     override val sections = emptyList<Section>()
-}
-
-@HtmlTagMarker
-fun FlowContent.section1(title: String, action: FlowContent.() -> Unit) {
-    div {
-        h1(classes = "a b") {
-            +title
-            onClickFunction = { _ ->
-                println("clicked title")
-            }
-        }
-        action()
-    }
 }
