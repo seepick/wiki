@@ -35,12 +35,13 @@ class SectionDsl {
     var renderer: FlowContent.() -> Unit = {}
     val subSections = mutableListOf<SubSection>()
 
-    fun subSection(subSectionTitle: String, code: SubSectionDsl.() -> Unit) {
+    fun subSection(subSectionTitle: String, showInToc: Boolean = true, code: SubSectionDsl.() -> Unit) {
         val dsl = SubSectionDsl()
         dsl.code()
         subSections += SubSection(
             id = buildId(subSectionTitle),
             title = subSectionTitle,
+            showInToc = showInToc,
             renderer = dsl.renderer,
         )
     }

@@ -1,10 +1,4 @@
-import kotlinx.html.FlowContent
-import kotlinx.html.HtmlTagMarker
-import kotlinx.html.TagConsumer
-import kotlinx.html.div
-import kotlinx.html.id
-import kotlinx.html.iframe
-import kotlinx.html.p
+import kotlinx.html.*
 
 fun <R> TagConsumer<R>.wikiTitle(text: String) {
     div {
@@ -21,7 +15,8 @@ fun FlowContent.youtube(id: String, caption: String) {
     div(classes = "videoContainer") {
         iframe {
             src = "https://www.youtube.com/embed/$id"
-            attributes["allow"] = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            attributes["allow"] =
+                "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             attributes["referrerpolicy"] = "strict-origin-when-cross-origin"
             attributes["allowfullscreen"] = ""
         }
@@ -36,3 +31,21 @@ fun buildId(string: String): String =
     string.replace(" ", "_")
         .filter { it.isLetterOrDigit() || it == '_' }
         .lowercase()
+
+fun FlowContent.defineList(vararg keys: Pair<String, String>) {
+    ol {
+        keys.forEach { (key, value) ->
+            li {
+                b { +"${key}: " }
+                +value
+            }
+        }
+    }
+}
+
+fun FlowContent.image(source: String, caption: String) {
+    div(classes = "imageContainer") {
+        img { src = source }
+        p(classes = "caption") { +caption }
+    }
+}

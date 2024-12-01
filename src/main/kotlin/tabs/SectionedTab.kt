@@ -64,7 +64,7 @@ private fun Section.renderListItem(root: OL) {
         }
         if (subSections.isNotEmpty()) {
             ol {
-                subSections.forEach { subSection ->
+                subSections.filter { it.showInToc }.forEach { subSection ->
                     subSection.renderListItem(this, section)
                 }
             }
