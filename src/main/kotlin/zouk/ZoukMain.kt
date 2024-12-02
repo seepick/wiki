@@ -9,11 +9,11 @@ object ZoukWiki : Wiki() {
     override val tabs = listOf(
         sectionedTab("Beginner") {
             section("Circly") {
-                render {
+                content {
                     p { +"It's good" }
                 }
                 subSection("Viranhina") {
-                    render {
+                    content {
                         p { +"Go jumping" }
                     }
                 }

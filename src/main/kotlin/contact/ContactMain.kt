@@ -5,73 +5,75 @@ import defineList
 import image
 import kotlinx.html.*
 import tabs.sectionedTab
-import youtube
+import video
 
 object ContactWiki : Wiki() {
     override val titleText = "Contact Improvisation Wiki"
     override val tabs = listOf(
-        sectionedTab("32 Xings") {
+        sectionedTab("Animal Crossings") {
             section("Introduction") {
-                render {
-                    p { +"For sake of simplicity, we are going to consider five dimensions leading to 32 (times 2 for each starting side, left and right) possible variations:" }
-                    defineList(
-                        "Start direction" to "Are both facing in the same / or the other direction at the beginning?",
-                        "First crossing" to "Is your head / or your legs going over first?",
-                        "First contact" to "Are you on your partner with your belly / or with your back?",
-                        "Landing side" to "Are you ending up on the original / or do you go around (crossing)?",
-                        "End direction" to "Are both facing in the same / or the other direction at the end?",
-                    )
-                    p {
-                        +"Going onto your partner with your side (instead with belly or back) will not be covered here and is left for the individual exploration."
-                    }
-                    image("images/32_animals_table.png", "All 32 possibilities on how to cross an animal")
-                    p {
-                        +"General advice:"
-                    }
+                content {
+                    p { +"A little animal is basically a more dynamic (alive) table top position. "
+                        +"This section will describe how we can cross such a little animal, meaning going over to the other side. "
+                        +"The parts of going onto (hop on) and coming off (hop off) are separated as they can be freely combined." }
+                    p { +"General advice: (TODO: refine)" } // TODO: refine general advice
                     ul {
-                        li { +"Reach for standard position, 90 degrees/perpendicular" }
-                        li { +"superman to verify balanced" }
-                        li { +"octopus quality" }
-                        li { +"little animal is living/supporting/active/helping" }
+                        li { +"oompf quality (from very beginning, maintain throughout)" }
+                        li { +"little animal is living/active/supporting/helping" }
                     }
                 }
             }
-            section("Crossings") {
-                subSection("1. Same / Head / Belly / Original / Same") {
-                    /*
-on:
-outer leg to the front
-    straight/diagonal = as in foot replacing inner/outer hand, depending on...
-        personally: slight perference to replace outer hand
-        height difference/length (to climb bigger animals, replace inner hand)
-        replace hand which leads to be most stable, experiment/research
-rotate upper body, while center connected
-    do a "lifted lunge", push your knee off the ground to raise the level of your pelvis (otherwise no proper center landing)
-    really be precise! with the landing position (no cheating = sliding)
-    if possible, don't use hands to support
-CAVE: don't slide, keep rolling point of contact, keep pouring weight, try to not to lift up yourself to find proper center connection
-    as a help, push both hands (or one) on the back of your partner (one on shoulder, other diagonally on pelvis)
-while on the partner doing a superman, possibly do chicken leg if unbalanced
-
-off:
-A) don't use hands; optionally can use chicken wing
-    more similar to when doing lifts while standing
-B) use hands to push down (down dog)
-    allows for more fancy ground techniques (e.g. spiral while on partner, etc)
-land with feet, outer leg first, far away (even further then initially when replacing outer hand)
-land inner knee already in final position
-if use hands (B) push into ground
-land hands a bit delayed on the ground (not at the same time, control/stability/safety); preferrably inner hand first
-    ... rest easy, see video
-                     */
-                    render {
-                        p { +"The easiest one" }
-                        youtube("", "Crossing same direction, with head first, on your belly, ending original side and same direction")
+            // TODO section = part 1 ... subSection = hop on ... subSubSection = specific technique ==> for that we need subSubSection (h3) support
+            section("Hop On") {
+                content {
+                    p { +"TODO: some intro text ..." } // TODO intro text
+                    p { +"Going onto your partner with your side (instead with belly or back) will not be covered here and is left for the individual exploration (or for an additional part II)." }
+                    // TODO redo image as HTML table
+                    image("images/animal_crossings-hop_on.jpg", "All 8 simple versions on how to hop on a little animal")
+                    defineList(
+                        "Face Direction" to "Are both facing in the same / or the opposite direction at the beginning?",
+                        "First Crossing" to "Are your arms / or your legs going over first?",
+                        "Body Contact" to "Are you on your partner with your belly / or with your back?",
+                    )
+                    p { +"General advice: (TODO: refine)" } // TODO: refine general advice
+                    ul {
+                        li { +"Reach for standard position, 90 degrees/perpendicular" }
+                        li { +"superman to verify balanced" }
+                        li { +"use chicken leg if unbalanced" }
+                        li { +"octopus quality" }
+                        li { +"Be really, really precise with the landing position to stay balanced. Avoid cheating by sliding your position or lifting yourself up." }
                     }
                 }
-                subSection("2. Same / Head / Belly / Original / Other") {
-                    render {
-                        p { +"Some description" }
+                subSection("Same - Arms - Belly") {
+                    content {
+                        p { +"This is the most simple one to get on your partner." }
+                        ol {
+                            li { +"Start by moving your outer leg diagonally to the front, replacing the outer (preferred) or sometimes inner hand. "
+                                 +"Where to place the foot depends on height/length differences: When climbing bigger animals, replace the inner hand. "
+                                 +"Experiment yourself and replace the hand which leads to the most stable position and allowing you a centered landing (distance)." }
+                            li { +"Tuck the toes of your inner leg, and externally rotate the leg, pivoting on your knee, so that your foot is placed further away." }
+                            li { +"Lift and rotate your upper body, while maintaining the connection with your partner. "
+                                 +"Continue doing a knee-lifted lunge, pushing your knee off the ground to raise the level of your pelvis (adjust depending on where you need to land centered)." }
+                            li { +"Put your hands diagonally onto your partner for support (if needed): One on the closer shoulder blade, the other on the further away pelvis bone." }
+                            li { +"Rotate both legs so your whole body is facing 90 degrees perpendicular towards your partner, your legs in a V-shape." }
+                        }
+                        video("nZLkRjtiH-c?si=_l_4Z4Vqxlc2w_yd", "Crossing same direction, with arms first, landing on your belly")
+                    }
+                }
+            }
+            section("Hop Off") {
+                content {
+                    p { +"Learn how to get back on the ground once you are on your little animal." }
+                    image("images/animal_crossings-hop_off.jpg", "All 8 simple versions on how to hop off a little animal")
+                    defineList(
+                        "Body Contact" to "Are you on your partner with your belly / or with your back?",
+                        "Going Down" to "Are your arms / or your legs landing first on the ground?",
+                        "Face Direction" to "Are both facing in the same / or the opposite direction at the end?",
+                    )
+                }
+                subSection("TODO") {
+                    content {
+                        p { +"TODO" }
                     }
                 }
             }

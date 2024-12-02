@@ -11,7 +11,7 @@ fun <R> TagConsumer<R>.wikiTitle(text: String) {
 }
 
 @HtmlTagMarker
-fun FlowContent.youtube(id: String, caption: String) {
+fun FlowContent.video(id: String, caption: String) {
     div(classes = "videoContainer") {
         iframe {
             src = "https://www.youtube.com/embed/$id"

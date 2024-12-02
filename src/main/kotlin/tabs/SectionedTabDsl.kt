@@ -46,7 +46,7 @@ class SectionDsl {
         )
     }
 
-    fun render(code: FlowContent.() -> Unit) {
+    fun content(code: FlowContent.() -> Unit) {
         renderer = code
     }
 }
@@ -54,7 +54,7 @@ class SectionDsl {
 class SubSectionDsl {
     var renderer: FlowContent.() -> Unit = {}
 
-    fun render(code: FlowContent.() -> Unit) {
+    fun content(code: FlowContent.() -> Unit) {
         renderer = code
     }
 }
