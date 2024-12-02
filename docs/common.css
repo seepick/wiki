@@ -111,6 +111,12 @@ button:disabled, button[disabled] {
 #navigationContainer {
     border-bottom: 2px solid var(--color-button-bg);
 }
+.videoContainer, .imageContainer {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
 
 /* TABS */
 /* ============================================================================ */
@@ -157,12 +163,6 @@ iframe {
     height: 339px;
     margin-top: 10px;
     margin-bottom: 0;
-}
-.videoContainer {
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
 }
 .caption {
     margin-top: 2px;
