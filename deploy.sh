@@ -4,5 +4,5 @@
 
 echo ""
 echo "Done ✅"
-echo "https://github.com/christophpickl/wiki/actions"
-echo "https://christophpickl.github.io/wiki/"
+echo "https://github.com/seepick/wiki/actions"
+echo "https://seepick.github.io/wiki/"
