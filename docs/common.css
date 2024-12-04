@@ -20,20 +20,20 @@ h1 {
     font-size: 2.0em;
     margin-top: 25pt;
     margin-bottom: 5pt;
-}
-h2 {
-    font-size: 1.7em;
-    margin-top: 22pt;
-    margin-bottom: 5pt;
     padding-left: 2pt;
     color: white;
     background-color: var(--color-main);
 }
+h2 {
+    font-size: 1.7em;
+    margin-top: 10pt;
+    margin-bottom: 5pt;
+    border-bottom: 3px solid;
+}
 h3, .pseudoH3 {
     font-size: 1.3em;
-    margin-top: 18pt;
-    margin-bottom: 6pt;
-    border-bottom: 3px solid;
+    margin-top: 10pt;
+    margin-bottom: 5pt;
 }
 
 /* BASICS */
@@ -156,6 +156,26 @@ button:disabled, button[disabled] {
     background: var(--color-complement);
 }
 
+/* TABLE */
+/* ============================================================================ */
+table, th, td, tr {
+    padding: 5px;
+    margin: 0;
+}
+th, td {
+    border: 0;
+}
+.td1 {
+    background-color: #F4F4F4;
+}
+.td2 {
+    background-color: white;
+}
+th {
+    background-color: var(--color-main);
+    color: white;
+}
+
 /* YOUTUBE VIDEO */
 /* ============================================================================ */
 iframe {
@@ -169,4 +189,12 @@ iframe {
     margin-bottom: 10px;
     font-style: italic;
     font-size: 0.9em;
+}
+
+/* MISC */
+/* ============================================================================ */
+.caption {
+    padding-top: 0;
+    margin-top: 0;
+    text-align: center;
 }

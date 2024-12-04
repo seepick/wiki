@@ -1,7 +1,7 @@
 :root {
-    --color-bright: rgba(254,253,254,1);
-    --color-normal: rgba(204,67,49,1);
-    --color-main: rgba(234,52,36,1);
-    --color-dark: rgba(100,21,14,1);
-    --color-complement: rgba(176,36,24,1);
+    --color-bright: #C4D8F5; /* bg color */
+    --color-normal: #7B86D7;
+    --color-main: #596AD1; /* headers, links */
+    --color-dark: #42509E; /* what for? */
+    --color-complement: #3D74A2; /* active tab */
 }
