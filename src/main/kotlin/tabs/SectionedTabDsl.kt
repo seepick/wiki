@@ -2,14 +2,27 @@ package tabs
 
 import Section
 import SubSection
-import buildId
+import SubSubSection
+import common.toAnchorId
 import kotlinx.html.FlowContent
+import kotlinx.html.HtmlBlockTag
+import kotlinx.html.div
+
+fun tab(title: String, renderer: FlowContent.() -> Unit): Tab {
+    return object : Tab(title.toAnchorId(), title) {
+        override fun renderContentIn(root: HtmlBlockTag) {
+            root.div {
+                renderer()
+            }
+        }
+    }
+}
 
 fun sectionedTab(tabTitle: String, code: SectionedTabDsl.() -> Unit): SectionedTab {
     val dsl = SectionedTabDsl()
     dsl.code()
     return object : SectionedTab(
-        tabId = buildId(tabTitle),
+        tabId = tabTitle.toAnchorId(),
         title = tabTitle,
     ) {
         override val sections: List<Section> = dsl.sections
@@ -23,38 +36,57 @@ class SectionedTabDsl {
         val dsl = SectionDsl()
         dsl.code()
         sections += Section(
-            id = buildId(sectionTitle),
+            id = sectionTitle.toAnchorId(),
             title = sectionTitle,
-            renderer = dsl.renderer,
+            renderer = dsl.content,
             subSections = dsl.subSections,
         )
     }
 }
 
 class SectionDsl {
-    var renderer: FlowContent.() -> Unit = {}
+    var content: FlowContent.() -> Unit = {}
     val subSections = mutableListOf<SubSection>()
+
+    fun content(code: FlowContent.() -> Unit) {
+        content = code
+    }
 
     fun subSection(subSectionTitle: String, showInToc: Boolean = true, code: SubSectionDsl.() -> Unit) {
         val dsl = SubSectionDsl()
         dsl.code()
         subSections += SubSection(
-            id = buildId(subSectionTitle),
+            id = subSectionTitle.toAnchorId(),
             title = subSectionTitle,
+            subSubSections = dsl.subSubSections,
             showInToc = showInToc,
-            renderer = dsl.renderer,
+            renderer = dsl.content,
         )
-    }
-
-    fun content(code: FlowContent.() -> Unit) {
-        renderer = code
     }
 }
 
 class SubSectionDsl {
-    var renderer: FlowContent.() -> Unit = {}
+    var content: FlowContent.() -> Unit = {}
+    val subSubSections = mutableListOf<SubSubSection>()
 
     fun content(code: FlowContent.() -> Unit) {
-        renderer = code
+        content = code
+    }
+    fun subSubSection(subSubSectionTitle: String, code: SubSubSectionDsl.() -> Unit) {
+        val dsl = SubSubSectionDsl()
+        dsl.code()
+        subSubSections += SubSubSection(
+            id = subSubSectionTitle.toAnchorId(),
+            title = subSubSectionTitle,
+            renderer = dsl.content,
+        )
+    }
+}
+
+class SubSubSectionDsl {
+    var content: FlowContent.() -> Unit = {}
+
+    fun content(code: FlowContent.() -> Unit) {
+        content = code
     }
 }

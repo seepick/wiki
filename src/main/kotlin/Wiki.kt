@@ -1,3 +1,4 @@
+import common.wikiTitle
 import kotlinx.html.div
 import kotlinx.html.dom.append
 import kotlinx.html.id

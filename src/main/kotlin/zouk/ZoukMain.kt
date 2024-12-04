@@ -1,23 +1,13 @@
 package zouk
 
 import Wiki
-import kotlinx.html.*
-import tabs.sectionedTab
+
+object ZoukTabs // via extensions
 
 object ZoukWiki : Wiki() {
-    override val titleText = "Zouk Wiki"
+    override val titleText = "Brazilian Zouk Wiki"
     override val tabs = listOf(
-        sectionedTab("Beginner") {
-            section("Circly") {
-                content {
-                    p { +"It's good" }
-                }
-                subSection("Viranhina") {
-                    content {
-                        p { +"Go jumping" }
-                    }
-                }
-            }
-        }
+        ZoukTabs.introduction,
+        ZoukTabs.beginner,
     )
 }

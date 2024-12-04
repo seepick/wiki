@@ -1,9 +1,9 @@
 package lindy
 
 import Wiki
+import common.youtube
 import kotlinx.html.*
 import tabs.sectionedTab
-import video
 
 object LindyWiki : Wiki() {
     override val titleText = "Lindy Hop Wiki"
@@ -22,7 +22,7 @@ object LindyWiki : Wiki() {
                 subSection("Butterfly") {
                     content {
                         p { +"Some description" }
-                        video(id = "7e2SjRIfD4U?si=R4WWwPD0DGrYyjdX", caption = "some caption")
+                        youtube(id = "7e2SjRIfD4U?si=R4WWwPD0DGrYyjdX", caption = "some caption")
                     }
                 }
             }

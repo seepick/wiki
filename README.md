@@ -13,3 +13,13 @@ See: https://christophpickl.github.io/wiki/
 * better (transparent) favicons
 * migrate content of old psywiki; set a "manual redirect"
 * multiplatform (official way) doesn't work, but oldschool JS does?! ''kotlin("multiplatform") version "2.0.21"''
+
+## CONTACT
+
+## LINDY
+
+## ZOUK
+
+* add subsection "YOYO"
+    * see vids from bootcamp; Amozouk / yoyo.agif (yoyo "through")
+    * yoyo 90 turn: https://www.youtube.com/watch?v=881pZHMs1F0

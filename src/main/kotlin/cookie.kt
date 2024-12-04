@@ -1,3 +1,5 @@
+import common.decodeURIComponent
+import common.encodeURIComponent
 import kotlinx.browser.document
 
 enum class CookieKey(val key: String) {
