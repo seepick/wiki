@@ -1,4 +1,5 @@
 import kotlinx.html.FlowContent
+import tabs.Tab
 
 class Section(
     val id: String,
@@ -21,5 +22,6 @@ class SubSubSection(
     val renderer: FlowContent.() -> Unit,
 )
 
-fun SubSection.fullId(section: Section) = "${section.id}/$id"
-fun SubSubSection.fullId(section: Section, subSection: SubSection) = "${subSection.fullId(section)}/$id"
+fun Section.fullId(tab: Tab) = "${tab.tabId}/$id"
+fun SubSection.fullId(tab: Tab, section: Section) = "${section.fullId(tab)}/$id"
+fun SubSubSection.fullId(tab: Tab, section: Section, subSection: SubSection) = "${subSection.fullId(tab, section)}/$id"

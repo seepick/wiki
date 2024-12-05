@@ -94,10 +94,7 @@ val ContactTabs.animalCrossings: Tab
                         li { +"Put your hands diagonally onto your partner for support (if needed): One on the closer shoulder blade, the other on the further away pelvis bone." }
                         li { +"Rotate both legs so your whole body is facing 90 degrees perpendicular towards your partner, your legs in a V-shape." }
                     }
-                    youtube(
-                        id = "DCPziLhu8f8?si=skom3gXy0pPKqo1P",
-                        caption = "Start crossing in same direction, with arms first, landing on your belly"
-                    )
+                    youtube("OHIJh6bnRRM?si=M71N-I80iy6EYPgC", "Start crossing in same direction, with arms first, landing on your belly")
                 }
                 subSubSection("Facing opposite direction") {
 

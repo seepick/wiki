@@ -2,6 +2,7 @@ package tabs
 
 import CookieKey
 import Cookies
+import common.setAnchor
 import kotlinx.browser.document
 import kotlinx.html.*
 import kotlinx.html.js.onClickFunction
@@ -30,17 +31,17 @@ abstract class Tab(
     protected abstract fun renderContentIn(root: HtmlBlockTag)
 }
 
-fun renderTabBar(tabs: List<Tab>, root: HtmlBlockTag, recentTabId: String?) {
+fun renderTabBar(tabs: List<Tab>, root: HtmlBlockTag, preselectedTabId: String?) {
     root.div(classes = "tabBar center") {
         tabs.forEachIndexed { index, tab ->
             button(classes = "tabButton") {
                 id = "$TAB_BTN_ID_PREFIX${tab.tabId}"
-                if (recentTabId != null) {
-                    if (recentTabId == tab.tabId) {
+                if (preselectedTabId != null) {
+                    if (preselectedTabId == tab.tabId) {
                         classes += "tabActive"
                         disabled = true
                     }
-                } else if (index == 0) {
+                } else if (index == 0) { // preselect first by default
                     classes += "tabActive"
                     disabled = true
                 }
@@ -54,8 +55,8 @@ fun renderTabBar(tabs: List<Tab>, root: HtmlBlockTag, recentTabId: String?) {
 }
 
 fun openTab(tabIdToOpen: String) {
-    println("openTab($tabIdToOpen)")
     Cookies.write(CookieKey.RECENT_TAB_ID, tabIdToOpen)
+    setAnchor("#$tabIdToOpen")
 
     val buttons: HTMLCollection = document.getElementsByClassName("tabButton")
     (0..<buttons.length).forEach { i ->

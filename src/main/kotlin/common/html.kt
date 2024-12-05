@@ -1,6 +1,7 @@
 package common
 
 import kotlinx.html.FlowContent
+import kotlinx.html.FlowOrHeadingContent
 import kotlinx.html.FlowOrInteractiveOrPhrasingContent
 import kotlinx.html.H2
 import kotlinx.html.H3
@@ -36,10 +37,10 @@ fun FlowContent.image(source: String, caption: String) {
     }
 }
 
-@HtmlTagMarker inline fun kotlinx.html.FlowOrHeadingContent.sectionTitle(classes: String? = null, crossinline block: H2.() -> Unit) =
+@HtmlTagMarker inline fun FlowOrHeadingContent.sectionTitle(classes: String? = null, crossinline block: H2.() -> Unit) =
     h2(classes, block)
 
-@HtmlTagMarker inline fun kotlinx.html.FlowOrHeadingContent.subSectionTitle(classes: String? = null, crossinline block: H3.() -> Unit) =
+@HtmlTagMarker inline fun FlowOrHeadingContent.subSectionTitle(classes: String? = null, crossinline block: H3.() -> Unit) =
     h3(classes, block)
 
 fun <R> TagConsumer<R>.wikiTitle(text: String) {

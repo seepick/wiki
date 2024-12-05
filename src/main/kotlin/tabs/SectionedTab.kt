@@ -27,7 +27,7 @@ abstract class SectionedTab(
             }
             ol {
                 sections.forEach { section ->
-                    section.renderListItem(this)
+                    section.renderTocItem(this)
                 }
             }
         }
@@ -38,19 +38,19 @@ abstract class SectionedTab(
             sections.forEach { section ->
                 div {
                     h1 {
-                        id = section.id
+                        id = section.fullId(this@SectionedTab)
                         +section.title
                     }
                     section.renderer(this)
                     section.subSections.forEach { subSection ->
                         h2 {
-                            id = subSection.fullId(section)
+                            id = subSection.fullId(this@SectionedTab, section)
                             +subSection.title
                         }
                         subSection.renderer(this)
                         subSection.subSubSections.forEach { subSubSection ->
                             h3 {
-                                id = subSubSection.fullId(section, subSection)
+                                id = subSubSection.fullId(this@SectionedTab, section, subSection)
                                 +subSubSection.title
                             }
                             subSubSection.renderer(this)
@@ -60,31 +60,32 @@ abstract class SectionedTab(
             }
         }
     }
-}
 
-private fun Section.renderListItem(root: OL) {
-    val section = this
-    root.li {
-        a {
-            href = "#${section.id}"
-            +section.title
-        }
-        if (subSections.isNotEmpty()) {
-            ol {
-                subSections.filter { it.showInToc }.forEach { subSection ->
-                    subSection.renderListItem(this, section)
+    private fun Section.renderTocItem(root: OL) {
+        val section = this
+        root.li {
+            a {
+                href = "#${section.fullId(this@SectionedTab)}"
+                +section.title
+            }
+            if (subSections.isNotEmpty()) {
+                ol {
+                    subSections.filter { it.showInToc }.forEach { subSection ->
+                        subSection.renderTocItem(this, section)
+                    }
                 }
             }
         }
     }
-}
 
-private fun SubSection.renderListItem(root: OL, section: Section) {
-    val subSection = this
-    root.li {
-        a {
-            href = "#${subSection.fullId(section)}"
-            +subSection.title
+    private fun SubSection.renderTocItem(root: OL, section: Section) {
+        val subSection = this
+        root.li {
+            a {
+                href = "#${subSection.fullId(this@SectionedTab, section)}"
+                +subSection.title
+            }
         }
     }
+
 }
