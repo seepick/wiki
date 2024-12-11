@@ -3,9 +3,9 @@ package zouk.tabBeginner
 import common.youtube
 import kotlinx.html.*
 import tabs.SectionedTabDsl
-import zouk.ZoukSections
+import zouk.ZoukBeginnerSections
 
-fun ZoukSections.complex(dsl: SectionedTabDsl) {
+fun ZoukBeginnerSections.complex(dsl: SectionedTabDsl) {
     with(dsl) {
         section("Complex Moves") {
             subSection("Viradinha") {
@@ -34,17 +34,21 @@ fun ZoukSections.complex(dsl: SectionedTabDsl) {
                     youtube("HnHuy8IMmso?si=LkZIwpHlDeb__w4w", "The Viradinha move, opening the line for the follower")
                 }
             }
-            // TODO add yoyo move
-//            subSection("Yoyo") {
-//                // =====================================================================================================
-//                content {
-//                    p { +"" }
-//                }
-//            }
+            subSection("Yoyo") {
+                // =====================================================================================================
+                content {
+                    p { +"While being in the embrace, you give a push to the followers back and keep the hand contact. "
+                        +"When pulling her back in you can either do another turn (thus the name Yoyo) by "
+                        +"not letting go of the hand, or move here into a free spin with a quick movement from the wrist, throwing it."
+                    }
+                    p { +"Once she is in front of you again (adjust the distance), you are back in basic step." }
+                    youtube("TH-BPM3PvLk?si=YJKa9FZH5QX-u3vW", "Lateral, to embrace, and Yoyo")
+                }
+            }
             subSection("Lunge") {
                 // =====================================================================================================
                 content {
-                    p { +"Both hands are firmly embraced around the back, the latissimus dorsi muscle during this move. "
+                    p { +"We did a lunge with a simple turn by having both hands firmly embracing around the back, the latissimus dorsi muscle, during this move. "
                         +"It is similar to the Viradinha: Stepping out of the line, and side-step, yet the footwork is a bit more complex, pivoting the feet. "
                         +"The turn itself is done by pushing the follower sideways with one hand and disconnecting the other." }
                     p { +"The follower keeps the footwork pattern (we always do, all the time, no hopping and jumping or "
@@ -79,7 +83,7 @@ fun ZoukSections.complex(dsl: SectionedTabDsl) {
                     p { +"Also see a one-hour video from about the "; a("https://www.youtube.com/live/mvLOJurjr7Y"){+"StepFlix on the Soltinho"}; +"."}
                 }
             }
-            subSection("Pushed Turn") {
+            subSection("Bonus Pushed Turn") {
                 // =====================================================================================================
                 content {
                     p { +"This is not really its name (whether there is actually one), but so far this one should do just good enough... " }

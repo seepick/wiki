@@ -3,9 +3,9 @@ package zouk.tabBeginner
 import common.youtube
 import kotlinx.html.*
 import tabs.SectionedTabDsl
-import zouk.ZoukSections
+import zouk.ZoukBeginnerSections
 
-fun ZoukSections.general(dsl: SectionedTabDsl) {
+fun ZoukBeginnerSections.general(dsl: SectionedTabDsl) {
     with(dsl) {
         section("General") {
             subSection("Advice") {
@@ -63,6 +63,13 @@ fun ZoukSections.general(dsl: SectionedTabDsl) {
                         +"Speaking of ";b{+"unknown partner"};+": Before immediately and right away start dancing, first establish "
                         +"eye contact, say \"hi\", smile, and give it a few moments to connect; groove on the beat, "
                         +"and then slowly build up the technical moves. "}
+                }
+            }
+            subSection("Overview") {
+                // =====================================================================================================
+                content {
+                    p { +"Here a video showing all the movements learned during the level 1 beginner course." }
+                    youtube("VllfJOm_3O8?si=aLpdPJKnrKRu4Mu6", "All the movements from Level 1")
                 }
             }
         }
