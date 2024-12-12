@@ -10,4 +10,11 @@ object ZoukWiki : Wiki() {
         ZoukTabs.introduction,
         ZoukTabs.beginner,
     )
+    override val refIds = ZoukRef.entries.map { it.id }
+}
+
+enum class ZoukRef(
+    val label: String,
+    val id: String,
+) {
 }

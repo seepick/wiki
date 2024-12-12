@@ -1,3 +1,4 @@
+import common.showAlertIfInvalidRefsFound
 import common.parseAnchor
 import common.setTimeout
 import contact.ContactWiki
@@ -10,15 +11,20 @@ import zouk.ZoukWiki
 fun main() {
     window.onload = { e ->
         val root = document.getElementById("root") as? HTMLElement ?: error("Main container 'root' not found!")
-        parseWikiType().renderIn(root)
+        val wiki = parseWikiType()
+        wiki.renderIn(root)
         val anchor = parseAnchor().navigationalId
         if (anchor != null) {
             val scrollTo = document.getElementById(anchor) ?: error("Element by ID via anchor not found: '$anchor'!")
-            setTimeout({ scrollTo.scrollIntoView() }, 1) // bit of a hack ;)
+            setTimeout({ scrollTo.scrollIntoView() }, 1) // a bit of a hack ;)
         }
+        showAlertIfInvalidRefsFound(wiki)
         e
     }
 }
+
+
+
 
 private fun parseWikiType() = when (val raw = js("wikiType")) {
     "lindy" -> LindyWiki

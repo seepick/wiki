@@ -1,6 +1,6 @@
 package contact
 
-import common.defineList
+import common.olDefinition
 import common.youtube
 import kotlinx.html.*
 import tabs.Tab
@@ -38,7 +38,7 @@ val ContactTabs.animalCrossings: Tab
             content {
                 p { +"This section will cover how to get from a side-by-side little animal position to one partner being on top of the other. " }
                 tableHopOn()
-                defineList(
+                olDefinition(
                     "First Crossing" to "Are your arms / or your legs going over first?",
                     "Body Contact" to "Are you on your partner with your belly / or with your back?",
                     "Face Direction" to "Are both facing in the same / or the opposite direction at the beginning?",
@@ -133,7 +133,7 @@ val ContactTabs.animalCrossings: Tab
             content {
                 p { +"Learn how to get back on the ground once you are on your little animal." }
                 tableHopOff()
-                defineList(
+                olDefinition(
                     "Body Contact" to "Are you on your partner with your belly / or with your back?",
                     "Going Down" to "Are your arms / or your legs landing first on the ground?",
                     "Face Direction" to "Are both facing in the same / or the opposite direction at the end?",

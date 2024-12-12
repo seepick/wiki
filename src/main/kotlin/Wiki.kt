@@ -12,6 +12,7 @@ abstract class Wiki {
 
     protected abstract val titleText: String
     protected abstract val tabs: List<Tab>
+    abstract val refIds: List<String>
 
     fun renderIn(root: HTMLElement) {
         root.append.wikiTitle(titleText)

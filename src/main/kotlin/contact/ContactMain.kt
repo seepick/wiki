@@ -9,4 +9,11 @@ object ContactWiki : Wiki() {
     override val tabs = listOf(
         ContactTabs.animalCrossings
     )
+    override val refIds = ContactRef.entries.map { it.id }
+}
+
+enum class ContactRef(
+    val label: String,
+    val id: String,
+) {
 }

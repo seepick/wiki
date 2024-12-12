@@ -1,25 +1,24 @@
 package common
 
-import kotlinx.html.FlowContent
-import kotlinx.html.FlowOrHeadingContent
-import kotlinx.html.FlowOrInteractiveOrPhrasingContent
-import kotlinx.html.H2
-import kotlinx.html.H3
-import kotlinx.html.HtmlTagMarker
-import kotlinx.html.TagConsumer
-import kotlinx.html.a
-import kotlinx.html.b
-import kotlinx.html.div
-import kotlinx.html.h2
-import kotlinx.html.h3
-import kotlinx.html.id
-import kotlinx.html.iframe
-import kotlinx.html.img
-import kotlinx.html.li
-import kotlinx.html.ol
-import kotlinx.html.p
+import kotlinx.html.*
+import lindy.LindyRef
 
-fun FlowContent.defineList(vararg keys: Pair<String, String>) {
+fun FlowOrInteractiveOrPhrasingContent.ref(ref: LindyRef) {
+    a("#${ref.id}") { +ref.label }
+}
+
+fun FlowContent.ulDefinition(vararg keys: Pair<String, String>) {
+    ul {
+        keys.forEach { (key, value) ->
+            li {
+                b { +"${key}: " }
+                +value
+            }
+        }
+    }
+
+}
+fun FlowContent.olDefinition(vararg keys: Pair<String, String>) {
     ol {
         keys.forEach { (key, value) ->
             li {
@@ -30,9 +29,13 @@ fun FlowContent.defineList(vararg keys: Pair<String, String>) {
     }
 }
 
-fun FlowContent.image(source: String, caption: String) {
+fun FlowContent.image(source: String, caption: String, size: Pair<Int, Int>) {
     div(classes = "imageContainer") {
-        img { src = source }
+        img {
+            src = source
+            width = size.first.toString()
+            height = size.second.toString()
+        }
         p(classes = "caption") { +caption }
     }
 }

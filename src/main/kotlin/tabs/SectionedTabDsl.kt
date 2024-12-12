@@ -8,6 +8,9 @@ import kotlinx.html.FlowContent
 import kotlinx.html.HtmlBlockTag
 import kotlinx.html.div
 
+@DslMarker
+annotation class TabTagMarker
+
 fun tab(title: String, renderer: FlowContent.() -> Unit): Tab {
     return object : Tab(title.toAnchorId(), title) {
         override fun renderContentIn(root: HtmlBlockTag) {
@@ -29,6 +32,7 @@ fun sectionedTab(tabTitle: String, code: SectionedTabDsl.() -> Unit): SectionedT
     }
 }
 
+@TabTagMarker
 class SectionedTabDsl {
     val sections = mutableListOf<Section>()
 
@@ -44,6 +48,7 @@ class SectionedTabDsl {
     }
 }
 
+@TabTagMarker
 class SectionDsl {
     var content: FlowContent.() -> Unit = {}
     val subSections = mutableListOf<SubSection>()
@@ -65,6 +70,7 @@ class SectionDsl {
     }
 }
 
+@TabTagMarker
 class SubSectionDsl {
     var content: FlowContent.() -> Unit = {}
     val subSubSections = mutableListOf<SubSubSection>()
@@ -83,6 +89,7 @@ class SubSectionDsl {
     }
 }
 
+@TabTagMarker
 class SubSubSectionDsl {
     var content: FlowContent.() -> Unit = {}
 

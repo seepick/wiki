@@ -60,11 +60,11 @@ val ZoukTabs.introduction: Tab
         p { +"Here are the links to the websites used for this wiki, along with some further reading:" }
         ul {
             li { externalLink("https://amozouk.com/blog/7-foundational-zouk-moves-all-beginners-should-know", "Amozouk")
-                +" - Foundational Zouk moves for beginners" } // TODO soltinho, boomerang
+                +" - Foundational Zouk moves for beginners" }
             li { externalLink("http://zouk-germany.com", "Zouk Germany")
                 +" - With lots of techniques and videos" }
             li { externalLink("https://www.youtube.com/watch?v=lYeU6SnPa2k&list=PLtg3wEXTYx6pDBoVcgGk2CIRA05dJytoW", "Tiago Movimentus")
-                +" - A few couple of dozen tutorial videos on YouTube" } // TODO watch and incorporate
+                +" - A few couple of dozen tutorial videos on YouTube" }
             li { externalLink("https://amozouk.com/zouk-move-dictionary", "Amozouk's move dictionary")
                 +" - With a list of technique names and short descriptions" }
         }
