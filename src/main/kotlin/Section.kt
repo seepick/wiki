@@ -1,3 +1,4 @@
+import common.Tops
 import kotlinx.html.FlowContent
 import tabs.Tab
 
@@ -6,7 +7,9 @@ class Section(
     val title: String,
     val subSections: List<SubSection>,
     val renderer: FlowContent.() -> Unit,
-)
+) : Tops<SubSection> {
+    override val subs = subSections
+}
 
 class SubSection(
     val id: String,

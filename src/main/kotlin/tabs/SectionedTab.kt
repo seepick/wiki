@@ -2,6 +2,9 @@ package tabs
 
 import Section
 import SubSection
+import common.Columnizer
+import common.DoubleColumn
+import common.SingleColumn
 import fullId
 import kotlinx.html.*
 
@@ -25,13 +28,33 @@ abstract class SectionedTab(
                 id = "tocTitle"
                 +"Content:"
             }
-            ol {
-                sections.forEach { section ->
-                    section.renderTocItem(this)
+            val columns = Columnizer.columnize(sections)
+            fun renderOl(secs: List<Section>, startAt: Int = 1) {
+                ol {
+                    attributes["type"] = "I"
+                    start = startAt.toString()
+                    secs.forEach { section ->
+                        section.renderTocItem(this)
+                    }
                 }
+            }
+            when (columns) {
+                is DoubleColumn -> {
+                    div("tocRow") {
+                        div("tocCol") {
+                            renderOl(columns.tops1)
+                        }
+                        div("tocCol") {
+                            renderOl(columns.tops2, startAt = columns.tops1.size + 1)
+                        }
+                    }
+                }
+
+                is SingleColumn -> renderOl(columns.tops)
             }
         }
     }
+
     private fun renderContentContainer(root: HtmlBlockTag) {
         root.div {
             id = "contentContainer"
@@ -70,6 +93,7 @@ abstract class SectionedTab(
             }
             if (subSections.isNotEmpty()) {
                 ol {
+                    attributes["type"] = "1"
                     subSections.filter { it.showInToc }.forEach { subSection ->
                         subSection.renderTocItem(this, section)
                     }

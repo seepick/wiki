@@ -87,9 +87,23 @@ button:disabled, button[disabled] {
     font-size: 3em;
     text-align: center;
 }
+#navigationContainer {
+    border-bottom: 2px solid var(--color-button-bg);
+    padding-bottom: 10px;
+}
 #tocTitle {
     font-weight: bold;
     margin-top: 10px;
+}
+.tocRow:after {
+    content: "";
+    display: table;
+    clear: both;
+
+}
+.tocCol {
+    float: left;
+    width: 50%;
 }
 
 /* CONTAINERS */
@@ -107,9 +121,6 @@ button:disabled, button[disabled] {
 .center {
     display: flex;
     justify-content: center;
-}
-#navigationContainer {
-    border-bottom: 2px solid var(--color-button-bg);
 }
 .videoContainer, .imageContainer {
     width: 100%;

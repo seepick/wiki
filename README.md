@@ -6,8 +6,6 @@ See: https://seepick.github.io/wiki/
 
 # TODOs
 
-* add an internal links; add post-link checker to verify all good
-* 2 columns (display: grid) for ToC
 * better (transparent) favicons
 * multiplatform (official way) doesn't work, but oldschool JS does?! ''kotlin("multiplatform") version "2.0.21"''
 
