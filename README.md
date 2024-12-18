@@ -11,6 +11,8 @@ See: https://seepick.github.io/wiki/
 
 ## CONTACT
 
+* list of CI festivals in europe (move resources from book to website)
+
 ## LINDY
 
 * incorporate: https://dancepoise.com/charleston-dance-steps-how-to-dance-charleston

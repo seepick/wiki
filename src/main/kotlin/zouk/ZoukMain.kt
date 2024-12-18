@@ -1,6 +1,7 @@
 package zouk
 
 import Wiki
+import common.Ref
 
 object ZoukTabs // via extensions
 
@@ -14,7 +15,7 @@ object ZoukWiki : Wiki() {
 }
 
 enum class ZoukRef(
-    val label: String,
-    val id: String,
-) {
+    override val label: String,
+    override val id: String,
+): Ref {
 }

@@ -1,7 +1,11 @@
 :root {
-    --color-bright: #C4D8F5; /* bg color */
+    --color-bright: #C4D8F5;
     --color-normal: #7B86D7;
-    --color-main: #596AD1; /* headers, links */
-    --color-dark: #42509E; /* what for? */
-    --color-complement: #3D74A2; /* active tab */
+    --color-main: #596AD1;
+    --color-dark: #42509E;
+}
+
+table#animalHopOn td, table#animalHopOff td {
+    text-align: center;
+    color: black;
 }

@@ -1,6 +1,7 @@
 package lindy
 
 import Wiki
+import common.Ref
 
 object LindyTabs // via extensions
 
@@ -15,9 +16,9 @@ object LindyWiki : Wiki() {
 }
 
 enum class LindyRef(
-    val label: String,
-    val id: String,
-) {
+    override val label: String,
+    override val id: String,
+) : Ref {
     SendOut("Send-out", "beginner/simple_moves/send_out"),
     Franky6("Franky 6", "beginner/complex_moves/franky_6"),
     Tandem("Tandem", "charleston/moves/tandem")

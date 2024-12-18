@@ -5,6 +5,7 @@ import SubSection
 import common.Columnizer
 import common.DoubleColumn
 import common.SingleColumn
+import common.convertArabicNumberToRoman
 import fullId
 import kotlinx.html.*
 
@@ -58,17 +59,18 @@ abstract class SectionedTab(
     private fun renderContentContainer(root: HtmlBlockTag) {
         root.div {
             id = "contentContainer"
-            sections.forEach { section ->
+            sections.forEachIndexed { sectionIndex, section ->
                 div {
+                    val sectionRomanIndex = convertArabicNumberToRoman(sectionIndex + 1)
                     h1 {
                         id = section.fullId(this@SectionedTab)
-                        +section.title
+                        +"${sectionRomanIndex}. ${section.title}"
                     }
                     section.renderer(this)
-                    section.subSections.forEach { subSection ->
+                    section.subSections.forEachIndexed { subIndex, subSection ->
                         h2 {
                             id = subSection.fullId(this@SectionedTab, section)
-                            +subSection.title
+                            +"${subIndex + 1}. ${subSection.title}"
                         }
                         subSection.renderer(this)
                         subSection.subSubSections.forEach { subSubSection ->

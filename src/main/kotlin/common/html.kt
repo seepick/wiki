@@ -1,9 +1,13 @@
 package common
 
 import kotlinx.html.*
-import lindy.LindyRef
 
-fun FlowOrInteractiveOrPhrasingContent.ref(ref: LindyRef) {
+interface Ref {
+    val label: String
+    val id: String
+}
+
+fun <REF : Ref> FlowOrInteractiveOrPhrasingContent.ref(ref: REF) {
     a("#${ref.id}") { +ref.label }
 }
 
@@ -18,6 +22,7 @@ fun FlowContent.ulDefinition(vararg keys: Pair<String, String>) {
     }
 
 }
+
 fun FlowContent.olDefinition(vararg keys: Pair<String, String>) {
     ol {
         keys.forEach { (key, value) ->
@@ -40,10 +45,12 @@ fun FlowContent.image(source: String, caption: String, size: Pair<Int, Int>) {
     }
 }
 
-@HtmlTagMarker inline fun FlowOrHeadingContent.sectionTitle(classes: String? = null, crossinline block: H2.() -> Unit) =
+@HtmlTagMarker
+inline fun FlowOrHeadingContent.sectionTitle(classes: String? = null, crossinline block: H2.() -> Unit) =
     h2(classes, block)
 
-@HtmlTagMarker inline fun FlowOrHeadingContent.subSectionTitle(classes: String? = null, crossinline block: H3.() -> Unit) =
+@HtmlTagMarker
+inline fun FlowOrHeadingContent.subSectionTitle(classes: String? = null, crossinline block: H3.() -> Unit) =
     h3(classes, block)
 
 fun <R> TagConsumer<R>.wikiTitle(text: String) {
