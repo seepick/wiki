@@ -1,6 +1,7 @@
 body {
     font-family: Verdana;
     background-color: var(--color-bright);
+    color: black;
 }
 body, div, p, h1, h2, h3, h4, h5, h6, .pseudoH3 {
     margin: 0;
@@ -8,6 +9,19 @@ body, div, p, h1, h2, h3, h4, h5, h6, .pseudoH3 {
 }
 :root {
     --color-button-bg: rgba(239,239,239,1);
+}
+
+@media (prefers-color-scheme: light) {
+    body {
+        background-color: var(--color-bright);
+        color: black;
+    }
+}
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #252529;
+        color: white;
+    }
 }
 
 /* HEADERS */
@@ -52,6 +66,12 @@ ol, ul {
     margin-top: 2px;
     margin-bottom: 8px;
 }
+ol.prosa ul {
+    margin-bottom: 0;
+}
+ol.prosa li {
+    margin-bottom: 5px;
+}
 img {
     margin-top: 4px;
     margin-bottom: 4px;
@@ -78,8 +98,8 @@ button:disabled, button[disabled] {
 #titleContainer {
     background-color: var(--color-main);
     color: white;
-    border-top: 15px solid black;
-    border-bottom: 15px solid black;
+    border-top: 15px solid var(--color-dark);
+    border-bottom: 15px solid var(--color-dark);
 }
 #title {
     /* top right bottom left */
@@ -87,9 +107,23 @@ button:disabled, button[disabled] {
     font-size: 3em;
     text-align: center;
 }
+#navigationContainer {
+    border-bottom: 2px solid var(--color-button-bg);
+    padding-bottom: 10px;
+}
 #tocTitle {
     font-weight: bold;
     margin-top: 10px;
+}
+.tocRow:after {
+    content: "";
+    display: table;
+    clear: both;
+
+}
+.tocCol {
+    float: left;
+    width: 50%;
 }
 
 /* CONTAINERS */
@@ -107,9 +141,6 @@ button:disabled, button[disabled] {
 .center {
     display: flex;
     justify-content: center;
-}
-#navigationContainer {
-    border-bottom: 2px solid var(--color-button-bg);
 }
 .videoContainer, .imageContainer {
     width: 100%;
@@ -149,11 +180,11 @@ button:disabled, button[disabled] {
     background: var(--color-normal);
 }
 .tabButton[disabled]:hover {
-    background: var(--color-complement);
+    background: var(--color-dark);
 }
 .tabActive {
     color: white;
-    background: var(--color-complement);
+    background: var(--color-dark);
 }
 
 /* TABLE */
