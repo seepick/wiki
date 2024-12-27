@@ -98,28 +98,22 @@ fun ContactAnimalSections.hopOn(dsl: SectionedTabDsl) {
             }
             subSection("Legs and belly") {
                 content {
-                    p { +"TODO" }
-                    ol("prosa") {
-                        li { +"TODO" }
-                        /*
-this is not a natural/flowy way; don't do it in practice; but for sake of completeness, still here
-    difficult/impossible to maintain rolling point of contact (without sliding)
-    it would be more natural to use a spiral, and then land on the side (instead of belly)
-first, pelvis up (downdog)
-outer hand and outer foot towards inner knee of partner
-reach inner leg far over partner
-take outer leg next to it
-
-smoother/more advance variation (using proper spiral):
-    full weight on outer hand and inner foot
-    rotate into an "inverted position/little animal" (reverse table top)
-    (inner/outer is now reversed...)
-    touching with the now closer pelvis
-    spiral over with the further away/outer leg
-        hand of same side going down first
-    other side joining to final position
-                         */
+                    p {
+                        +"Getting on your animal this way is a bit ";b { +"weird" };+" and covered only for the sake of completeness. "
+                        +"There will be no natural flow, and almost impossible to maintain the rolling point of contact. "
+                        +"Instead, what would be more natural, is, to use a spiral and land on the side. "
                     }
+
+                    ol("prosa") {
+                        li { +"Lift your ";b { +"pelvis up" };+", in some sort of down-dog position." }
+                        li { +"Move the outer hand and the outer foot ";b { +"towards" };+" the ";b { +"inner knee" };+" of the partner." }
+                        li { +"Reach the inner leg ";b { +"far over" };+" your partner and land on your center." }
+                        li { +"Add the other leg joining the first." }
+                    }
+                    youtube(
+                        "vECgoE31900?si=a0XtVN-9ffMi5YmX",
+                        "Start crossing in same direction, with legs first, landing on your belly"
+                    )
                 }
                 subSubSection("Facing opposite direction") {
                     content {
@@ -132,25 +126,38 @@ smoother/more advance variation (using proper spiral):
             }
             subSection("Legs and back") {
                 content {
-                    p { +"TODO" }
-                    ol("prosa") {
-                        li { +"TODO" }
-                        /*
-tuck your toes
-lift pelvis up (bear position)
-move inner hand diagonally where outer knee is
-    fingers pointing towards the partner
-    rotate outer hand also fingers towards partner
-turn your head, rotate body facing away (back towards partner)
-    whether head goes down (butt up) depends on height difference
-lift outer (the one further away) leg up
-    controlled swing with that leg over your partner
-    if size & strength allows, no moment necessary (more a roll)
-keep arms longer contact on ground for support, until find balance
-    being able to do a handstand; push yourself (strength VS kick/momentum)
-// variation: also "rolled version" possible, as if would do an aikido roll over your partner
-                         */
+                    p {
+                        +"For this move it is of benefit to have enough arm-strength to maintain in a handstand. "
+                        +"Alternatively, you can drop yourself to also do a headstand. "
+                        +"You need to be able to push yourself off the ground, using controlled strength instead of kicking (dangerous momentum)."
                     }
+                    ol("prosa") {
+                        li { +"Tuck your toes and ";b { +"lift" };+" your ";b { +"pelvis" };+" slightly, more into a bear position than down-dog." }
+                        li {
+                            +"Move your ";b { +"inner hand diagonally" };+" where your outer knee is, fingers towards partner."
+                            ul {
+                                li { +"Rotate the outer hand so the fingers are also pointing to the same direction." }
+                            }
+                        }
+                        li {
+                            +"Turn your head, rotating your ";b { +"body facing away" };+", so your back is towards your partner. "
+                            ul {
+                                li { +"Whether your head goes down, or butt up, depends on the height difference." }
+                            }
+                        }
+                        li {
+                            +"Lift the ";b { +"outer leg up" };+" in the air; the one further away."
+                            ul {
+                                li { +"Use a controlled swing with that leg to get over your partner." }
+                                li { +"If the size differences and your strength allows, roll over instead of using momentum." }
+                            }
+                        }
+                        li { +"Keep your ";b { +"hands as support" };+" on the ground until you find proper balance." }
+                    }
+                    youtube(
+                        "YT_QD5eLaCI?si=ywIgff2SOc-C5iKP",
+                        "Start crossing in same direction, with legs first, landing on your back"
+                    )
                 }
                 subSubSection("Facing opposite direction") {
                     content {
@@ -162,5 +169,20 @@ keep arms longer contact on ground for support, until find balance
                 }
             }
         }
+        /*
+        smoother/more advance variation of "Legs first, landing on side (not belly)" using proper spiral:
+            1. full weight on outer hand and inner foot
+            2. rotate into an "inverted position/little animal" (reverse table top)
+            ... (inner/outer is now reversed...)
+            3. touching with the now closer pelvis side
+            4. spiral over with the further away/outer leg
+            4.1 hand of same side going down first
+            5. other side joining to final position
+         */
+        /*
+        rolled variation of "Legs back, landing on back":
+        as if would do an aikido roll over your partner;
+        first head/hand-stand, when already 90 degrees to your partner (no need to be side-by-side)
+         */
     }
 }

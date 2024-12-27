@@ -11,7 +11,9 @@ See: https://seepick.github.io/wiki/
 
 ## CONTACT
 
+* incorporate resources... see TabGeneral
 * list of CI festivals in europe (move resources from book to website)
+* teachers: CI founders, ... vega luukkonen, arye bursztyn
 
 ## LINDY
 

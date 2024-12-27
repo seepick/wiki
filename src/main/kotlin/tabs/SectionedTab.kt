@@ -64,13 +64,17 @@ abstract class SectionedTab(
                     val sectionRomanIndex = convertArabicNumberToRoman(sectionIndex + 1)
                     h1 {
                         id = section.fullId(this@SectionedTab)
-                        +"${sectionRomanIndex}. ${section.title}"
+                        a("#$id", classes = "self") {
+                            +"${sectionRomanIndex}. ${section.title}"
+                        }
                     }
                     section.renderer(this)
                     section.subSections.forEachIndexed { subIndex, subSection ->
                         h2 {
                             id = subSection.fullId(this@SectionedTab, section)
-                            +"${subIndex + 1}. ${subSection.title}"
+                            a("#$id", classes = "self") {
+                                +"${subIndex + 1}. ${subSection.title}"
+                            }
                         }
                         subSection.renderer(this)
                         subSection.subSubSections.forEach { subSubSection ->
