@@ -1,6 +1,6 @@
-package lindy
+package lindy.tabCharleston
 
-import lindy.tabCharleston.general
+import lindy.LindyTabs
 import tabs.Tab
 import tabs.sectionedTab
 

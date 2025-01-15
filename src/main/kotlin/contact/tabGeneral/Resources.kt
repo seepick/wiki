@@ -1,14 +1,22 @@
-package contact
+package contact.tabGeneral
 
-import kotlinx.html.*
-import tabs.Tab
-import tabs.tab
+import kotlinx.html.i
+import kotlinx.html.p
+import tabs.SectionedTabDsl
 
-val ContactTabs.general: Tab
-    get() = tab("General") {
-        h1 { +"About" }
-        p { +"Just a collection of techniques." }
+fun ContactGeneralSections.resources(dsl: SectionedTabDsl) {
+    with(dsl) {
+        section("Resources") {
+            content {
+                p {
+                    +"TODO"
+                }
+            }
+        }
     }
+}
+
+
 /*
 FIXME resources
 \newcommand{\res}[2]{``\href{#1}{\textit{#2}}''}

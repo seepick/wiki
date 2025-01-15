@@ -1,8 +1,6 @@
-package contact
+package contact.tabCrossings
 
-import contact.tabCrossings.hopOff
-import contact.tabCrossings.hopOn
-import contact.tabCrossings.introduction
+import contact.ContactTabs
 import tabs.Tab
 import tabs.sectionedTab
 

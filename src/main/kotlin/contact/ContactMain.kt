@@ -2,11 +2,13 @@ package contact
 
 import Wiki
 import common.Ref
+import contact.tabCrossings.animalCrossings
+import contact.tabGeneral.general
 
 object ContactTabs // via extensions
 
 object ContactWiki : Wiki() {
-    override val titleText = "Contact Improvisation Wiki"
+    override val titleText = "Crash Course Contact"
     override val tabs = listOf(
         ContactTabs.general,
         ContactTabs.animalCrossings,

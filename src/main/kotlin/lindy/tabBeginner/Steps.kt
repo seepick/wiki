@@ -3,7 +3,6 @@ package lindy.tabBeginner
 import common.image
 import common.youtube
 import kotlinx.html.*
-import lindy.LindyBeginnerSections
 import tabs.SectionedTabDsl
 
 fun LindyBeginnerSections.steps(dsl: SectionedTabDsl) {

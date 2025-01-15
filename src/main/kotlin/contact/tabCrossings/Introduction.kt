@@ -1,7 +1,6 @@
 package contact.tabCrossings
 
 import common.ref
-import contact.ContactAnimalSections
 import contact.ContactRef
 import kotlinx.html.*
 import tabs.SectionedTabDsl

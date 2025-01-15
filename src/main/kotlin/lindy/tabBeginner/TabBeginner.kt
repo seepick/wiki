@@ -1,10 +1,6 @@
-package lindy
+package lindy.tabBeginner
 
-import lindy.tabBeginner.complexMoves
-import lindy.tabBeginner.general
-import lindy.tabBeginner.positioning
-import lindy.tabBeginner.simpleMoves
-import lindy.tabBeginner.steps
+import lindy.LindyTabs
 import tabs.Tab
 import tabs.sectionedTab
 

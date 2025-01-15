@@ -23,7 +23,7 @@ fun FlowContent.tableHopOff() {
         caption = "All 8 simple versions on how to hop off a little animal",
         headers = Triple("Body Contact", "Going Down", "Face Direction"),
         left = Pair("Belly", "Back"),
-        middle = Pair("Arms", "Legs"),
+        middle = Pair("Legs", "Arms"),
         right = Pair("Same", "Opposite"),
     )
 }

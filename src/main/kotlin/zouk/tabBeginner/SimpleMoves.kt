@@ -3,7 +3,6 @@ package zouk.tabBeginner
 import common.youtube
 import kotlinx.html.*
 import tabs.SectionedTabDsl
-import zouk.ZoukBeginnerSections
 
 fun ZoukBeginnerSections.simple(dsl: SectionedTabDsl) {
     with(dsl) {

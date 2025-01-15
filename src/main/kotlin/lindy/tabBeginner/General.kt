@@ -2,7 +2,6 @@ package lindy.tabBeginner
 
 import common.ulDefinition
 import kotlinx.html.*
-import lindy.LindyBeginnerSections
 import tabs.SectionedTabDsl
 
 fun LindyBeginnerSections.general(dsl: SectionedTabDsl) {
@@ -22,7 +21,7 @@ fun LindyBeginnerSections.general(dsl: SectionedTabDsl) {
                                 "Alternatively, there is a ballroom hand position, fingers pointing up, like a two-right-hands-handshake in standard dances. " +
                                 "The crossed-hand position has both using the same hand in a handshake position but without using the thumb. ",
                         "The Frame" to "The connection of the arms to the whole upper body; the part between shoulders and hips (also called \"ships\") which stays upright and doesn't collapse. " +
-                                "It must be connected to the arms to communicate arm movements through the whole body. ",
+                                "It must be connected to the arms to communicate arm movements (from our partner) into the whole body.",
                         "The Rhythms" to "The most basic patterns are: 6-count and 8-count basic, whereas later there can be many variations; same goes for charleston. ",
                         "The Quality" to "Considering it's an African diasporic dance, it's more lively, and less upright ballroom European stiff. " +
                                 "It's danced to big band jazz with a lot of bouncy energy. ",

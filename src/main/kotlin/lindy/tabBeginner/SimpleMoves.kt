@@ -3,7 +3,6 @@ package lindy.tabBeginner
 import common.ref
 import common.youtube
 import kotlinx.html.*
-import lindy.LindyBeginnerSections
 import lindy.LindyRef
 import tabs.SectionedTabDsl
 
@@ -75,7 +74,7 @@ fun LindyBeginnerSections.simpleMoves(dsl: SectionedTabDsl) {
                         +"The hand-connection is possible, but not necessary. "
                         +"The rock-steps are only regular steps and not really shifting the weight fully backward/forward. "
                         +"On those, also most of the circle motion happening. "; br
-                        +"<i>Both</i> really have to move around a pivot point between them, not just one is moving around the other. "
+                        +"";i{+"Both"};+" really have to move around a pivot point between them, not just one is moving around the other. "
                         +"We give each other counter-balance, so shift your weight really back, with the butt (requires some core strength) and not with upper-body only. "
                         +"Touch each other's shoulder blade, not the waist, and don't grab or pull there. "
                         +"The follower has also a strong connection to the frame through the arm here (valid in general, but here especially). "; br

@@ -3,7 +3,6 @@ package lindy.tabCharleston
 import common.ref
 import common.youtube
 import kotlinx.html.*
-import lindy.LindyCharlestonSections
 import lindy.LindyRef
 import tabs.SectionedTabDsl
 
@@ -23,7 +22,8 @@ fun LindyCharlestonSections.general(dsl: SectionedTabDsl) {
                         +"Start with a simple groove, keeping the bounce while kicking. "
                         +"Don't focus too much on the kicking leg, but more on the standing leg. "
                         +"Kick under, and not to the front or the side, and when stepping, step really far back and forth, move/travel. "
-                        +"Don't jump, but bounce more from the butt. "
+                        +"Don't think of a conventional jump (up), but bounce more from the hips/butt. "
+                        +"The knees are thus not flexing with the feet thrown forward, but more relaxed downwards."
                         +"The posture is characterized by relaxed knees, a pushed back butt, and the shoulders on top of the knees. "
                         +"It's like being ready to go, a very active posture like in badminton. "
                         +"The 8- and 6-count basic are the most common ones,  but you can also do 4- or 2- count, whatever... "
@@ -67,6 +67,29 @@ fun LindyCharlestonSections.general(dsl: SectionedTabDsl) {
                         "Charleston solo walk, solo basic step, partner basic step"
                     )
                     youtube("sZJRZadLxWI?si=1fXoBcBL-twKHP7o", "Bounce, Kicks, Steps")
+                }
+            }
+            subSection("Positions") {
+                content {
+                    p {
+                        +"Just as with Lindy Hop, we have an ";b { +"open position" };+" which could be considered the ";i { +"default" };+" position. "
+                        +"We stand next to each other, the arms behind each other's back."
+                    }
+                    p {
+                        +"Next to it, we also have a ";b { +"closed position" };+" standing in front of each other. "
+                    }
+                }
+                subSubSection("Open Position") {
+                    content {
+                        p {
+                            +"It's basically just as the ";ref(LindyRef.LindyPositioning);+", open with 6-count. "
+                        }
+                        youtube("y0lQLrEL6KY?si=KhOZkVZ7erGgcnT7", "Charleston - Basic Open Position")
+                        p {
+                            +"Alternatively we can also stay both turning on the spot and pushing into each other's changing hand. "
+                            +"It's basically constantly doing a ";ref(LindyRef.HandToHand);+" technique."
+                        }
+                    }
                 }
             }
         }

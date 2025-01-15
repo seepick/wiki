@@ -1,11 +1,8 @@
-package zouk
+package zouk.tabBeginner
 
 import tabs.Tab
 import tabs.sectionedTab
-import zouk.tabBeginner.complex
-import zouk.tabBeginner.general
-import zouk.tabBeginner.simple
-import zouk.tabBeginner.steps
+import zouk.ZoukTabs
 
 object ZoukBeginnerSections // via extensions
 

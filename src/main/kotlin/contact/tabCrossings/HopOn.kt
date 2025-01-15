@@ -2,7 +2,6 @@ package contact.tabCrossings
 
 import common.olDefinition
 import common.youtube
-import contact.ContactAnimalSections
 import kotlinx.html.*
 import tabs.SectionedTabDsl
 
@@ -18,7 +17,7 @@ fun ContactAnimalSections.hopOn(dsl: SectionedTabDsl) {
                     "Face Direction" to "Are both facing in the same, or the opposite direction at the beginning?",
                 )
             }
-            subSection("Arms and belly") {
+            subSection("Arms and Belly") {
                 content {
                     p {
                         +"This is the first, and most simple way to get onto your little animal: "
@@ -52,16 +51,16 @@ fun ContactAnimalSections.hopOn(dsl: SectionedTabDsl) {
                         "Start crossing in same direction, with arms first, landing on your belly"
                     )
                 }
-                subSubSection("Facing opposite direction") {
-                    content {
-                        p { +"TODO" }
-                        ol("prosa") {
-                            li { +"TODO" }
-                        }
-                    }
-                }
+//                subSubSection("Facing opposite direction") {
+//                    content {
+//                        p { +"TODO" }
+//                        ol("prosa") {
+//                            li { +"xx" }
+//                        }
+//                    }
+//                }
             }
-            subSection("Arms and back") {
+            subSection("Arms and Back") {
                 content {
                     p { +"Landing on your back can be scary at first; try to relax, and get accommodated by repetition." }
                     ol("prosa") {
@@ -87,16 +86,16 @@ fun ContactAnimalSections.hopOn(dsl: SectionedTabDsl) {
                         "Start crossing in same direction, with arms first, landing on your back"
                     )
                 }
-                subSubSection("Facing opposite direction") {
-                    content {
-                        p { +"TODO" }
-                        ol("prosa") {
-                            li { +"TODO" }
-                        }
-                    }
-                }
+//                subSubSection("Facing opposite direction") {
+//                    content {
+//                        p { +"TODO" }
+//                        ol("prosa") {
+//                            li { +"xx" }
+//                        }
+//                    }
+//                }
             }
-            subSection("Legs and belly") {
+            subSection("Legs and Belly") {
                 content {
                     p {
                         +"Getting on your animal this way is a bit ";b { +"weird" };+" and covered only for the sake of completeness. "
@@ -115,16 +114,16 @@ fun ContactAnimalSections.hopOn(dsl: SectionedTabDsl) {
                         "Start crossing in same direction, with legs first, landing on your belly"
                     )
                 }
-                subSubSection("Facing opposite direction") {
-                    content {
-                        p { +"TODO" }
-                        ol("prosa") {
-                            li { +"TODO" }
-                        }
-                    }
-                }
+//                subSubSection("Facing opposite direction") {
+//                    content {
+//                        p { +"TODO" }
+//                        ol("prosa") {
+//                            li { +"xx" }
+//                        }
+//                    }
+//                }
             }
-            subSection("Legs and back") {
+            subSection("Legs and Back") {
                 content {
                     p {
                         +"For this move it is of benefit to have enough arm-strength to maintain in a handstand. "
@@ -159,17 +158,18 @@ fun ContactAnimalSections.hopOn(dsl: SectionedTabDsl) {
                         "Start crossing in same direction, with legs first, landing on your back"
                     )
                 }
-                subSubSection("Facing opposite direction") {
-                    content {
-                        p { +"TODO" }
-                        ol("prosa") {
-                            li { +"TODO" }
-                        }
-                    }
-                }
+//                subSubSection("Facing opposite direction") {
+//                    content {
+//                        p { +"TODO" }
+//                        ol("prosa") {
+//                            li { +"xx" }
+//                        }
+//                    }
+//                }
             }
         }
         /*
+        // TODO content
         smoother/more advance variation of "Legs first, landing on side (not belly)" using proper spiral:
             1. full weight on outer hand and inner foot
             2. rotate into an "inverted position/little animal" (reverse table top)

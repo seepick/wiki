@@ -2,7 +2,6 @@ package lindy.tabIntroduction
 
 import common.image
 import kotlinx.html.*
-import lindy.LindyIntroductionSections
 import tabs.SectionedTabDsl
 
 fun LindyIntroductionSections.general(dsl: SectionedTabDsl) {
@@ -71,11 +70,10 @@ fun LindyIntroductionSections.general(dsl: SectionedTabDsl) {
                 content {
                     ul {
                         li { a("https://www.youtube.com/watch?v=sK-M65nrY_8&list=PLfJQ9eiHSrcTe-PKbQHh1r6PMYuaXq4oM&index=1") { +"iLindy 6-count" }; +" - A YouTube playlist with 14 videos" }
-                        li { a("https://www.youtube.com/watch?v=U9yKEnewTas") { +"" }; +" - xxx" }
-                        li { a("") { +"Very basic 6-count-step" }; +" - YouTube video of 12mins by Laura Glaess" }
+                        li { a("https://www.youtube.com/watch?v=U9yKEnewTas") { +"Very basic 6-count-step" }; +" - A 12mins YouTube video by Laura Glaess" }
                         li { a("https://www.youtube.com/@idancedotnet/search?query=lindy") { +"idancedotnet" }; +" - A YouTube channel with plenty of short clips" }
-                        li { a("https://www.youtube.com/watch?v=oOlm0vKMtKc") { +"SwingStep intro class" }; +" - A full, free recording of 70mins for total beginners" }
-                        li { a("https://youtu.be/AI-PBivz9Kc") { +"Everything Remains" }; +" - An 80mins (unfinished) documentary called about the history of HipHop dance (and Swing)." }
+                        li { a("https://www.youtube.com/watch?v=oOlm0vKMtKc") { +"SwingStep intro class" }; +" - A full, free, 1 hour recording for total beginners" }
+                        li { a("https://youtu.be/AI-PBivz9Kc") { +"Everything Remains" }; +" - A documentary about the history of HipHop dance and Swing." }
                     }
                 }
             }

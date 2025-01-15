@@ -1,6 +1,6 @@
-package lindy
+package lindy.tabIntroduction
 
-import lindy.tabIntroduction.general
+import lindy.LindyTabs
 import tabs.Tab
 import tabs.sectionedTab
 

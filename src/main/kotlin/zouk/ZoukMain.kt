@@ -2,6 +2,7 @@ package zouk
 
 import Wiki
 import common.Ref
+import zouk.tabBeginner.beginner
 
 object ZoukTabs // via extensions
 
