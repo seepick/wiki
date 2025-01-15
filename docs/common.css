@@ -186,18 +186,18 @@ button:disabled, button[disabled] {
     border: none;
     display: block;
     outline: 0;
-    background-color: var(--color-button-bg);
+    color: var(--color-bright);
+    background-color: var(--color-dark);
 }
 .tabButton:hover {
-    color: white;
     background: var(--color-normal);
 }
 .tabButton[disabled]:hover {
-    background: var(--color-dark);
+    background: var(--color-button-bg);
 }
 .tabActive {
-    color: white;
-    background: var(--color-dark);
+    color: black;
+    background: var(--color-button-bg);
 }
 
 /* TABLE */
