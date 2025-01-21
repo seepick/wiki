@@ -116,8 +116,13 @@ fun ZoukBeginnerSections.complex(dsl: SectionedTabDsl) {
                 // =====================================================================================================
                 content {
                     p {
+                        +"Just to be sure: This technique's name is indeed 'bonus'. "
+                        +"It's not just some bonus material, or similar, but the name it was given. "
+                        +"Strange? True, but it is what it is..."
+                    }
+                    p {
                         +"From lateral while she is walking to the right, prepare the right hand, raise up head height, palms touching each other. "
-                        +"Once the follower is moving to the left, turn her 1.5 times by pulling the left hand into the desire direction. "
+                        +"Once the follower is moving to the left, turn her 1.5 times by pulling the left hand into the desired direction. "
                         +"Do NOT push with the right hand, although this might seem tempting to do. "; br
                         +"The footwork is rather complex (for both roles). "
                         +"The leader steps in the beginning into her line, pulls her back after the first spin, and then walks back two times; the second being the begin of the basic already. "
@@ -132,7 +137,7 @@ fun ZoukBeginnerSections.complex(dsl: SectionedTabDsl) {
                     }
                     youtube(
                         "ix1h05vJhxo?si=v9xYMRlW30M8T4ya",
-                        "From lateral a pushed turn, free-spin and back to basic"
+                        "From lateral into the bonus, free-spin and back to basic"
                     )
                 }
             }

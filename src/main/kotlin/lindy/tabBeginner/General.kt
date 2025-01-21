@@ -20,8 +20,9 @@ fun LindyBeginnerSections.general(dsl: SectionedTabDsl) {
                                 "The thumbs are free (don't squeeze them!), and the arms (holding the hands) are totally relaxed, hanging like noodles. " +
                                 "Alternatively, there is a ballroom hand position, fingers pointing up, like a two-right-hands-handshake in standard dances. " +
                                 "The crossed-hand position has both using the same hand in a handshake position but without using the thumb. ",
-                        "The Frame" to "The connection of the arms to the whole upper body; the part between shoulders and hips (also called \"ships\") which stays upright and doesn't collapse. " +
-                                "It must be connected to the arms to communicate arm movements (from our partner) into the whole body.",
+                        "The Frame" to "A wireframe-like structure established by a connection of the arms with the whole upper body; "
+                                +"the part between the shoulders and hips, which stays upright and doesn't collapse. " +
+                                "It must be connected to the arms to communicate (arm) movements (from our partner) into the whole body; an indirect center-center connection. ",
                         "The Rhythms" to "The most basic patterns are: 6-count and 8-count basic, whereas later there can be many variations; same goes for charleston. ",
                         "The Quality" to "Considering it's an African diasporic dance, it's more lively, and less upright ballroom European stiff. " +
                                 "It's danced to big band jazz with a lot of bouncy energy. ",
@@ -114,9 +115,10 @@ fun LindyBeginnerSections.general(dsl: SectionedTabDsl) {
                             li { b { +"Squeezing" };+" the hand, especially using the thumb, instead of a relaxed 4-finger-connection (LEGO hands) only." }
                             li { +"Having stiff, ";b { +"tensed arms" };+", instead of having them hang as loosely as possible." }
                             li {
-                                b { +"Pushing/pulling" };+" from the hand, the arm only. "
-                                +"Instead push from your frame by moving/rotating the whole (upper-)body."
+                                b { +"Pushing/pulling" };+" from the hand/the arm only (can be perceived as rude); using raw muscle strength. "
+                                +"Instead change your frame by moving/rotating the whole (upper-)body thus center, using the frame connection."
                             }
+                            li { +"As a leader, don't 'do' the movement for the follower, only give short, ";b{+"soft impulses"};+" at the beginning. Don't drag them around. " }
                             li { b { +"Bouncing upwards" };+", almost hopping, or not bouncing at all, instead of bouncing down into the ground." }
                             li { +"Having the hand on top of the ";b { +"leader's shoulder" };+", instead of on the back." }
                             li { b { +"Looking down" };+" at the feet, instead looking into the space or smiling at your partner." }

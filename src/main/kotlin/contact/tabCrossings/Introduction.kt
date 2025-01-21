@@ -18,6 +18,12 @@ fun ContactAnimalSections.introduction(dsl: SectionedTabDsl) {
                     +"The parts of going up (";ref(ContactRef.AnimalHopOn);+") and coming down (";ref(ContactRef.AnimalHopOff);+") "
                     +"are covered separately, as they can be freely combined with each other. "
                 }
+                p {
+                    +"The order of instructions and also some slight variations very much depend on the two bodies involved. "
+                    +"Within oneself, the proportion of legs to arms can be different, thus either of them reaching the ground first. "
+                    +"The relation between to bodies in their height, their weight but also \"how massive they are\" will change things. "
+                    +"The degree of flexibility will expand (or limit) certain possibilities and will require specific adaptations. "
+                }
             }
             subSection("General Advice") {
                 content {
@@ -36,6 +42,21 @@ fun ContactAnimalSections.introduction(dsl: SectionedTabDsl) {
                     p { +"For flyers:" }
                     ul {
                         li { +"Keep a ";b { +"rolling point" };+" of contact; yet sliding (cheating) a bit sometimes is ok." }
+                        li {
+                            +"Sometimes ";b { +"using your hands" };+" can be useful to get more support and stability. "
+                            +"It also reduces the weight (in case you are a bit heavier) you give on your partner. "
+                            +"Either reaching directly onto the ground, or on the box (shoulders, pelvis)."
+                        }
+                        li {
+                            +"Be aware of the difference between ";b{+"learning versus practicing"};+", meaning and dancing versus applying it. "
+                            +"While we practice, we do it more statically and use (as done in this technique) our hands to push into the partner/floor. "
+                            +"During a real dance, we would not use our hands, and instead push from our center/pelvis. "
+                            +"This requires a lot of support (";i { +"oomph" };+") from our base; without it, it won't be possible."
+                        }
+                        li {
+                            +"It can be useful if you're flexible enough to do a full ";b { +"bridge position" };+". "
+                            +"Obviously while being on the animal with your back, to take off your (full) weight."
+                        }
                     }
                     p { +"For flyers hopping on:" }
                     ul {

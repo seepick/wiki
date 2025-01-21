@@ -19,7 +19,9 @@ fun LindyBeginnerSections.steps(dsl: SectionedTabDsl) {
                     +"For the slow-step (without triples) we do two bounces (connect to the music). "; br
                     +"Slightly ";b { +"lean forward" };+" with your upper body, and also keep most of the weight on the front part of the foot. "
                     +"The heels hover a tiny bit over the ground, using the achilles tendon to bounce. "; br
-                    +"To play around a bit with the basic footwork, ";b { +"turn" };+" your direction while doing the basic step. "
+                    +"To play around a bit with the basic footwork, ";b { +"turn" };+" your direction while doing the basic step. "; br
+                    +"Do small steps so we can stay vertically with our bounce, as otherwise it gets flattened out. "
+                    +"Also for obvious reasons like balance, keeping the legs underneath our center, and staying upright. "
                 }
                 p {
                     +"Dance is done from the center, the core, the pelvis area, and not from the legs or arms. "
@@ -122,7 +124,10 @@ fun LindyBeginnerSections.steps(dsl: SectionedTabDsl) {
                 // =====================================================================================================
                 subSubSection("Groovewalk") {
                     content {
-                        p { +"Groovewalk is a slow-step which is a simplified version of the triple-step by only single-stepping instead of \"trippling\". " }
+                        p {
+                            +"Groovewalk is a slow-step which is a simplified version of the triple-step by only single-stepping instead of \"trippling\". "
+                            +"It is important to only slow down, keeping a continuous movement, instead of stopping the motion fully coming to still."
+                        }
                     }
                 }
                 subSubSection("Repeater") {

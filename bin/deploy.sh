@@ -10,7 +10,7 @@ fi
 echo ""
 echo "Done ✅"
 echo ""
-echo "https://github.com/seepick/wiki/actions"
-echo "https://seepick.github.io/wiki/"
+open "https://github.com/seepick/wiki/actions"
+open "https://seepick.github.io/wiki/"
 
 exit 0

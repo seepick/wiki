@@ -11,7 +11,7 @@ fun LindyCharlestonSections.general(dsl: SectionedTabDsl) {
         section("General") {
             content {
                 p {
-                    +"Charleston is embedded within Lindy Hop, its footwork, and has its own set of techniques, but is capable of being danced to way faster songs. "
+                    +"Lindy Charleston is embedded within Lindy Hop, its footwork, and has its own set of techniques, but is capable of being danced to way faster songs. "
                     +"It is a bit like a cardio workout, includes lots of core work, and thus, you are going to sweat a lot -don't forget to bring additional shirts. "
                     +"At the same time, you can also dance it very efficiently, by kicking and stepping smaller. "
                 }
@@ -46,14 +46,6 @@ fun LindyCharlestonSections.general(dsl: SectionedTabDsl) {
                         +"Keep on hopping with every kick, every hold and every step. "
                     }
                     p {
-                        +"We first have a look at the ";b { +"8-count" };+" basic; same as with Lindy, there also exists a 6-count basic. "
-                        +"The ";b { +"pattern" };+" is as follows: "; br
-                        +"Rock step (1+2) - kick step (3+4) - kick (5) - hold (6) - kick back (7) - step (8) "; br
-                        +"The kick is not really a kick, but more a release/drop after bending the knee, and thus is rather relaxed. "
-                        +"The kick is also really done on one leg kick, with a short midair moment of both feet, and then a step. "
-                        +"It takes the dance more dynamic, using some more explosive energy, so don't get too lazy ;) "
-                    }
-                    p {
                         +"Some advice on how to dance Charleston a bit more ";b { +"energy efficient" };+" way:"
                         ul {
                             li { +"Make smaller steps." }
@@ -67,16 +59,43 @@ fun LindyCharlestonSections.general(dsl: SectionedTabDsl) {
                         "Charleston solo walk, solo basic step, partner basic step"
                     )
                     youtube("sZJRZadLxWI?si=1fXoBcBL-twKHP7o", "Bounce, Kicks, Steps")
+                    subSubSection("8-Count Basic") {
+                        content {
+                            p {
+                                +"We first have a look at the ";b { +"8-count" };+" basic; same as with Lindy, there also exists a 6-count basic. "
+                                +"The ";b { +"pattern" };+" is as follows: "; br
+                                +"Rock step (1+2) - kick step (3+4) - kick (5) - hold (6) - kick back (7) - step (8) "; br
+                                +"The kick is not really a kick, but more a release/drop after bending the knee, and thus is rather relaxed. "
+                                +"The kick is also really done on one leg kick, with a short midair moment of both feet, and then a step. "
+                                +"It takes the dance more dynamic, using some more explosive energy, so don't get too lazy ;) "
+                            }
+                        }
+                    }
+                    subSubSection("6-Count Basic") {
+                        content {
+                            p {
+                                +"Similar as with Lindy Hop, the 6-count basic step can be perceived as a bit faster due to the subsequent kick-steps. "
+                                +"It is also mainly used when being in the Open Position, yet it is not mandatory to do so."
+                            }
+                            p {
+                                +"The pattern of the 6-count is as follows: "; br
+                                +"Rock step (1+2) - kick step (3+4) - kick step (5+6)"
+                            }
+                        }
+                    }
                 }
             }
             subSection("Positions") {
                 content {
                     p {
-                        +"Just as with Lindy Hop, we have an ";b { +"open position" };+" which could be considered the ";i { +"default" };+" position. "
-                        +"We stand next to each other, the arms behind each other's back."
+                        +"Just as with Lindy Hop, we have an ";b { +"Open Position" };+" which could be considered the ";i { +"default" };+" position. "
+                        +"We stand next to each other, the arms behind each other's back. "
+                        +"Leader around the waist, and the follower (depending on height differences) on the closer shoulder blade. "
+                        +"The leader always starts with the left leg, and the follower with the right. "
+                        +"Resulting in the Open Position to always start with the outer leg (for both partners)."
                     }
                     p {
-                        +"Next to it, we also have a ";b { +"closed position" };+" standing in front of each other. "
+                        +"Next to it, we also have a ";b { +"Closed Position" };+" standing in front of each other. "
                     }
                 }
                 subSubSection("Open Position") {
@@ -94,6 +113,29 @@ fun LindyCharlestonSections.general(dsl: SectionedTabDsl) {
             }
         }
         section("Moves") {
+            subSection("Send-Out") {
+                content {
+                    p {
+                        +"This is the most basic move, which is used to change between the Open and the Closed Position. "
+                        +"As a follower, we open up the frame on the rock-step and give a clear but gentle indication. "
+                        +"We do so by an 'open-close' movement, basically moving the right arm slightly back and the a bit stronger forward."
+                    }
+                    p {
+                        +"To Send-In the partner again from the Open Position, we mainly do so by keeping the distance of the left elbow to the body. "
+                        +"This leads to a shortening of the imaginary rubber band between the dancers, and creating a gentle pull from the center. "
+                        +"Additionally to that, we also can open the right arm, giving a visually cue. "
+                    }
+                    p {
+                        +"The difference in turning on the spot in Closed Position versus doing a Send-Out can be subtle. "
+                        +"The turn is softer, and the whole body is turning, whereas the Send-Out is quicker and sharper; it moves more from the arm/shoulder. "
+                        +"Also the frame stays more focused to the front in the Send-Out."
+                    }
+                    youtube(
+                        "uLswm4vuciw?si=G_-V2Z11YRMcQ1Qz",
+                        "Send-Out and Send-In, to transition between Open and Closed Position"
+                    )
+                }
+            }
             subSection("Open Doors") {
                 content {
                     p {
@@ -139,11 +181,11 @@ fun LindyCharlestonSections.general(dsl: SectionedTabDsl) {
                     youtube("zCWUE-aGasg?si=_L4fSRSyUd6dAFWH", "Skip-Ups")
                 }
             }
-            subSection("Tandem") {
-                content {
-                    p { +"TODO" }
-                }
-            }
+//            subSection("Tandem") {
+//                content {
+//                    p { +"TODO" }
+//                }
+//            }
         }
     }
 }

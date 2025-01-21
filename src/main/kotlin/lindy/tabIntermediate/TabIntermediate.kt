@@ -8,5 +8,6 @@ object LindyIntermediateSections // via extensions
 
 val LindyTabs.intermediate: Tab
     get() = sectionedTab("Intermediate") {
+        LindyIntermediateSections.general(this)
         LindyIntermediateSections.moves(this)
     }
