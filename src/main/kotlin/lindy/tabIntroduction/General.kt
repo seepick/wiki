@@ -23,7 +23,7 @@ fun LindyIntroductionSections.general(dsl: SectionedTabDsl) {
                         +"Legends states that the pilot's nickname, who first did a transatlantic flight was \"Lindy\", and he \"hopped\" overseas. "
                         +"Once a dancer was asked what he was doing, he quickly replied based on that headline: \"Lindy Hop\"."
                     }
-                    image("images/lindbergh_hops.jpg", "Lindbergh hops newspaper headline", 500 to 500)
+                    image("images/lindbergh_hops.jpg", 500 to 500, "Lindbergh hops newspaper headline")
                 }
             }
             subSection("Socials") {
@@ -42,7 +42,7 @@ fun LindyIntroductionSections.general(dsl: SectionedTabDsl) {
             }
             subSection("Equipment") {
                 content {
-                    image("images/shoes.png", "Beyer dance shoes", 300 to 166)
+                    image("images/shoes.png", 300 to 166, "Beyer dance shoes")
                     ul {
                         li {
                             +"Most important is that your ";b { +"shoes" };+" don't have too much grip. "

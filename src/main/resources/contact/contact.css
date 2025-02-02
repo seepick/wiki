@@ -9,3 +9,7 @@ table#animalHopOn td, table#animalHopOff td {
     text-align: center;
     color: black;
 }
+
+img#book {
+    filter: drop-shadow(rgba(0,0,0,0.2) 2px 5px 4px);
+}

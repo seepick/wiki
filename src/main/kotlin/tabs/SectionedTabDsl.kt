@@ -37,7 +37,7 @@ class SectionedTabDsl {
     val sections = mutableListOf<Section>()
 
     fun section(sectionTitle: String, code: SectionDsl.() -> Unit) {
-        val dsl = SectionDsl()
+        val dsl = SectionDslImpl()
         dsl.code()
         sections += Section(
             id = sectionTitle.toAnchorId(),
@@ -49,16 +49,22 @@ class SectionedTabDsl {
 }
 
 @TabTagMarker
-class SectionDsl {
+interface  SectionDsl {
+    fun content(code: FlowContent.() -> Unit)
+    fun subSection(subSectionTitle: String, showInToc: Boolean = true, code: SubSectionDsl.() -> Unit)
+}
+
+@TabTagMarker
+class SectionDslImpl : SectionDsl {
     var content: FlowContent.() -> Unit = {}
     val subSections = mutableListOf<SubSection>()
 
-    fun content(code: FlowContent.() -> Unit) {
+    override fun content(code: FlowContent.() -> Unit) {
         content = code
     }
 
-    fun subSection(subSectionTitle: String, showInToc: Boolean = true, code: SubSectionDsl.() -> Unit) {
-        val dsl = SubSectionDsl()
+    override fun subSection(subSectionTitle: String, showInToc: Boolean, code: SubSectionDsl.() -> Unit) {
+        val dsl = SubSectionDslImpl()
         dsl.code()
         subSections += SubSection(
             id = subSectionTitle.toAnchorId(),
@@ -71,15 +77,21 @@ class SectionDsl {
 }
 
 @TabTagMarker
-class SubSectionDsl {
+interface SubSectionDsl {
+    fun content(code: FlowContent.() -> Unit)
+    fun subSubSection(subSubSectionTitle: String, code: SubSubSectionDsl.() -> Unit)
+}
+
+@TabTagMarker
+class SubSectionDslImpl : SubSectionDsl {
     var content: FlowContent.() -> Unit = {}
     val subSubSections = mutableListOf<SubSubSection>()
 
-    fun content(code: FlowContent.() -> Unit) {
+    override fun content(code: FlowContent.() -> Unit) {
         content = code
     }
-    fun subSubSection(subSubSectionTitle: String, code: SubSubSectionDsl.() -> Unit) {
-        val dsl = SubSubSectionDsl()
+    override fun subSubSection(subSubSectionTitle: String, code: SubSubSectionDsl.() -> Unit) {
+        val dsl = SubSubSectionDslImpl()
         dsl.code()
         subSubSections += SubSubSection(
             id = subSubSectionTitle.toAnchorId(),
@@ -90,10 +102,15 @@ class SubSectionDsl {
 }
 
 @TabTagMarker
-class SubSubSectionDsl {
+interface SubSubSectionDsl {
+    fun content(code: FlowContent.() -> Unit)
+}
+
+@TabTagMarker
+class SubSubSectionDslImpl : SubSubSectionDsl {
     var content: FlowContent.() -> Unit = {}
 
-    fun content(code: FlowContent.() -> Unit) {
+    override fun content(code: FlowContent.() -> Unit) {
         content = code
     }
 }

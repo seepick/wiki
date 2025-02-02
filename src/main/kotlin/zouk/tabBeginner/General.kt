@@ -62,6 +62,10 @@ fun ZoukBeginnerSections.general(dsl: SectionedTabDsl) {
                         +"Speaking of ";b{+"unknown partner"};+": Before immediately and right away start dancing, first establish "
                         +"eye contact, say \"hi\", smile, and give it a few moments to connect; groove on the beat, "
                         +"and then slowly build up the technical moves. "}
+                    p { +"Find a mutually preferred level of intimacy between you and your partner. "
+                        +"Be conscious about the subtle signals you get from her and find the proper distance there. "
+                        +"Sometimes \"boob grazing\" happens, and as long as it wasn't intentionally, your follower won't have any issue with it. "
+                        +"If, as a follower, you feel it happens intentional, address it and ask directly. " }
                 }
             }
             subSection("Overview") {

@@ -181,11 +181,11 @@ fun LindyCharlestonSections.general(dsl: SectionedTabDsl) {
                     youtube("zCWUE-aGasg?si=_L4fSRSyUd6dAFWH", "Skip-Ups")
                 }
             }
-//            subSection("Tandem") {
-//                content {
-//                    p { +"TODO" }
-//                }
-//            }
+            subSection("Tandem") {
+                content {
+                    p { +"TODO" }
+                }
+            }
         }
     }
 }

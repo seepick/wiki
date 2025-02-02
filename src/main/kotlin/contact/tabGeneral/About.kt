@@ -1,24 +1,47 @@
 package contact.tabGeneral
 
-import kotlinx.html.a
-import kotlinx.html.i
-import kotlinx.html.p
+import common.image
+import kotlinx.html.*
 import tabs.SectionedTabDsl
 
 fun ContactGeneralSections.about(dsl: SectionedTabDsl) {
     with(dsl) {
         section("About") {
-            content {
-                p {
-                    +"This is the digital complementary to the free book '"
-                    i { +"Crash Course Contact - Small Steps into the Wonderful World of Contact Improvisation" };+"'."
+            subSection("Wiki") {
+                content {
+                    p {
+                        +"This wiki will explain several moves and techniques common in CI. "
+                        +"It will do so with detailed step-by-step instructions with lots of videos for visual comprehension. "
+                    }
+                    p {
+                        +"Whenever you follow along a practice, doing some (abstract) exercise, always ask yourself: "
+                        +"\"";i{+"Why is this relevant? How can it be applied?"};+"\""
+                    }
                 }
-                p {
-                    +"Contact me via: "
-                    a(href = "mailto:christoph@crashcoursecontact.org") { +"christoph@crashcoursecontact.org" }
+            }
+            subSection("Book") {
+                content {
+                    p {
+                        +"This is the digital, complementary resource for the free book: '"
+                        i { +"Crash Course Contact - Small Steps into the Wonderful World of Contact Improvisation" };+"'. "
+                        +"It is focused on the theoretical part, whereas this website covers the practical part. "
+                    }
+                    image(
+                        id = "book",
+                        source = "images/book_cover.png",
+                        size = 313 to 450,
+                        caption = "https://crashcoursecontact.org",
+                        link = "https://crashcoursecontact.org",
+                    )
                 }
-                // TODO DOWNLOAD book link pdf; cover image; link to self-service print
-                // contact email
+            }
+            subSection("Me") {
+                content {
+                    p {
+                        +"For any questions or remarks, feel free to contact me via: "; br
+                        a(href = "mailto:christoph@crashcoursecontact.org") { +"christoph@crashcoursecontact.org" }
+                    }
+                }
             }
         }
     }

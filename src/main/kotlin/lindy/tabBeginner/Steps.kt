@@ -48,7 +48,7 @@ fun LindyBeginnerSections.steps(dsl: SectionedTabDsl) {
                     +"For it to work, it requires a very good connection between the partners to properly communicate the changes. "
                     +"The combination of repeaters and walks (single steps/groove-walk, or triples), 6/8-count and closed/open-position alone can be combined in complex patterns. "
                 }
-                image("images/basic_footwork.png", "Basic footwork", 800 to 240)
+                image("images/basic_footwork.png", size = 800 to 240, caption = "Basic footwork")
                 p {
                     b { +"Exercise" }; +": Stand in front of each other without any touch, and try to synchronize each other's movement. "
                     +"Use visual cues only, reading the body language and emphasizing shift weight and leaning. "

@@ -7,8 +7,8 @@ interface Ref {
     val id: String
 }
 
-fun <REF : Ref> FlowOrInteractiveOrPhrasingContent.ref(ref: REF) {
-    a("#${ref.id}") { +ref.label }
+fun <REF : Ref> FlowOrInteractiveOrPhrasingContent.ref(ref: REF, label: String = ref.label) {
+    a("#${ref.id}") { +label }
 }
 
 fun FlowContent.ulDefinition(vararg keys: Pair<String, String>) {
@@ -34,14 +34,32 @@ fun FlowContent.olDefinition(vararg keys: Pair<String, String>) {
     }
 }
 
-fun FlowContent.image(source: String, caption: String, size: Pair<Int, Int>) {
+fun FlowContent.image(
+    source: String,
+    size: Pair<Int, Int>,
+    caption: String? = null,
+    id: String? = null,
+    link: String? = null,
+    ) {
     div(classes = "imageContainer") {
-        img {
-            src = source
-            width = size.first.toString()
-            height = size.second.toString()
+        val content = {
+            img {
+                if(id != null) this.id = id
+                src = source
+                width = size.first.toString()
+                height = size.second.toString()
+            }
+            if(caption != null) p(classes = "caption") { +caption }
         }
-        p(classes = "caption") { +caption }
+        if(link == null) content()
+        else {
+            div(classes = "imageLinkContainer") {
+               style = "width:${size.first}px"
+                a(link, target = "_blank") {
+                    content()
+                }
+            }
+        }
     }
 }
 

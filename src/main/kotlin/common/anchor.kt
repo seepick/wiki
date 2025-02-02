@@ -1,6 +1,8 @@
 package common
 
 import kotlinx.browser.document
+import org.w3c.dom.HashChangeEvent
+import tabs.openTab
 
 private val duplicates = "__+".toRegex()
 
@@ -13,8 +15,11 @@ fun setAnchor(anchorIncludingPrefixedHashSign: String) {
     document.location!!.href = anchorIncludingPrefixedHashSign
 }
 
-fun parseAnchor(): AnchorElements {
-    val href = document.location!!.href
+fun setAnchor(anchor: AnchorElements) {
+    document.location!!.href = anchor.asAnchorString
+}
+
+fun parseAnchor(href: String = document.location!!.href): AnchorElements {
     val elements = if (!href.contains("#")) {
         emptyList()
     } else {
@@ -32,4 +37,17 @@ data class AnchorElements(
         if(sectionId == null) null else {
             if(subSectionId == null) "$tabId/$sectionId" else "$tabId/$sectionId/$subSectionId"
         }
+    val asAnchorString = listOfNotNull(tabId, sectionId, subSectionId).let {
+        if(it.isEmpty()) "" else "#${it.joinToString("/")}"
+    }
+}
+
+fun onAnchorChanged(event: HashChangeEvent) {
+    val old = parseAnchor(event.oldURL)
+    val new = parseAnchor(event.newURL)
+    console.log("hash changed from [$old] to [$new]")
+    if(old.tabId != null && new.tabId != null && old.tabId != new.tabId) {
+        openTab(new.tabId)
+        setAnchor(new)
+    }
 }

@@ -26,7 +26,6 @@ object Columnizer {
     private fun <SUB, TOP : Tops<SUB>>  findTop(tops: List<TOP>): TOP {
         val topsAndSubs = tops.map { mutableListOf(Top(it)) + it.subs.map { Sub(it) } }.flatten()
         val pivot = topsAndSubs.size / 2
-
         var topFound: TOP? = null
         var i = pivot + 1
         while (topFound == null && i < topsAndSubs.size) {
@@ -38,14 +37,14 @@ object Columnizer {
             }
             i++
         }
-        var j = pivot - 1
+        var j = pivot
         while (topFound == null) {
             val prev = topsAndSubs[j]
             if (prev is Top) {
                 @Suppress("UNCHECKED_CAST")
                 topFound = prev.top as TOP
             }
-            j++
+            j--
         }
         return topFound
     }

@@ -50,14 +50,21 @@ fun LindyBeginnerSections.general(dsl: SectionedTabDsl) {
                                 +"Lastly, when there are conflicting opinions, curiously explore and research both possibilities; ultimate ask your teacher, as s/he is always right ;) "
                             }
                             li {
+                                +"Practice ";b { +"honestly" };+" with your partner. "
+                                +"Don't try to be overly nice and polite, not hurting the other person's feeling, by doing something (expecting it, maybe due to the instructions) even though it has not been signaled by the leader. "
+                                +"Respond only to what has been indicated, so if there is no push, you don't walk. Faking it will give your partner maybe a good short-term feeling, but will harm him more in the long run. "
+                            }
+                            li {
                                 +"To better lead, enhance the signals you give via your ";b { +"body language" };+". "
                                 +"Never underestimate the importance of leaning (forward/backward), shifting your weight (fully), and moving the whole body (as a unit). "
                                 +"The embracing arm should give an \"elastic signal\" and the upper arms are connected/touching without a gap."
                             }
                             li {
-                                +"Practice ";b { +"honestly" };+" with your partner. "
-                                +"Don't try to be overly nice and polite, not hurting the other person's feeling, by doing something (expecting it, maybe due to the instructions) even though it has not been signaled by the leader. "
-                                +"Respond only to what has been indicated, so if there is no push, you don't walk. Faking it will give your partner maybe a good short-term feeling, but will harm him more in the long run. "
+                                +"As a leader, you give signals, you suggest or let's better say: You give ";b{+"suggestions"};+". "
+                                +"You never force the follower to do something, using brute muscular effort to push or pull them around. "
+                                +"You want it still to be a conversation where both have a saying; more like asking questions then using an imperative command. "
+                                +"At the same time, there is a clear, yet gentle and very supportive indication. "
+                                +"It helps the follower to make things easier, like a boost or a ramp to take off. "
                             }
                             li {
                                 b { +"Leaders" };+" always anticipate: Be always half a step ahead, have a clear intention, a typical leadership skill. "
@@ -66,6 +73,11 @@ fun LindyBeginnerSections.general(dsl: SectionedTabDsl) {
                                 +"Be open, surrender to the moment and listen carefully. "
                                 +"They are not ";b { +"passive" };+", but are active in their perceptive role; it's not just about surrendering, being 100% in the body and being lazy doing nothing. "
                                 +"It is a very role that requires attention and a precise listening skill, a constant state of being ready without interfering or forcing anything. "
+                            }
+                            li {
+                                +"As a follower you are not only at the mercy of your follower of course. "
+                                +"You also have the option to ";b{+"back-lead"};+" your leader, basically gently taking the lead. "
+                                +"This is done without \"going against\" or saying no, but more like re-interpreting what has been suggested. "
                             }
                         }
                     }

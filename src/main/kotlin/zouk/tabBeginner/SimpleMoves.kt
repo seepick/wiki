@@ -1,8 +1,10 @@
 package zouk.tabBeginner
 
+import common.ref
 import common.youtube
 import kotlinx.html.*
 import tabs.SectionedTabDsl
+import zouk.ZoukRef
 
 fun ZoukBeginnerSections.simple(dsl: SectionedTabDsl) {
     with(dsl) {
@@ -11,10 +13,9 @@ fun ZoukBeginnerSections.simple(dsl: SectionedTabDsl) {
                 // =====================================================================================================
                 content {
                     p {
-                        +"Do a 90-degree turn, preferably to the left, as right is more unnatural in Zouk. "
-                        +"Be patient, do it only on the short steps, so a pattern of: straight - turn - turn. "; br
-                        +"For the beginning, it's easier to turn while the leader is in the back, but as with the left/right "
-                        +"difference, you can also do it while he's in the front. "
+                        +"Also called \"Cross\", is simply doing a 90-degree turn, preferably to the left, as right is more unnatural, yet possible, in Zouk. "
+                        +"Be patient, do it only on the short steps, so a pattern of: straight - turn - turn. "
+                        +"For the beginning, it's easier to turn while the leader is in the back and not in the front position. "
                     }
                     youtube("845fSQ7r7i4?si=DH9AxCjyEs1LCunb", "Basic step and (arbitrary) turns")
                 }
@@ -23,8 +24,8 @@ fun ZoukBeginnerSections.simple(dsl: SectionedTabDsl) {
                 // =====================================================================================================
                 content {
                     p {
-                        +"Basically a more continuous (every, instead of every second) routine than the \"Star\", "
-                        +"doing a 90-degree turn left (or right) after every beat, ending up in the same direction again after 4 turns. "
+                        +"Basically a more continuous (every single, instead of every second) routine than the ";ref(ZoukRef.StarMove);+". "
+                        +"Doing a 90-degree turn left (or right) after every beat, ending up in the same direction again after 4 turns. "
                     }
                     youtube(
                         "KemOjG2OgAI?si=CttNiLRjtfZQV8BE", "From close basic, doing a square to the left, four times"

@@ -11,7 +11,9 @@ fun ZoukBeginnerSections.steps(dsl: SectionedTabDsl) {
                 // =====================================================================================================
                 content {
                     p {
-                        b { +"On-Spot" }; +": Step only on slow; or even slower (at the very beginning of the dance, or when there is no beat)."
+                        b { +"On-Spot" }; +": Step only on slow; or even slower; at the very beginning of the dance, or when there is no beat."; br
+                        +"You can practice different ";b { +"rhythms" };+", as in: The Zumba beat steps on every base, the Bachata on the base and once (first snare) in between. "
+                        +"Whereas with Zouk we step on the base and on both snares, leading to the infamous \"boom chic chic\"-pattern."
                     }
                     p {
                         b { +"Basic Step" }; +": This is the most regular forward-and-backward step universally present in all moves. "

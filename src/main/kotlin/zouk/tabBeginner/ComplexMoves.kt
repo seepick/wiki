@@ -95,15 +95,32 @@ fun ZoukBeginnerSections.complex(dsl: SectionedTabDsl) {
                         +"It is the first more complex move we learned so far, and it will need some time to master it; be patient, be kind (to yourself). "
                     }
                     p {
-                        +"The footwork is more complicated and also used in more complicated, other moves. "
-                        +"It is recommended to practice it by yourself! First going linear, then in circles."
+                        +"The footwork is somewhat complex and also used in more complicated, other moves. "
+                        +"It is recommended to practice it by yourself! First going linear, then in circles. "
                     }
                     p {
-                        +"Enter it by doing a lateral step, when moving to the left, keep the arms wide open to give a clear signal to go into circular step. "
-                        +"When the leader steps with the right leg, she goes/turns (lifting arm up). "
-                        +"When stepping with the left leg, he goes/turns (put her hand on body, turn, and catch again)."
+                        +"";b { +"Enter" };+" it by doing a lateral step, when moving to the left, keep the arms wide open to give a clear signal to go into circular step. "
+                        +"The first step is done with the left leg for the leader, and the right one for the follower. "
+                        +"When the leader steps with the left leg, he goes and turns. "
                     }
-                    p { +"An exit is possible everytime the follower, into a lateral step again, indicating it by keeping the arms spread wider open." }
+                    p {
+                        +"The turn can be either by putting her hand on your belly, turn, and catch her again. "
+                        +"Or you can do a full spin like she is doing by going underneath your arm. "
+                    }
+                    p {
+                        +"When stepping with the right leg, she goes/turns, lifting the ";b { +"arm up" };+". "
+                        +"Think of a ";b { +"halo" };+", a circle drawn around the head, and not much higher than that. "
+                        +"To clearly indicate to the follower whether you or her turns, move the hand either closer to yourself or her. "
+                        +"While you are watching your partner turn, rotate your upper body towards her to \"charge a stretch\" in your body. "
+                        +"You can use that charged, kinetic energy to release it and accelerate your rotation. "
+                    }
+                    p {
+                        +"You can easily ";b { +"exit" };+" by sliding your hand over the shoulder-blades of your follower, sliding along the arm. "
+                        +"Thus reaching back into the lateral where we came from. "
+                        +"Alternatively, and much safer in regard to \"unintentional boob-grazing\", is to simply reach your arm out wide. "
+                        +"This will give your partner a visual cue to reach for it, and you can invite her back into a lateral. "
+                        // , going back into a lateral step again, indicating it by keeping the arms spread wider open
+                    }
                     p { +"A "; b { +"variation" }; +" is possible by keep holding both hands (at least as long as possible) -try it yourself :)" }
                     youtube(
                         "HnxtpvG_nDM?si=a9t3PKf5i5l9PDqO",

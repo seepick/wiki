@@ -55,6 +55,7 @@ fun renderTabBar(tabs: List<Tab>, root: HtmlBlockTag, preselectedTabId: String?)
 }
 
 fun openTab(tabIdToOpen: String) {
+    console.log("openTab($tabIdToOpen)")
     Cookies.write(CookieKey.RECENT_TAB_ID, tabIdToOpen)
     setAnchor("#$tabIdToOpen")
 

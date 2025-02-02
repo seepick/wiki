@@ -86,8 +86,8 @@ ol.prosa li {
     margin-bottom: 5px;
 }
 img {
-    margin-top: 4px;
-    margin-bottom: 4px;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 button, input, select, textarea, optgroup {
     font: inherit;
@@ -157,6 +157,12 @@ button:disabled, button[disabled] {
 }
 .videoContainer, .imageContainer {
     width: 100%;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.imageLinkContainer {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -225,14 +231,8 @@ th {
 iframe {
     width: 600px;
     height: 339px;
-    margin-top: 10px;
+    margin-top: 0;
     margin-bottom: 0;
-}
-.caption {
-    margin-top: 2px;
-    margin-bottom: 10px;
-    font-style: italic;
-    font-size: 0.9em;
 }
 
 /* MISC */
@@ -240,5 +240,9 @@ iframe {
 .caption {
     padding-top: 0;
     margin-top: 0;
+    margin-bottom: 10px;
+    font-style: italic;
+    font-size: 0.9em;
     text-align: center;
 }
+
