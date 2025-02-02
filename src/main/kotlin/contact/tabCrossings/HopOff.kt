@@ -95,7 +95,7 @@ fun ContactAnimalSections.hopOff(dsl: SectionedTabDsl) {
                         li { +"";b{+"Readjust"};+" to the final position: Replace inner hand and outer foot on the ground." }
                     }
                     youtube(
-                        "dsWwxsdxbjE?si=c_qMIucEAOQHaWcN",
+                        "s_7VUh_Mo6g?si=owyL6SB4VEnAWjSi",
                         "Start crossing, from your back, with your arms first, facing in the same direction"
                     )
                 }
