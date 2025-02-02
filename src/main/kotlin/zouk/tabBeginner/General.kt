@@ -9,7 +9,7 @@ fun ZoukBeginnerSections.general(dsl: SectionedTabDsl) {
         section("General") {
             subSection("Advice") {
                 // =====================================================================================================
-                content {
+                html {
                     ul {
                         li { +"Find a comfortable ";b{+"distance"};+" with your partner, it's also fine to just ask explicitly." }
                         li { +"Keep your ";b{+"arms up"};+" (follower rests upon), as it helps to maintain a better connection." }
@@ -25,7 +25,7 @@ fun ZoukBeginnerSections.general(dsl: SectionedTabDsl) {
             }
             subSection("Mistakes") {
                 // =====================================================================================================
-                content {
+                html {
                     ul {
                         li { b{+"Hopping"};+" up and down, not keeping the vertical axis still." }
                         li { +"Leader's ";b{+"hands too low"};+", not properly positioned on the shoulder blades." }
@@ -36,7 +36,7 @@ fun ZoukBeginnerSections.general(dsl: SectionedTabDsl) {
             }
             subSection("Connection") {
                 // =====================================================================================================
-                content {
+                html {
                     ul {
                         li { b{+"Close"};+": Leader hands on the back (usually shoulder blades, or more embraced) and elbows slightly pushed up and outwards. "
                             +"Follower rest on partner's body depending on distance (usually outside upper arms, or around neck/shoulders if closer)." }
@@ -48,7 +48,7 @@ fun ZoukBeginnerSections.general(dsl: SectionedTabDsl) {
             }
             subSection("Attitude") {
                 // =====================================================================================================
-                content {
+                html {
                     p { +"To prepare us for the social event, we've been demonstrated on how to apply different ";b{+"styles"};+" "
                         +"(speed, energy) and thus being able to only use a few techniques yet enrich them with some diversity. "; br
                         +"We practice giving each other ";b{+"feedback"};+" after the dance how we experienced the dance in terms "
@@ -70,7 +70,7 @@ fun ZoukBeginnerSections.general(dsl: SectionedTabDsl) {
             }
             subSection("Overview") {
                 // =====================================================================================================
-                content {
+                html {
                     p { +"Here a video showing all the movements learned during the level 1 beginner course." }
                     youtube("VllfJOm_3O8?si=aLpdPJKnrKRu4Mu6", "All the movements from Level 1")
                 }

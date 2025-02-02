@@ -8,7 +8,7 @@ fun ContactGeneralSections.about(dsl: SectionedTabDsl) {
     with(dsl) {
         section("About") {
             subSection("Wiki") {
-                content {
+                html {
                     p {
                         +"This wiki will explain several moves and techniques common in CI. "
                         +"It will do so with detailed step-by-step instructions with lots of videos for visual comprehension. "
@@ -20,7 +20,7 @@ fun ContactGeneralSections.about(dsl: SectionedTabDsl) {
                 }
             }
             subSection("Book") {
-                content {
+                html {
                     p {
                         +"This is the digital, complementary resource for the free book: '"
                         i { +"Crash Course Contact - Small Steps into the Wonderful World of Contact Improvisation" };+"'. "
@@ -36,7 +36,7 @@ fun ContactGeneralSections.about(dsl: SectionedTabDsl) {
                 }
             }
             subSection("Me") {
-                content {
+                html {
                     p {
                         +"For any questions or remarks, feel free to contact me via: "; br
                         a(href = "mailto:christoph@crashcoursecontact.org") { +"christoph@crashcoursecontact.org" }

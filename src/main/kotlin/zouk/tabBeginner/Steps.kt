@@ -9,7 +9,7 @@ fun ZoukBeginnerSections.steps(dsl: SectionedTabDsl) {
         section("Steps") {
             subSection("Basic") {
                 // =====================================================================================================
-                content {
+                html {
                     p {
                         b { +"On-Spot" }; +": Step only on slow; or even slower; at the very beginning of the dance, or when there is no beat."; br
                         +"You can practice different ";b { +"rhythms" };+", as in: The Zumba beat steps on every base, the Bachata on the base and once (first snare) in between. "
@@ -34,7 +34,7 @@ fun ZoukBeginnerSections.steps(dsl: SectionedTabDsl) {
             }
             subSection("Lateral") {
                 // =====================================================================================================
-                content {
+                html {
                     p {
                         +"The leader is just doing side-steps (optionally stepping in), the follower on the other hand crosses "
                         +"her steps while always facing to the leader, both moving sideways. "
@@ -53,7 +53,7 @@ fun ZoukBeginnerSections.steps(dsl: SectionedTabDsl) {
             }
             subSection("Embrace") {
                 // =====================================================================================================
-                content {
+                html {
                     p {
                         +"From lateral step, keep holding both hands; on the follower's first quick (let her do the first slow-step), "
                         +"keep her in place and rotate on the spot by giving her a clear spin. "

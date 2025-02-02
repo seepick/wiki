@@ -8,7 +8,7 @@ import tabs.SectionedTabDsl
 fun ContactAnimalSections.hopOff(dsl: SectionedTabDsl) {
     with(dsl) {
         section("Hop Off") {
-            content {
+            html {
                 p { +"Learn how to get back on the ground to a side-by-side position, once you are on your little animal." }
                 tableHopOff()
                 olDefinition(
@@ -18,7 +18,7 @@ fun ContactAnimalSections.hopOff(dsl: SectionedTabDsl) {
                 )
             }
             subSection("Belly and Legs") {
-                content {
+                html {
                     p { +"This is done basically the same way as we get onto our little animal but in the reversed order." }
                     ol("prosa") {
                         li { +"First, put your ";b { +"hand(s)" };+" on the partner/ground to find stability." }
@@ -40,7 +40,7 @@ fun ContactAnimalSections.hopOff(dsl: SectionedTabDsl) {
                 }
             }
             subSection("Belly and Arms") {
-                content {
+                html {
                     ol("prosa") {
                         li { +"Reach down with inner, then outer ";b{+"hand"};+" onto the final position." }
                         li { +"Tilt to an inclined position with your ";b{+"head down"};+" (arm strength!), legs up." }
@@ -62,7 +62,7 @@ fun ContactAnimalSections.hopOff(dsl: SectionedTabDsl) {
                 }
             }
             subSection("Back and Legs") {
-                content {
+                html {
                     ol("prosa") {
                         li { +"";b{+"Shift your weight"};+" by lowering the legs, doing a sit-up and/or reaching with the arms." }
                         li { +"Land the ";b{+"outer foot"};+" on the ground, roughly where the knee's final position will be."
@@ -86,7 +86,7 @@ fun ContactAnimalSections.hopOff(dsl: SectionedTabDsl) {
                 }
             }
             subSection("Back and Arms") {
-                content {
+                html {
                     ol("prosa") {
                         li { +"";b{+"Rotate"};+" your body so that you are looking towards the animal's feet." }
                         li { +"The ";b{+"inner forearm"};+" and the outer hand reaching first onto the ground." }

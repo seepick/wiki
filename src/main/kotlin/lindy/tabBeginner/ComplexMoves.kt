@@ -11,7 +11,7 @@ fun LindyBeginnerSections.complexMoves(dsl: SectionedTabDsl) {
         section("Complex Moves") {
             subSection("Promenade") {
                 // =====================================================================================================
-                content {
+                html {
                     p { +"The beginning is similar to a ";ref(LindyRef.SendOut);+" but with a slightly different foot-work, (a closer step), "
                         +"and can also be confused with a butterfly, but with less of a push, less distance and more connection. "
                         +"We will first cover the version where the follower goes first, as the leader can also go first, "
@@ -36,7 +36,7 @@ fun LindyBeginnerSections.complexMoves(dsl: SectionedTabDsl) {
 
             subSection("Tuck Turn") {
                 // =====================================================================================================
-                content {
+                html {
                     p { +"Done in the 6-count basic, starting similar to a regular follower send-out, and with a ballroom hand position. "
                         +"The first (rotational) rock-step is stepped slightly diagonally back, not straight back as it would create too much of a rotational-stretch and disconnection of the lower and upper body. "
                         +"But also don't step anywhere forward, as it could potentially misinterpreted by follower for a swing out. "
@@ -68,7 +68,7 @@ fun LindyBeginnerSections.complexMoves(dsl: SectionedTabDsl) {
 
             subSection("Franky 6") {
                 // =====================================================================================================
-                content {
+                html {
                     p { +"Starting from crossed-hand open-position, using 6-count basic. "
                         +"Instead of the leader's regular linear rock-step, do a rotational rock-step, pushing the right shoulder forward making the follower turn. "
                         +"Now pull the right arm up, let the follower go underneath it, yet the leader moves most of the distance. "

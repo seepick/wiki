@@ -9,7 +9,7 @@ import tabs.SectionedTabDsl
 fun LindyCharlestonSections.general(dsl: SectionedTabDsl) {
     with(dsl) {
         section("General") {
-            content {
+            html {
                 p {
                     +"Lindy Charleston is embedded within Lindy Hop, its footwork, and has its own set of techniques, but is capable of being danced to way faster songs. "
                     +"It is a bit like a cardio workout, includes lots of core work, and thus, you are going to sweat a lot -don't forget to bring additional shirts. "
@@ -17,7 +17,7 @@ fun LindyCharlestonSections.general(dsl: SectionedTabDsl) {
                 }
             }
             subSection("Steps") {
-                content {
+                html {
                     p {
                         +"Start with a simple groove, keeping the bounce while kicking. "
                         +"Don't focus too much on the kicking leg, but more on the standing leg. "
@@ -86,7 +86,7 @@ fun LindyCharlestonSections.general(dsl: SectionedTabDsl) {
                 }
             }
             subSection("Positions") {
-                content {
+                html {
                     p {
                         +"Just as with Lindy Hop, we have an ";b { +"Open Position" };+" which could be considered the ";i { +"default" };+" position. "
                         +"We stand next to each other, the arms behind each other's back. "
@@ -114,7 +114,7 @@ fun LindyCharlestonSections.general(dsl: SectionedTabDsl) {
         }
         section("Moves") {
             subSection("Send-Out") {
-                content {
+                html {
                     p {
                         +"This is the most basic move, which is used to change between the Open and the Closed Position. "
                         +"As a follower, we open up the frame on the rock-step and give a clear but gentle indication. "
@@ -137,7 +137,7 @@ fun LindyCharlestonSections.general(dsl: SectionedTabDsl) {
                 }
             }
             subSection("Open Doors") {
-                content {
+                html {
                     p {
                         +"The basic footwork consists of: "; br
                         +"kick - hold/turn - kick - step."
@@ -162,7 +162,7 @@ fun LindyCharlestonSections.general(dsl: SectionedTabDsl) {
                 }
             }
             subSection("Hand-to-Hand") {
-                content {
+                html {
                     p {
                         +"As a leader, kick twice, while staying facing in same direction and let follower turn alone."
                         +"Continue to turn asynchronously and use the elastic stretch force to rotate together. "
@@ -172,7 +172,7 @@ fun LindyCharlestonSections.general(dsl: SectionedTabDsl) {
                 }
             }
             subSection("Skip-Ups") {
-                content {
+                html {
                     p {
                         +"For this, you have to be really close to your partner, as the connection is very important. "
                         +"We usually do it in the 6-count basics and using rotational force. "
@@ -182,7 +182,7 @@ fun LindyCharlestonSections.general(dsl: SectionedTabDsl) {
                 }
             }
             subSection("Tandem") {
-                content {
+                html {
                     p { +"TODO" }
                 }
             }

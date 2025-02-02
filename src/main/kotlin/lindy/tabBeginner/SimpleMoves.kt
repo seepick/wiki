@@ -12,7 +12,7 @@ fun LindyBeginnerSections.simpleMoves(dsl: SectionedTabDsl) {
         section("Simple Moves") {
             subSection("Butterfly") {
                 // =====================================================================================================
-                content {
+                html {
                     p {
                         +"Also called (Lindy-, there is also a Charleston-) \"open doors\", and is one of the most basic moves there is. "
                         +"To indicate it, first externally rotate a bit with the whole body, but only on the y-axis through the spine. "
@@ -37,7 +37,7 @@ fun LindyBeginnerSections.simpleMoves(dsl: SectionedTabDsl) {
             }
             subSection("Send-out") {
                 // =====================================================================================================
-                content {
+                html {
                     p {
                         +"A send-out is basically moving from closed- to open-position, with either leader or follower in front. "
                         +"We could therefore also call the opposite move, from closed- to open-position, a \"send-in\". "
@@ -68,7 +68,7 @@ fun LindyBeginnerSections.simpleMoves(dsl: SectionedTabDsl) {
             }
             subSection("Circle") {
                 // =====================================================================================================
-                content {
+                html {
                     p {
                         +"We both, usually, turn CW, as it is easier. "
                         +"The hand-connection is possible, but not necessary. "

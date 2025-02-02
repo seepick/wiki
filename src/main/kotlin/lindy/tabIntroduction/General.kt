@@ -7,7 +7,7 @@ import tabs.SectionedTabDsl
 fun LindyIntroductionSections.general(dsl: SectionedTabDsl) {
     with(dsl) {
         section("General") {
-            content {
+            html {
                 p {
                     +"A journal based on what has been taught and learned from "; a("https://swingphilosophy.com") { +"Swing Philosophy" }; +", "
                     +"to help keep track of all the names of all the moves (to help practice outside of the schools) and simply reflect and gather experiences. "; br
@@ -15,7 +15,7 @@ fun LindyIntroductionSections.general(dsl: SectionedTabDsl) {
                 }
             }
             subSection("History") {
-                content {
+                html {
                     p {
                         +"Lindy Hop is an African American dance, which started in New York, Harlem during the late 1920s in conjunction with swing jazz."
                         +"Its predecessor is Charleston (timing, footwork), its successor is Rock'n'Roll."; br
@@ -27,7 +27,7 @@ fun LindyIntroductionSections.general(dsl: SectionedTabDsl) {
                 }
             }
             subSection("Socials") {
-                content {
+                html {
                     p { +"Some generals remarks to consider when joining a social dance event:" }
                     ul {
                         li { +"In our community, we give each other honest ";b { +"feedback" };+" and talk things through." }
@@ -41,7 +41,7 @@ fun LindyIntroductionSections.general(dsl: SectionedTabDsl) {
                 }
             }
             subSection("Equipment") {
-                content {
+                html {
                     image("images/shoes.png", 300 to 166, "Beyer dance shoes")
                     ul {
                         li {
@@ -60,14 +60,14 @@ fun LindyIntroductionSections.general(dsl: SectionedTabDsl) {
         }
         section("Resources") {
             subSection("Music") {
-                content {
+                html {
                     ul {
                         li { a("https://open.spotify.com/playlist/78dBYR3ro1G7COwKpaN4Tr") { +"Charleston Spotify Playlist" }; +" - from our dear teacher Lucia" }
                     }
                 }
             }
             subSection("Videos") {
-                content {
+                html {
                     ul {
                         li { a("https://www.youtube.com/watch?v=sK-M65nrY_8&list=PLfJQ9eiHSrcTe-PKbQHh1r6PMYuaXq4oM&index=1") { +"iLindy 6-count" }; +" - A YouTube playlist with 14 videos" }
                         li { a("https://www.youtube.com/watch?v=U9yKEnewTas") { +"Very basic 6-count-step" }; +" - A 12mins YouTube video by Laura Glaess" }

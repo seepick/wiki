@@ -7,7 +7,7 @@ fun LindyIntermediateSections.general(dsl: SectionedTabDsl) {
     with(dsl) {
         section("General") {
             subSection("Musicality") {
-                content {
+                html {
                     p {
                         +"This could be considered some kind of meta-skill, which is beyond and above, transcending moves and common techniques. "
                         +"On a pure technical level, it's about choosing steps and moves, counting the beats, and listening to the music so it fits a full phrase (melody loop). "

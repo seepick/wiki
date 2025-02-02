@@ -9,14 +9,14 @@ import tabs.SectionedTabDsl
 fun LindyIntermediateSections.moves(dsl: SectionedTabDsl) {
     with(dsl) {
         section("Moves") {
-            content {
+            html {
                 p {
                     +"Now that you have the basic footwork pattern, your frame and the connection, and a few basic moves, "
                     +"let's add onto that and learn a few more complex techniques."
                 }
             }
             subSection("Swing-Out") {
-                content {
+                html {
                     p {
                         +"This is probably THE signature move of Lindy Hop, which resembles a bit of a yoyo movement. "
                         +"As such, it maintains a linear motion, expanding and contracting like an accordion. "

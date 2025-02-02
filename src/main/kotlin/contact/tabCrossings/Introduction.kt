@@ -8,7 +8,7 @@ import tabs.SectionedTabDsl
 fun ContactAnimalSections.introduction(dsl: SectionedTabDsl) {
     with(dsl) {
         section("Introduction") {
-            content {
+            html {
                 p {
                     +"What we call a \"little animal\" here, is basically referring to a regular tabletop position, "
                     +"but with the difference of being more dynamic, and less static. "
@@ -26,7 +26,7 @@ fun ContactAnimalSections.introduction(dsl: SectionedTabDsl) {
                 }
             }
             subSection("General Advice") {
-                content {
+                html {
                     p { +"For both:" }
                     ul {
                         li { +"Maintain an ";b { +"oomph quality" };+" (firm contact, sharing weight) from start to the very end." }

@@ -9,7 +9,7 @@ fun LindyBeginnerSections.general(dsl: SectionedTabDsl) {
         section("General") {
             subSection("Advice") {
                 // =====================================================================================================
-                content {
+                html {
                     ulDefinition(
                         "The Bounce" to "The importance of keeping a continuous, clear bounce cannot be overestimated. " +
                                 "It is the one and only thing that keeps the dance alive, like the heart beating to keeping us alive. " +

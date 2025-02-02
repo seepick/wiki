@@ -8,7 +8,7 @@ import tabs.SectionedTabDsl
 fun ContactAnimalSections.hopOn(dsl: SectionedTabDsl) {
     with(dsl) {
         section("Hop On") {
-            content {
+            html {
                 p { +"Let's cover how to get from a side-by-side little animal position, to being on top of your partner. " }
                 tableHopOn()
                 olDefinition(
@@ -18,7 +18,7 @@ fun ContactAnimalSections.hopOn(dsl: SectionedTabDsl) {
                 )
             }
             subSection("Arms and Belly") {
-                content {
+                html {
                     p {
                         +"This is the first, and most simple way to get onto your little animal: "
                         +"By reaching over your partner, with arms and head first, and landing on your belly facing down."
@@ -61,7 +61,7 @@ fun ContactAnimalSections.hopOn(dsl: SectionedTabDsl) {
 //                }
             }
             subSection("Arms and Back") {
-                content {
+                html {
                     p { +"Landing on your back can be scary at first; try to relax, and get accommodated by repetition." }
                     ol("prosa") {
                         li { +"The ";b { +"inner leg" };+" moves ";b { +"diagonally" };+", close to where the outer hand is." }
@@ -96,7 +96,7 @@ fun ContactAnimalSections.hopOn(dsl: SectionedTabDsl) {
 //                }
             }
             subSection("Legs and Belly") {
-                content {
+                html {
                     p {
                         +"Getting on your animal this way is a bit ";b { +"weird" };+" and covered only for the sake of completeness. "
                         +"There will be no natural flow, and almost impossible to maintain the rolling point of contact. "
@@ -124,7 +124,7 @@ fun ContactAnimalSections.hopOn(dsl: SectionedTabDsl) {
 //                }
             }
             subSection("Legs and Back") {
-                content {
+                html {
                     p {
                         +"For this move it is of benefit to have enough arm-strength to maintain in a handstand. "
                         +"Alternatively, you can drop yourself to also do a headstand. "

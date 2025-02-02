@@ -29,14 +29,14 @@ private fun UL.linkItem(url: String, text: String) {
 fun ContactGeneralSections.resources(dsl: SectionedTabDsl) {
     with(dsl) {
         section("Resources") {
-            content {
+            html {
                 p {
                     +"The content of the book might not have been enough for your mental thirst for information and insight. "
                     +"If this is the case, the following collection of further resources will hopefully leave you with a greater satisfaction."
                 }
             }
             subSection("Practice") {
-                content {
+                html {
                     p {
                         +"In case you are looking to practice (classes, workshops, festivals) anywhere in the world, check out the "
                         a("https://ciglobalcalendar.net") { +"CI global calendar" }; +". "
@@ -48,7 +48,7 @@ fun ContactGeneralSections.resources(dsl: SectionedTabDsl) {
                 }
             }
             subSection("Books") {
-                content {
+                html {
                     p { +"There are about less than a dozen (good) books written specifically about CI:" }
                     ul {
                         bookItem(
@@ -98,7 +98,7 @@ fun ContactGeneralSections.resources(dsl: SectionedTabDsl) {
                 }
             }
             subSection("Videos") {
-                content {
+                html {
                     p {
                         +"It is highly recommended to watch \"";i{+"the classics"};+"\" (everything between 1972 and 1980) once in a while. "
                         +"This will help you to regularly check your understanding of the roots of CI or simply to get inspired to continue your practice. "
@@ -153,7 +153,7 @@ fun ContactGeneralSections.resources(dsl: SectionedTabDsl) {
                 }
             }
             subSection("Websites") {
-                content {
+                html {
                     p { +"A list of websites I found worth mentioning here to direct you in your further research. " }
                     ul {
                         linkItem(

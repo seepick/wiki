@@ -7,14 +7,14 @@ import tabs.SectionedTabDsl
 fun LindyBeginnerSections.positioning(dsl: SectionedTabDsl) {
     with(dsl) {
         section("Positioning") {
-            content {
+            html {
                 p { +"These are some simple techniques to change your positions/places. "
                     +"It usually involves a pulling force and a few traveling steps, and ending up standing on each other's original spot. "
                 }
             }
             subSection("Open-Closed-Transition") {
                 // =====================================================================================================
-                content {
+                html {
                     p { +"In order to go from open to closed-position, you can continue to pull backwards (by stepping backwards) after the rock-step."
                         +"This should be enough for the follower to come closer. "
                         +"With the leader's right arm reached open, it should be visually enough to make the intention clear. "
@@ -30,7 +30,7 @@ fun LindyBeginnerSections.positioning(dsl: SectionedTabDsl) {
             }
             subSection("Pass-By") {
                 // =====================================================================================================
-                content {
+                html {
                     p { +"Also called \"change positions\" or \"change places\" -nomen est omen."
                         +"We start in an ";b{+"open position"};+" and keep, for example, an asynchronous/opposite direction basic-step. "
                         +"A 6-count basic feels more comfortable, but an 8-count is possible as well. "
@@ -55,7 +55,7 @@ fun LindyBeginnerSections.positioning(dsl: SectionedTabDsl) {
             }
             subSection("Around the World") {
                 // =====================================================================================================
-                content {
+                html {
                     p { +"In open-position (6-count), we start like doing a simple pass-by, leader going a bit more to the left. "
                         +"The right hand goes over the arms, the left hand letting go of the contact and rotating CCW. "
                         +"Just as with the Soltinho in Zouk, the follower's hand slides over the leader's body (like a belt). "
@@ -67,7 +67,7 @@ fun LindyBeginnerSections.positioning(dsl: SectionedTabDsl) {
             }
             subSection("Mess Around") {
                 // =====================================================================================================
-                content {
+                html {
                     p { +"After the starting rock-step, break the footwork, connect the hip of your partner, and draw a circle. "
                         +"Preferably CCW, as this seems a bit easier for the beginning. "
                         +"To start again (to exit), simply enter with a rock-step and you are back to basics. "

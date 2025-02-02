@@ -50,7 +50,7 @@ class SectionedTabDsl {
 
 @TabTagMarker
 interface  SectionDsl {
-    fun content(code: FlowContent.() -> Unit)
+    fun html(code: FlowContent.() -> Unit)
     fun subSection(subSectionTitle: String, showInToc: Boolean = true, code: SubSectionDsl.() -> Unit)
 }
 
@@ -59,7 +59,7 @@ class SectionDslImpl : SectionDsl {
     var content: FlowContent.() -> Unit = {}
     val subSections = mutableListOf<SubSection>()
 
-    override fun content(code: FlowContent.() -> Unit) {
+    override fun html(code: FlowContent.() -> Unit) {
         content = code
     }
 
@@ -78,7 +78,7 @@ class SectionDslImpl : SectionDsl {
 
 @TabTagMarker
 interface SubSectionDsl {
-    fun content(code: FlowContent.() -> Unit)
+    fun html(code: FlowContent.() -> Unit)
     fun subSubSection(subSubSectionTitle: String, code: SubSubSectionDsl.() -> Unit)
 }
 
@@ -87,7 +87,7 @@ class SubSectionDslImpl : SubSectionDsl {
     var content: FlowContent.() -> Unit = {}
     val subSubSections = mutableListOf<SubSubSection>()
 
-    override fun content(code: FlowContent.() -> Unit) {
+    override fun html(code: FlowContent.() -> Unit) {
         content = code
     }
     override fun subSubSection(subSubSectionTitle: String, code: SubSubSectionDsl.() -> Unit) {

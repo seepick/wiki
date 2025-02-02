@@ -9,7 +9,7 @@ import zouk.ZoukRef
 fun ZoukIntermediateSections.movesRevised(dsl: SectionedTabDsl) {
     with(dsl) {
         section("Moves Revised") {
-            content {
+            html {
                 p {
                     +"Before rushing to the next, and the next, and the next fancy, impressive technique, "
                     +"it is sometimes recommendable to slow down a bit, and work on the details first before rushing further. "
@@ -17,29 +17,34 @@ fun ZoukIntermediateSections.movesRevised(dsl: SectionedTabDsl) {
                 }
             }
             subSection("Yoyo") {
-                content {
+                html {
                     p {
                         +"We already had a look on how to do the ";ref(ZoukRef.Yoyo)
                         +", starting from embrace steps and always sending the follower back to the same direction. "
                         +"To finish it, we would let go of the hand with a swift external rotation and a free spin. "
                     }
                     p {
-                        +"A simple variation is, just as with the ";ref(ZoukRef.Viradinha);+", to turn 90 degrees at the end. "
-                        +"Or you can step aside, out of the line of the follower, and thus basically doing a half turn. "
+                        +"A simple variation is to do it from the lateral, and just as with the ";ref(ZoukRef.Viradinha);+", to turn at the end. "
+                        +"You can turn 90 degrees, or you can step aside, out of the line of the follower, and thus basically doing a 180 degrees turn. "
                         +"You do so, by starting in lateral, and when she is on the right side, step into her line, "
                         +"letting go of the left hand, and indicate to stay facing towards you, and not open totally. "; br
-                        +"Step out again, and give a clear, circular push into her frame to turn her into your arm. "
+                        +"Step out again, and give a clear, ";b{+"circular push"};+" into her frame to turn her into your arm. "
                         +"Now you are temporarily in something which resembles the embrace but with only one arm connection. "
                         +"With every turn towards you, you can choose to go into a free-spin and back to a basic again."
                     }
-                    // TODO video once its published
+                    p {
+                        +"Watch out that you have a proper distance when spinning your follower out. "
+                        +"Your posture should of course stay intact, the arms should still have \"some room\". "
+                    }
+                    youtube("N-4jFkbjVDk?si=ffEfxCo02Op8XJkO", "Yoyo with doing half turns")
                 }
             }
             subSection("Soltinho") {
-                content {
+                html {
                     p {
                         +"The footwork of the ";ref(ZoukRef.Soltinho);+" we already learned is very universal and can have many variations. "
                         +"You can practice also by yourself, going in a line, in a square, or a triangle. "
+                        +"Especially the triangle shaped footwork with your partner with WiFi connection can be useful to work on precision."
                     }
                     p {
                         +"You can enter it from the lateral and immediately turn yourself, "

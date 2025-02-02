@@ -1,15 +1,17 @@
 package zouk.tabBeginner
 
+import common.ref
 import common.youtube
 import kotlinx.html.*
 import tabs.SectionedTabDsl
+import zouk.ZoukRef
 
 fun ZoukBeginnerSections.complex(dsl: SectionedTabDsl) {
     with(dsl) {
         section("Complex Moves") {
             subSection("Viradinha") {
                 // =====================================================================================================
-                content {
+                html {
                     p {
                         +"\"Virada\" means \"turn\" in Portuguese, and the diminutive \"inha\" means \"little\". "; br
                         +"It is done while in a mixed hand position (left open, right closed), and doing a basic step. "
@@ -41,7 +43,7 @@ fun ZoukBeginnerSections.complex(dsl: SectionedTabDsl) {
             }
             subSection("Yoyo") {
                 // =====================================================================================================
-                content {
+                html {
                     p {
                         +"While being in the embrace, you give a push to the followers back and keep the hand contact. "
                         +"When pulling her back in you can either do another turn (thus the name Yoyo) by "
@@ -53,27 +55,29 @@ fun ZoukBeginnerSections.complex(dsl: SectionedTabDsl) {
             }
             subSection("Lunge") {
                 // =====================================================================================================
-                content {
+                html {
                     p {
                         +"We did a lunge with a simple turn by having both hands firmly embracing around the back, the latissimus dorsi muscle, during this move. "
-                        +"It is similar to the Viradinha: Stepping out of the line, and side-step, yet the footwork is a bit more complex, pivoting the feet. "
-                        +"The turn itself is done by pushing the follower sideways with one hand and disconnecting the other."
+                        +"It is similar to the ";ref(ZoukRef.Viradinha);+": Stepping out of the line, and side-step, yet the footwork is a bit more complex, pivoting the feet. "
+                        +"The turn itself is done by pushing the follower sideways with one hand and disconnecting the other. "; br
+                        +"To be more clear in your intention, connect both frames firmly, and simply initiate the move yourself, "
+                        +"by going first down a bit, then accelerate a bit upwards, which will give the follower enough direction."
                     }
                     p {
                         +"The follower keeps the footwork pattern (we always do, all the time, no hopping and jumping or "
                         +"anything weird), and returns to the original position. A common mistake is that the follower moves "
                         +"to the side, stepping away from the line. "
                         +"Also watch out not to hit your leader with your elbows (leaders, give enough space), alternatively "
-                        +"raise up your arms into the sky (as done with the Yoyo)."
+                        +"raise up your arms into the sky (as done with the ";ref(ZoukRef.Yoyo);+")."
                     }
                     p {
-                        +"It can be used for playing with musicality, choosing to slow much down, while followers wait the lead to exit the lunge; or keeping it short. "
+                        +"It can be used for playing with ";b{+"musicality"};+", choosing to slow much down, while followers wait the lead to exit the lunge; or keeping it short. "
                         +"It is a very effective tool when getting off-beat, to get back in your basic step dancing on time again."
                     }
                     youtube("ERZ1zvCSW-g?si=T82y4QCKFs8m7ZmD", "A few times the lunge-turn done in a row")
                     youtube("PB6iiSucaJA?si=WwfIgCo_Kmmm6mEq", "Out - pivot - lunge, with some remarks")
                     p {
-                        +"You can also do a lunge hesitate turn: "
+                        +"You can also do a lunge ";b{+"hesitate"};+" turn: "
                         +"From the basic step, start like with the Viradinha, step to the side, pivot on the spot, and lunge. "
                         +"Here it is possible to "; i { +"optionally" }; +" do a \"hesitate\" before turning (free spin or holding hand). "
                         +"Hesitate is basically shifting the weight left and right, with a clear, good connection, before going into a simple turn. "
@@ -89,7 +93,7 @@ fun ZoukBeginnerSections.complex(dsl: SectionedTabDsl) {
             }
             subSection("Soltinho") {
                 // =====================================================================================================
-                content {
+                html {
                     p {
                         +"The name comes from the Portuguese word \"solta\", meaning free or loose. "
                         +"It is the first more complex move we learned so far, and it will need some time to master it; be patient, be kind (to yourself). "
@@ -131,7 +135,7 @@ fun ZoukBeginnerSections.complex(dsl: SectionedTabDsl) {
             }
             subSection("Bonus") {
                 // =====================================================================================================
-                content {
+                html {
                     p {
                         +"Just to be sure: This technique's name is indeed 'bonus'. "
                         +"It's not just some bonus material, or similar, but the name it was given. "

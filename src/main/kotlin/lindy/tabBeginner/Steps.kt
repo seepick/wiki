@@ -8,7 +8,7 @@ import tabs.SectionedTabDsl
 fun LindyBeginnerSections.steps(dsl: SectionedTabDsl) {
     with(dsl) {
         section("Steps") {
-            content {
+            html {
                 p {
                     +"We usually step something we call \"quick\" (one beat) or \"slow\" (two beats). "
                     +"The quick-steps come in pairs, also called \"";i { +"rock-steps" };+"\". "
@@ -61,7 +61,7 @@ fun LindyBeginnerSections.steps(dsl: SectionedTabDsl) {
             }
             subSection("Triple") {
                 // =====================================================================================================
-                content {
+                html {
                     p {
                         +"The ";b { +"triple-step" };+" is done in a \"W-shape\" not M. "
                         +"This means to go down into the ground, not upwards. "
@@ -84,7 +84,7 @@ fun LindyBeginnerSections.steps(dsl: SectionedTabDsl) {
             }
             subSection("8-Count") {
                 // =====================================================================================================
-                content {
+                html {
                     p {
                         +"The stepping pattern for the 8-count basic is: "; br
                         +"quick (1) - quick (2) - slow (3+4), quick (5) - quick (6) - slow (7+8) "
@@ -101,7 +101,7 @@ fun LindyBeginnerSections.steps(dsl: SectionedTabDsl) {
             }
             subSection("6-Count") {
                 // =====================================================================================================
-                content {
+                html {
                     p {
                         +"The open position is \"usually\" done in the 6-count basic, as 8-count would be too difficult to communicate. "
                         +"In the closed position though, you can choose the pattern. "

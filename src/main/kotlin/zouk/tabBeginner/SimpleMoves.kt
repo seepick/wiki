@@ -11,7 +11,7 @@ fun ZoukBeginnerSections.simple(dsl: SectionedTabDsl) {
         section("Simple Moves") {
             subSection("Star") {
                 // =====================================================================================================
-                content {
+                html {
                     p {
                         +"Also called \"Cross\", is simply doing a 90-degree turn, preferably to the left, as right is more unnatural, yet possible, in Zouk. "
                         +"Be patient, do it only on the short steps, so a pattern of: straight - turn - turn. "
@@ -22,7 +22,7 @@ fun ZoukBeginnerSections.simple(dsl: SectionedTabDsl) {
             }
             subSection("Square") {
                 // =====================================================================================================
-                content {
+                html {
                     p {
                         +"Basically a more continuous (every single, instead of every second) routine than the ";ref(ZoukRef.StarMove);+". "
                         +"Doing a 90-degree turn left (or right) after every beat, ending up in the same direction again after 4 turns. "
@@ -34,7 +34,7 @@ fun ZoukBeginnerSections.simple(dsl: SectionedTabDsl) {
             }
             subSection("Piao") {
                 // =====================================================================================================
-                content {
+                html {
                     p { +"It's basically turning on the spot: In basic-step, when the leader is in the front, \"ground\" "
                         +"the follower making it clear to not make further steps, and slowly rotate on the spot "
                         +"(pivot point is between both), with small steps, keeping the rhythm. " }
@@ -43,7 +43,7 @@ fun ZoukBeginnerSections.simple(dsl: SectionedTabDsl) {
             }
             subSection("Body Wave") {
                 // =====================================================================================================
-                content {
+                html {
                     p { +"From embrace, once the leader has done his side-step to the right, his next steps will be on the "
                         +"spot -don't travel! Once the follower is turned to the left, make her stop immediately, indicated by "
                         +"staying close and pulling her towards you, as if you want to give her a sideway-hug: Right shoulder, "
@@ -69,7 +69,7 @@ fun ZoukBeginnerSections.simple(dsl: SectionedTabDsl) {
             }
             subSection("Balao") {
                 // =====================================================================================================
-                content {
+                html {
                     p { +"Balão means balloon in Portuguese and is the first head movement we learned. "
                         +"For a nice warm-up, you can first give your follower a cozy back/shoulder/neck massage." }
                     p { +"As a leader, simply \"float up\", breathe into the chest and bulging it out a bit. "
