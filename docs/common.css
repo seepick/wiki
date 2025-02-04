@@ -245,4 +245,6 @@ iframe {
     font-size: 0.9em;
     text-align: center;
 }
-
+dd {
+    padding-bottom: 6px;
+}
