@@ -7,6 +7,11 @@
         body {
             background-color: #FAEDCB;
         }
+        :root {
+            --color-contact: #596AD1;
+            --color-lindy: rgba(136,92,54,1);
+            --color-zouk: rgba(204,67,49,1);
+        }
         #root {
             position: absolute;
             top: 50%;
@@ -44,14 +49,14 @@
             margin: 0;
             margin-bottom: 10px;
         }
-        .tile:nth-child(1):hover > .title {
-            color: #596AD1;
+        div.tile:hover > p#contactTitle {
+            color: var(--color-contact);
         }
-        .tile:nth-child(2):hover > .title {
-            color: rgba(136,92,54,1);
+        div.tile:hover > p#lindyTitle {
+            color: var(--color-lindy);
         }
-        .tile:nth-child(3):hover > .title {
-            color: rgba(204,67,49,1);
+        div.tile:hover > p#zoukTitle {
+            color: var(--color-zouk);
         }
         #tileContainer {
             display: grid;
@@ -83,19 +88,19 @@
     <div id="tileContainer">
         <a href="contact">
             <div class="tile">
-                <p class="title">Contact</p>
+                <p id="contactTitle" class="title">Contact</p>
                 <img src="contact/tile.png" width="184" height="251" class="tileImg" alt="Contact Improvisation"/>
             </div>
         </a>
         <a href="lindy">
             <div class="tile">
-                <p class="title">Lindy</p>
+                <p id="lindyTitle" class="title">Lindy</p>
                 <img src="lindy/tile.png" width="184" height="251" class="tileImg" alt="Lindy Hop"/>
             </div>
         </a>
         <a href="zouk">
-            <div class="tile" onclick="javascript:window.location.href='zouk'">
-                <p class="title">Zouk</p>
+            <div class="tile">
+                <p id="zoukTitle" class="title">Zouk</p>
                 <img src="zouk/tile.png" width="184" height="251" class="tileImg" alt="Brazilian Zouk"/>
             </div>
         </a>
