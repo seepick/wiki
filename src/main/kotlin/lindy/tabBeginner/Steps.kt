@@ -24,18 +24,9 @@ fun LindyBeginnerSections.steps(dsl: SectionedTabDsl) {
                     +"Also for obvious reasons like balance, keeping the legs underneath our center, and staying upright. "
                 }
                 p {
-                    +"Dance is done from the center, the core, the pelvis area, and not from the legs or arms. "
-                    +"When doing the rock-step, initiate it by your center, really shifting your weight and moving the whole body as a unit. "
-                    +"Don't just move your legs and keep the rest of the body in the same position. "
-                }
-                p {
                     +"When in closed position, we always start with outer leg. "
                     +"When in open position, the leg starts where the hands are holding. "
                     +"Put differently: \"";i { +"Leader always starts left, because follower is always right" };+"\"."
-                }
-                p {
-                    +"Technically, we can differentiate between a linear and a ";b { +"rotational rock-step" };+" (not \"circular\"). "
-                    +"The first is the default, whereas the second is used for rotating, to send out the follower, to give her a bit of a spin. "
                 }
                 p {
                     +"Tip on how to ";b { +"indicate starting" };+": "
@@ -58,6 +49,23 @@ fun LindyBeginnerSections.steps(dsl: SectionedTabDsl) {
                     "P7XHMXuTMU0?g88HJsopKCQ?si=-5A6zx8AEWVaRXE_",
                     "Walk while connecting with the music and the partner"
                 )
+            }
+            subSection("Rock-Step") {
+                html {
+                    p {
+                        +"Dance is done from the center, the core, the pelvis area, and not from the legs or arms. "
+                        +"When doing the rock-step, initiate it by your center, really shifting your weight and moving the whole body as a unit. "
+                        +"Don't just move your legs and keep the rest of the body in the same position. "
+                    }
+                    p {
+                        +"Technically, we can differentiate between a linear and a ";b { +"rotational rock-step" };+" (not \"circular\"). "
+                        +"The first is the default, whereas the second is used for rotating, to send out the follower, to give her a bit of a spin. "
+                    }
+                    p {
+                        +"The rock-step is usually to the back, but sometimes diagonal, sometimes to the side, sometimes even to the front (e.g. swing-out). "
+                        +"It is not so important where the foot is placed, but how the legs are moved by the body to send the right message into the follower. "
+                    }
+                }
             }
             subSection("Triple") {
                 // =====================================================================================================
@@ -123,7 +131,7 @@ fun LindyBeginnerSections.steps(dsl: SectionedTabDsl) {
             subSection("Other") {
                 // =====================================================================================================
                 subSubSection("Groovewalk") {
-                    content {
+                    html {
                         p {
                             +"Groovewalk is a slow-step which is a simplified version of the triple-step by only single-stepping instead of \"trippling\". "
                             +"It is important to only slow down, keeping a continuous movement, instead of stopping the motion fully coming to still."
@@ -131,7 +139,7 @@ fun LindyBeginnerSections.steps(dsl: SectionedTabDsl) {
                     }
                 }
                 subSubSection("Repeater") {
-                    content {
+                    html {
                         p {
                             +"Simply repeating the same stepping parts on the (semi) spot. "
                             +"For this, it is crucial to have a good, strong connection with your partner: "
@@ -161,7 +169,7 @@ fun LindyBeginnerSections.steps(dsl: SectionedTabDsl) {
                     }
                 }
                 subSubSection("Break") {
-                    content {
+                    html {
                         p {
                             +"When the music is not playing (it has a break), we can stand still on the spot. "
                             +"We do so at the back-most position: stay on the back-leg, the second doing a quick-step. "
@@ -170,7 +178,7 @@ fun LindyBeginnerSections.steps(dsl: SectionedTabDsl) {
                     }
                 }
                 subSubSection("Jockeys") {
-                    content {
+                    html {
                         p {
                             +"Just grooving around in some walks, bounce every single, and step every second beat for example. "
                             +"Do some basic steps, some simple repeaters (front or back) and breaks. "

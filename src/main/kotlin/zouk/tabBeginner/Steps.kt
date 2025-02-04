@@ -30,6 +30,12 @@ fun ZoukBeginnerSections.steps(dsl: SectionedTabDsl) {
                         "mA9xGt11twk?si=VHsTUE19Yt-52WbW",
                         "Standing on the down-beat, small lateral, and stepping on the spot (with styling)"
                     )
+                    p {
+                        +"Remember: The boom sound is usually for walking straight, the chic is for turns/spins."
+                        +"Keep your feet always on the ground; ";b { +"slide" };+", don't step!"
+                        +"The slow step is reached really ";b { +"far" };+" forward and backward."
+                        +"And keep your feet always in a ";b { +"V-shape" };+" like seen in Ballet's plie position."
+                    }
                 }
             }
             subSection("Lateral") {

@@ -11,16 +11,15 @@ fun <REF : Ref> FlowOrInteractiveOrPhrasingContent.ref(ref: REF, label: String =
     a("#${ref.id}") { +label }
 }
 
-fun FlowContent.ulDefinition(vararg keys: Pair<String, String>) {
-    ul {
-        keys.forEach { (key, value) ->
-            li {
-                b { +"${key}: " }
-                +value
-            }
+data class Topic(val key: String, val html: FlowContent.() -> Unit)
+
+fun FlowContent.topics(vararg topics: Topic) {
+    dl {
+        topics.forEach { (key, html) ->
+            dt { b { +key } }
+            dd(block = html)
         }
     }
-
 }
 
 fun FlowContent.olDefinition(vararg keys: Pair<String, String>) {

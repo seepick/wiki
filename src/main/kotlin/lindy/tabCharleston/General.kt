@@ -60,7 +60,7 @@ fun LindyCharlestonSections.general(dsl: SectionedTabDsl) {
                     )
                     youtube("sZJRZadLxWI?si=1fXoBcBL-twKHP7o", "Bounce, Kicks, Steps")
                     subSubSection("8-Count Basic") {
-                        content {
+                        html {
                             p {
                                 +"We first have a look at the ";b { +"8-count" };+" basic; same as with Lindy, there also exists a 6-count basic. "
                                 +"The ";b { +"pattern" };+" is as follows: "; br
@@ -72,7 +72,7 @@ fun LindyCharlestonSections.general(dsl: SectionedTabDsl) {
                         }
                     }
                     subSubSection("6-Count Basic") {
-                        content {
+                        html {
                             p {
                                 +"Similar as with Lindy Hop, the 6-count basic step can be perceived as a bit faster due to the subsequent kick-steps. "
                                 +"It is also mainly used when being in the Open Position, yet it is not mandatory to do so."
@@ -99,7 +99,7 @@ fun LindyCharlestonSections.general(dsl: SectionedTabDsl) {
                     }
                 }
                 subSubSection("Open Position") {
-                    content {
+                    html {
                         p {
                             +"It's basically just as the ";ref(LindyRef.LindyPositioning);+", open with 6-count. "
                         }

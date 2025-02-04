@@ -103,14 +103,14 @@ class SubSectionDslImpl : SubSectionDsl {
 
 @TabTagMarker
 interface SubSubSectionDsl {
-    fun content(code: FlowContent.() -> Unit)
+    fun html(code: FlowContent.() -> Unit)
 }
 
 @TabTagMarker
 class SubSubSectionDslImpl : SubSubSectionDsl {
     var content: FlowContent.() -> Unit = {}
 
-    override fun content(code: FlowContent.() -> Unit) {
+    override fun html(code: FlowContent.() -> Unit) {
         content = code
     }
 }

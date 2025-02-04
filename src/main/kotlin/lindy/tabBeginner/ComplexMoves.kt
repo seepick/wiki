@@ -25,7 +25,7 @@ fun LindyBeginnerSections.complexMoves(dsl: SectionedTabDsl) {
                         +"and with the triple-step the leader quickly jumps next to the follower's side." }
                 }
                 subSubSection("Promenot") {
-                    content {
+                    html {
                         p { +"The shortened variation, in our school named promenot, as of: not doing the promenade. "
                             +"It is pulled back after the first rock-step forward in the open position. "
                             +"It's interrupted by this pull back with the typical stretch-sensation. " }
@@ -54,7 +54,7 @@ fun LindyBeginnerSections.complexMoves(dsl: SectionedTabDsl) {
                     youtube("hszKBxAJx9Q?si=3R_8xduw7mvhNaRT-uo", "Demonstrations of variation tuck turns and send-in with a turn")
                 }
                 subSubSection("8-count basic variation") {
-                    content {
+                    html {
                         p {
                             +"The tuck turn can also be done in the 8-count basic step, which requires the follower to turn two times (or any times necessary to get back into the pattern). "
                             +"As long as the arm stays up, the follower will keep on spinning; thus, don't lower it! "

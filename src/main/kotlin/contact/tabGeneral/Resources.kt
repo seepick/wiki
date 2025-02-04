@@ -5,23 +5,24 @@ import tabs.SectionedTabDsl
 
 private fun UL.bookItem(title: String, url: String, by: String, label: String? = null) {
     li {
-        i { a(url, target = "_blank") { +title}; +" by $by"}
-        if(label != null) {
+        i { a(url, target = "_blank") { +title }; +" by $by" }
+        if (label != null) {
             br
             +label
         }
     }
 }
+
 private fun UL.resourceItem(label: String, url: String, text: String) {
     li {
-        a(url, target = "_blank") { +label}
+        a(url, target = "_blank") { +label }
         +" - $text"
     }
 }
 
 private fun UL.linkItem(url: String, text: String) {
     li {
-        a(url, target = "_blank") { +url}
+        a(url, target = "_blank") { +url }
         +" - $text"
     }
 }
@@ -100,44 +101,38 @@ fun ContactGeneralSections.resources(dsl: SectionedTabDsl) {
             subSection("Videos") {
                 html {
                     p {
-                        +"It is highly recommended to watch \"";i{+"the classics"};+"\" (everything between 1972 and 1980) once in a while. "
+                        +"It is highly recommended to watch \"";b { +"the classics" };+"\" (everything between 1972 and 1980) once in a while. "
                         +"This will help you to regularly check your understanding of the roots of CI or simply to get inspired to continue your practice. "
                     }
                     ul {
+                        // magnesium - earliest iteration of CI; dance performancy by steve paxton, at Oberlin College 1972
+                        // chute
+                        // Soft Pallet
                         resourceItem(
-                            label = "The invention of CI",
-                            url = "https://www.youtube.com/watch?v=9FeSDsmIeHA",
-                            text = "The very early beginnings, 1972",
+                            label = "The Invention of CI - 1972",
+                            url = "https://www.youtube.com/watch?v=RRwQdkgaiMs",
+                            text = "When a group of people came together to investigate CI",
                         )
                         resourceItem(
-                            label = "Magnesium",
-                            url = "https://www.youtube.com/watch?v=5gEfVJBhwrQ",
-                            text = "The actual piece from that research is called magnesium, 1972",
+                            label = "Fall After Newton - 1987",
+                            url = "https://www.youtube.com/watch?v=9tS3OVsPk6A",
+                            text = "10 years of practice of Steve Paxton and Nancy Stark Smith",
                         )
-                        resourceItem(
-                            label = "Chute",
-                            url = "https://www.youtube.com/watch?v=xKlO-2e3gHo",
-                            text = "A few years later, 1979",
-                        )
-                        resourceItem(
-                            label = "Fall After Newton",
-                            url = "https://www.youtube.com/watch?v=k768K_OTePM",
-                            text = "Many things have changed here, 1987; the original length of this video is actually 22 minutes",
-                        )
-                        resourceItem(
-                            label = "Contact Quarterly",
-                            url = "https://www.youtube.com/@contactquarterly",
-                            text = "A YouTube channel containing some videos of the early beginnings (e.g. Chute, Magnesium, Peripheral Vision, Soft Pallet)",
-                        )
+                    }
+                    p {
+                        +"To find more recent ";b { +"inspiration" };+", here are some arbitrary, hand-picked videos to watch on a rainy "
+                        +"Sunday afternoon you might find worth the time:"
+                    }
+                    ul {
                         resourceItem(
                             label = "Life Lessons Learned Through Contact Improvisation",
                             url = "https://www.youtube.com/watch?v=hlIRjfto7o0",
-                            text = "An interesting TEDx video-clip to see the connection of CI to general life",
+                            text = "TEDx showing the CI-life connection",
                         )
                         resourceItem(
                             label = "Gogolfest 2016 Contact Improvisation",
                             url = "https://www.youtube.com/watch?v=n1D9RU2GbBo",
-                            text = "Simply aspiring to watch",
+                            text = "Aspiring, fun, theatrical, skilled performance",
                         )
                         resourceItem(
                             label = "A couple of basic exercises",
