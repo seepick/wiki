@@ -16,6 +16,21 @@ fun ZoukIntermediateSections.movesRevised(dsl: SectionedTabDsl) {
                     +"Let's thus review a few more details on already learned moves."
                 }
             }
+            subSection("Steps") {
+                html {
+                    p {
+                        +"We usually go back- and forward all the time, but you can of course also ";b{+"travel"};+" through the room. "
+                        +"Obviously during the basic step, simply repeat it two additional times in a direction. "
+                        +"With a proper frame connection (the closer the better) and the follower listening, instead of following a pattern, it should be easy. "; br
+                        +"Alternatively when in an open ";ref(ZoukRef.Viradinha);+" position, where both looking in the same direction, you can also travel. "
+                    }
+                    p {
+                        +"When in lateral, and going back to basic (with or without a Soltinho), be sure to very quickly position yourself properly. "
+                        +"Clearly stand right in front of your partner, aligning your shoulders with theirs. "
+                        +"This should be possible with little to none pull force from the hand on her back. "
+                    }
+                }
+            }
             subSection("Yoyo") {
                 html {
                     p {

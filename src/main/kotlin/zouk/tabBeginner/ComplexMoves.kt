@@ -29,16 +29,22 @@ fun ZoukBeginnerSections.complex(dsl: SectionedTabDsl) {
                         +"Also, the leader's right hand slides during this move to the other side of the follower's back; "
                         +"this happens automatically if keeping the frame and angles of the arm."
                     }
+                    youtube("HnHuy8IMmso?si=LkZIwpHlDeb__w4w", "The Viradinha move, opening the line for the follower")
                     p {
-                        +"A "; b { +"variation" }; +" is for example a \"turned Viradinha\": Instead of the follower simple doing a 180-degrees"
-                        +"(through a lateral step), it will be a 270-degrees turn clockwise."
+                        +"A "; b { +"variation" }; +" is for example a \"turned Viradinha\". "
+                        +"While with the regular one, the follower turns 180-degrees into a lateral, and the leader stays facing in the same direction, "
+                        +"now the follower does a 270 degrees turn clockwise, and the leader also turns, but 90 degrees. "
                         +"The position is closed again when stepping backwards and rounding up possibly with a regular (CCW) turn to be in the original position."
                     }
                     p {
-                        +"Another variation is, once opened up in Viradinha, simply go forward and backward "
+                        +"Another, more simple, variation is, once opened up in Viradinha, simply go forward and backward "
                         +"(like a basic step), both looking in the same direction without a turn back (yet)."
                     }
-                    youtube("HnHuy8IMmso?si=LkZIwpHlDeb__w4w", "The Viradinha move, opening the line for the follower")
+                    p {
+                        +"It can also be used for a ";b{+"transition into lateral"};+", if the leader stays on the spot for a moment, "
+                        +"sending the follower forward, pulling her back into a lateral, and stepping sideways. "; br
+                        +"This can be especially smooth when immediately combined with a switch back into basic, and then continuing in an infinite cycle. "
+                    }
                 }
             }
             subSection("Yoyo") {
