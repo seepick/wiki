@@ -20,9 +20,9 @@ private fun UL.resourceItem(label: String, url: String, text: String) {
     }
 }
 
-private fun UL.linkItem(url: String, text: String) {
+private fun UL.linkItem(url: String, link: String, text: String) {
     li {
-        a(url, target = "_blank") { +url }
+        a(url, target = "_blank") { +link }
         +" - $text"
     }
 }
@@ -153,35 +153,43 @@ fun ContactGeneralSections.resources(dsl: SectionedTabDsl) {
                     ul {
                         linkItem(
                             url = "https://contactquarterly.com",
-                            text = "CQ Unbound Journal, the main platform and official channel for the global CI community",
+                            link = "Contact Quarterly",
+                            text = "The main platform and official channel for the global CI community",
                         )
                         linkItem(
                             url = "https://www.materialforthespine.com",
+                            link = "Material for the Spine",
                             text = "Steve Paxton's work and research after he passed on CI and researched walking and material for the spine",
                         )
                         linkItem(
                             url = "https://nancystarksmith.com/underscore/",
-                            text = "A long-form dance improvisation structure/notation using graphical symbols",
+                            link = "Underscore",
+                            text = "A dance improvisation structure/notation using graphical symbols",
                         )
                         linkItem(
                             url = "http://ecite.org",
+                            link = "ECITE",
                             text = "European Contact Improvisation Teachers Exchange",
                         )
                         linkItem(
                             url = "https://contactimprov.com",
-                            text = "Weird looking website with a global (outdated) calendar and some inspiring videos",
+                            link = "ContactImprov.com",
+                            text = "Strange website yet with some inspiring videos",
                         )
                         linkItem(
                             url = "https://contactimprovblog.com",
+                            link = "ContactImprovBlog.com",
                             text = "A collection of insightful articles collected over 12 years",
                         )
                         linkItem(
                             url = "https://bodyresearch.org/contact-improvisation",
+                            link = "bodyresearch.org",
                             text = "Some basic information about CI events, principles, and more",
                         )
                         linkItem(
                             url = "https://en.wikipedia.org/wiki/Contact_improvisation",
-                            text = "Wikipedia, I guess nothing to be said",
+                            link = "Wikipedia",
+                            text = "The main article about CI on Wikipedia",
                         )
                     }
                 }

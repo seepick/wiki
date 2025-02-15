@@ -1,6 +1,7 @@
 package contact.tabCrossings
 
 import common.ref
+import common.youtube
 import contact.ContactRef
 import kotlinx.html.*
 import tabs.SectionedTabDsl
@@ -73,6 +74,23 @@ fun ContactAnimalSections.introduction(dsl: SectionedTabDsl) {
                     ul {
                         li { +"When landing on the opposite direction, be careful of your animal's ";b { +"head" };+" to not ";b { +"kick" };+" it." }
                     }
+                }
+            }
+            subSection("Level Transitions") {
+                html {
+                    p {
+                        +"Although this wiki is dedicated to demonstrated CI by providing a very structured, technical approach to it, "
+                        +"we of course never just start right away in the little animal position. "
+                        +"That's why we need smooth ways to transition from different levels (standing, animal, sitting, lying). "
+                    }
+                    ol {
+                        li { +"The easiest we is to stand back-to-back and do a squad together until sitting." }
+                        li { +"A slight variation would be to have the contact more on the side of the body." }
+                        li { +"Do a sideways single-legged squad to immediately transition together into little animal." }
+                        li { +"Sit back-to-back and push each other straight into little animal." }
+                        li { +"While walking back-to-back, fall straight down into little animal." }
+                    }
+                    youtube("WsMjjVLYPF4?si=hS8JmYWQrBf5Msqs", "5 Level Transitions")
                 }
             }
         }
