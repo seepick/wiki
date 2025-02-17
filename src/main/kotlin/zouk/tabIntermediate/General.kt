@@ -19,7 +19,7 @@ fun ZoukIntermediateSections.general(dsl: SectionedTabDsl) {
                     }
                 }
             }
-            subSection("Dance Start") {
+            subSection("Starting Dance") {
                 html {
                     p {
                         +"Especially if the person is unknown to you, it is always a good advice to ";b{+"start slowly"};+". "
@@ -38,7 +38,7 @@ fun ZoukIntermediateSections.general(dsl: SectionedTabDsl) {
                     }
                 }
             }
-            subSection("Fine-tuning Details") {
+            subSection("Fine-Tuning") {
                 html {
                     ul {
                         li {

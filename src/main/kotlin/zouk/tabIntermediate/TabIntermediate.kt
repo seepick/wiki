@@ -10,4 +10,5 @@ val ZoukTabs.intermediate: Tab
     get() = sectionedTab("Intermediate") {
         ZoukIntermediateSections.general(this)
         ZoukIntermediateSections.movesRevised(this)
+        ZoukIntermediateSections.newMoves(this)
     }
