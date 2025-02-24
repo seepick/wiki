@@ -1,5 +1,7 @@
 package contact.tabGeneral
 
+import common.ali
+import common.externalLink
 import kotlinx.html.*
 import tabs.SectionedTabDsl
 
@@ -10,20 +12,6 @@ private fun UL.bookItem(title: String, url: String, by: String, label: String? =
             br
             +label
         }
-    }
-}
-
-private fun UL.resourceItem(label: String, url: String, text: String) {
-    li {
-        a(url, target = "_blank") { +label }
-        +" - $text"
-    }
-}
-
-private fun UL.linkItem(url: String, link: String, text: String) {
-    li {
-        a(url, target = "_blank") { +link }
-        +" - $text"
     }
 }
 
@@ -41,10 +29,14 @@ fun ContactGeneralSections.resources(dsl: SectionedTabDsl) {
                     p {
                         +"In case you are looking to practice (classes, workshops, festivals) anywhere in the world, check out the "
                         a("https://ciglobalcalendar.net") { +"CI global calendar" }; +". "
-                        +"If you need something more local (in the Netherlands) lookup the community calendar "
-                        a("https://amsterdamjam.nl") { +"amsterdamjam.nl" }; +". "
-                        +"In case you are near Amsterdam, you can also go directly to my teacher "
-                        a("https://tomgoldhand.com") { +"Tom Goldhand" }; +"."
+                        +"Other well-known international teachers includes: ";externalLink("https://www.facebook.com/KatriLuukkonen", "Vega Luukkonen")
+                        +", "; externalLink("https://www.facebook.com/arye.bursztyn", "Arye Bursztyn")
+                        +", and "; externalLink("https://bennovoorham.com/", "Benno Voorham"); +"."
+                    }
+                    p {
+                        +"If you need something more close to the Netherlands, lookup the community calendar "
+                        a("https://amsterdamjam.nl") { +"Amsterdam Jam" }; +". "
+                        +"In case you are near Amsterdam you can also go directly to "; a("https://tomgoldhand.com") { +"Tom Goldhand" }; +"."
                     }
                 }
             }
@@ -108,14 +100,14 @@ fun ContactGeneralSections.resources(dsl: SectionedTabDsl) {
                         // magnesium - earliest iteration of CI; dance performancy by steve paxton, at Oberlin College 1972
                         // chute
                         // Soft Pallet
-                        resourceItem(
-                            label = "The Invention of CI - 1972",
+                        ali(
                             url = "https://www.youtube.com/watch?v=RRwQdkgaiMs",
+                            label = "The Invention of CI - 1972",
                             text = "When a group of people came together to investigate CI",
                         )
-                        resourceItem(
-                            label = "Fall After Newton - 1987",
+                        ali(
                             url = "https://www.youtube.com/watch?v=9tS3OVsPk6A",
+                            label = "Fall After Newton - 1987",
                             text = "10 years of practice of Steve Paxton and Nancy Stark Smith",
                         )
                     }
@@ -124,24 +116,39 @@ fun ContactGeneralSections.resources(dsl: SectionedTabDsl) {
                         +"Sunday afternoon you might find worth the time:"
                     }
                     ul {
-                        resourceItem(
+                        ali(
+                            url = "https://youtu.be/hlIRjfto7o0",
                             label = "Life Lessons Learned Through Contact Improvisation",
-                            url = "https://www.youtube.com/watch?v=hlIRjfto7o0",
                             text = "TEDx showing the CI-life connection",
                         )
-                        resourceItem(
+                        ali(
+                            url = "https://youtu.be/FPwjDE6kBD4",
+                            label = "Artem Markov & Sasha Dodo",
+                            text = "Jam recording from December 2022, in Chiang Dao, Thailand",
+                        )
+                        ali(
+                            url = "https://youtu.be/JgXy4LH7Khs",
+                            label = "Irene Sposetti & Serafima Darova",
+                            text = "Performance recording from April 2016, in Goa, India",
+                        )
+                        ali(
+                            url = "https://youtu.be/Z_pV3s2UMSE",
+                            label = "Martin Keogh & Ray Chung",
+                            text = "Performance recording from 2001 in Freiburg, Germany",
+                        )
+                        ali(
+                            url = "https://youtu.be/n1D9RU2GbBo",
                             label = "Gogolfest 2016 Contact Improvisation",
-                            url = "https://www.youtube.com/watch?v=n1D9RU2GbBo",
                             text = "Aspiring, fun, theatrical, skilled performance",
                         )
-                        resourceItem(
+                        ali(
+                            url = "https://youtu.be/H8JiB2Nv5Qo",
                             label = "A couple of basic exercises",
-                            url = "https://www.youtube.com/watch?v=H8JiB2Nv5Qo",
                             text = "Something to practice by yourself as a beginner",
                         )
-                        resourceItem(
+                        ali(
+                            url = "https://youtu.be/_82Od5NM4LI",
                             label = "Steve Paxton Talking Dance",
-                            url = "https://www.youtube.com/watch?v=_82Od5NM4LI",
                             text = "The creator of CI giving a thorough talk about dancing, 2015",
                         )
                     }
@@ -151,44 +158,44 @@ fun ContactGeneralSections.resources(dsl: SectionedTabDsl) {
                 html {
                     p { +"A list of websites I found worth mentioning here to direct you in your further research. " }
                     ul {
-                        linkItem(
+                        ali(
                             url = "https://contactquarterly.com",
-                            link = "Contact Quarterly",
+                            label = "Contact Quarterly",
                             text = "The main platform and official channel for the global CI community",
                         )
-                        linkItem(
+                        ali(
                             url = "https://www.materialforthespine.com",
-                            link = "Material for the Spine",
-                            text = "Steve Paxton's work and research after he passed on CI and researched walking and material for the spine",
+                            label = "Material for the Spine",
+                            text = "Steve Paxton's research continuation on walking and the spine",
                         )
-                        linkItem(
+                        ali(
                             url = "https://nancystarksmith.com/underscore/",
-                            link = "Underscore",
+                            label = "Underscore",
                             text = "A dance improvisation structure/notation using graphical symbols",
                         )
-                        linkItem(
+                        ali(
                             url = "http://ecite.org",
-                            link = "ECITE",
+                            label = "ECITE",
                             text = "European Contact Improvisation Teachers Exchange",
                         )
-                        linkItem(
+                        ali(
                             url = "https://contactimprov.com",
-                            link = "ContactImprov.com",
+                            label = "ContactImprov.com",
                             text = "Strange website yet with some inspiring videos",
                         )
-                        linkItem(
+                        ali(
                             url = "https://contactimprovblog.com",
-                            link = "ContactImprovBlog.com",
+                            label = "ContactImprovBlog.com",
                             text = "A collection of insightful articles collected over 12 years",
                         )
-                        linkItem(
+                        ali(
                             url = "https://bodyresearch.org/contact-improvisation",
-                            link = "bodyresearch.org",
+                            label = "bodyresearch.org",
                             text = "Some basic information about CI events, principles, and more",
                         )
-                        linkItem(
+                        ali(
                             url = "https://en.wikipedia.org/wiki/Contact_improvisation",
-                            link = "Wikipedia",
+                            label = "Wikipedia",
                             text = "The main article about CI on Wikipedia",
                         )
                     }

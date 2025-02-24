@@ -100,3 +100,10 @@ fun FlowOrInteractiveOrPhrasingContent.externalLink(href: String, label: String)
         target = "_blank"
     }
 }
+
+fun UL.ali(url: String, label: String, text: String) {
+    li {
+        a(url, target = "_blank") { +label }
+        +" - $text"
+    }
+}

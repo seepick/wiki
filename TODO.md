@@ -20,3 +20,23 @@
 
 * https://amozouk.com/blog/7-foundational-zouk-moves-all-beginners-should-know => soltinho, boomerang
 * https://www.youtube.com/watch?v=lYeU6SnPa2k&list=PLtg3wEXTYx6pDBoVcgGk2CIRA05dJytoW => watch and incorporate
+* go through all improvers (=beginners) videos from 2025
+
+### Techniques
+
+* preparation/lunch turn in place (pivot step)
+* simple travelled turn
+* elastico (com corporal)
+* body roll (ondulacao)
+* bonus/boomerang
+
+and:
+
+* basico no lugar
+* aberturas
+* frente traz
+* ondulacoes de corpo
+* vovo
+* chicote
+* boneca
+* rolinho
