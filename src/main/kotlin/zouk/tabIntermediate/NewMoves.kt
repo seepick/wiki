@@ -44,19 +44,27 @@ fun ZoukIntermediateSections.newMoves(dsl: SectionedTabDsl) {
                         +"Don't forget to slide over the shoulder blade as usual to indicate going back to a basic. "
                     }
                     youtube("FjlsyVHGza4?si=F5ZhNJzuEfxmMy0j", "Hammer Lock Lunge Turn with explanations")
-                    p {
-                        +"A variation would be to do it more in a ";b{+"circular way"};+". "
-                        +"The leader going around her, clockwise, while the left hand stays connected. "
-                        +"The follower simply stays in ";b{+"Lateral"};+" all the time. "
-                        +"Doing this is possible entering from, and exiting into both doing the Lateral. "
+                    subSubSection("Lateral Variation") {
+                        html {
+                            p {
+                                +"A variation would be to do it more in a ";b{+"circular way"};+". "
+                                +"The leader going around her, clockwise, while the left hand stays connected. "
+                                +"The follower simply stays in Lateral all the time. "
+                                +"Doing this is possible entering from, and exiting into both doing the Lateral. "
+                            }
+                            youtube("uT_o_z2wUtc?si=vwUD-iLNIL_TZEug","Hammer Lock Lateral Variation")
+                        }
                     }
-                    youtube("uT_o_z2wUtc?si=vwUD-iLNIL_TZEug","Hammer Lock Lateral Variation")
-                    p {
-                        +"Similarly, instead of Lateral, you can use the ";b{+"Soltinho"};+" to enter and exit the Hammerlock. "
-                        +"During Soltinho, put the hand down to enter it, and switch to Lateral steps. "; br
-                        +"You can also ";b{+"walk in front"};+" of your follower and start to combine all those variations (with one or two hands holding). "
+                    subSubSection("Soltinho Variation") {
+                        html {
+                            p {
+                                +"Similarly, instead of Lateral, you can use the Soltinho to enter and exit the Hammerlock. "
+                                +"During Soltinho, put the hand down to enter it, and switch to Lateral steps. "; br
+                                +"You can also ";b{+"walk in front"};+" of your follower and start to combine all those variations (with one or two hands holding). "
+                            }
+                            youtube("xopz7xGtx04?si=cdjBMxFn9xe0H8fi","Hammer Lock Soltinho Variation")
+                        }
                     }
-                    youtube("xopz7xGtx04?si=cdjBMxFn9xe0H8fi","Hammer Lock Soltinho Variation")
                 }
             }
         }
