@@ -34,10 +34,18 @@ fun ContactGeneralSections.resources(dsl: SectionedTabDsl) {
                         +", and "; externalLink("https://bennovoorham.com/", "Benno Voorham"); +"."
                     }
                     p {
-                        +"If you need something more close to the Netherlands, lookup the community calendar "
+                        +"If you need something more close to the ";b{+"Netherlands"};+", lookup the community calendar "
                         a("https://amsterdamjam.nl") { +"Amsterdam Jam" }; +". "
                         +"In case you are near Amsterdam you can also go directly to "; a("https://tomgoldhand.com") { +"Tom Goldhand" }; +"."
                     }
+                    // festivals in europe:
+                    // France
+                    // Ibiza Contact Festival
+                    // Italy Contact Festival
+                    // Israel Contact Festival
+                    // Freiburg
+                    // Ukraine Festival of Contact Improvisation
+                    // https://kontaktland.com hungary
                 }
             }
             subSection("Books") {
@@ -93,19 +101,20 @@ fun ContactGeneralSections.resources(dsl: SectionedTabDsl) {
             subSection("Videos") {
                 html {
                     p {
-                        +"It is highly recommended to watch \"";b { +"the classics" };+"\" (everything between 1972 and 1980) once in a while. "
+                        +"It is highly recommended to watch \"";b { +"the classics" };+"\" once in a while. "
                         +"This will help you to regularly check your understanding of the roots of CI or simply to get inspired to continue your practice. "
+                        +"Unfortunately, most videos are behind a pay wall by Videoda (Contact Collaborations) but a few can still be found on YouTube for free. "
+                        +"Historical videos from the years 1972 until 1983, like: Magnesium, Chute, Peripheral Vision, Soft Pallet, Contact at 10th, and Fall After Newton. "
                     }
                     ul {
-                        // magnesium - earliest iteration of CI; dance performancy by steve paxton, at Oberlin College 1972
-                        // chute
-                        // Soft Pallet
                         ali(
+                            // or: https://www.youtube.com/watch?v=9FeSDsmIeHA
                             url = "https://www.youtube.com/watch?v=RRwQdkgaiMs",
-                            label = "The Invention of CI - 1972",
+                            label = "Chute - The Invention of CI - 1972",
                             text = "When a group of people came together to investigate CI",
                         )
                         ali(
+                            // or: https://www.youtube.com/watch?v=k768K_OTePM + https://www.youtube.com/watch?v=_iGtJSxNUpI + https://www.youtube.com/watch?v=vMj3Coktu40
                             url = "https://www.youtube.com/watch?v=9tS3OVsPk6A",
                             label = "Fall After Newton - 1987",
                             text = "10 years of practice of Steve Paxton and Nancy Stark Smith",
