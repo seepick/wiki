@@ -48,9 +48,9 @@ fun ZoukIntermediateSections.newMoves(dsl: SectionedTabDsl) {
                         html {
                             p {
                                 +"A variation would be to do it more in a ";b{+"circular way"};+". "
-                                +"The leader going around her, clockwise, while the left hand stays connected. "
-                                +"The follower simply stays in Lateral all the time. "
-                                +"Doing this is possible entering from, and exiting into both doing the Lateral. "
+                                +"The leader going around her, clockwise, while the left hand stays connected and also very low (follower's shoulder!). "
+                                +"The follower simply stays in lateral all the time; the leader also does the follower's lateral steps. "
+                                +"To get out of it, raise the arm up, and then need to do some quick steps to get back to regular lateral again. "
                             }
                             youtube("uT_o_z2wUtc?si=vwUD-iLNIL_TZEug","Hammer Lock Lateral Variation")
                         }
@@ -65,6 +65,27 @@ fun ZoukIntermediateSections.newMoves(dsl: SectionedTabDsl) {
                             youtube("xopz7xGtx04?si=cdjBMxFn9xe0H8fi","Hammer Lock Soltinho Variation")
                         }
                     }
+                }
+            }
+            subSection("Airplanes") {
+                html {
+                    p {
+                        +"Instead of leading a ";b{+"simple turn"};+" from lateral to basic, you can also rotate the follower into an airplane. "
+                        +"The name stems from the extended arms rotating like the propeller of an airplane (or like the Dutch windmills). "
+                        +"Left hand slides ";i{+"under"};+" the follower's elbow, the right hand ";i{+"above"};+" on the elbow pit. "
+                        +"Shift your weight slightly to the left, going into a lunge position. "
+                        +"Give a slight push to indicate the movement, maintaining frame connection."
+                        +"The follower turns on the spot as usual; avoid travelling while turning, as the positioning will be misplaced otherwise. "
+                    }
+                    p {
+                        +"Another way of implementing the airplane is by the leader ";b{+"synchronizing"};+" into the follower's rhythm. "
+                        +"Start by changing your hand connection, only handing with your right hand the follower's left hand. "
+                        +"Move in front of her facing her with your back. "
+                        +"When doing the lunge, add a delay to sync into her rhythm, and do the turn. "
+                        +"You need to be a bit faster then the follower, slide your hand on her back, and add another delay to sync back to your own rhythm. "; br
+                        +"The follower can opt to do those airplane/windmills with an added head movement for more styling. "
+                    }
+                    youtube("H5V6KIGmaCs?si=MQ5m1-lwSVfVkNtD", "Airplane Variations")
                 }
             }
         }

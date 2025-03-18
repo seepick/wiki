@@ -36,7 +36,8 @@ fun ZoukIntermediateSections.movesRevised(dsl: SectionedTabDsl) {
                     p {
                         +"We already had a look on how to do the ";ref(ZoukRef.Yoyo)
                         +", starting from embrace steps and always sending the follower back to the same direction. "
-                        +"To finish it, we would let go of the hand with a swift external rotation and a free spin. "
+                        +"To finish it, we would pull and let go of the hand with a swift external rotation and a free spin. ";
+                        +"The follower has to watch out to do a proper travelling turn to adjust the distance accordingly. "
                     }
                     p {
                         +"A simple variation is to do it from the lateral, and just as with the ";ref(ZoukRef.Viradinha);+", to turn at the end. "

@@ -52,11 +52,19 @@ val ZoukTabs.home: Tab
         p { +"Some suggestions for Zouk beginners, music with a slow and clear rhythm:" }
         ul {
             li {
-                +"Practice playlists from Zouk Amsterdam: "
+                +"Practice playlists from BZA: "
                 externalLink("https://open.spotify.com/playlist/171AdEM6TSIyKPOMz39Y23", "60 BPM"); +", "
                 externalLink("https://open.spotify.com/playlist/0U9fV6pVcT5A9eROYSw8bP", "65 BPM"); +", "
                 externalLink("https://open.spotify.com/playlist/7sDZ1JAqwBrDjavlqlTfnx", "70 BPM"); +", "
                 externalLink("https://open.spotify.com/playlist/5MxF7N6CqSwomkjLnvTGwf", "75 BPM")
+            }
+            li {
+                +"Richie's social playlist: "
+                externalLink("https://open.spotify.com/playlist/61URtZPgp9ZNvTn4DSWrnS", "#1"); +", "
+                externalLink("https://open.spotify.com/playlist/6kiKE91kBGp4NEHmRJq5Cw", "#2"); +", "
+                externalLink("https://open.spotify.com/playlist/7kosHM4EDHUPfRsDCd1w8H", "#3"); +", "
+                externalLink("https://open.spotify.com/playlist/6Kz9U3y7xXHlb7ze2F2U9f", "#4"); +", ..."
+                // instrumentals: https://open.spotify.com/playlist/0Xn3k2ji87ZyARgCLzdGfN
             }
             li { externalLink("https://open.spotify.com/playlist/2XE4TgKDPZBFC5B5ZGAnNt?si=nmDNpKPOQXi0u2qBimKv8w&pi=e-9vGJCCMpQlmM", "Slow Zouk"); +" Spotify Playlist" }
             li { externalLink("https://www.youtube.com/@zoukmusicbrasil/videos", "Zouk Music Brazil"); +" YouTube Channel" }

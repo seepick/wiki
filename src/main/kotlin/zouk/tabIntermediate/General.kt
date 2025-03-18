@@ -10,12 +10,19 @@ fun ZoukIntermediateSections.general(dsl: SectionedTabDsl) {
                 html {
                     p {
                         +"We use a so-called ";b { +"WiFi connection" };+", to ensure we are not too much manipulating with our arms. "
-                        +"As we call it this way, because we have no physical, direct (hand-)connection with our partner. "
+                        +"As we call it this way, because we have no physical, direct (hand-)connection with our partner; "
                         +"The information is transmitted solely \"through the air \". "
+                        +"This requires us to be fully present with our partner, have a strong psychological connection, paying attention to position and orientation. "
                         +"Once you are able to fully understand each other this way, finding mutual understanding with physical connection will be super easy. "; br
                         +"One level easier should be to do all the moves with body contact, yet not direct hand-to-hand grip. "
                         +"Maybe an arm around the back, but still mostly lead everything from the frame. "
                         +"Learning to do so will allow you to total let go of leading only through the arm/hand. "
+                    }
+                    p {
+                        +"Nobody is perfect, and there will be mistakes (off beat, miscommunication, bumps, etc.). "
+                        +"The goal thus is not to reach perfection, but how to develop smooth ";b{+"recovery strategies"};+" to quickly get into it. "
+                        +"If your goals is '";i{+"dress to impress"};+"' then use the attitude of improvisation actors: "
+                        +"There are no mistakes, just unintentionally sources of inspiration. "
                     }
                 }
             }
@@ -80,6 +87,11 @@ fun ZoukIntermediateSections.general(dsl: SectionedTabDsl) {
                             +"Not too tight, squeezing her, expressing an overly neediness, wanting and taking. "
                             +"Also don't let too much space in between, expressing insecurity, not wanting to touch her. "
                             +"The whole leading, everything you do, holding hands, has this kind of quality."
+                        }
+                        li {
+                            +"For a more ";b{+"clear communication"};+", it is very helpful for the follower if a move is announced early upfront. "
+                            +"A simple lift of the arm is giving a clear signal that a change is about to happen. "
+                            +"Giving space to adjust, adapt and prepare to what's coming."
                         }
                     }
                 }

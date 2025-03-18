@@ -70,6 +70,10 @@ fun ZoukBeginnerSections.steps(dsl: SectionedTabDsl) {
                         +"It is also possible to go directly from the basic (without the lateral) into the embrace."
                         +"Do so when the leader is stepped back, keep the follower on the spot (clear signal), and turn her."
                     }
+                    p {
+                        +"A ";b{+"smoother variation"};+" is done by the leader adding some side steps in the follower's direction. "
+                        +"It will feel more fluent, instead of the on-the-spot embrace turn which gives a slight shock in the flow. "
+                    }
                 }
             }
         }
