@@ -42,9 +42,14 @@ val ZoukTabs.home: Tab
         // =============================================================================================================
         p { +"Schools, classes, festivals, workshops to practice and dance even more:" }
         ul {
-            ali("https://www.zoukamsterdam.nl/", "zoukamsterdam.nl", "the school, our school, this wiki is based on")
+            ali("https://www.brazilianzouk.nl", "Brazilian Zouk Netherlands", "Schools and events overview in NL")
+            ali("https://www.zoukamsterdam.nl", "Brazilian Zouk Amsterdam", "The school, our school, this wiki is based on")
+            ali("https://chat.whatsapp.com/L15bW47Mi2a07dqGTu0jnh", "Zouk Practice Amsterdam", "WhatsApp group to organize private sessions")
             ali("https://www.facebook.com/groups/1623478094408195/", "NL Zouk Events", "Facebook group for the Dutch Zouk community")
-            ali("https://braziliandancefestival.com", "braziliandancefestival.com", "every year in Amsterdam with discount as BZA student")
+            ali("https://braziliandancefestival.com", "Brazilian Dance Festival", "Every year in Amsterdam with discount as a BZA student")
+            ali("https://www.amsterdamzouklambada.nl", "Amsterdam Zouk Lambada", "Felipe's Wednesday classes in Amsterdam Noord")
+            ali("https://www.vibelatina.net", "Vibe Latina", "Fitness, Neo-Zouk and Contemporary Dance in Amsterdam Noord")
+            ali("https://www.tantraintozouk.com", "Tantra Into Zouk", "Spiritual multi-day retreats (intermediate, head moves)")
         }
 
         sectionTitle { +"Music" }
@@ -74,6 +79,7 @@ val ZoukTabs.home: Tab
         // =============================================================================================================
         p { +"Here are the links to the websites used for this wiki, along with some further reading:" }
         ul {
+            ali("https://www.instagram.com/zouk_moves", "Zouk Moves", "Plenty of Instagram videos for techniques with in regular and slow speed")
             ali("https://amozouk.com/blog/7-foundational-zouk-moves-all-beginners-should-know", "Amozouk", "Foundational Zouk moves for beginners")
             ali("https://www.jettence.com/blog/names-of-brazilian-zouk-moves-in-portuguese-with-gifs/", "Jettence Moves Gifs", "Same as above, just different moves")
             ali("http://zouk-germany.com", "Zouk Germany", "Providing lots of techniques and videos")

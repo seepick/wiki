@@ -50,51 +50,126 @@ fun ContactGeneralSections.resources(dsl: SectionedTabDsl) {
             }
             subSection("Books") {
                 html {
-                    p { +"There are about less than a dozen (good) books written specifically about CI:" }
-                    ul {
-                        bookItem(
-                            title = "Sharing the Dance: Contact Improvisation and American Culture",
-                            url = "https://www.amazon.com/Sharing-Dance-Improvisation-Directions-Anthropological/dp/0299124444",
-                            by = "Cynthia J. Novack",
-                            label = "A good book about the history of the form, origins and stories",
-                        )
-                        bookItem(
-                            title = "Caught Falling: The Confluence of Contact Improvisation",
-                            url = "https://www.amazon.com/Caught-Falling-Confluence-Contact-Improvisation/dp/0937645095",
-                            by = "Nancy Stark Smith",
-                        )
-                        bookItem(
-                            title = "Contact Improvisation: An Introduction to a Vitalizing Dance Form",
-                            url = "https://www.amazon.com/Contact-Improvisation-Introduction-Vitalizing-Dance/dp/0786426470",
-                            by = "Cheryl Pallant",
-                        )
-                        bookItem(
-                            title = "Contact Improvisation: Moving, Dancing, Interaction",
-                            url = "https://www.amazon.com/Contact-Improvisation-Dancing-Interaction-Introduction/dp/1841261386",
-                            by = "Thomas Kaltenbrunner",
-                        )
-                        bookItem(
-                            title = "Contact Improvisation and Body-Mind Centering: A Manual for Teaching and Learning Movement",
-                            url = "https://www.amazon.com/Improvisation-Body-Mind-Centering-Teaching-Learning/dp/0976044900",
-                            by = "Annie Brook",
-                        )
-                        bookItem(
-                            title = "Taken by Surprise: A Dance Improvisation Reader",
-                            url = "https://www.amazon.com/Taken-Surprise-Dance-Improvisation-Reader/dp/0819566489",
-                            by = "Ann Cooper Albright and David Gere",
-                        )
-                        bookItem(
+                    fun FlowContent.shelf(content: TABLE.() -> Unit) {
+                        table("shelf") {
+                            content()
+                        }
+                    }
+                    fun TABLE.book(
+                        title: String,
+                        imageFile: String,
+                        link: String,
+                        author: String,
+                        description: FlowContent.() -> Unit
+                    ) {
+                        tr {
+                            td {
+                                img("alt", "images/books/$imageFile") {  }
+                            }
+                            td {
+                                p { a(link, target = "_blank") { +title }}
+                                p { i {+"by $author"}}
+                                description()
+                            }
+                        }
+                    }
+                    p { +"There are a few books written specifically about CI, some more artistic, some more pragmatic:" }
+                    shelf {
+                        book(
                             title = "Dancing Deeper Still: The Practice of Contact Improvisation",
-                            url = "https://www.amazon.com/Dancing-Deeper-Still-Practice-Improvisation/dp/1775243044",
-                            by = " Martin Keogh",
-                            label = "Insightful, from poetic-abstract, to pragmatic-enumerated, and a teacher's experiences.",
-                        )
-                        bookItem(
+                            author = "Martin Keogh",
+                            imageFile = "martin_keogh-dancing_deeper_still.jpg",
+                            link = "https://www.amazon.com/Dancing-Deeper-Still-Practice-Improvisation/dp/1775243044",
+                        ) {
+                            p {
+                                +"Very insightful and useful. Less poetic-abstract more practical-pragmatic. ";
+                                +"A handbook, yet also a philosophical treatise. ";
+                                +"Definitely my personal favorite."
+                            }
+                        }
+                        book(
+                            title = "Contact Improvisation: An Introduction to a Vitalizing Dance Form",
+                            author = "Cheryl Pallant",
+                            imageFile = "cheryl_pallant_introduction_vitalizing_form.jpg",
+                            link = "https://www.amazon.com/Contact-Improvisation-Introduction-Vitalizing-Dance/dp/0786426470",
+                        ) {
+                            p {
+                                +"Written more from a dancers perspective. A bit of history, a bit of exercises. "
+                                +"Much about identity, how to find the self, the more subtle and artistic approach. "
+                                +"Shaping and expressing ourselves and the culture and its relations to politics. "
+                            }
+                        }
+                        book(
+                            title = "Caught Falling: The Confluence of Contact Improvisation",
+                            author = "Nancy Stark Smith",
+                            imageFile = "nancy_stark_smith-caught_falling.jpg",
+                            link = "https://www.amazon.com/Caught-Falling-Confluence-Contact-Improvisation/dp/0937645095",
+                        ) {
+                            p {
+                                +"More life stories, anecdotes, history, personal experiences. "
+                                +"It also describes Nancy's own invention, a system she called 'Underscore'. "
+                            }
+                        }
+                        book(
+                            title = "Contact Improvisation: Moving, Dancing, Interaction",
+                            author = "Thomas Kaltenbrunner",
+                            imageFile = "thomas_kaltenbrunner-moving_dancing_interaction.jpg",
+                            link = "https://www.amazon.com/Contact-Improvisation-Dancing-Interaction-Introduction/dp/1841261386",
+                        ) {
+                            p {
+                                +"More for teachers: exercises, instructions, ideas on how to lead workshops. "
+                                +"It tries to help how to lead classes more successfully. "
+                            }
+                        }
+                        book(
+                            title = "Contact Improvisation and Body-Mind Centering: A Manual for Teaching and Learning Movement",
+                            author = "Annie Brook",
+                            imageFile = "annie_brook-body_mind_centering.jpg",
+                            link = "https://www.amazon.com/Improvisation-Body-Mind-Centering-Teaching-Learning/dp/0976044900",
+                        ) {
+                            p {
+                                +"Manual for teaching and learning; exercises for awakening the body and emotional distress. "
+                                +"Creating a sense of flow and an improvisational mind. "
+                            }
+                        }
+                        book(
+                            title = "Taken by Surprise: A Dance Improvisation Reader",
+                            author = "Ann Cooper Albright and David Gere",
+                            imageFile = "ann_cooper-taken_by_surprise.jpg",
+                            link = "https://www.amazon.com/Taken-Surprise-Dance-Improvisation-Reader/dp/0819566489",
+                        ) {
+                            p {
+                                +"Essays by dancers, scholars and historians, reflecting CI's development as a compositional and performance mode. "
+                                +"More from a traditional dance perspective from around the globe. "
+                            }
+                        }
+                        book(
+                            title = "Sharing the Dance: Contact Improvisation and American Culture",
+                            author = "Cynthia J. Novack",
+                            imageFile = "cynthia_novack-sharing_the_dance.jpg",
+                            link = "https://www.amazon.com/Sharing-Dance-Improvisation-Directions-Anthropological/dp/0299124444",
+                        ) {
+                            p {
+                                +"More about the history of the form, its origins and stories. "
+                                +"Considering the historical, social, and cultural contexts CI developed from. "
+                                +"How we encode sexuality, spontaneity, gender roles, concepts of self and society. "
+                                +"She references to Merce Cunningham, Anna Halprin, Judson Church. "
+                                +"Referring to physical activities like martial arts, aerobics, and wrestling. "
+                            }
+                        }
+                        book(
                             title = "Gravity",
-                            url = "https://contredanse.org/en/product/gravity/",
-                            by = "Steve Paxton",
-                            label = "A rather short and more abstract, artistic, book, like a journal of some thoughts.",
-                        )
+                            author = "Steve Paxton",
+                            imageFile = "steve_paxton-gravity.jpg",
+                            link = "https://contredanse.org/en/product/gravity/",
+                        ) {
+                            p {
+                                +"A short, abstract, poetic (post-modern), artistic book, researching the human relationship to gravity, from birth until death. "
+                                +"It's more like a journal of some thoughts, and not meant to be taken literally or understood by the intellect. "
+                                +"Steve is pondering on the conditions of life, how the physical forces underpin our personal stories. "
+                                +"The limits of our consciousness."
+                            }
+                        }
                     }
                 }
             }

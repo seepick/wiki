@@ -235,6 +235,27 @@ iframe {
     margin-bottom: 0;
 }
 
+/* SHELF */
+/* ============================================================================ */
+
+table.shelf, table.shelf tr, table.shelf td, table.shelf p {
+    padding: 0;
+    margin: 0;
+}
+table.shelf {
+    width: 100%;
+    border: 0;
+    td:nth-child(1) {
+        width: 0%;
+        padding-right: 5px;
+        text-align: center;
+    }
+    td:nth-child(2) {
+        vertical-align: top;
+
+    }
+}
+
 /* MISC */
 /* ============================================================================ */
 .caption {
