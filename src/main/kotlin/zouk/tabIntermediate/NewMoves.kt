@@ -79,6 +79,7 @@ fun ZoukIntermediateSections.newMoves(dsl: SectionedTabDsl) {
                     }
                     p {
                         +"Another way of implementing the airplane is by the leader ";b{+"synchronizing"};+" into the follower's rhythm. "
+                        +"In partner dance, this is generally also called to ";b{+"shadow"};+" the partner. "; br
                         +"Start by changing your hand connection, only handing with your right hand the follower's left hand. "
                         +"Move in front of her facing her with your back. "
                         +"When doing the lunge, add a delay to sync into her rhythm, and do the turn. "

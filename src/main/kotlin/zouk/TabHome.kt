@@ -77,7 +77,7 @@ val ZoukTabs.home: Tab
 
         sectionTitle { +"Resources" }
         // =============================================================================================================
-        p { +"Here are the links to the websites used for this wiki, along with some further reading:" }
+        p { +"Here are the links for Charlotte to the websites used for this wiki, along with some further reading:" }
         ul {
             ali("https://www.instagram.com/zouk_moves", "Zouk Moves", "Plenty of Instagram videos for techniques with in regular and slow speed")
             ali("https://amozouk.com/blog/7-foundational-zouk-moves-all-beginners-should-know", "Amozouk", "Foundational Zouk moves for beginners")

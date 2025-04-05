@@ -36,7 +36,8 @@ fun ContactGeneralSections.resources(dsl: SectionedTabDsl) {
                     p {
                         +"If you need something more close to the ";b{+"Netherlands"};+", lookup the community calendar "
                         a("https://amsterdamjam.nl") { +"Amsterdam Jam" }; +". "
-                        +"In case you are near Amsterdam you can also go directly to "; a("https://tomgoldhand.com") { +"Tom Goldhand" }; +"."
+                        +"In case you are near Amsterdam you can also go directly to "; a("https://tomgoldhand.com") { +"Tom Goldhand" }; +" ";
+                        +"or ";a("https://www.casagrafia.com") { +"Raul Saldarriaga" };+" for some more contemporary influenced classes."
                     }
                     // festivals in europe:
                     // France
@@ -82,9 +83,9 @@ fun ContactGeneralSections.resources(dsl: SectionedTabDsl) {
                             link = "https://www.amazon.com/Dancing-Deeper-Still-Practice-Improvisation/dp/1775243044",
                         ) {
                             p {
-                                +"Very insightful and useful. Less poetic-abstract more practical-pragmatic. ";
-                                +"A handbook, yet also a philosophical treatise. ";
-                                +"Definitely my personal favorite."
+                                +"Extremely useful. Less poetic-abstract more practical-pragmatic. "
+                                +"A handbook, yet also a philosophical treatise. "
+                                +"Definitely my personal favorite and worth the money and time to invest. "
                             }
                         }
                         book(
