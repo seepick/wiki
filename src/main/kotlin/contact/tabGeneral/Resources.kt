@@ -83,9 +83,28 @@ fun ContactGeneralSections.resources(dsl: SectionedTabDsl) {
                             link = "https://www.amazon.com/Dancing-Deeper-Still-Practice-Improvisation/dp/1775243044",
                         ) {
                             p {
-                                +"Extremely useful. Less poetic-abstract more practical-pragmatic. "
                                 +"A handbook, yet also a philosophical treatise. "
+                                +"I consider it a extremely useful and insightful. "
+                                +"It has less of an poetic-abstract, and more of a practical-pragmatic approach. "; br
                                 +"Definitely my personal favorite and worth the money and time to invest. "
+                            }
+                        }
+                        book(
+                            title = "Sharing the Dance: Contact Improvisation and American Culture",
+                            author = "Cynthia J. Novack",
+                            imageFile = "cynthia_novack-sharing_the_dance.jpg",
+                            link = "https://www.amazon.com/Sharing-Dance-Improvisation-Directions-Anthropological/dp/0299124444",
+                        ) {
+                            p {
+                                +"Although at first it might look like a boring anthropological academic book about dance, "
+                                +"it surprises the reader with being confronted of the essence of CI as it was understood originally. "
+                                +"It gives a broad, lively overview of the people, places, groups and institutions that were involved. "
+                                +"The book was published 1990, and as such preserves, a view unique and insightful for today's practitioners. "
+//                                +"More about the history of the form, its origins and stories. "
+//                                +"Considering the historical, social, and cultural contexts CI developed from. "
+//                                +"How we encode sexuality, spontaneity, gender roles, concepts of self and society. "
+//                                +"She references to Merce Cunningham, Anna Halprin, Judson Church. "
+//                                +"Referring to physical activities like martial arts, aerobics, and wrestling. "
                             }
                         }
                         book(
@@ -107,8 +126,8 @@ fun ContactGeneralSections.resources(dsl: SectionedTabDsl) {
                             link = "https://www.amazon.com/Caught-Falling-Confluence-Contact-Improvisation/dp/0937645095",
                         ) {
                             p {
-                                +"More life stories, anecdotes, history, personal experiences. "
-                                +"It also describes Nancy's own invention, a system she called 'Underscore'. "
+                                +"More about life stories, anecdotes, history, personal experiences and Q&As of CI's history. "
+                                +"It also describes Nancy's own invention to research dance improvisation, a system she called 'Underscore'. "
                             }
                         }
                         book(
@@ -145,17 +164,40 @@ fun ContactGeneralSections.resources(dsl: SectionedTabDsl) {
                             }
                         }
                         book(
-                            title = "Sharing the Dance: Contact Improvisation and American Culture",
-                            author = "Cynthia J. Novack",
-                            imageFile = "cynthia_novack-sharing_the_dance.jpg",
-                            link = "https://www.amazon.com/Sharing-Dance-Improvisation-Directions-Anthropological/dp/0299124444",
+                            title = "Resistance and Support: Contact Improvisation @ 50",
+                            author = "Ann Cooper Albright",
+                            imageFile = "ann_cooper_albright-resistance_and_support.jpg",
+                            link = "https://www.amazon.nl/Resistance-Support-Contact-Improvisation-50/dp/0197776272",
                         ) {
                             p {
-                                +"More about the history of the form, its origins and stories. "
-                                +"Considering the historical, social, and cultural contexts CI developed from. "
-                                +"How we encode sexuality, spontaneity, gender roles, concepts of self and society. "
-                                +"She references to Merce Cunningham, Anna Halprin, Judson Church. "
-                                +"Referring to physical activities like martial arts, aerobics, and wrestling. "
+                                +"Collection of 20 stories from all over the globe, written from a somatic, social and political perspective. "
+                                +"From feminist and queer, to healing, spiritual and therapeutic. "
+                                +"These writings emerged from the international ";i{+"Critical Mass: CI @ 50"};+" conference for CI's 50th anniversary. "
+                            }
+                        }
+                        book(
+                            title = "Contact Improvisation im Spannungsfeld zwischen Tanzkunst und Alltagsbewegung",
+                            author = " Marion Glöggler",
+                            imageFile = "marion_gloeggler-koerperintelligenz.jpg",
+                            link = "https://www.amazon.nl/Improvisation-Spannungsfeld-Alltagsbewegung-K%C3%B6rperdialoge-K%C3%B6rperintelligenz/dp/3959352387",
+                        ) {
+                            p {
+                                +"Dieses Buch behandelt die Erforschung von CI hinsichtlich der Förderung der individuellen Körperintelligenz. "
+                                +"Dabei wird auf die objektive Wirklichkeit der physikalischen Welt beschränkt. "
+                                +"Die Psychologie wird nur soweit miteinbezogen wie sie die Prinzipien unterstreicht oder erklärt. "
+                            }
+                        }
+                        book(
+                            title = "Psychologische und Transpersonale Aspekte der Contact Improvisation",
+                            author = " Antje Feistel",
+                            imageFile = "antje_feistel-psychologische_und_transpersonale_aspekte.jpg",
+                            link = "https://www.amazon.nl/Psychologische-Transpersonale-Aspekte-Contact-Improvisation/dp/3639809009",
+                        ) {
+                            p {
+                                +"CI als zeitgenössische Tanzform im Körper erlebte Freiheit und der daraus resultierenden Freude am Kontakt mit sich selbst und anderen. "
+                                +"Dienlich zur Persönlichkeitsentfaltung und der spirituellen Entwicklung jenseits von den Bestrebungen des Egos. "
+                                +"Die Körper-Sein Ebene steht im Zentrum der theoretischen Betrachtung des Buches, "
+                                +"und nutzt die sechs Merkmalen des Flow-Erlebnisses nach dem Modell von Csikzentmihalyi. "
                             }
                         }
                         book(
