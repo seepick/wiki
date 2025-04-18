@@ -93,6 +93,27 @@ fun ZoukIntermediateSections.general(dsl: SectionedTabDsl) {
                             +"A simple lift of the arm is giving a clear signal that a change is about to happen. "
                             +"Giving space to adjust, adapt and prepare to what's coming."
                         }
+                        li {
+                            +"Some followers struggle with keeping balance and a controlled directionality when ";b{+"turning"};+". "
+                            +"You can improve it by keeping the feet on the ground, including the heels, and slide more than stepping. "
+                            +"Also avoid to do a full spin, which might be fast, but is highly unstable. "
+                            +"Instead, take turning steps on the chit-chit as we always do. "; br
+                            +"Also use the left foot as a pivot point, in order to avoid travelling to the side but stay on the spot. "
+                            +"This will avoid a \"rushed leader trying to catch the follower\" situation. "
+                        }
+                        li {
+                            +"To more clearly communicate a turn into the follower, properly lift the elbow, and not only the hand. "
+                            +"Remember the image of emptying a cup."
+                        }
+                    }
+                }
+            }
+            subSection("Styling") {
+                html {
+                    p {
+                        +"Follower styling can include tilting the hips sideways on each step, or doing a body-wave. "
+                        +"In any case, watch out to keep the upper body stable and only move the lower body, "
+                        +"as otherwise this will interrupt the connection and break the dance."
                     }
                 }
             }
