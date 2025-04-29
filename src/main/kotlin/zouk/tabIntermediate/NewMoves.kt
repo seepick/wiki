@@ -89,6 +89,28 @@ fun ZoukIntermediateSections.newMoves(dsl: SectionedTabDsl) {
                     youtube("H5V6KIGmaCs?si=MQ5m1-lwSVfVkNtD", "Airplane Variations")
                 }
             }
+            subSection("Bounce-Bodywave") {
+                html {
+                    p {
+                        +"There needs to be a proper, firm connection through the hands and arms so communication can be flow when indicating this technique. "
+                        +"When leaning backwards, the common \"LEGO\"-hands give enough surface to hold on to each other; elbow straight, arms extended and facing downwards. "
+                        +"When leaning forward, the leader provides a surface, palms facing upwards, onto which the follower is pushing down (alternatively, a typical LEGO-hand push can be done as well). "
+                    }
+                    p {
+                        +"Play around with a rhythmic pattern (on-beat, or double-time) of bouncing front and back together, maintaining a stable frame and an elastic quality to make this motion as smooth as possible. "
+                        +"The body-wave is quite similar in that the leader is indicating the move by simply doing it himself, with a slight indication with drawing a circular shape with his arms. "
+                    }
+                    p {
+                        +"Alternatively, you can also try to do it in a ";b{+"open hand position"};+", instead of a closed one. "
+                        +"The leader is flattening the hands, follower doing the same, so the palm contact can be maintained while the arms are rotating; the leader's fingers now pointing outwards. "
+                    }
+                    p {
+                        +"While doing the lateral steps, when the follower is on the left and turning facing the right, step on her line and give a \"blocking\" signal to make her stand. "
+                        +"To get back to lateral, simple step out of the line and let her repeat her lateral where she left off. "
+                    }
+                    youtube("Rnm6g4pOuLA?si=hLi0XpIfhQccp4Pa", "Bounce and Body-wave from Lateral")
+                }
+            }
         }
     }
 }

@@ -1,6 +1,7 @@
 package zouk.tabBeginner
 
 import common.Topic
+import common.ref
 import common.topics
 import common.youtube
 import kotlinx.html.*
@@ -11,6 +12,7 @@ import shared.Mistakes
 import shared.Shared
 import shared.Terminology
 import tabs.SectionedTabDsl
+import zouk.ZoukRef
 
 fun ZoukBeginnerSections.general(dsl: SectionedTabDsl) {
     with(dsl) {
@@ -30,6 +32,12 @@ fun ZoukBeginnerSections.general(dsl: SectionedTabDsl) {
                         li { b { +"Mixed" };+": One side closed, and the other is open." }
                     }
                     youtube("dy2gSclrzSs?si=YSdm1nVn_TgweYgX", "The different connecting styles")
+                    p {
+                        +"When both stand next to each other, facing the same direction, as for example happens during the ";ref(ZoukRef.Viradinha);+", "
+                        +"the hand slides a bit further \"into\" the back. "
+                        +"Watch out that the base of the middle finger is on the inferior angle of the scapula sinister, thus the fingers touching the rhomboids."
+                        +"The leader's arm changing its shape from an embrace to a \"open door\" gesture. "
+                    }
                 }
             }
             subSection("Overview") {

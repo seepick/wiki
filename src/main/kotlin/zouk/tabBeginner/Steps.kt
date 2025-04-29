@@ -7,6 +7,12 @@ import tabs.SectionedTabDsl
 fun ZoukBeginnerSections.steps(dsl: SectionedTabDsl) {
     with(dsl) {
         section("Steps") {
+            html {
+                p {
+                    +"Which ever steps and moves we make, when there is a clear geometrical line to follow, "
+                    +"the leader always steps out, freeing the path for the follower, creating a generous \"red carpet \". "
+                }
+            }
             subSection("Basic") {
                 // =====================================================================================================
                 html {

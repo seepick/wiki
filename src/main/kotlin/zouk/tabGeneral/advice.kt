@@ -37,6 +37,13 @@ fun ZoukGeneralSections.advice(dsl: SectionedTabDsl) {
                         Shared.AdviceTechnical.Engagement,
                         Shared.AdviceTechnical.InvitingArm,
                         Shared.AdviceTechnical.SoftStrong,
+                        Topic("Round Movements") {
+                            +"Always make all the movements round for the follower, smoothing out the edges and sharp corners. "
+                            +"Do that when changing direction, or initiating any technique. "
+                            +"Think about it like in music fading in and fading out, to create a -predictable- transition. "
+                            +"It's like announcing it a bit upfront, so there will be no unexpected surprise, "
+                            +"which might lead to a shock sensation instead of making the experience more enjoyable."
+                        },
                         Topic("Distance") {
                             +"Find a comfortable distance with your partner, it's also fine to just ask explicitly when in doubt. "
                             +"Just don't rush it right away, and slowly adjust distance and be very sensitive to the response you get. "

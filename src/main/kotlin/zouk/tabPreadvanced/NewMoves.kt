@@ -1,8 +1,10 @@
 package zouk.tabPreadvanced
 
+import common.ref
 import common.youtube
 import kotlinx.html.*
 import tabs.SectionedTabDsl
+import zouk.ZoukRef
 import zouk.tabIntermediate.ZoukIntermediateSections
 
 fun ZoukPreadvancedSections.newMoves(dsl: SectionedTabDsl) {
@@ -11,7 +13,7 @@ fun ZoukPreadvancedSections.newMoves(dsl: SectionedTabDsl) {
             subSection("Roasted Chicken") {
                 html {
                     p {
-                        +"Roasted chicken can also be called more technically as a rotational turn, or as a spiral. "
+                        +"Roasted chicken can also be called more technically as a rotational turn (rotisserie?), or as a spiral. "
                         +"It is basically a rotation in a different plane: Either transversal (simple turn) versus in the frontal plane (roasted chicken)."
                         +"From lateral, you can indicate a simple turn, and ending up on the other side. "
                         +"Watch out to not block the follower's line, but also not to move out too far and too quickly. "; br
@@ -23,6 +25,22 @@ fun ZoukPreadvancedSections.newMoves(dsl: SectionedTabDsl) {
                         +"Followers watch out to keep your core engaged to protect injury of the lower back; move from the chest. "
                     }
                     youtube("pdaNvERLsRE?si=cI9Z1hDYt1J2edek", "Roasting the chicken turn")
+                    p {
+                        +"Watch out to keep the follower's arm approximately shoulder height when finishing this move and going back to lateral, as otherwise it might communicate something different. "
+                    }
+                }
+                subSubSection("Combined with Balao") {
+                    html {
+                        p {
+                            +"We already know the head movement called ";ref(ZoukRef.Balao);+" from the improver's class. "
+                            +"Start when the follower is on the left, to have her head tilted to her right side. "
+                            +"Once she is on your right side (did one lateral), her head should now be tilted to her left side, the starting position. "
+                            +"The Balao is thus only have a round, to the back only."
+                            +"From her, when the roasted chicken starts, the head is going straight down, chin to the chest. "; br
+                            +"Additionally, you can walk around (CW) the follower, keep your right hand in touch, over the waist and diagonally up to the shoulder and initiate another Balao and Roasted Chicken. "
+                        }
+                        youtube("VUpU-vW1QD0?si=G3RQ-2_HYUnRQ17P", "Roasted Balao")
+                    }
                 }
             }
         }
