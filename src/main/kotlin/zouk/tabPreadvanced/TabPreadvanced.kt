@@ -12,5 +12,6 @@ object ZoukPreadvancedSections // via extensions
 
 val ZoukTabs.preadvanced: Tab
     get() = sectionedTab("Pre-Advanced") {
+        ZoukPreadvancedSections.general(this)
         ZoukPreadvancedSections.newMoves(this)
     }

@@ -58,7 +58,7 @@ fun ZoukIntermediateSections.movesRevised(dsl: SectionedTabDsl) {
                     }
                 }
             }
-            subSection("Lung Turn") {
+            subSection("Lunge Turn") {
                 html {
                     p {
                         +"Sometimes the communication of a turn is not clear for the follower. "

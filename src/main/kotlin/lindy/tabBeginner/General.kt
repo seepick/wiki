@@ -8,7 +8,6 @@ import shared.AdviceQualities
 import shared.AdviceTechnical
 import shared.Mistakes
 import shared.Shared
-import shared.SharedAdvicePartner.BodyDifferences
 import shared.Terminology
 import tabs.SectionedTabDsl
 
@@ -109,13 +108,13 @@ fun LindyBeginnerSections.general(dsl: SectionedTabDsl) {
                     html {
                         topics(
                             Shared.Mistakes.RushedEntrance,
-                            Shared.Mistakes.SqueezeHands,
+                            Shared.Mistakes.SqueezedHands,
                             Shared.Mistakes.StiffArms,
                             Shared.Mistakes.LeadingArms,
                             Shared.Mistakes.ForcedLeading,
                             Shared.Mistakes.LookingDown,
                             Shared.Mistakes.ExpectationManagement,
-                            Shared.Mistakes.RecoveryAttitude,
+                            Shared.Mistakes.DisasterAttitude,
                             Topic("Wrong Bounce") {
                                 +"Bouncing upwards, almost hopping, or not bouncing at all, instead of bouncing down into the ground. "
                             },

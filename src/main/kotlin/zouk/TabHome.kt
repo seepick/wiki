@@ -85,5 +85,6 @@ val ZoukTabs.home: Tab
             ali("http://zouk-germany.com", "Zouk Germany", "Providing lots of techniques and videos")
             ali("https://www.youtube.com/watch?v=lYeU6SnPa2k&list=PLtg3wEXTYx6pDBoVcgGk2CIRA05dJytoW", "Tiago Movimentus", "A few couple of dozen tutorial videos on YouTube")
             ali("https://amozouk.com/zouk-move-dictionary", "Amozouk's move dictionary", "A list of technique names and short descriptions")
+            ali("https://www.youtube.com/@VdanceClubSchool/videos", "VdanceClub", "Latin dances and general dance information")
         }
     }

@@ -10,9 +10,11 @@ fun ZoukIntermediateSections.general(dsl: SectionedTabDsl) {
                 html {
                     p {
                         +"We use a so-called ";b { +"WiFi connection" };+", to ensure we are not too much manipulating with our arms. "
-                        +"As we call it this way, because we have no physical, direct (hand-)connection with our partner; "
-                        +"The information is transmitted solely \"through the air \". "
-                        +"This requires us to be fully present with our partner, have a strong psychological connection, paying attention to position and orientation. "
+                        +"It is called that way, because we have no physical, direct (hand-)connection with our partner; "
+                        +"the information is transmitted solely \"through the air \". "
+                        +"This requires us to be fully present with our partner, have a strong mental connection, paying attention to position and orientation. "
+                        +"To connect the shoulders and hips visually with each other, and keep an open focus on the sternum of your partner. "; br
+
                         +"Once you are able to fully understand each other this way, finding mutual understanding with physical connection will be super easy. "; br
                         +"One level easier should be to do all the moves with body contact, yet not direct hand-to-hand grip. "
                         +"Maybe an arm around the back, but still mostly lead everything from the frame. "

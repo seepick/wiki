@@ -4,7 +4,6 @@ import common.Topic
 import common.topics
 import kotlinx.html.b
 import kotlinx.html.br
-import kotlinx.html.p
 import shared.AdvicePartner
 import shared.AdviceQualities
 import shared.AdviceTechnical
@@ -16,7 +15,7 @@ import tabs.SectionedTabDsl
 fun ZoukGeneralSections.advice(dsl: SectionedTabDsl) {
     with(dsl) {
         section("Advice") {
-            subSection("Partnered Up") {
+            subSection("Partnering") {
                 // =====================================================================================================
                 html {
                     topics(
@@ -56,7 +55,7 @@ fun ZoukGeneralSections.advice(dsl: SectionedTabDsl) {
                 }
             }
 
-            subSection("Subtle Qualities") {
+            subSection("Qualities") {
                 // =====================================================================================================
                 html {
                     topics(
@@ -74,49 +73,32 @@ fun ZoukGeneralSections.advice(dsl: SectionedTabDsl) {
                 html {
                     topics(
                         Shared.Mistakes.RushedEntrance,
-                        Shared.Mistakes.SqueezeHands,
+                        Shared.Mistakes.SqueezedHands,
                         Shared.Mistakes.StiffArms,
                         Shared.Mistakes.LeadingArms,
                         Shared.Mistakes.ForcedLeading,
-                        Topic("Wrapped Shoulder Blades") {
+                        Topic("Wrapped Hands Too Low") {
                             +"When being in closed position, the leader often puts is hands too low. "
                             +"Be sure to be almost in the armpits, properly covering the shoulder blades of your follower. "
                         },
                         Topic("Hopping") {
                             +"Instead of hopping up and down with every step (as a leader), keep the vertical axis still and stable."
                         },
+                        Topic("Unstable Frame") {
+                            +"Especially for the follower it happens, when they try to be overly sensual/feminine, that they ruin there frame. "
+                            +"The upper body must stay stable, the frame maintained, and thus the sexy swinging of the hips is an isolated movement. "
+                        },
                         Shared.Mistakes.LookingDown,
                         Shared.Mistakes.ExpectationManagement,
-                        Shared.Mistakes.RecoveryAttitude,
+                        Shared.Mistakes.DisasterAttitude,
+                        Topic("Out-of-Lines") {
+                            +"Followers are often not keeping their lines, not being aware of the geometry which makes the dance a game of catch and rather rushed than relaxing/enjoyable. "
+                            +"There is a certain geometry, especially at the beginning. Later, the limited 90 degrees may change, yet there are clear turns, and the degrees need to be paid attention to even more. "; br
+
+                            +"The general rule is, that leaders make space for the follower, and not the other way round. "
+                            +"The leader steps out of the line, for example during Lateral/Viradinha, or simple turns."
+                        }
                     )
-                }
-            }
-            subSection("Attitude") {
-                // =====================================================================================================
-                html {
-                    p {
-                        +"To prepare for the social event, you can apply different ";b { +"styles" };+" "
-                        +"(speed, energy) and enabling you to only use a few techniques, yet enrich them with some diversity. "; br
-                        +"We practice giving each other ";b { +"feedback" };+" after the dance how we experienced the dance in terms "
-                        +"of qualities, such as: Tense, slow, tender, fast-paced, ... "; br
-                        +"We also play with inviting and recognizing an appropriate ";b { +"distance" };+", letting the follower "
-                        +"come by opening up, inviting space to come as close as desired, not using any force and respecting each other's comfort zone ."
-                    }
-                    p {
-                        +"Also learn how to ";b { +"soften" };+" a bit and tap into the more subtle qualities of a partner dance. "
-                        +"Simple things like the qualities of expansion and contraction, but also the fundamental source of relaxation: the ";b { +"breath" };+". "
-                        +"Doing a quick ";b { +"body scan" };+", dropping the chest, bending the knees. "
-                        +"When dancing with a new/unknown partner, or the unknown happens, instead of tensing up, simply let go, relax, and recover."; br
-                        +"Speaking of ";b { +"unknown partner" };+": Before immediately and right away start dancing, first establish "
-                        +"eye contact, say \"hi\", smile, and give it a few moments to connect; groove on the beat, "
-                        +"and then slowly build up the technical moves. "
-                    }
-                    p {
-                        +"Find a mutually preferred level of intimacy between you and your partner. "
-                        +"Be conscious about the subtle signals you get from her and find the proper distance there. "
-                        +"Sometimes \"boob grazing\" happens, and as long as it wasn't intentionally, your follower won't have any issue with it. "
-                        +"If, as a follower, you feel it happens intentional, address it and ask directly. "
-                    }
                 }
             }
         }

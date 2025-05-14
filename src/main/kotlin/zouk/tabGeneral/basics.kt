@@ -3,6 +3,7 @@ package zouk.tabGeneral
 import common.Topic
 import common.topics
 import kotlinx.html.b
+import kotlinx.html.br
 import kotlinx.html.li
 import kotlinx.html.p
 import kotlinx.html.ul
@@ -64,6 +65,41 @@ fun ZoukGeneralSections.basics(dsl: SectionedTabDsl) {
                             +"It has the advantages of a 1-on-1 session, but with different people to change partner with, "
                             +"and the possibility to collaboratively doing research together, asking questions, helping and supporting each other. "
                             +"There is more talking than on social, more investigation, and thus also more progress happening for those who want to accelerate in their skills. "
+                        }
+                    }
+                }
+            }
+            subSection("Attitude") {
+                // =====================================================================================================
+                html {
+                    p {
+                        +"Especially as a beginner when going to a social event, you can apply different ";b { +"styles" };+" "
+                        +"(think about speed and energy/movement-quality) which enables you to only use a few techniques, yet enrich them with some diversity. "; br
+                    }
+                    p {
+                        +"Learn how to ";b { +"soften" };+" a bit and tap into the more subtle qualities of a partner dance. "
+                        +"Simple things like the qualities of expansion and contraction, but also the fundamental source of relaxation: the ";b { +"breath" };+". "
+                        +"Doing a quick ";b { +"body scan" };+", dropping the chest, bending the knees. "
+                        +"When dancing with a new/unknown partner, or the unknown happens, instead of tensing up, simply let go, relax, and recover."; br
+                        +"Speaking of ";b { +"unknown partner" };+": Before immediately and right away start dancing, first establish "
+                        +"eye contact, say \"hi\", smile, and give it a few moments to connect; groove on the beat, "
+                        +"and then slowly build up the technical moves. "
+                    }
+                }
+                subSubSection("Sensuality") {
+                    html {
+                        p {
+                            +"Zouk is inherently a sensual (and also sensitive) dance, not only its literal meaning of using one's senses, predominantly the tactile sense, "
+                            +"but most of it all in regard to playing with interpersonal erotic and sexual (mating?) behaviors. "
+                            +"Tapping into these qualities can fuel and influence your dance, making it more connected, grounded and plain enjoyable. "; br
+
+                            +"Find a mutually preferred level of ";b{+"intimacy"};+" between you and your partner. "
+                            +"Play with inviting and recognizing an appropriate ";b { +"distance" };+", letting the follower "
+                            +"come by opening up, inviting space to come as close as desired, not using any force and respecting each other's comfort zone ."
+                            +"Be conscious about the subtle signals you get from her and find the proper distance there. "; br
+
+                            +"Sometimes \"boob grazing\" happens, and as long as it wasn't intentionally, your follower will probably not have any issue with it. "
+                            +"If, as a follower, you feel this happens intentionally, express your concerns directly and talk about it. "
                         }
                     }
                 }

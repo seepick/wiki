@@ -11,14 +11,26 @@ val Shared.Mistakes get() = SharedMistakes
 
 object SharedTerminology {
     val frame = Topic("Frame") {
-        +"A wireframe-like structure established by a connection of the arms with the whole upper body; "
-        +"the part between the shoulders and hips, which stays upright and doesn't collapse. "
-        +"It must be connected to the arms to communicate (arm) movements (from our partner) into the whole body; an indirect center-center connection. "
+        +"A wire";i{+"frame"};+" -like structure established by a connection of the arms with the center and the whole upper body; "
+        +"the part between the shoulders (rhomboid and latissimus dorsi muscles) and hips, which stays upright and doesn't collapse. "
+        +"A body-to-body connection through the arms, a means of communication. "; br
+
+        +"It must be connected to the arms to communicate movements into the whole body; an indirect center-to-center connection. "
+        +"It allows communication, a sender-receiver relation, where the talking and listening is happening. "
+        +"If there is no frame, there is no wire to transmit information. "; br
+
+        +"The frame requires a stable posture, arms tightly connected to the center with a healthy amount of tension; no spaghetti arms. "
+        +"The elbows stay within the front range and never go behind the body. "
+        +"Also, don't break from the hips, bending too much; basically staying upright. "
+        +"For the leader, that frame stays usually more stable, more upright and static. "
+        +"For the follower, it is more dynamic, movable, bending, twisting, and spiraling more."
     }
 }
 
 object SharedAdvicePartner {
     val Feedback = Topic("Feedback") {
+        +"We practice giving each other ";b { +"feedback" };+" after the dance how we experienced the dance in terms "
+        +"of qualities, such as: Tense, slow, tender, fast-paced, ... "; br
         +"Give feedback to your partner, but don't criticize them. "
         +"Show compassion, support and patience while doing so. "
         +"Don't let your own ";b { +"inner critic" };+" also affect your partner. "
@@ -122,7 +134,7 @@ object SharedAdviceQualities {
 }
 
 object SharedMistakes {
-    val SqueezeHands = Topic("Squeezing Hands") {
+    val SqueezedHands = Topic("Squeezed Hands") {
         +"Squeezing the hand of your partner, especially using the thumb, doesn't only feel uncomfortable, but also makes some moves impossible. "
         +"Use instead a relaxed 4-finger-connection, shaped like LEGO hands, so you can also push into the open hand."
     }
@@ -145,11 +157,11 @@ object SharedMistakes {
     val ExpectationManagement = Topic("Expectation Management") {
         +"Not enjoying it by having too high expectations, instead of just doing it and failing fantastically with some laughter."
     }
-    val RecoveryAttitude = Topic("Recovery Attitude") {
-        +"It's not about not falling, it's about how we are able to stand up again once it happened. "
+    val DisasterAttitude = Topic("Disaster Attitude") {
+        +"It's not about not falling (failing), but it's about how we are able to stand up again once it happened. "
         +"There has never been a single relationship where there was not at least a single conflict. "
         +"Thus, it makes no sense to try to avoid it at all costs, but rather learn how to deal with it in a healthy way. "
-        +"Develop a recovery attitude: Simply continue when you made a mistake; it's not (all) about perfection."
+        +"Develop a ";b{+"recovery attitude"};+": Simply continue when you made a mistake; it's not (all) about perfection."
     }
     val ForcedLeading = Topic("Forced Leading") {
         +"As a leader, don't 'do' the movement for the follower, only give short, ";b { +"soft impulses" };+" at the beginning. "

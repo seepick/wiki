@@ -17,7 +17,8 @@ fun ZoukBeginnerSections.complex(dsl: SectionedTabDsl) {
                         +"It is done while in a mixed hand position (left open, right closed), and doing a basic step. "
                         +"The leader steps out of the line of the follower (she always stays on a straight line) while going backwards. "
                         +"Both are facing in the same direction, the hands are more on the side of the follower, who is then doing a lateral step."
-                        +"The leader gives a quick impulse to rotate back again and step into her line, crossing his feet to make space."; br
+                        +"The leader gives a quick impulse to rotate back again and step into her line, crossing his feet to make space. "
+                        +"When doing so, the steps must be smaller in order to not bump (or push) the follower. "; br
                         i { +"Attention" }; +": Both need a proper frame (arms connected to torso, to hips/feet) for this to work,"
                         +"no noodle limbs but a moderate amount of tension kept for the connection to maintain."
                     }
@@ -25,9 +26,9 @@ fun ZoukBeginnerSections.complex(dsl: SectionedTabDsl) {
                         +"The hand contact is completely unnecessary; that is a general rule, that we don't lead by "
                         +"pushing/pulling the hand, as most of the leading/following is via the frame connection. "
                         +"If the follower is not following though, a slow and continuous increasing pressure is applied; "
-                        +"again, through once connection to the frame (shoulder and arm)."; br
+                        +"again, through one's connection to the frame (shoulder and arm)."; br
                         +"Also, the leader's right hand slides during this move to the other side of the follower's back; "
-                        +"this happens automatically if keeping the frame and angles of the arm."
+                        +"this happens automatically when keeping the frame and angles of the arm."; br
                     }
                     youtube("HnHuy8IMmso?si=LkZIwpHlDeb__w4w", "The Viradinha move, opening the line for the follower")
                     p {
@@ -44,6 +45,12 @@ fun ZoukBeginnerSections.complex(dsl: SectionedTabDsl) {
                         +"It can also be used for a ";b{+"transition into lateral"};+", if the leader stays on the spot for a moment, "
                         +"sending the follower forward, pulling her back into a lateral, and stepping sideways. "; br
                         +"This can be especially smooth when immediately combined with a switch back into basic, and then continuing in an infinite cycle. "
+                    }
+                    youtube("UI73rEZ9NB0?si=FclPc08NHz3xSvJa", "From Viradinha, into Lunge and Simple-Turn")
+                    p {
+                        +"After you feel confident with a ";ref(ZoukRef.Lunge);+" and Simple Turn, you can also use the Viradinha to enter those. "
+                        +"The leader needs to turn with the follower, does a side step (Lunge), and introduces a turn. "
+                        +"Remember to \"collect the follower\" by stepping towards her, otherwise the distance is too big between you. "
                     }
                 }
             }

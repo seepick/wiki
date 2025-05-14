@@ -36,8 +36,6 @@ fun ContactGeneralSections.resources(dsl: SectionedTabDsl) {
                     p {
                         +"If you need something more close to the ";b{+"Netherlands"};+", lookup the community calendar "
                         a("https://amsterdamjam.nl") { +"Amsterdam Jam" }; +". "
-                        +"In case you are near Amsterdam you can also go directly to "; a("https://tomgoldhand.com") { +"Tom Goldhand" }; +" ";
-                        +"or ";a("https://www.casagrafia.com") { +"Raul Saldarriaga" };+" for some more contemporary influenced classes."
                     }
                     // festivals in europe:
                     // France

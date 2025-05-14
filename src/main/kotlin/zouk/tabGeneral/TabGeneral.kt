@@ -10,4 +10,5 @@ val ZoukTabs.general: Tab
     get() = sectionedTab("General") {
         ZoukGeneralSections.basics(this)
         ZoukGeneralSections.advice(this)
+        ZoukGeneralSections.latin(this)
     }

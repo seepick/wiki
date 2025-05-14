@@ -1,16 +1,8 @@
 package zouk.tabBeginner
 
-import common.Topic
 import common.ref
-import common.topics
 import common.youtube
 import kotlinx.html.*
-import shared.AdvicePartner
-import shared.AdviceQualities
-import shared.AdviceTechnical
-import shared.Mistakes
-import shared.Shared
-import shared.Terminology
 import tabs.SectionedTabDsl
 import zouk.ZoukRef
 
@@ -21,7 +13,7 @@ fun ZoukBeginnerSections.general(dsl: SectionedTabDsl) {
                 // =====================================================================================================
                 html {
                     p {
-                        +"There are three types of connecting to your partner:"
+                        +"There are three types of positions to connect to your partner:"
                     }
                     ul {
                         li {

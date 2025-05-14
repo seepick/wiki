@@ -12,8 +12,9 @@ fun ZoukPreadvancedSections.newMoves(dsl: SectionedTabDsl) {
         section("New Moves") {
             subSection("Roasted Chicken") {
                 html {
+                    youtube("_XVOqI18htw?si=n-WCaM3prfPpA0sL", "Rotisserie follower explanation, with Sidebasic")
                     p {
-                        +"Roasted chicken can also be called more technically as a rotational turn (rotisserie?), or as a spiral. "
+                        +"Roasted chicken can also be called more technically as a rotational turn, or ";b{+"rotisserie"};+", or simply a multi-dimensional spiral movement. "
                         +"It is basically a rotation in a different plane: Either transversal (simple turn) versus in the frontal plane (roasted chicken)."
                         +"From lateral, you can indicate a simple turn, and ending up on the other side. "
                         +"Watch out to not block the follower's line, but also not to move out too far and too quickly. "; br

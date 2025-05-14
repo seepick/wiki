@@ -34,10 +34,10 @@ fun ZoukIntermediateSections.newMoves(dsl: SectionedTabDsl) {
                 html {
                     p {
                         +"While being in lateral, instead of doing a simple turn, we now lift the right arm (not the left). "
-                        +"Using ";b{+"crab steps"};+" to walk to the right and left side parallel. "
+                        +"Using ";b { +"crab steps" };+" to walk to the right and left side parallel. "
                         +"On the first step to the left, we are now positioned in a lunge. "
                         +"The lifted (right) arm draws kind of a halo around the (fore-)head of the follower.";br
-                        +"Watch out that the left hand stays connected (";i{+"locked"};+") throughout with a soft palm connection using a moderate amount of pressure; oomph-quality. "
+                        +"Watch out that the left hand stays connected (";i { +"locked" };+") throughout with a soft palm connection using a moderate amount of pressure; oomph-quality. "
                         +"Extend the arm in the middle of the turn, as otherwise the follower will have issues in their shoulders. "
                         +"Also bend it again to have it on the waist, instead of the butt. Don't bend the elbow, to prevent unintentional boob grazing. "; br
                         +"To go back to basic, lift the left hand (switching from right to left), and do a simple turn. "
@@ -47,12 +47,12 @@ fun ZoukIntermediateSections.newMoves(dsl: SectionedTabDsl) {
                     subSubSection("Lateral Variation") {
                         html {
                             p {
-                                +"A variation would be to do it more in a ";b{+"circular way"};+". "
+                                +"A variation would be to do it more in a ";b { +"circular way" };+". "
                                 +"The leader going around her, clockwise, while the left hand stays connected and also very low (follower's shoulder!). "
                                 +"The follower simply stays in lateral all the time; the leader also does the follower's lateral steps. "
                                 +"To get out of it, raise the arm up, and then need to do some quick steps to get back to regular lateral again. "
                             }
-                            youtube("uT_o_z2wUtc?si=vwUD-iLNIL_TZEug","Hammer Lock Lateral Variation")
+                            youtube("uT_o_z2wUtc?si=vwUD-iLNIL_TZEug", "Hammer Lock Lateral Variation")
                         }
                     }
                     subSubSection("Soltinho Variation") {
@@ -60,9 +60,9 @@ fun ZoukIntermediateSections.newMoves(dsl: SectionedTabDsl) {
                             p {
                                 +"Similarly, instead of Lateral, you can use the Soltinho to enter and exit the Hammerlock. "
                                 +"During Soltinho, put the hand down to enter it, and switch to Lateral steps. "; br
-                                +"You can also ";b{+"walk in front"};+" of your follower and start to combine all those variations (with one or two hands holding). "
+                                +"You can also ";b { +"walk in front" };+" of your follower and start to combine all those variations (with one or two hands holding). "
                             }
-                            youtube("xopz7xGtx04?si=cdjBMxFn9xe0H8fi","Hammer Lock Soltinho Variation")
+                            youtube("xopz7xGtx04?si=cdjBMxFn9xe0H8fi", "Hammer Lock Soltinho Variation")
                         }
                     }
                 }
@@ -70,16 +70,16 @@ fun ZoukIntermediateSections.newMoves(dsl: SectionedTabDsl) {
             subSection("Airplanes") {
                 html {
                     p {
-                        +"Instead of leading a ";b{+"simple turn"};+" from lateral to basic, you can also rotate the follower into an airplane. "
+                        +"Instead of leading a ";b { +"simple turn" };+" from lateral to basic, you can also rotate the follower into an airplane. "
                         +"The name stems from the extended arms rotating like the propeller of an airplane (or like the Dutch windmills). "
-                        +"Left hand slides ";i{+"under"};+" the follower's elbow, the right hand ";i{+"above"};+" on the elbow pit. "
+                        +"Left hand slides ";i { +"under" };+" the follower's elbow, the right hand ";i { +"above" };+" on the elbow pit. "
                         +"Shift your weight slightly to the left, going into a lunge position. "
                         +"Give a slight push to indicate the movement, maintaining frame connection."
                         +"The follower turns on the spot as usual; avoid travelling while turning, as the positioning will be misplaced otherwise. "
                     }
                     p {
-                        +"Another way of implementing the airplane is by the leader ";b{+"synchronizing"};+" into the follower's rhythm. "
-                        +"In partner dance, this is generally also called to ";b{+"shadow"};+" the partner. "; br
+                        +"Another way of implementing the airplane is by the leader ";b { +"synchronizing" };+" into the follower's rhythm. "
+                        +"In partner dance, this is generally also called to ";b { +"shadow" };+" the partner. "; br
                         +"Start by changing your hand connection, only handing with your right hand the follower's left hand. "
                         +"Move in front of her facing her with your back. "
                         +"When doing the lunge, add a delay to sync into her rhythm, and do the turn. "
@@ -101,7 +101,7 @@ fun ZoukIntermediateSections.newMoves(dsl: SectionedTabDsl) {
                         +"The body-wave is quite similar in that the leader is indicating the move by simply doing it himself, with a slight indication with drawing a circular shape with his arms. "
                     }
                     p {
-                        +"Alternatively, you can also try to do it in a ";b{+"open hand position"};+", instead of a closed one. "
+                        +"Alternatively, you can also try to do it in a ";b { +"open hand position" };+", instead of a closed one. "
                         +"The leader is flattening the hands, follower doing the same, so the palm contact can be maintained while the arms are rotating; the leader's fingers now pointing outwards. "
                     }
                     p {
@@ -109,6 +109,23 @@ fun ZoukIntermediateSections.newMoves(dsl: SectionedTabDsl) {
                         +"To get back to lateral, simple step out of the line and let her repeat her lateral where she left off. "
                     }
                     youtube("Rnm6g4pOuLA?si=hLi0XpIfhQccp4Pa", "Bounce and Body-wave from Lateral")
+                }
+            }
+            subSection("Chicote") {
+                html {
+                    youtube("H1wRPgekvIw?si=rhHOw9jYw1n_eGLt", "Lateral to Bodywave to Chicote")
+                    p {
+                        +"From lateral, step in front of the follower (into her line) and start with a bodywave (see above) and rotate the hand position externally. "
+                        +"Then go straight down, and slowly roll to reverse the bodywave. "
+                        +"Finally go down again, arms wide to the side and push the follower upright; going back to lateral."; br
+                        +"When doing the bounce here, the hands stay at their exact same position in three-dimensional space, but when doing the bodywave, the hands draw the shape of a ";b { +"hockey stick" };+": "
+                        +"A long, straight line downwards, with a short loop towards the leader."
+                    }
+                    p {
+                        +"For the follower, it's like a whip (of the hair), but accentuated like a Raul. "
+                        +"Don't go too far, don't over-extend it to the back, and don't do it too quickly to whiplash backwards (injury!). "
+                        +"The leader maintains his head upwards and does not do the head move at all. "
+                    }
                 }
             }
         }
