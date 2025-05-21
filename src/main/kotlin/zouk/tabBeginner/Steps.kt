@@ -63,6 +63,14 @@ fun ZoukBeginnerSections.steps(dsl: SectionedTabDsl) {
                     }
                 }
             }
+            subSection("Side-Basic") {
+                html {
+                    p {
+                        +"This is the leader's part of when doing the lateral (for the follower). "
+                        +"You can either step to the side (the most simple version), to the front (most common version, giving more spin), or to the back (increasing the distance). "
+                    }
+                }
+            }
             subSection("Embrace") {
                 // =====================================================================================================
                 html {

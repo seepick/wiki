@@ -16,5 +16,5 @@ enum class ZoukRef(
     SoltinhoIntermediate("Soltinho", "intermediate/moves_revised/soltinho"),
     YoyoIntermediate("Yoyo", "intermediate/moves_revised/yoyo"),
 
-    RoastedChicken("Roasted Chicken", "pre_advanced/new_moves/roasted_chicken"),
+    Rotisserie("Rotisserie", "pre_advanced/new_moves/rotisserie"),
 }

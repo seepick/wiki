@@ -126,6 +126,7 @@ fun ZoukGeneralSections.latin(dsl: SectionedTabDsl) {
                         youtube("t8W4tyLo_oE", "Emmy Winning dance performance")
                         p {
                             +"Paso Doble, meaning \"double step\" is a fast paced, dramatic style similar to Flamenco. "
+                            +"It might have its origins in Spanish bullfights."
                             +"It is only done in ballroom dancesport competitions and not socially."
                         }
                     }

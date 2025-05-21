@@ -58,13 +58,24 @@ fun ZoukIntermediateSections.movesRevised(dsl: SectionedTabDsl) {
                     }
                 }
             }
-            subSection("Lunge Turn") {
+            subSection("Lunge") {
                 html {
                     p {
-                        +"Sometimes the communication of a turn is not clear for the follower. "
-                        +"In that case, try to emphasize the left hand pulling more back-diagonal, instead of only sideways. "; br
-                        +"Alternatively, you can put your left hand not on the ribcage, but take the follower's hand, "
-                        +"and lead a simple turn instead."
+                        +"Sometimes the communication of a lunge simple turn is not clear for the follower. "
+                        +"In that case, try to emphasize the left hand pulling more back-diagonal, instead of only sideways. "
+                        +"Also stay super close (no fear of intimacy), have a firm connection, maintaining the distance and frame. "; br
+                        +"Alternatively, you can put your left hand not on the ribcage, but take the follower's hand, and lead a simple turn instead. "
+                        +"Just watch out that the stepping out of the lunge is not going too far, indicating something like a side step to the follower. "
+                    }
+                }
+                subSubSection("Directed Body Moves") {
+                    html {
+                        youtube("T7GUHwDWkro?si=N2kb0tZEXLWgpV1V", "Lunge Body Moves")
+                        p {
+                            +"As already described previously, after doing a ";ref(ZoukRef.Lunge);+", you can either do immediately a ";b{+"simple turn"};+" or a ";b{+"hesitate"};+" before. "
+                            +"You can also lead with your whole body an ";b{+"O-shape"};+", or just half of it (like a smiling mouth or a rainbow), a waterplant (lateral wave motions leading from the bottom) or a snake (inverted moved of a waterplan, leading from the top). "
+                            +"And ultimately you can of course mix all of them with smooth transitions, only when the body is straight/upright and positioned on one of the sides (not in-between). "
+                        }
                     }
                 }
             }

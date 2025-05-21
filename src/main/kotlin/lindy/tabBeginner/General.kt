@@ -101,6 +101,12 @@ fun LindyBeginnerSections.general(dsl: SectionedTabDsl) {
                             Shared.AdviceQualities.GrowthMindset,
                             Shared.AdviceQualities.Breathing,
                             Shared.AdviceQualities.Confidence,
+                            Topic("Endure Silence") {
+                                +"If you feel awkward in silence while talking, you will most likely also feel so during dancing. "
+                                +"It's not about constantly doing move after move, to entertain your partner, to impress and be technical superior. "
+                                +"It is (also) to feel the subtleties, to express and feel some quality in the connection, the simple things. "
+                                +"Being able to use not only fire, but also water, to complement the fast with the slow, the superficial with the profound. "
+                            }
                         )
                     }
                 }

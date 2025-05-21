@@ -13,11 +13,15 @@ object SharedTerminology {
     val frame = Topic("Frame") {
         +"A wire";i{+"frame"};+" -like structure established by a connection of the arms with the center and the whole upper body; "
         +"the part between the shoulders (rhomboid and latissimus dorsi muscles) and hips, which stays upright and doesn't collapse. "
+        +"Keeping the upper body strong, firm, and upright all the time. "
         +"A body-to-body connection through the arms, a means of communication. "; br
 
         +"It must be connected to the arms to communicate movements into the whole body; an indirect center-to-center connection. "
         +"It allows communication, a sender-receiver relation, where the talking and listening is happening. "
-        +"If there is no frame, there is no wire to transmit information. "; br
+        +"If there is no frame, there is no wire to transmit information. "
+        +"Not only through the physical push into the frame, but we also use it for visual orientation to communicate the dance. "
+        +"We do so, by always having one's own sternum facing the partner's sternum, (usually) maintaining a frontal position (exception lateral, turns, etc.)."
+        +""; br
 
         +"The frame requires a stable posture, arms tightly connected to the center with a healthy amount of tension; no spaghetti arms. "
         +"The elbows stay within the front range and never go behind the body. "
@@ -126,8 +130,11 @@ object SharedAdviceQualities {
         +"We primarily dance with the partner, not with the music; the music is the 3rd dancing partner."
     }
     val Confidence = Topic("Confidence") {
+        +"Find confidence in your comfort zone. Even when failing, relax, and stay calm. "
+        +"Remember that you are (in the best case) dancing with each other, not against each other. "
+        +"You are there to have fun, to enjoy, and not necessarily to impress, convince, or show off. "; br
         +"Intimidating people, like teachers (hierarchy), or attractive people are also just people. "
-        +"See them as such and just enjoy. Get confidence by practicing, collect positive experiences (successes), and know you can do it too. "
+        +"See them as such and just enjoy. Get confidence by practicing, collect positive experiences (successes), and know you can do it too. "; br
         +"Anticipating mistakes (fear of failing and feeling intimidated) makes you tense up, which leads to mistakes (self-fulfilling prophecy)! "
         +"Know: \"I'm good, I have potential, let it go, let it be and just do it.\""
     }
@@ -141,6 +148,7 @@ object SharedMistakes {
     val StiffArms = Topic("Stiff Arms") {
         +"Similar to squeezing the hand, are the opposite of dead fish arms. "
         +"Having stiff, tensed arms, instead of having them hang as loosely as possible; a bit like noodles. "
+        +"Keeping your arms relaxed, hanging down by default, also allows to stay closer to each other, otherwise blocking the distance. "
     }
     val LeadingArms = Topic("Leading Arms") {
         +"Pushing/pulling from the hand/the arm only (can be perceived as rude); using raw muscle strength. "

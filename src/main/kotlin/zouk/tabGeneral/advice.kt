@@ -4,6 +4,7 @@ import common.Topic
 import common.topics
 import kotlinx.html.b
 import kotlinx.html.br
+import kotlinx.html.i
 import shared.AdvicePartner
 import shared.AdviceQualities
 import shared.AdviceTechnical
@@ -51,6 +52,12 @@ fun ZoukGeneralSections.advice(dsl: SectionedTabDsl) {
                             +"Leaders keep your ";b { +"arms up" };+", so that the follower can rest upon them, as it helps to maintain a better connection. "
                             +"Also have a firm, yet ";b { +"soft grip" };+", on torso and shoulders, as it helps with sending a clear intention."
                         },
+                        Topic("Scapula Attraction") {
+                            +"Whenever you see a shoulder blade, reach out for it and touch it. "
+                            +"When the follower turns, e.g. in a lunge-simple turn, transition quickly, almost like a continuous hand-over never releasing the contact. "
+                            +"This usually indicates to go back to basic. "
+                            +"Stay in close proximity, keep your body upright, as if you are too far away, you have to bend forward, doing it the ";i{+"grandpa style"};+". "
+                        }
                     )
                 }
             }

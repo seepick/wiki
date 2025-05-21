@@ -42,6 +42,7 @@ val ZoukTabs.home: Tab
         // =============================================================================================================
         p { +"Schools, classes, festivals, workshops to practice and dance even more:" }
         ul {
+            ali("https://docs.google.com/spreadsheets/u/0/d/1h10hXMBmejYJKrV4NWC76ukEU65WfIy5CKiZIIT1xaQ/htmlview#gid=0", "Zouk Calendar - European Events", "An extensive online spreadsheet")
             ali("https://www.brazilianzouk.nl", "Brazilian Zouk Netherlands", "Schools and events overview in NL")
             ali("https://www.zoukamsterdam.nl", "Brazilian Zouk Amsterdam", "The school, our school, this wiki is based on")
             ali("https://chat.whatsapp.com/L15bW47Mi2a07dqGTu0jnh", "Zouk Practice Amsterdam", "WhatsApp group to organize private sessions")

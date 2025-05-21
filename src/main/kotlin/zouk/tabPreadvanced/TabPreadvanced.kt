@@ -14,4 +14,5 @@ val ZoukTabs.preadvanced: Tab
     get() = sectionedTab("Pre-Advanced") {
         ZoukPreadvancedSections.general(this)
         ZoukPreadvancedSections.newMoves(this)
+        ZoukPreadvancedSections.styling(this)
     }
