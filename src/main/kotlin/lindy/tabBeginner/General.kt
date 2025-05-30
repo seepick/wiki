@@ -131,6 +131,11 @@ fun LindyBeginnerSections.general(dsl: SectionedTabDsl) {
                                 +"Lead with your center, not with the legs; also make smaller rock-steps, staying within your center. "
                                 +"Don't just make steps with your legs while your whole body stays stationary (disconnection). "
                                 +"Steps are done due to shifting weight, which is due to moving the center. "
+                            },
+                            Topic("Spinned Turns") {
+                                +"Yes, there are many turns in Zouk, and no, we don't do ice-skating/ballet like spins on the foot. "
+                                +"Doing so will totally ruin your balance, lacking control and grounding, making everything unstable and chaotic. "
+                                +"Instead doing a spin on your spot, it's more of a stepping turn, pivoting on one foot. "
                             }
                         )
                     }

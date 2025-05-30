@@ -44,6 +44,12 @@ fun ZoukGeneralSections.advice(dsl: SectionedTabDsl) {
                             +"It's like announcing it a bit upfront, so there will be no unexpected surprise, "
                             +"which might lead to a shock sensation instead of making the experience more enjoyable."
                         },
+                        Topic("Yin-Yang") {
+                            +"Before doing one, always do the other a little bit first. "
+                            +"When wanting to go right, first go a bit left. "
+                            +"At beginning for example, before stepping back, step slightly a bit forward, using your breath. "
+                            +"Avoid a shock to the nervous system by abrupt movements, making it your techniques smoother and more predictable. "
+                        },
                         Topic("Distance") {
                             +"Find a comfortable distance with your partner, it's also fine to just ask explicitly when in doubt. "
                             +"Just don't rush it right away, and slowly adjust distance and be very sensitive to the response you get. "

@@ -128,6 +128,18 @@ fun ZoukIntermediateSections.newMoves(dsl: SectionedTabDsl) {
                     }
                 }
             }
+            subSection("Cambre") {
+                html {
+                    p {
+                        +"Also called \"dip\" (it's in the category of Chicote and Raul), is an illusion of a backwards bend; "
+                        +"especially the lower back stays straight and doesn't bend. "
+                        +"Anytime the follower is in a forward/back bodywave, a Chicote can be added, e.g. while in an Embrace. "; br
+                        +"When rolling up from the Chicote, the leader's left arm goes up, and tilt your body slightly (!) to the right (not collapsing). "
+                        +"Doing so will prevent the follower's back from over-extend and possibly injuring herself."
+                    }
+                    youtube("d6JNEBwPZec?si=mPruwyOqKUyTxOzf", "Bodywave, reverse, Chicote and Cambre")
+                }
+            }
         }
     }
 }

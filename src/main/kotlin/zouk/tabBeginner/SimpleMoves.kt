@@ -44,27 +44,43 @@ fun ZoukBeginnerSections.simple(dsl: SectionedTabDsl) {
             subSection("Body Wave") {
                 // =====================================================================================================
                 html {
-                    p { +"From embrace, once the leader has done his side-step to the right, his next steps will be on the "
-                        +"spot -don't travel! Once the follower is turned to the left, make her stop immediately, indicated by "
-                        +"staying close and pulling her towards you, as if you want to give her a sideway-hug: Right shoulder, "
-                        +"hip and leg touching." }
-                    p { +"The wave for the follower is a simple frontal wave, for the leader, who is faced (almost) straight "
-                        +"towards the follower, it's more of a sideways wave; in any case always leading from the shoulder, "
-                        +"and feet stay fixed, no steps. "; br
+                    p {
+                        +"From embrace, once the leader has done his right side-step, stay on the spot -don't travel! "
+                        +"Once the follower is turned left, make her stop immediately, indicated by staying close. "
+                        +"Pull her towards you, as if you want to give her a soft sideway-hug. "
+                        +"Right shoulder, hip and leg touching; give some weight and lean into each other for better communication."
+                    }
+                    p {
+                        +"The follower's wave is forward-backward (sagital plane), and the leader's wave more sideways (frontal plane; snake/waterplant). "
+                        +"Leading is done from the shoulder and pelvis, and feet stay fixed, no steps. "; br
                         +"You can do the wave either lasting for a full beat or half-beat, for a more relaxed sensation. "
                     }
-                    p { +"When a wave towards the back has finished, you can enter again with a side-step to the left, on the "
-                        +"boom sound, and lead the follower to an embrace, or immediately transition into basic, as you prefer. " }
+                    p {
+                        +"When a wave towards the back has finished, you can enter again with a side-step to the left, on the boom sound. "
+                        +"Lower your center first, bend your knees, and rotate left/CCW a bit before taking a step. "
+                        +"Lead the follower to an embrace, or immediately transition into basic, as you prefer. "
+                    }
                     youtube("T7-6y_3JiDM?si=k-kWJVZ7vlB9LoAd", "From lateral, to embrace, to body-wave, quick embrace and return to basic")
-                    p { +"The body-wave can be reversed, leading from the hips first after led by the shoulders, "
-                        +"then immediately going down as the leader and back into embrace. "
-                        +"This move is called \"Chicote\", pronounced \"chigutsch\". " }
-                    youtube("79OjOk3zT68?si=k2-Mill9OWRK5ZoB", "The extended body-wave, and Chicote")
-                    p { +"The leader's move is simply two body-waves in opposite directions and a lowering of the whole body. " }
-                    youtube("gq2vEw7lDjA?si=wL9I-vtUEAYSVkqm", "Leader movement for the Chicote (two body waves and a lowering)")
-                    p { +"See also "; a("https://www.youtube.com/shorts/F340qPBY9hQ") {+"leaders video"}; +" "
+                    p {
+                        +"See also "; a("https://www.youtube.com/shorts/F340qPBY9hQ") {+"leaders video"}; +" "
                         +"and "; a("https://youtube.com/shorts/q50wUwvAJm8"){+"followers video"}; +" for more explanations. "
                     }
+                }
+            }
+            subSection("Chicote") {
+                // =====================================================================================================
+                html {
+                    p {
+                        +"The move \"Chicote\" is pronounced \"chigutsch\" and is basically a reversed body-wave. "
+                        +"You lead it from the hips first, travelling up the body into the shoulders. "
+                        +"What is different though is, that the movement is less forward-backward, and no weight shift is occuring. "
+                        +"Instead, the movement is vertical, bending the knees, and staying with the weight on the back leg. "
+                    }
+                    youtube("79OjOk3zT68?si=k2-Mill9OWRK5ZoB", "The extended body-wave, and Chicote")
+                    p {
+                        +"The leader's move is simply two body-waves in opposite directions and a lowering of the whole body. "
+                    }
+                    youtube("gq2vEw7lDjA?si=wL9I-vtUEAYSVkqm", "Leader movement for the Chicote (two body waves and a lowering)")
                 }
             }
             subSection("Balao") {

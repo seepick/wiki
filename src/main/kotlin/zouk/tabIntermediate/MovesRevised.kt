@@ -67,6 +67,13 @@ fun ZoukIntermediateSections.movesRevised(dsl: SectionedTabDsl) {
                         +"Alternatively, you can put your left hand not on the ribcage, but take the follower's hand, and lead a simple turn instead. "
                         +"Just watch out that the stepping out of the lunge is not going too far, indicating something like a side step to the follower. "
                     }
+                    p {
+                        +"When doing a lunge simple turn, watch out that your right foot stays on the line, pivoting on it. "
+                        +"If you don't stay on the line, it will be difficult for the follower to stay in front of you. "
+                        +"Thus, the left leg steps first diagonally back. "; br
+                        +"To keep close, also step forward towards the follower when she is doing her turn, to maintain close distance. "
+                        +"For the follower, practice to keep your proper balance, not to fall over. "
+                    }
                 }
                 subSubSection("Directed Body Moves") {
                     html {

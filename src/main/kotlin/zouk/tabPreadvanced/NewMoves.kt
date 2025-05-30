@@ -44,6 +44,36 @@ fun ZoukPreadvancedSections.newMoves(dsl: SectionedTabDsl) {
                     }
                 }
             }
+            subSection("Viradinha Turns") {
+                html {
+                    p {
+                        +"There are several different variations you can do a Viradinha. "
+                        +"Practice them first before going into the details of the turn. "
+                    }
+                    ul {
+                        li { +"Simply going in and out." }
+                        li { +"Going in, stay by walk forth and back." }
+                        li { +"Doing a quarter turn." }
+                        li { +"Hesitate, by going in, turn a bit and push against." }
+                        li { +"Doing a hesitate, but pushing through into a turn." }
+                    }
+                    p {
+                        +"Also practice to stay very close with your body connection, so your hips touch when you are side-by-side. "
+                        +"Do a \"half-WiFi\" by not using your left arm; when staying close, your right arm doesn't need to slide anymore on the back as usually necessary. "
+                        +"The left arm is the usual \"noodle arm\", hanging relaxed down your body without tension; preferably for this finger facing inwards. "
+                        +"And don't forget the basic about a correct Viradinha, which is the general rule anyways of: The leader steps out of the follower's line! "
+                    }
+                    p {
+                        +"The ";b{+"Hesitate"};+" is done by turning towards each other when walking forward in the Viradinha. "
+                        +"You can then either go back again (similar like a Lunge hesitate), or \"push through\" resulting in a turn, left arm is up. "
+                        +"If you do a single turn, then you need to add 1 basic step in order to stay with the rhythm; not so if you do an even number of turns. "
+                        +"As usual, the sliding of the arm down is giving the follower a clear signal to end the turn. "
+                        +"You can either have both palms facing each other with a slight pressure (more static), or \"stir\" with both fingers in her \"cup-hand\", possible helping a bit with the turn. "; br
+                        +"Remember: A turn is a turn, not a spin; they are more pivot-steps to maintain balance. Also remember to stay on your line. "
+                    }
+                    youtube("RD6zeVV-HiI?si=uH3u2_ymd4jQHvjX", "Viradinha Turns (single and double)")
+                }
+            }
         }
     }
 }

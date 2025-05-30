@@ -30,7 +30,9 @@ fun ZoukBeginnerSections.steps(dsl: SectionedTabDsl) {
                     }
                     p {
                         b { +"Transition" }; +": From basic to lateral, by \"sending follower out\" "
-                        +"(leader stays on the spot during basic), and both are changing their stepping styles."
+                        +"(leader stays on the spot during basic), and both are changing their stepping styles. "; br
+                        +"The same from lateral to embrace, keep the follower on her spot (no travelling-step). "
+                        +"Do so by pushing your right hand into her, like when doing a \"Yoyo through\" or a \"Swing Out\"."
                     }
                     youtube(
                         "mA9xGt11twk?si=VHsTUE19Yt-52WbW",
@@ -61,6 +63,12 @@ fun ZoukBeginnerSections.steps(dsl: SectionedTabDsl) {
                         +"From the lateral, let her rotate (other direction than embrace), leader from side-step to lateral step. "
                         +"Exit by simply staying on the spot for one beat, and pulling her straight into lateral again. "
                     }
+                    p {
+                        +"The difference between travelling- and stationary-step applies especially, but not only to lateral."
+                        +"This is all about timing, and maybe about a (slight) arm pull from your center/frame. "
+                        +"Although there is a good intention from the leader, to announce it early, as in \"there is something coming soon\" it might backfire. "
+                        +"Some followers use it as a signal to do something right away, like a small arm change/lift, and execute instead of prepare a move. "
+                    }
                 }
             }
             subSection("Side-Basic") {
@@ -76,8 +84,9 @@ fun ZoukBeginnerSections.steps(dsl: SectionedTabDsl) {
                 html {
                     p {
                         +"From lateral step, keep holding both hands; on the follower's first quick (let her do the first slow-step), "
-                        +"keep her in place and rotate on the spot by giving her a clear spin. "
-                        +"After that, identical footwork, arm is once over shoulder then rib cage height. "
+                        +"keep her in place (no travelling turn) and rotate on the spot by giving her a clear spin. "
+                        +"After that, identical footwork (side-basic but without stepping in but sideways). "
+                        +"The connected arm is once over the shoulder and in the other direction around the waist. "
                     }
                     youtube("6ooQMB8Rlz4?si=ImRNGXUvJzQPAVWH", "Lateral, to embrace, and simply back to basic")
                     p {
