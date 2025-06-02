@@ -110,10 +110,10 @@ fun ZoukGeneralSections.basics(dsl: SectionedTabDsl) {
                         Shared.Terminology.frame,
                         Topic("Onomatopoeia") {
                             +"When we want to indicate beat sounds, we use the word \"slow\" "
-                            +"(first sound in a beat, usually a base-drum, also sometimes the onomatopoeia \"boom\" is used) "
+                            +"(first sound in a beat, usually a base-drum, also sometimes the onomatopoeia \"boom\" or \"tuum\" is used) "
                             +"and the word \"quick\" "
-                            +"(2nd and 3rd sound in a typical Zouk beat, usually a snare-drum, also sometimes referred to as \"chic\"). "
-                            +"A beat (or \"block\" if you so want), is thus composed of: \"slow - quick - quick\" or \"boom - chic - chic\"."
+                            +"(2nd and 3rd sound in a typical Zouk beat, usually a snare-drum, also sometimes referred to as \"chick\"). "
+                            +"A beat (or \"block\" if you so want), is thus composed of: \"slow - quick - quick\" or \"tuum - chick - chick\"."
                         }
                     )
                 }

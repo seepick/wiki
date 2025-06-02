@@ -10,7 +10,6 @@ import kotlinx.html.p
 import tabs.SectionedTabDsl
 import zouk.ZoukRef
 
-
 fun ZoukPreadvancedSections.general(dsl: SectionedTabDsl) {
     with(dsl) {
         section("General") {

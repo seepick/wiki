@@ -7,6 +7,7 @@ import shared.AdvicePartner
 import shared.AdviceQualities
 import shared.AdviceTechnical
 import shared.Mistakes
+import shared.Principles
 import shared.Shared
 import shared.Terminology
 import tabs.SectionedTabDsl
@@ -86,7 +87,7 @@ fun LindyBeginnerSections.general(dsl: SectionedTabDsl) {
                                 +"Listen to music follow the 4/8th pattern, the melody and keep your moves in sync with it. "
                                 +"Even better to keep in sync with the overall loop of the melody, having to add or shortcut some beats. "
                             },
-                            Shared.AdviceTechnical.Engagement,
+                            Shared.Principles.CenterEngagement,
                             Shared.AdviceTechnical.InvitingArm,
                             Shared.AdviceTechnical.SoftStrong,
                         )

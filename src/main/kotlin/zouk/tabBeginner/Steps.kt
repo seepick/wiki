@@ -50,9 +50,11 @@ fun ZoukBeginnerSections.steps(dsl: SectionedTabDsl) {
                 // =====================================================================================================
                 html {
                     p {
-                        +"The leader is just doing side-steps (optionally stepping in), the follower on the other hand crosses "
-                        +"her steps while always facing to the leader, both moving sideways. "
-                        +"The follower waits to feel the pull from the lead to step across. "
+                        +"The leader is doing basic side-steps (optionally stepping forward or staying on the line), always facing forward towards the follower. "
+                        +"The follower moves left and right, turning, and facing the leader. "
+                        +"The turn is indicated by a slight/gentle pull from the leader to step across. "; br
+                        +"That pull force is not coming from the arm but through the arm which is connected to the center (chest orientation, upper body rotation). "
+                        +"One hand is pulling sideways and the arm is more active; the other is more relaxed and directed towards the hip/waist (don't do a \"passing by\"). "
                     }
                     youtube(
                         "l_xhJqttlu0?si=bj8gJusBO4OMCTw1",
@@ -64,7 +66,7 @@ fun ZoukBeginnerSections.steps(dsl: SectionedTabDsl) {
                         +"Exit by simply staying on the spot for one beat, and pulling her straight into lateral again. "
                     }
                     p {
-                        +"The difference between travelling- and stationary-step applies especially, but not only to lateral."
+                        +"The difference between travelling- and stationary-step applies especially, but not only to lateral. "
                         +"This is all about timing, and maybe about a (slight) arm pull from your center/frame. "
                         +"Although there is a good intention from the leader, to announce it early, as in \"there is something coming soon\" it might backfire. "
                         +"Some followers use it as a signal to do something right away, like a small arm change/lift, and execute instead of prepare a move. "
@@ -83,9 +85,12 @@ fun ZoukBeginnerSections.steps(dsl: SectionedTabDsl) {
                 // =====================================================================================================
                 html {
                     p {
-                        +"From lateral step, keep holding both hands; on the follower's first quick (let her do the first slow-step), "
-                        +"keep her in place (no travelling turn) and rotate on the spot by giving her a clear spin. "
-                        +"After that, identical footwork (side-basic but without stepping in but sideways). "
+                        +"From lateral step, keep holding both hands, and start when the follower is facing left. "
+                        +"Always create enough space to allow for doing a travelling-turn, doing her tuum-step going left, and turn on the chicks. "
+                        +"The following tuum is again a step to the left for her, allowing a smooth, continued movement. "; br
+                        +"The result of doing a travelling-turn (instead staying on the spot which breaks the flow) is a leader's consecutively side-step. "
+                        +"Finish the left side-basic, cross the right leg behind, side step, and cross the right leg in front, to travel together with the follower. "
+                        +"After that, identical footwork (side-basic but without stepping in/forward but sideways). "; br
                         +"The connected arm is once over the shoulder and in the other direction around the waist. "
                     }
                     youtube("6ooQMB8Rlz4?si=ImRNGXUvJzQPAVWH", "Lateral, to embrace, and simply back to basic")

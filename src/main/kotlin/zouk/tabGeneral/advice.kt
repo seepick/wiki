@@ -5,6 +5,7 @@ import common.topics
 import kotlinx.html.b
 import kotlinx.html.br
 import kotlinx.html.i
+import kotlinx.html.p
 import shared.AdvicePartner
 import shared.AdviceQualities
 import shared.AdviceTechnical
@@ -16,6 +17,14 @@ import tabs.SectionedTabDsl
 fun ZoukGeneralSections.advice(dsl: SectionedTabDsl) {
     with(dsl) {
         section("Advice") {
+            html {
+                p {
+                    +"Advices are some form of \"softer version\" of principles. "
+                    +"Their scope might be a bit more narrow, and violating doesn't lead to any big mistake. "
+                    +"They are less universally applicable, and sometimes violating them can be a deliberate choice to do to spice it up a bit. "
+                    +"Yet, the line between a principle and a general advice is more blurred and can't be precisely differentiated. "
+                }
+            }
             subSection("Partnering") {
                 // =====================================================================================================
                 html {
@@ -34,21 +43,17 @@ fun ZoukGeneralSections.advice(dsl: SectionedTabDsl) {
                 // =====================================================================================================
                 html {
                     topics(
-                        Shared.AdviceTechnical.Engagement,
                         Shared.AdviceTechnical.InvitingArm,
                         Shared.AdviceTechnical.SoftStrong,
-                        Topic("Round Movements") {
-                            +"Always make all the movements round for the follower, smoothing out the edges and sharp corners. "
-                            +"Do that when changing direction, or initiating any technique. "
-                            +"Think about it like in music fading in and fading out, to create a -predictable- transition. "
-                            +"It's like announcing it a bit upfront, so there will be no unexpected surprise, "
-                            +"which might lead to a shock sensation instead of making the experience more enjoyable."
-                        },
-                        Topic("Yin-Yang") {
-                            +"Before doing one, always do the other a little bit first. "
-                            +"When wanting to go right, first go a bit left. "
-                            +"At beginning for example, before stepping back, step slightly a bit forward, using your breath. "
-                            +"Avoid a shock to the nervous system by abrupt movements, making it your techniques smoother and more predictable. "
+                        Topic("Give Weight") {
+                            +"This especially applies to the follower role, to relax, to soften, to give weight. "
+                            +"To build a proper connection, there is more needed than a simple butterfly touch. "; br
+                            +"In basic, give the weight of your arm, relaxing into it (don't be afraid that it's too much, that you are pushing). "
+                            +"Don't push with your hand though, only the arm, and lean back into the leader's hand on your back. "; br
+                            +"In closed embrace, share the weight together, leaning with the shoulder/upper arm; in open embrace to the same with your hands. "; br
+                            +"The more advanced we get though, the less weight is necessary (skill); "
+                            +"sometimes a move requires more \"connection-pressure\", but use it only as a spice (technique); "
+                            +"sometimes it's just about how one likes to dance (personal preference), for which you need to develop a meta skill to quickly reading this. "
                         },
                         Topic("Distance") {
                             +"Find a comfortable distance with your partner, it's also fine to just ask explicitly when in doubt. "
@@ -63,7 +68,7 @@ fun ZoukGeneralSections.advice(dsl: SectionedTabDsl) {
                             +"When the follower turns, e.g. in a lunge-simple turn, transition quickly, almost like a continuous hand-over never releasing the contact. "
                             +"This usually indicates to go back to basic. "
                             +"Stay in close proximity, keep your body upright, as if you are too far away, you have to bend forward, doing it the ";i{+"grandpa style"};+". "
-                        }
+                        },
                     )
                 }
             }

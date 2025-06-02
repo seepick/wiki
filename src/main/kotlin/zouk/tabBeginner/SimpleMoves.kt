@@ -32,6 +32,24 @@ fun ZoukBeginnerSections.simple(dsl: SectionedTabDsl) {
                     )
                 }
             }
+            subSection("Simple Turn") {
+                // =====================================================================================================
+                html {
+                    p {
+                        +"There are many possible occasions where one can do a simple turn. "
+                        +"It is usually done by lifting the left hand and drawing some sort of \"halo\" around the follower's head, counter-clockwise. "
+                    }
+                    p {
+                        +"One of possible applications is when transitioning from lateral to basic steps. "
+                        +"Lead already when the follower is going to the right by doing a side-step left on your own line. "
+                        +"With the first chick, right step on her line (where she was just standing), and second chick cross her line. "
+                        +"Step out her line completely in order to maintain continuation (of her lateral) and not block her path. "
+                        +"To prevent yourself from rushing, you need to walk around more closely (requires predictable step distance/direction of both). "
+                        +"Alternatively don't even try to reach the shoulder blade (as we would do by default) but leave it only with the left-hand connection. "
+                        +"This is preferred in case you have the tendency to catch your follower and going into a grandpa-style (leaning forward) kind of posture. "
+                    }
+                }
+            }
             subSection("Piao") {
                 // =====================================================================================================
                 html {
@@ -46,8 +64,10 @@ fun ZoukBeginnerSections.simple(dsl: SectionedTabDsl) {
                 html {
                     p {
                         +"From embrace, once the leader has done his right side-step, stay on the spot -don't travel! "
-                        +"Once the follower is turned left, make her stop immediately, indicated by staying close. "
-                        +"Pull her towards you, as if you want to give her a soft sideway-hug. "
+                        +"Once the follower is turned left, melt into each other with a soft sideway-hug. "
+                        +"The quality of this movement should resemble an airbag, a soft squeeze, in contrast to a hard bump. "
+                        +"To do so, roll the point of contact from the hand, over the arm, into the body. "
+                        +"Do so on both sides, on the shoulder, but especially on the waist, as from here the body wave will be started"; br
                         +"Right shoulder, hip and leg touching; give some weight and lean into each other for better communication."
                     }
                     p {

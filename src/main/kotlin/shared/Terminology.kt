@@ -6,6 +6,7 @@ import kotlinx.html.*
 val Shared.Terminology get() = SharedTerminology
 val Shared.AdvicePartner get() = SharedAdvicePartner
 val Shared.AdviceTechnical get() = SharedAdviceTechnical
+val Shared.Principles get() = SharedPrinciples
 val Shared.AdviceQualities get() = SharedAdviceQualities
 val Shared.Mistakes get() = SharedMistakes
 
@@ -83,8 +84,8 @@ object SharedAdvicePartner {
     }
 }
 
-object SharedAdviceTechnical {
-    val Engagement = Topic("Engagement") {
+object SharedPrinciples {
+    val CenterEngagement = Topic("Center Engagement") {
         +"The ";b { +"body moves" };+" the legs, not the other way round. "
         +"Move as one unit from your center/upper body -otherwise the follower will feel not much. "
         +"When your center moves, then the arms move. "
@@ -92,6 +93,9 @@ object SharedAdviceTechnical {
         +"Be also engaged with all your body: "
         +"Your face, smile; your passive arm: reach it, avoid having dead fish arms. "
     }
+}
+
+object SharedAdviceTechnical {
     val InvitingArm = Topic("Inviting Arm") {
         +"Extend your arm out towards your follower, palm upwards, when you want her to return to you, "
         +"so she knows a bit in advance what's going to happen, expressing a clear intention. "
