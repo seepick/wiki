@@ -1,6 +1,7 @@
 package zouk.tabGeneral
 
 import common.Topic
+import common.ref
 import common.topics
 import kotlinx.html.b
 import kotlinx.html.br
@@ -10,6 +11,7 @@ import kotlinx.html.ul
 import shared.Shared
 import shared.Terminology
 import tabs.SectionedTabDsl
+import zouk.ZoukRef
 
 fun ZoukGeneralSections.basics(dsl: SectionedTabDsl) {
     with(dsl) {
@@ -52,7 +54,7 @@ fun ZoukGeneralSections.basics(dsl: SectionedTabDsl) {
                         }
                     }
                 }
-                subSubSection("Practice") {
+                subSubSection("Meetups") {
                     html {
                         p {
                             +"Usually done where people meet ";b{+"1-on-1"};+" at their homes to go through what they learned so far, thus usually people from the same class. "
@@ -66,6 +68,24 @@ fun ZoukGeneralSections.basics(dsl: SectionedTabDsl) {
                             +"and the possibility to collaboratively doing research together, asking questions, helping and supporting each other. "
                             +"There is more talking than on social, more investigation, and thus also more progress happening for those who want to accelerate in their skills. "
                         }
+                    }
+                }
+            }
+            subSection("Roles") {
+                // =============================================================================================================
+                html {
+                    p {
+                        +"Zouk is a Southern American dance style, and as such has strong roots in gendered roles, usually emphasizing strong stereotypes. "
+                        +"The leader, usually the man, is strong, grounded, providing a container for the follower to move within, being more expressive and free. "
+                        +"There is a clear polarity, clear roles, an asymmetry of putting both roles in an unequal position which are not being changed (like in Tantric dance for example). "
+                        +"There is no egalitarian, collaborative approach (like in Contact Improvisation) nor are role switching common (like in Lindy Hop). "; br
+                        +"As a leader, you can choose to fulfill the role of a father, providing a stable container, being more straight/static (stiff?) and move less. "
+                        +"Or you decide being more the role of a brother, joining her with moving more the dance, a playful collaborator, less stable, more dynamic. "
+                    }
+                    p {
+                        +"Yet, in a more liberal environment, some women lead and some men follow, and even ";b{+"role switching"};+" during the dance becomes more common. "
+                        +"To do so, you can of course simply change hands in the basic, having to adjust being off with the music (e.g. do a single body wave/bounce; from beat 5 to 1). "
+                        +"A more sophisticated way of switching is to use the ";ref(ZoukRef.Soltinho);+" to simply take over leadership -and adjust music alignment again. "
                     }
                 }
             }
@@ -114,6 +134,17 @@ fun ZoukGeneralSections.basics(dsl: SectionedTabDsl) {
                             +"and the word \"quick\" "
                             +"(2nd and 3rd sound in a typical Zouk beat, usually a snare-drum, also sometimes referred to as \"chick\"). "
                             +"A beat (or \"block\" if you so want), is thus composed of: \"slow - quick - quick\" or \"tuum - chick - chick\"."
+                        },
+                        Topic("WiFi") {
+                            +"We use a so-called WiFi connection, to ensure we are not too much manipulating with our arms. "
+                            +"It is called that way, because we have no physical, direct (hand-)connection with our partner; "
+                            +"the information is transmitted solely \"through the air \". "
+                            +"This requires us to be fully present with our partner, have a strong mental connection, paying attention to position and orientation. "
+                            +"To connect the shoulders and hips visually with each other, and keep an open focus on the sternum of your partner. "; br
+                            +"Once you are able to fully understand each other this way, finding mutual understanding with physical connection will be super easy. "; br
+                            +"One level easier should be to do all the moves with body contact, yet not direct hand-to-hand grip. "
+                            +"Maybe an arm around the back, but still mostly lead everything from the frame. "
+                            +"Learning to do so will allow you to total let go of leading only through the arm/hand. "
                         }
                     )
                 }

@@ -13,15 +13,19 @@ fun ZoukBeginnerSections.general(dsl: SectionedTabDsl) {
                 // =====================================================================================================
                 html {
                     p {
-                        +"There are three types of positions to connect to your partner:"
+                        +"There are three types of positions to connect to your partner, all of them facing each other (using basic step):"
                     }
                     ul {
                         li {
-                            b { +"Close" };+": Leader hands on the back (usually shoulder blades, or more embraced) and elbows slightly pushed up and outwards. "
+                            b { +"Close" };+": Leader hands on the back (usually shoulder blades, or more embraced/hugged) and elbows slightly pushed up and outwards. "
                             +"Follower rest on partner's body depending on distance (usually outside upper arms, or around neck/shoulders if closer)."
                         }
                         li { b { +"Open" };+": Hold each other's hands with a loose grip, applying no pressure with the thumbs." }
                         li { b { +"Mixed" };+": One side closed, and the other is open." }
+                    }
+                    p {
+                        +"Thus, these connection positions indicate more the distance and the connection of the arms. "
+                        +"You could consider the position of the ";ref(ZoukRef.Viradinha);+" as a \"half-open\" position, being side-by-side."
                     }
                     youtube("dy2gSclrzSs?si=YSdm1nVn_TgweYgX", "The different connecting styles")
                     p {

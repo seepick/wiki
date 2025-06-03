@@ -45,15 +45,22 @@ fun ZoukGeneralSections.advice(dsl: SectionedTabDsl) {
                     topics(
                         Shared.AdviceTechnical.InvitingArm,
                         Shared.AdviceTechnical.SoftStrong,
-                        Topic("Give Weight") {
+                        Topic("Amount of Pressure") {
                             +"This especially applies to the follower role, to relax, to soften, to give weight. "
                             +"To build a proper connection, there is more needed than a simple butterfly touch. "; br
                             +"In basic, give the weight of your arm, relaxing into it (don't be afraid that it's too much, that you are pushing). "
                             +"Don't push with your hand though, only the arm, and lean back into the leader's hand on your back. "; br
                             +"In closed embrace, share the weight together, leaning with the shoulder/upper arm; in open embrace to the same with your hands. "; br
+
                             +"The more advanced we get though, the less weight is necessary (skill); "
                             +"sometimes a move requires more \"connection-pressure\", but use it only as a spice (technique); "
-                            +"sometimes it's just about how one likes to dance (personal preference), for which you need to develop a meta skill to quickly reading this. "
+                            +"sometimes the quality of the music determines the amount of force being used, hard beat or mellow chords (musicality); "
+                            +"sometimes the circumstances require a quick, forced change, when at a social another couple is about to collide with you (safety); "
+                            +"sometimes it's just about how one likes to dance (personal preference), for which you need to develop a meta skill to quickly reading this. "; br
+                            +"Keeping the tension as low as possible enables us to have space to increase tension if necessary. "
+                            +"If we are already at the maximum, it will be difficult/impossible to increase it further. "
+                            +"We need to have this capacity to increase tension in case we want to indicate a change/break (of rhythm/flow/direction). "
+                            +"Ultimately, and that applies to everything: You can do whatever you do, as long as you know what you are doing (and it's a deliberate choice; like with staying on the lines). "
                         },
                         Topic("Distance") {
                             +"Find a comfortable distance with your partner, it's also fine to just ask explicitly when in doubt. "
@@ -69,6 +76,13 @@ fun ZoukGeneralSections.advice(dsl: SectionedTabDsl) {
                             +"This usually indicates to go back to basic. "
                             +"Stay in close proximity, keep your body upright, as if you are too far away, you have to bend forward, doing it the ";i{+"grandpa style"};+". "
                         },
+                        Topic("Zouk Bodyscan") {
+                            +"In order to build confidence, to create your own comfort zone, during a dance scan your body and check the following: "
+                            +"Do you have a soft hug around the follower with your right arm? "
+                            +"Is the left arm a proper \"noodle arm\", fully relaxed hanging down? "
+                            +"Are your shoulders pulled back, engaging your rhomboids (when sending the follower out from basic to lateral)? "
+                            +"Are you standing upright and upper body oriented towards your partner? "
+                        }
                     )
                 }
             }
@@ -107,6 +121,12 @@ fun ZoukGeneralSections.advice(dsl: SectionedTabDsl) {
                             +"The upper body must stay stable, the frame maintained, and thus the sexy swinging of the hips is an isolated movement. "
                         },
                         Shared.Mistakes.LookingDown,
+                        Topic("Non-Directedness") {
+                            +"If we feel uncomfortable with our partner, we sometimes have the tendencies to orientate ourselves away from our partner. "
+                            +"This will lead to a disconnect. Instead keep your chest/sternum straight facing your partner. "
+                            +"In basic, you might face away with your head, but not with your upper body. "
+                            +"In lateral, just as you do in Soltinho, rotate your upper body towards the follower."
+                        },
                         Shared.Mistakes.ExpectationManagement,
                         Shared.Mistakes.DisasterAttitude,
                         Topic("Out-of-Lines") {
@@ -115,6 +135,12 @@ fun ZoukGeneralSections.advice(dsl: SectionedTabDsl) {
 
                             +"The general rule is, that leaders make space for the follower, and not the other way round. "
                             +"The leader steps out of the line, for example during Lateral/Viradinha, or simple turns."
+                        },
+                        Topic("Too Strong Announcements") {
+                            +"It is a good idea to give the follower an announcement, before a move is going to happen, to prepare them. "
+                            +"The announcement must then be also executed with such a quality that it is interpreted as such. "
+                            +"A quality of soft, and slow, gentle, relaxed, as otherwise it might be interpreted as a signal for a move already (sharp, quick, direct, hard quality). "
+                            +"E.g. when lifting the arm for an embrace or a bonus, it should be lifted in such a way that it doesn't impact the follower's core/spine, to not signal to move -yet. "
                         }
                     )
                 }

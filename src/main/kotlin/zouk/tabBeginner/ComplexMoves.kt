@@ -114,6 +114,7 @@ fun ZoukBeginnerSections.complex(dsl: SectionedTabDsl) {
                     p {
                         +"The footwork is somewhat complex and also used in more complicated, other moves. "
                         +"It is recommended to practice it by yourself! First going linear, then in circles. "
+                        +"You can do for example quarter turns in a cross-shape, then move towards half turns for left-right change, and do three-quarter turns to challenge yourself. "
                     }
                     p {
                         +"";b { +"Enter" };+" it by doing a lateral step, when moving to the left, keep the arms wide open to give a clear signal to go into circular step. "

@@ -154,13 +154,10 @@ object SharedMistakes {
         +"Having stiff, tensed arms, instead of having them hang as loosely as possible; a bit like noodles. "
         +"Keeping your arms relaxed, hanging down by default, also allows to stay closer to each other, otherwise blocking the distance. "
     }
-    val LeadingArms = Topic("Leading Arms") {
-        +"Pushing/pulling from the hand/the arm only (can be perceived as rude); using raw muscle strength. "
-        +"Instead change your frame by moving/rotating the whole (upper-)body thus center, using the frame connection. "
-    }
     val RushedEntrance = Topic("Rushed Entrance") {
         +"We often are rushing the initial connection too quickly. "
         +"Take your time and slow down; attune to your partner, and you'll see the dance will go much smoother from there. "
+        +"This goes beyond the technical aspect of \"collecting your partner\", but to bridge/transition on a more psychological level. "
     }
     val LookingDown = Topic("Looking Down") {
         +"We all have strangely the tendency to look down at our feet, as if we would need to check whether they are still there. "
@@ -175,8 +172,12 @@ object SharedMistakes {
         +"Thus, it makes no sense to try to avoid it at all costs, but rather learn how to deal with it in a healthy way. "
         +"Develop a ";b{+"recovery attitude"};+": Simply continue when you made a mistake; it's not (all) about perfection."
     }
+    val LeadingArms = Topic("Leading Arms") {
+        +"Pushing/pulling from the hand/the arm only (can be perceived as rude); using raw muscle strength. "
+        +"Instead change your frame by moving/rotating the whole (upper-)body thus center, using the frame connection. "
+    }
     val ForcedLeading = Topic("Forced Leading") {
         +"As a leader, don't 'do' the movement for the follower, only give short, ";b { +"soft impulses" };+" at the beginning. "
-        +"Don't drag her around, don't manipulate, dominate or dictate. "
+        +"Don't drag her around, don't manipulate, dominate or dictate, but rather invite by being a role model. "
     }
 }

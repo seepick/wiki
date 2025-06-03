@@ -33,11 +33,12 @@ fun ZoukGeneralSections.principles(dsl: SectionedTabDsl) {
                         +"Consider for example when switching from lateral to embrace, to do a travelling-turn (and not keeping the follower on the spot). "
                     },
                     Shared.Principles.CenterEngagement,
-                    Topic("Counter-Announcement") {
-                        +"Before doing one, always do the other a little bit first. "
+                    Topic("Pre-Movement") {
+                        +"Before doing one, always do the other a little bit first, like a \"counter-announcement\". "
                         +"When wanting to go right, first go a bit left. "
-                        +"At beginning for example, before stepping back, step slightly a bit forward, using your breath. "
-                        +"Avoid a shock to the nervous system by abrupt movements, making it your techniques smoother and more predictable. "
+                        +"Avoid a shock to the nervous system by abrupt movements, making it your techniques smoother and more predictable. "; br
+                        +"At beginning for example, before stepping back, step slightly a bit forward (forward, down, backward), using your breath, \"collecting\" the follower. "
+                        +"While doing so, keep your frame and the right arm in his position, connecting firmly to your center. "
                     },
                     Topic("Rounded Moves") {
                         +"Always make all the movements round for the follower, smoothing out the edges and sharp corners. "

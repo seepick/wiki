@@ -38,15 +38,23 @@ fun ZoukBeginnerSections.simple(dsl: SectionedTabDsl) {
                     p {
                         +"There are many possible occasions where one can do a simple turn. "
                         +"It is usually done by lifting the left hand and drawing some sort of \"halo\" around the follower's head, counter-clockwise. "
+                        +"Also pay attention to step forward with the second chick, closer to the follower, to \"collect\" her and close the gap, making things smoother. "
                     }
                     p {
-                        +"One of possible applications is when transitioning from lateral to basic steps. "
+                        +"One of possible applications is when transitioning ";b{+"from lateral to basic"};+" steps. "
                         +"Lead already when the follower is going to the right by doing a side-step left on your own line. "
                         +"With the first chick, right step on her line (where she was just standing), and second chick cross her line. "
                         +"Step out her line completely in order to maintain continuation (of her lateral) and not block her path. "
-                        +"To prevent yourself from rushing, you need to walk around more closely (requires predictable step distance/direction of both). "
+                        +"To prevent yourself from rushing, you need to walk around more closely (requires predictable step distance/direction of both). "; br
                         +"Alternatively don't even try to reach the shoulder blade (as we would do by default) but leave it only with the left-hand connection. "
                         +"This is preferred in case you have the tendency to catch your follower and going into a grandpa-style (leaning forward) kind of posture. "
+                        +"You could also maintain touch connection with your right hand, still not going for the shoulder blade, but continuously (gapless) stroking over the back and arm to the hand. "
+                    }
+                    p {
+                        +"Another simple, frequent spot to do a simple turn is after a ";ref(ZoukRef.Lunge);+". "
+                        +"Just watch out that the step to the left is not too big, preferably keep it smaller. "
+                        +"Another common mistake is to position the left too far out, just like the left foot. "
+                        +"Instead, keep the arm roughly in front of shoulder, otherwise there is a huge distance to be bridged, leading to a rushed quality. "
                     }
                 }
             }

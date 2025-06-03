@@ -85,22 +85,32 @@ fun ZoukBeginnerSections.steps(dsl: SectionedTabDsl) {
                 // =====================================================================================================
                 html {
                     p {
-                        +"From lateral step, keep holding both hands, and start when the follower is facing left. "
-                        +"Always create enough space to allow for doing a travelling-turn, doing her tuum-step going left, and turn on the chicks. "
+                        +"We call it embrace when both hands are held and alternating around the shoulder or the waist. "
+                        +"The footwork stays lateral for the follower, and side basic (side-step, not forward) for the leader. "
+                        +"It is sometimes confused with the hugging (embracing) the partner in the basic step. "
+                    }
+                    p {
+                        +"You can enter embrace from lateral, keep holding both hands, and start when the follower is facing left. "
+                        +"Always create enough space to allow for doing a ";b{+"travelling-turn"};+", doing her tuum-step going left, and turn on the chicks. "
                         +"The following tuum is again a step to the left for her, allowing a smooth, continued movement. "; br
-                        +"The result of doing a travelling-turn (instead staying on the spot which breaks the flow) is a leader's consecutively side-step. "
+                        +"The result of doing a travelling-turn (instead staying on-the-spot which breaks the flow) is a leader's consecutively side-step. "
+                        +"It is more difficult, but also much smoother, fluent for the follower. "
                         +"Finish the left side-basic, cross the right leg behind, side step, and cross the right leg in front, to travel together with the follower. "
-                        +"After that, identical footwork (side-basic but without stepping in/forward but sideways). "; br
-                        +"The connected arm is once over the shoulder and in the other direction around the waist. "
                     }
                     youtube("6ooQMB8Rlz4?si=ImRNGXUvJzQPAVWH", "Lateral, to embrace, and simply back to basic")
                     p {
                         +"It is also possible to go directly from the basic (without the lateral) into the embrace."
-                        +"Do so when the leader is stepped back, keep the follower on the spot (clear signal), and turn her."
+                        +"Do so when the leader is stepped back, keep the follower on the spot (clear signal), and do a ";b{+"simple turn"};+". "
+                        +"Basically every simple turn can transition into embrace by simply keep holding both hands. "
+                        +"This will result in the line being rotated 90 degrees."
                     }
                     p {
-                        +"A ";b{+"smoother variation"};+" is done by the leader adding some side steps in the follower's direction. "
-                        +"It will feel more fluent, instead of the on-the-spot embrace turn which gives a slight shock in the flow. "
+                        +"To summarize, there are three ways to ";b{+"enter embrace"};+":"
+                    }
+                    ol {
+                        li { +"Lateral on the spot (simple, but interrupting)" }
+                        li { +"Lateral travelling turn (more advanced leader footwork, but more fluent)" }
+                        li { +"From simple turn/lunge (smooth and easy, 90 degrees turn)" }
                     }
                 }
             }
