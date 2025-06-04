@@ -67,15 +67,19 @@ fun ZoukBeginnerSections.simple(dsl: SectionedTabDsl) {
                     youtube("Sp96GjPKzPg?si=IKyyN_Sn1eUenFYc", "The Piao move, turning slowly on the spot")
                 }
             }
-            subSection("Body Wave") {
+            subSection("Body-Wave") {
                 // =====================================================================================================
                 html {
+                    p {
+                        +"With body-waves, we usually refer to the one which resembles a snake, leading from the head down the body. "
+                        +"The inverted/reversed body-wave is often also called waterplant/seaweed, which is led by the legs/hips first upwards. "
+                    }
                     p {
                         +"From embrace, once the leader has done his right side-step, stay on the spot -don't travel! "
                         +"Once the follower is turned left, melt into each other with a soft sideway-hug. "
                         +"The quality of this movement should resemble an airbag, a soft squeeze, in contrast to a hard bump. "
                         +"To do so, roll the point of contact from the hand, over the arm, into the body. "
-                        +"Do so on both sides, on the shoulder, but especially on the waist, as from here the body wave will be started"; br
+                        +"Do so on both sides, on the shoulder, but especially on the waist, as from here the body-wave will be started"; br
                         +"Right shoulder, hip and leg touching; give some weight and lean into each other for better communication."
                     }
                     p {
@@ -108,7 +112,7 @@ fun ZoukBeginnerSections.simple(dsl: SectionedTabDsl) {
                     p {
                         +"The leader's move is simply two body-waves in opposite directions and a lowering of the whole body. "
                     }
-                    youtube("gq2vEw7lDjA?si=wL9I-vtUEAYSVkqm", "Leader movement for the Chicote (two body waves and a lowering)")
+                    youtube("gq2vEw7lDjA?si=wL9I-vtUEAYSVkqm", "Leader movement for the Chicote (two body-waves and a lowering)")
                 }
             }
             subSection("Balao") {

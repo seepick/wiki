@@ -25,7 +25,8 @@ object SharedTerminology {
         +""; br
 
         +"The frame requires a stable posture, arms tightly connected to the center with a healthy amount of tension; no spaghetti arms. "
-        +"The elbows stay within the front range and never go behind the body. "
+        +"The elbows stay within the front range and never go behind the body (the midaxillary line). "
+        +"Movement executed in front of the body,the green zone, does ";i{+"not"};+" lead to movement in the body, only outside of it. "
         +"Also, don't break from the hips, bending too much; basically staying upright. "
         +"For the leader, that frame stays usually more stable, more upright and static. "
         +"For the follower, it is more dynamic, movable, bending, twisting, and spiraling more."

@@ -84,7 +84,7 @@ fun ZoukGeneralSections.basics(dsl: SectionedTabDsl) {
                     }
                     p {
                         +"Yet, in a more liberal environment, some women lead and some men follow, and even ";b{+"role switching"};+" during the dance becomes more common. "
-                        +"To do so, you can of course simply change hands in the basic, having to adjust being off with the music (e.g. do a single body wave/bounce; from beat 5 to 1). "
+                        +"To do so, you can of course simply change hands in the basic, having to adjust being off with the music (e.g. do a single body-wave/bounce; from beat 5 to 1). "
                         +"A more sophisticated way of switching is to use the ";ref(ZoukRef.Soltinho);+" to simply take over leadership -and adjust music alignment again. "
                     }
                 }

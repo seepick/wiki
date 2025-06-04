@@ -89,6 +89,23 @@ fun ZoukIntermediateSections.newMoves(dsl: SectionedTabDsl) {
                     youtube("H5V6KIGmaCs?si=MQ5m1-lwSVfVkNtD", "Airplane Variations")
                 }
             }
+            subSection("Shoulder Embrace") {
+                html {
+                    p {
+                        +"Start from lateral and change hands (on beat 5), taking the follower's right hand with your own right hand. "
+                        +"She will then turn counter-clockwise three quarters in such a way that the line will be moved 90 degrees. "
+                        +"Reach with your left the follower's left hand, collecting her, and have both on/around the shoulders. "; br
+                        +"From here, you have all the possibilities like in the regular embrace: body-waves, bounces, walking (on-beat), chicote w/o cambre. "
+                    }
+                    p {
+                        +"To get back to basic, it's almost the same as with the regular embrace. "
+                        +"Stay on the spot while the follower walks to the right. "
+                        +"Let go of the right hand and reach for the scapula, while you put her left  hand over your own head on the shoulder. "
+                        +"This can be done very slowly, take your time, until the follower rests on your arm again. "
+                    }
+                    youtube("zrkxfnTSkbM?si=kDY0PJzIHIkEYPKF", "Shoulder Embrace with walking / bounce / body-wave")
+                }
+            }
             subSection("Bounce-Bodywave") {
                 html {
                     p {

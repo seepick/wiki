@@ -75,6 +75,36 @@ fun ZoukPreadvancedSections.newMoves(dsl: SectionedTabDsl) {
                     youtube("RD6zeVV-HiI?si=uH3u2_ymd4jQHvjX", "Viradinha Turns (single and double)")
                 }
             }
+            subSection("Cambre") {
+                html {
+                    p {
+                        +"You can enter the Cambre in different spots, easiest from Embrace, but here we cover from Viradinha and Rotisserie. "
+                        +"In Cambre, like with Embrace, all kinds of body-waves are possible here again. "
+                    }
+                    p {
+                        +"The left hand goes on her scapula (not on her head), the right arm is on the rib cage reaching to the back. "
+                        +"Put her right hand on your waist, so it is underneath yours (will make the coming Lunge afterward easier). "
+                        +"First do a bit of a forward movement, a little \"cry on the shoulder\" (the typical counter-move principle), before going back. "; br
+                        +"It's difficult to go up again from the Cambre on the 1st beat, you need to be really quick, it's more advanced. "
+                        +"In any case, the followers need to activate their neck muscles, elong it, and protect it to not bend back too much. "
+                        +"To make your life easier, you can also take longer time, doing 2 cambres, or simply end up on the 5th beat and fix it later. "
+                        +"Fixing beats is usually done by a quick bounce/body-wave to compensate/fix the rhythm again. "
+                        +"In any case never pull too hard on the follower (due to time pressure bein on the beat), but always stay soft. "
+                    }
+                    youtube("AYgLFFzYjhc?si=BiyvBMXiOj_miL6H", "Cambre within Viradinha structure")
+                    p {
+                        +"When coming from a Viradinha, when going forward, it's almost like when blocking her for a turn, but instead let her turn even further. "
+                        +"Basically letting her do a lateral again, and signal her to continue moving backwards into a Cambre."
+                    }
+                    youtube("WCxXSWFFXXI?si=IpFbV9bid6y39-RO", "Cambre within Rotisserie")
+                    p {
+                        +"Basically after the Rotisserie, add a small Tilted Turn to get your follower in the right position for a Cambre."
+                    }
+                    p {
+                        +"End the Cambre with a usual sequence of: Lunge - Simple Turn - Basic."
+                    }
+                }
+            }
         }
     }
 }

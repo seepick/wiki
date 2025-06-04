@@ -153,10 +153,11 @@ fun ZoukBeginnerSections.complex(dsl: SectionedTabDsl) {
                     p {
                         +"Just to be sure: This technique's name is indeed 'bonus'. "
                         +"It's not just some bonus material, or similar, but the name it was given. "
-                        +"Strange? True, but it is what it is..."
+                        +"Strange?! True. But it is what it is... terminology in Zouk evolved organically and was not deliberately designed with any kind of logic or structure. "
                     }
                     p {
-                        +"From lateral while she is walking to the right, prepare the right hand, raise up head height, palms touching each other. "
+                        +"Start to prepare from lateral while the follower is walking to the right. "
+                        +"Raise the right hand up to head height, her elbow at 90 degrees, palms touching each other. "
                         +"Once the follower is moving to the left, turn her 1.5 times by pulling the left hand into the desired direction. "
                         +"Do NOT push with the right hand, although this might seem tempting to do. "; br
                         +"The footwork is rather complex (for both roles). "
@@ -165,10 +166,11 @@ fun ZoukBeginnerSections.complex(dsl: SectionedTabDsl) {
                     }
                     p {
                         +"Keep the right arm up, indicating that the follower should keep on spinning (ad infinitum). "
-                        +"The moment that arm goes down, it signals her to stop spinning. "
+                        +"The moment that arm goes down, it signals her to stop spinning (a general rule). "
+                        +"During this period, the transition to free spin, keep the lego shaped hand connection. "
                         +"Shortly after that, there is a quick, elastic stretch on that arm side to pull her back again -maintain frame connection! "
                         +"Pull her back and let her do a free spin, similarly to Yoyo. "
-                        +"Really throw the right hand outwards, to indicate she shall spin), and finally going back to basic again. "
+                        +"Really throw the right hand outwards, to indicate a spin, and finally going back to basic again catching the shoulderblade. "
                     }
                     youtube(
                         "ix1h05vJhxo?si=v9xYMRlW30M8T4ya",
