@@ -1,5 +1,6 @@
 package zouk.tabBeginner
 
+import common.image
 import common.ref
 import common.youtube
 import kotlinx.html.*
@@ -9,6 +10,9 @@ import zouk.ZoukRef
 fun ZoukBeginnerSections.simple(dsl: SectionedTabDsl) {
     with(dsl) {
         section("Simple Moves") {
+            html {
+                youtube("845fSQ7r7i4?si=DH9AxCjyEs1LCunb", "Basic step and (arbitrary) turns")
+            }
             subSection("Star") {
                 // =====================================================================================================
                 html {
@@ -17,7 +21,7 @@ fun ZoukBeginnerSections.simple(dsl: SectionedTabDsl) {
                         +"Be patient, do it only on the short steps, so a pattern of: straight - turn - turn. "
                         +"For the beginning, it's easier to turn while the leader is in the back and not in the front position. "
                     }
-                    youtube("845fSQ7r7i4?si=DH9AxCjyEs1LCunb", "Basic step and (arbitrary) turns")
+                    youtube("li2As92QDBY?si=1biewGcw4_qQm8FM", "Star as a sequence of turns (on the back only) to the left")
                 }
             }
             subSection("Square") {
@@ -25,11 +29,17 @@ fun ZoukBeginnerSections.simple(dsl: SectionedTabDsl) {
                 html {
                     p {
                         +"Basically a more continuous (every single, instead of every second) routine than the ";ref(ZoukRef.StarMove);+". "
-                        +"Doing a 90-degree turn left (or right) after every beat, ending up in the same direction again after 4 turns. "
+                        +"Doing a 90-degree turn left (or right respectively) with each chick-chick, ending up in the same direction again after 4 turns (360 degrees). "
                     }
                     youtube(
                         "KemOjG2OgAI?si=CttNiLRjtfZQV8BE", "From close basic, doing a square to the left, four times"
                     )
+                    p {
+                        +"Adhering the principle of always rounding the corners, avoiding sharp edges, follow a footwork as depicted below. "
+                        +"Instead of turning 90 degrees counter-clockwise on the spot, first step a bit out of the box/square. "
+                        +"This will make a significant difference in experienced smoothness for you and your follower. "
+                    }
+                    image("images/rounded_square.png", 720 to 720, "Rounded Square")
                 }
             }
             subSection("Simple Turn") {
@@ -118,14 +128,27 @@ fun ZoukBeginnerSections.simple(dsl: SectionedTabDsl) {
             subSection("Balao") {
                 // =====================================================================================================
                 html {
-                    p { +"Balão means balloon in Portuguese and is the first head movement we learned. "
-                        +"For a nice warm-up, you can first give your follower a cozy back/shoulder/neck massage." }
-                    p { +"As a leader, simply \"float up\", breathe into the chest and bulging it out a bit. "
+                    p {
+                        +"Balão means \"balloon\" in Portuguese and is the first head movement we learn in Zouk. "
+                        +"It is one of the (three) most used head movements, and could be considered in general a signature move of Zouk. "
+                        +"For a nice warm-up, you can first give your follower a cozy back/shoulder/neck massage to help them relax. "
+                    }
+                    p {
+                        +"As a leader, simply \"float up\", breathe into the chest and bulging it out a bit. "
                         +"The arms will lift up a few centimeters, but don't lift your partner from your arms up. "
-                        +"Just raise a bit with the inhale, while keeping your arms still wide open; don't squeeze her. " }
-                    p { +"The follower rotates from the chest (not from the head/neck), and watch out to not bend too far back. "
+                        +"Just raise a bit with the inhale, while keeping your arms still wide open; don't squeeze her. "
+                    }
+                    p {
+                        +"The follower rotates from the chest (bra-line, not from the head/neck), extending the rib upwards (when going sideways) rather contracting the other. "
+                        +"Watch out to not bend your head too far back, as this is the only side which is not protected by strong connective tissue. "
                         +"It's like growing the paintbrush in your head tall, painting a big circle on the ceiling. "
-                        +"Make sure this circle is parallel to the floor, and not tilting at an angle - aim for the ceiling! " }
+                        +"When moving forward, bend your knees a bit; when going backward, stretching them again (but don't lock them). "
+                        +"As usual, as a good leader, do the movement yourself, bending knees, tilting the body, leading by being a role model, an example. "
+                        +"Yet, when going forward, don't drop your head, but make space for the follower's instead"; br
+                        +"Make sure this circle is parallel to the floor, and not tilting at an angle - aim for the ceiling! "
+                        +"No turning, staying frontal, the hips static and the movement happens only from the waist upwards. "
+
+                    }
                     youtube("JUAQK_Fthzw?si=2eDEON1lAFRZWw4Y", "Introduction to the Balao")
                 }
             }

@@ -27,7 +27,8 @@ fun ZoukBeginnerSections.general(dsl: SectionedTabDsl) {
                         +"Thus, these connection positions indicate more the distance and the connection of the arms. "
                         +"You could consider the position of the ";ref(ZoukRef.Viradinha);+" as a \"half-open\" position, being side-by-side."
                     }
-                    youtube("dy2gSclrzSs?si=YSdm1nVn_TgweYgX", "The different connecting styles")
+                    youtube("dy2gSclrzSs?si=YSdm1nVn_TgweYgX", "Establishing the initial connection in closed position")
+                    youtube("1rhvL0EEMOU?si=xhM-GmxmlFVMEeM9", "How to connect and start into the basic from a mixed position")
                     p {
                         +"When both stand next to each other, facing the same direction, as for example happens during the ";ref(ZoukRef.Viradinha);+", "
                         +"the hand slides a bit further \"into\" the back. "

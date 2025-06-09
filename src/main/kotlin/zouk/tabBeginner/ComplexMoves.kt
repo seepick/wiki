@@ -16,6 +16,8 @@ fun ZoukBeginnerSections.complex(dsl: SectionedTabDsl) {
                         +"\"Virada\" means \"turn\" in Portuguese, and the diminutive \"inha\" means \"little\". "; br
                         +"It is done while in a mixed hand position (left open, right closed), and doing a basic step. "
                         +"The leader steps out of the line of the follower (she always stays on a straight line) while going backwards. "
+                        +"It resembles a bit of a \"drunken style\" movement due to the crossing of the legs. "
+                        +"When going straight back on the tuum, cross the right behind to go out of the line. "
                         +"Both are facing in the same direction, the hands are more on the side of the follower, who is then doing a lateral step."
                         +"The leader gives a quick impulse to rotate back again and step into her line, crossing his feet to make space. "
                         +"When doing so, the steps must be smaller in order to not bump (or push) the follower. "; br
@@ -42,7 +44,7 @@ fun ZoukBeginnerSections.complex(dsl: SectionedTabDsl) {
                         +"(like a basic step), both looking in the same direction without a turn back (yet)."
                     }
                     p {
-                        +"It can also be used for a ";b{+"transition into lateral"};+", if the leader stays on the spot for a moment, "
+                        +"It can also be used for a ";b { +"transition into lateral" };+", if the leader stays on the spot for a moment, "
                         +"sending the follower forward, pulling her back into a lateral, and stepping sideways. "; br
                         +"This can be especially smooth when immediately combined with a switch back into basic, and then continuing in an infinite cycle. "
                     }
@@ -84,24 +86,31 @@ fun ZoukBeginnerSections.complex(dsl: SectionedTabDsl) {
                         +"raise up your arms into the sky (as done with the ";ref(ZoukRef.Yoyo);+")."
                     }
                     p {
-                        +"It can be used for playing with ";b{+"musicality"};+", choosing to slow much down, while followers wait the lead to exit the lunge; or keeping it short. "
+                        +"It can be used for playing with ";b { +"musicality" };+", choosing to slow much down, while followers wait the lead to exit the lunge; or keeping it short. "
                         +"It is a very effective tool when getting off-beat, to get back in your basic step dancing on time again."
                     }
                     youtube("ERZ1zvCSW-g?si=T82y4QCKFs8m7ZmD", "A few times the lunge-turn done in a row")
                     youtube("PB6iiSucaJA?si=WwfIgCo_Kmmm6mEq", "Out - pivot - lunge, with some remarks")
-                    p {
-                        +"You can also do a lunge ";b{+"hesitate"};+" turn: "
-                        +"From the basic step, start like with the Viradinha, step to the side, pivot on the spot, and lunge. "
-                        +"Here it is possible to "; i { +"optionally" }; +" do a \"hesitate\" before turning (free spin or holding hand). "
-                        +"Hesitate is basically shifting the weight left and right, with a clear, good connection, before going into a simple turn. "
+                }
+                subSubSection("Hesitated Lunge") {
+                    html {
+                        p {
+                            +"You can also do a lunge ";b { +"hesitate" };+" turn: "
+                            +"From the basic step, start like with the Viradinha, step to the side, pivot on the spot, and lunge. "
+                            +"Here it is possible to "; i { +"optionally" }; +" do a \"hesitate\" before turning (free spin or holding hand). "
+                            +"Hesitate is basically shifting the weight left and right, with a clear, good connection, before going into a simple turn. "
+                        }
+                        p {
+                            +"You can also go directly into the hesitate from the basic step. "
+                            +"Just remember that the classical direction is possible when the leader is to the back, and then do basic steps backwards again."
+                            +"When doing it while in the front, the turn has to go into the other direction; and then basic steps forward again."
+                        }
+                        youtube(
+                            "WksqVNRF2Ps?si=Ck9mnFSrJcDqo9yR",
+                            "Lunge with an optional Hesitate before the simple turn"
+                        )
+                        p { +"Also have a look at "; a("https://www.youtube.com/watch?v=RqK62OQ4qto") { +"Tiago Movimentus' instruction video" }; +" for more details on how to do the Lunge properly." }
                     }
-                    p {
-                        +"You can also go directly into the hesitate from the basic step. "
-                        +"Just remember that the classical direction is possible when the leader is to the back, and then do basic steps backwards again."
-                        +"When doing it while in the front, the turn has to go into the other direction; and then basic steps forward again."
-                    }
-                    youtube("WksqVNRF2Ps?si=Ck9mnFSrJcDqo9yR", "Lunge with an optional Hesitate before the simple turn")
-                    p { +"Also have a look at "; a("https://www.youtube.com/watch?v=RqK62OQ4qto") { +"Tiago Movimentus' instruction video" }; +" for more details on how to do the Lunge properly." }
                 }
             }
             subSection("Soltinho") {
@@ -151,15 +160,16 @@ fun ZoukBeginnerSections.complex(dsl: SectionedTabDsl) {
                 // =====================================================================================================
                 html {
                     p {
-                        +"Just to be sure: This technique's name is indeed 'bonus'. "
+                        +"Just to be sure: This technique's name is indeed \"bonus\". "
                         +"It's not just some bonus material, or similar, but the name it was given. "
                         +"Strange?! True. But it is what it is... terminology in Zouk evolved organically and was not deliberately designed with any kind of logic or structure. "
                     }
                     p {
                         +"Start to prepare from lateral while the follower is walking to the right. "
                         +"Raise the right hand up to head height, her elbow at 90 degrees, palms touching each other. "
+                        +"The left hand can be used to indicate a rotation, but don't force with a pull. "
                         +"Once the follower is moving to the left, turn her 1.5 times by pulling the left hand into the desired direction. "
-                        +"Do NOT push with the right hand, although this might seem tempting to do. "; br
+                        +"Do NOT push with the right hand (don't stir the soup), although this might seem tempting to do. "; br
                         +"The footwork is rather complex (for both roles). "
                         +"The leader steps in the beginning into her line, pulls her back after the first spin, and then walks back two times; the second being the begin of the basic already. "
                         +"The follower goes, before the second spin return, forward with the boom. "
@@ -170,7 +180,8 @@ fun ZoukBeginnerSections.complex(dsl: SectionedTabDsl) {
                         +"During this period, the transition to free spin, keep the lego shaped hand connection. "
                         +"Shortly after that, there is a quick, elastic stretch on that arm side to pull her back again -maintain frame connection! "
                         +"Pull her back and let her do a free spin, similarly to Yoyo. "
-                        +"Really throw the right hand outwards, to indicate a spin, and finally going back to basic again catching the shoulderblade. "
+                        +"Really throw the right hand outwards, to indicate a spin, and finally going back to basic again catching the shoulder blade. "; br
+                        +"The follower's footwork at the end is to stay on the left foot, shift it to the right, turn, and then only do the travelling turn in the other direction. "
                     }
                     youtube(
                         "ix1h05vJhxo?si=v9xYMRlW30M8T4ya",

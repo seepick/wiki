@@ -75,12 +75,12 @@ fun ZoukIntermediateSections.movesRevised(dsl: SectionedTabDsl) {
                         +"For the follower, practice to keep your proper balance, not to fall over. "
                     }
                 }
-                subSubSection("Directed Body Moves") {
+                subSubSection("Frontal Body Moves") {
                     html {
                         youtube("T7GUHwDWkro?si=N2kb0tZEXLWgpV1V", "Lunge Body Moves")
                         p {
-                            +"As already described previously, after doing a ";ref(ZoukRef.Lunge);+", you can either do immediately a ";b{+"simple turn"};+" or a ";b{+"hesitate"};+" before. "
-                            +"You can also lead with your whole body an ";b{+"O-shape"};+", or just half of it (like a smiling mouth or a rainbow), a waterplant (lateral wave motions leading from the bottom) or a snake (inverted moved of a waterplan, leading from the top). "
+                            +"As already described previously, after doing a ";ref(ZoukRef.Lunge);+", you can either do immediately a simple turn or a hesitate before. "
+                            +"You can also lead with your whole body an ";b { +"O-shape" };+", or just half of it (like a smiling mouth or a rainbow), or one of the (lateral) body-waves: a ";b { +"waterplant" };+" (lateral wave motions leading from the bottom) or a ";b { +"snake" };+" (inverted moved of a waterplan, leading from the top). "
                             +"And ultimately you can of course mix all of them with smooth transitions, only when the body is straight/upright and positioned on one of the sides (not in-between). "
                         }
                     }
