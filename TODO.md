@@ -1,6 +1,7 @@
 # TODOs
 
-* !! the ToC column break logic: changed my mind, do break "within" a top-group, otherwise looks ugly
+* enable 3rd level headings to be part of the ToC (maybe configurable? or disable specific entries from toc like in LaTeX)
+* ! the ToC column break logic: changed my mind, do break "within" a top-group, otherwise looks ugly (?)
 * better (transparent) favicons
 * multiplatform (official way) doesn't work, but oldschool JS does?! ''kotlin("multiplatform") version "2.0.21"''
 

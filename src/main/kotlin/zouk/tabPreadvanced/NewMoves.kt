@@ -1,5 +1,6 @@
 package zouk.tabPreadvanced
 
+import common.image
 import common.ref
 import common.youtube
 import kotlinx.html.*
@@ -12,9 +13,9 @@ fun ZoukPreadvancedSections.newMoves(dsl: SectionedTabDsl) {
         section("New Moves") {
             subSection("Rotisserie") {
                 html {
-                    youtube("_XVOqI18htw?si=n-WCaM3prfPpA0sL", "Rotisserie follower explanation, with Side-Basic")
+                    image("images/rotisserie_chicken.jpg", 400 to 267)
                     p {
-                        +"Roasted Chicken can also be called more vividly as a rotational turn, or ";b{+"roasted chicken"};+", or simply a multi-dimensional spiral movement. "
+                        +"Rotisserie can also be called more vividly as a rotational turn, or ";b{+"roasted chicken"};+" 🐓🍗, or simply a multi-dimensional spiral movement. "
                         +"It is basically a rotation in a different plane: Either transversal (simple turn) versus in the frontal plane (roasted chicken)."
                         +"From lateral, you can indicate a simple turn, and ending up on the other side. "
                         +"Watch out to not block the follower's line, but also not to move out too far and too quickly. "; br
@@ -25,13 +26,14 @@ fun ZoukPreadvancedSections.newMoves(dsl: SectionedTabDsl) {
                         +"This variation can be applied basically everywhere a simple turn can be done; think of ";ref(ZoukRef.Soltinho);+" for example. "; br
                         +"Followers watch out to keep your core engaged to protect injury of the lower back; move from the chest. "
                     }
-                    youtube("pdaNvERLsRE?si=cI9Z1hDYt1J2edek", "Roasting the chicken turn")
+                    youtube("_XVOqI18htw?si=n-WCaM3prfPpA0sL", "Rotisserie follower explanation, with Side-Basic")
                     p {
                         +"Watch out to keep the follower's arm approximately shoulder height when finishing this move and going back to lateral, as otherwise it might communicate something different. "
                         +"The hand stays facing the palm downwards throughout the move; only exception when the hand/arm is rotating, when the leader does the rotisserie as well. "
                     }
+                    youtube("pdaNvERLsRE?si=cI9Z1hDYt1J2edek", "Roasting the chicken with a turn")
                 }
-                subSubSection("Combined with Balao") {
+                subSubSection("Rotisserie with Balao") {
                     html {
                         p {
                             +"We already know the head movement called ";ref(ZoukRef.Balao);+" from the beginner/improvers class. "
