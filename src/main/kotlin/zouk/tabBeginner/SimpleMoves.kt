@@ -21,6 +21,7 @@ fun ZoukBeginnerSections.simple(dsl: SectionedTabDsl) {
                         +"Be patient, do it only on the short steps, so a pattern of: straight - turn - turn. "
                         +"For the beginning, it's easier to turn while the leader is in the back and not in the front position. "
                     }
+                    image("images/star.jpg", 450 to 457, "Rounded Star")
                     youtube("li2As92QDBY?si=1biewGcw4_qQm8FM", "Star as a sequence of turns (on the back only) to the left")
                 }
             }
@@ -39,7 +40,7 @@ fun ZoukBeginnerSections.simple(dsl: SectionedTabDsl) {
                         +"Instead of turning 90 degrees counter-clockwise on the spot, first step a bit out of the box/square. "
                         +"This will make a significant difference in experienced smoothness for you and your follower. "
                     }
-                    image("images/rounded_square.png", 720 to 720, "Rounded Square")
+                    image("images/square.jpg", 400 to 399, "Rounded Square")
                 }
             }
             subSection("Simple Turn") {

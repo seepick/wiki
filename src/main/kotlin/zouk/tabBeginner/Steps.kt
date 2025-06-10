@@ -1,5 +1,6 @@
 package zouk.tabBeginner
 
+import common.image
 import common.youtube
 import kotlinx.html.*
 import tabs.SectionedTabDsl
@@ -12,6 +13,8 @@ fun ZoukBeginnerSections.steps(dsl: SectionedTabDsl) {
                     +"Which ever steps and moves we make, when there is a clear geometrical line to follow, "
                     +"the leader always steps out, freeing the path for the follower, creating a generous \"red carpet \". "
                 }
+                image("images/steps.jpg", 800 to 262, "Zouk Footwork Overview")
+
             }
             subSection("Basic") {
                 // =====================================================================================================
