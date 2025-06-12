@@ -84,7 +84,7 @@ fun ZoukPreadvancedSections.newMoves(dsl: SectionedTabDsl) {
                         +"In Cambre, like with Embrace, all kinds of body-waves are possible here again. "
                     }
                     p {
-                        +"The left hand goes on her scapula (not on her head), the right arm is on the rib cage reaching to the back. "
+                        +"The left hand goes on her scapula, the right arm is on the rib cage reaching to the back. "
                         +"Put her right hand on your waist, so it is underneath yours (will make the coming Lunge afterward easier). "
                         +"First do a bit of a forward movement, a little \"cry on the shoulder\" (the typical counter-move principle), before going back. "; br
                         +"It's difficult to go up again from the Cambre on the 1st beat, you need to be really quick, it's more advanced. "

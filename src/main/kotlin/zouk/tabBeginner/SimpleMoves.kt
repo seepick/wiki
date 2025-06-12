@@ -21,7 +21,14 @@ fun ZoukBeginnerSections.simple(dsl: SectionedTabDsl) {
                         +"Be patient, do it only on the short steps, so a pattern of: straight - turn - turn. "
                         +"For the beginning, it's easier to turn while the leader is in the back and not in the front position. "
                     }
-                    image("images/star.jpg", 450 to 457, "Rounded Star")
+                    image("images/star.jpg", 450 to 457, "Rounded Star by turning left when on the back")
+                    p {
+                        +"The image above 👆🏻 shows the star as a red line, whereas the black lines show the optimal ";b{+"rounded path"};+" to follow. "
+                        +"Start at the position indicated by the digit 1 (obviously), stepping backward and slightly turn already counter-clockwise while travelling on the chick. "
+                        +"Doing so will avoid a sharp turn, an abrupt experience, creating a bit of a shock moment. "; br
+                        +"Arriving at position 2 going backward, then straight forward to 3, and going backward again to 4 with a ";b{+"curved trajectory"};+". "; br
+                        +"Continue doing so until you reach the 8 and are back in the initial position, finishing a full star."
+                    }
                     youtube("li2As92QDBY?si=1biewGcw4_qQm8FM", "Star as a sequence of turns (on the back only) to the left")
                 }
             }
@@ -29,18 +36,20 @@ fun ZoukBeginnerSections.simple(dsl: SectionedTabDsl) {
                 // =====================================================================================================
                 html {
                     p {
-                        +"Basically a more continuous (every single, instead of every second) routine than the ";ref(ZoukRef.StarMove);+". "
-                        +"Doing a 90-degree turn left (or right respectively) with each chick-chick, ending up in the same direction again after 4 turns (360 degrees). "
+                        +"Basically doing a sequence of turns, just as we did with the ";ref(ZoukRef.StarMove);+" but then on the backside ";i{+"as well as"};+" on the frontside. "
+                        +"Doing a 90-degree turn left (or right respectively) with each chick-chick, ending up in the same direction again after 4 turns (4x90 = 360 degrees). "
                     }
                     youtube(
                         "KemOjG2OgAI?si=CttNiLRjtfZQV8BE", "From close basic, doing a square to the left, four times"
                     )
-                    p {
-                        +"Adhering the principle of always rounding the corners, avoiding sharp edges, follow a footwork as depicted below. "
-                        +"Instead of turning 90 degrees counter-clockwise on the spot, first step a bit out of the box/square. "
-                        +"This will make a significant difference in experienced smoothness for you and your follower. "
-                    }
                     image("images/square.jpg", 400 to 399, "Rounded Square")
+                    p {
+                        +"Adhering the principle of always ";b{+"rounding the corners"};+" follow a footwork as shown above 👆🏻. "
+                        +"Instead of turning 90 degrees counter-clockwise on the spot, first step a bit out of the box/square. "
+                        +"Do so when travelling backward as well as forward. "; br
+                        +"This will make a significant difference in experienced smoothness for you and your follower. "
+
+                    }
                 }
             }
             subSection("Simple Turn") {

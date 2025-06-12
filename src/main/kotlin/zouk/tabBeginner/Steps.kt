@@ -13,8 +13,54 @@ fun ZoukBeginnerSections.steps(dsl: SectionedTabDsl) {
                     +"Which ever steps and moves we make, when there is a clear geometrical line to follow, "
                     +"the leader always steps out, freeing the path for the follower, creating a generous \"red carpet \". "
                 }
-                image("images/steps.jpg", 800 to 262, "Zouk Footwork Overview")
-
+            }
+            subSection("Overview") {
+                // =====================================================================================================
+                html {
+                    image("images/steps.jpg", 800 to 259, "Zouk Footwork Overview")
+                    p {
+                        +"The diagram above 👆🏻 shows the three most basic footwork in Zouk. "
+                        +"All three of them adhere the boom-chick-chick (long-short-short) pattern. "
+                        +"They are also placed on the same spots, distance wise, and thus are all compatible to each other. "; br
+                        +"The top and bottom row, surrounded by the ";b{+"grey line"};+", is the area in which the feet are being placed. "
+                        +"Both areas have two spots, indicated with a bigger and a smaller circle. "
+                        +"The top row is whenever you are positioned more to the front, or left respectively for the side-basic and lateral steps. "
+                        +"Analogous is the bottom row for the back/right position. ";br
+                    }
+                }
+                subSubSection("Basic") {
+                    html {
+                        p {
+                            +"Initial position with both feet next to each other, hip width apart. "
+                            +"Stepping backward (1) for the leader with the left; the follower steps with the right forward, mirroring the footwork. "
+                            +"This is the looong step on the boom, then the right foot follows (2) with a short step, finished with the left foot being lifted (3). "; br
+                            +"The right foot steps forward long on the boom (4), left short step close by (5) and right lifts again (6); and repeat. "
+                        }
+                    }
+                }
+                subSubSection("Side-Basic") {
+                    html {
+                        p {
+                            +"Assuming a basic position, feet hip width apart, left slightly in front of the right, and on the back position. "
+                            +"Step far with the left (long, boom; and also move out of the line of your follower), rotating 90 degrees clockwise (1). "
+                            +"Put the right next to it with a short step (2) and lift the left on the spot (3). "; br
+                            +"From there, the inner leg (in this case the right leg) steps outside of the outer position (4). "
+                            +"The outer leg follows either next to the other leg (5) or stepping a bit forward (5b) into the line of the follower. "
+                            +"Finishing with the outer leg lifting a bit (6). "
+                        }
+                    }
+                }
+                subSubSection("Lateral") {
+                    html {
+                        p {
+                            +"From the basic position, step long with the left foot and rotate it counter-clockwise towards your partner (1). "
+                            +"Bring the other leg in, next to the left one, and rotate it a quarter-turn facing your partner (2). "
+                            +"While you are lifting your left foot, also rotate it further counter-clockwise by a half-turn (3). "; br
+                            +"Stepping to the other side is a matter of crossing your right leg over the left (4) both toes pointing outwards in a V-shape. "
+                            +"Step the inner leg on the outer position (5), and rotate your other foot again by half a turn (6). "
+                        }
+                    }
+                }
             }
             subSection("Basic") {
                 // =====================================================================================================
