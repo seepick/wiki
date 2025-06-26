@@ -1,5 +1,6 @@
 package zouk.tabBeginner
 
+import common.externalLink
 import common.ref
 import common.youtube
 import kotlinx.html.*
@@ -53,6 +54,9 @@ fun ZoukBeginnerSections.complex(dsl: SectionedTabDsl) {
                         +"After you feel confident with a ";ref(ZoukRef.Lunge);+" and Simple Turn, you can also use the Viradinha to enter those. "
                         +"The leader needs to turn with the follower, does a side step (Lunge), and introduces a turn. "
                         +"Remember to \"collect the follower\" by stepping towards her, otherwise the distance is too big between you. "
+                    }
+                    p {
+                        +"Checkout this short video which shows the ";externalLink("https://www.youtube.com/watch?v=9pXfvmGySn8", "Viradinha from 4 perspectives");+". "
                     }
                 }
             }
@@ -153,7 +157,10 @@ fun ZoukBeginnerSections.complex(dsl: SectionedTabDsl) {
                         "HnxtpvG_nDM?si=a9t3PKf5i5l9PDqO",
                         "Soltinho footwork (linear/circular) - enter and exit from lateral"
                     )
-                    p { +"Also see a one-hour video from about the "; a("https://www.youtube.com/live/mvLOJurjr7Y") { +"StepFlix on the Soltinho" }; +"." }
+                    p {
+                        +"Also see a one-hour video from about the "; externalLink("https://www.youtube.com/live/mvLOJurjr7Y", "StepFlix on the Soltinho"); +". "; br
+                        +"Or checkout this short video which shows the ";externalLink("https://www.youtube.com/watch?v=vlCjE6rvCP4", "Soltinho from 4 perspectives");+". "
+                    }
                 }
             }
             subSection("Bonus") {

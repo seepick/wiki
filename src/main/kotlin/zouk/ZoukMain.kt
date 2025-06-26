@@ -2,6 +2,7 @@ package zouk
 
 import Wiki
 import zouk.tabBeginner.beginner
+import zouk.tabExternal.external
 import zouk.tabGeneral.general
 import zouk.tabIntermediate.intermediate
 import zouk.tabPreadvanced.preadvanced
@@ -16,6 +17,7 @@ object ZoukWiki : Wiki() {
         ZoukTabs.beginner,
         ZoukTabs.intermediate,
         ZoukTabs.preadvanced,
+        ZoukTabs.external,
     )
     override val refIds = ZoukRef.entries.map { it.id }
 }

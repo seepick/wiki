@@ -53,7 +53,7 @@ fun ZoukPreadvancedSections.newMoves(dsl: SectionedTabDsl) {
                         +"There are several different variations you can do a Viradinha. "
                         +"Practice them first before going into the details of the turn. "
                     }
-                    ul {
+                    ol {
                         li { +"Simply going in and out." }
                         li { +"Going in, stay by walk forth and back." }
                         li { +"Doing a quarter turn." }

@@ -82,6 +82,7 @@ val ZoukTabs.home: Tab
         ul {
             ali("https://www.instagram.com/zouk_moves", "Zouk Moves", "Plenty of Instagram videos for techniques with in regular and slow speed")
             ali("https://amozouk.com/blog/7-foundational-zouk-moves-all-beginners-should-know", "Amozouk", "Foundational Zouk moves for beginners")
+            ali("https://www.youtube.com/@ZoukAtoms", "ZoukAtoms", "Lots of short video clips explaining the structure of Zouk")
             ali("https://www.jettence.com/blog/names-of-brazilian-zouk-moves-in-portuguese-with-gifs/", "Jettence Moves Gifs", "Same as above, just different moves")
             ali("http://zouk-germany.com", "Zouk Germany", "Providing lots of techniques and videos")
             ali("https://www.youtube.com/watch?v=lYeU6SnPa2k&list=PLtg3wEXTYx6pDBoVcgGk2CIRA05dJytoW", "Tiago Movimentus", "A few couple of dozen tutorial videos on YouTube")

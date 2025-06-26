@@ -2,10 +2,7 @@ package zouk.tabGeneral
 
 import common.Topic
 import common.topics
-import kotlinx.html.b
-import kotlinx.html.br
-import kotlinx.html.i
-import kotlinx.html.p
+import kotlinx.html.*
 import shared.AdvicePartner
 import shared.AdviceQualities
 import shared.AdviceTechnical
