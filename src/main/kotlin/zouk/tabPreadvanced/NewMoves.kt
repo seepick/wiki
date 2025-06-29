@@ -28,7 +28,8 @@ fun ZoukPreadvancedSections.newMoves(dsl: SectionedTabDsl) {
                     }
                     youtube("_XVOqI18htw?si=n-WCaM3prfPpA0sL", "Rotisserie follower explanation, with Side-Basic")
                     p {
-                        +"Watch out to keep the follower's arm approximately shoulder height when finishing this move and going back to lateral, as otherwise it might communicate something different. "
+                        +"Watch out to keep the follower's arm approximately head/shoulder height when finishing this move and going back to lateral, as otherwise it might communicate something different. "
+                        +"Also timing wise it needs to be just a bit earlier, as if done too late, it might indicate to continue doing head movements. "
                         +"The hand stays facing the palm downwards throughout the move; only exception when the hand/arm is rotating, when the leader does the rotisserie as well. "
                     }
                     youtube("pdaNvERLsRE?si=cI9Z1hDYt1J2edek", "Roasting the chicken with a turn")

@@ -151,7 +151,6 @@ fun ZoukBeginnerSections.steps(dsl: SectionedTabDsl) {
                         +"It is also possible to go directly from the basic (without the lateral) into the embrace."
                         +"Do so when the leader is stepped back, keep the follower on the spot (clear signal), and do a ";b{+"simple turn"};+". "
                         +"Basically every simple turn can transition into embrace by simply keep holding both hands. "
-                        +"This will result in the line being rotated 90 degrees."
                     }
                     p {
                         +"To summarize, there are three ways to ";b{+"enter embrace"};+":"
@@ -159,7 +158,7 @@ fun ZoukBeginnerSections.steps(dsl: SectionedTabDsl) {
                     ol {
                         li { +"Lateral on the spot (simple, but interrupting)" }
                         li { +"Lateral travelling turn (more advanced leader footwork, but more fluent)" }
-                        li { +"From simple turn/lunge (smooth and easy, 90 degrees turn)" }
+                        li { +"From simple turn/lunge (smooth and easy, 90 degrees turn possible)" }
                     }
                 }
             }

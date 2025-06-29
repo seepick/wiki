@@ -17,11 +17,18 @@ fun ZoukBeginnerSections.general(dsl: SectionedTabDsl) {
                     }
                     ul {
                         li {
-                            b { +"Close" };+": Leader hands on the back (usually shoulder blades, or more embraced/hugged) and elbows slightly pushed up and outwards. "
-                            +"Follower rest on partner's body depending on distance (usually outside upper arms, or around neck/shoulders if closer)."
+                            b { +"Close" };+": Leader hands on the back (fingers on the shoulder blades, base of the palm on the latissimus dorsi, or more embraced/hugged) and elbows slightly pushed up and outwards. "
+                            +"Follower rest on partner's body depending on distance. "
+                            +"Either elbows rest their weight on the leader's outside (to be able to push) arms, hands relaxed, or around the neck/shoulders if standing closer. "
                         }
-                        li { b { +"Open" };+": Hold each other's hands with a loose grip, applying no pressure with the thumbs." }
-                        li { b { +"Mixed" };+": One side closed, and the other is open." }
+                        li {
+                            b { +"Open" };+": Hold each other's hands with a loose grip, applying no pressure with the thumbs. "
+                            +"The arm is relaxed (like a noodle), the hand slightly active, bent and pushed upwards against the follower's. "
+                        }
+                        li {
+                            b { +"Mixed" };+": One side closed, and the other is open. "
+                            +"For the leader, the left is relaxed (noodly) and the right is active and up and out, a base for the follower. "
+                        }
                     }
                     p {
                         +"Thus, these connection positions indicate more the distance and the connection of the arms. "
@@ -30,7 +37,11 @@ fun ZoukBeginnerSections.general(dsl: SectionedTabDsl) {
                     youtube("dy2gSclrzSs?si=YSdm1nVn_TgweYgX", "Establishing the initial connection in closed position")
                     youtube("1rhvL0EEMOU?si=xhM-GmxmlFVMEeM9", "How to connect and start into the basic from a mixed position")
                     p {
-                        +"When both stand next to each other, facing the same direction, as for example happens during the ";ref(ZoukRef.Viradinha);+", "
+                        +"We usual stand ";b{+"frontal"};+" to each other, slightly offset to occupy different lines for footwork, more left to each other. "
+                        +"When getting closer, the leader turns slightly out (to the left), so his genitals won't accidentally rub on the follower's leg, and her breasts are avoided of touch. "
+                    }
+                    p {
+                        +"When both stand next to each other, facing the ";b{+"same direction"};+", as for example happens during the ";ref(ZoukRef.Viradinha);+", "
                         +"the hand slides a bit further \"into\" the back. "
                         +"Watch out that the base of the middle finger is on the inferior angle of the scapula sinister, thus the fingers touching the rhomboids."
                         +"The leader's arm changing its shape from an embrace to a \"open door\" gesture. "
@@ -42,6 +53,8 @@ fun ZoukBeginnerSections.general(dsl: SectionedTabDsl) {
                 html {
                     p { +"Here a video showing all the movements learned during the level 1 beginner course." }
                     youtube("VllfJOm_3O8?si=aLpdPJKnrKRu4Mu6", "All the movements from Level 1")
+                    p { +"And here a demonstration how Zouk can look like at the end :) " }
+                    youtube("cwtCbQYnVQo?si=2QAzT7jcMylJTzSZ", "Cedric and Romane demonstration 2024")
                 }
             }
         }

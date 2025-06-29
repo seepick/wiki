@@ -19,17 +19,19 @@ object SharedTerminology {
 
         +"It must be connected to the arms to communicate movements into the whole body; an indirect center-to-center connection. "
         +"It allows communication, a sender-receiver relation, where the talking and listening is happening. "
-        +"If there is no frame, there is no wire to transmit information. "
+        +"If there is no frame, there is no wire to transmit information, no signals get through, and we don't understand each other. "
+        +"If there is no communication flow, there is no dance happening, it won't work, and it won't be enjoyable. "
+        +"Yet, we can have connection even though there is no frame, as it is not means to its own end! "
+        +"Especially if the internal structure/connection is maintained (posture, healthy amount of muscle tension), a frame can be (temporarily) dropped. "
         +"Not only through the physical push into the frame, but we also use it for visual orientation to communicate the dance. "
-        +"We do so, by always having one's own sternum facing the partner's sternum, (usually) maintaining a frontal position (exception lateral, turns, etc.)."
-        +""; br
+        +"We do so, by always having one's own sternum facing the partner's sternum, (usually) maintaining a frontal position; exception lateral, turns, etc."; br
 
         +"The frame requires a stable posture, arms tightly connected to the center with a healthy amount of tension; no spaghetti arms. "
         +"The elbows stay within the front range and never go behind the body (the midaxillary line). "
         +"Movement executed in front of the body,the green zone, does ";i{+"not"};+" lead to movement in the body, only outside of it. "
         +"Also, don't break from the hips, bending too much; basically staying upright. "
         +"For the leader, that frame stays usually more stable, more upright and static. "
-        +"For the follower, it is more dynamic, movable, bending, twisting, and spiraling more."
+        +"For the follower, it is more dynamic, movable, bending, twisting, and spiraling more. "
     }
 }
 

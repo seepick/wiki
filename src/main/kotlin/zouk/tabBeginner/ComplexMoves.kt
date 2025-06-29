@@ -20,8 +20,10 @@ fun ZoukBeginnerSections.complex(dsl: SectionedTabDsl) {
                         +"It resembles a bit of a \"drunken style\" movement due to the crossing of the legs. "
                         +"When going straight back on the tuum, cross the right behind to go out of the line. "
                         +"Both are facing in the same direction, the hands are more on the side of the follower, who is then doing a lateral step."
-                        +"The leader gives a quick impulse to rotate back again and step into her line, crossing his feet to make space. "
-                        +"When doing so, the steps must be smaller in order to not bump (or push) the follower. "; br
+                        +"The leader gives a quick impulse to rotate back again and step into her line, crossing his feet, but not too far to stay properly on the 4 lines (staggered position). "
+                        +"When doing so, the steps must be smaller in order to not bump (or push) the follower (maintain distance). "
+                        +"Lastly, the right foot steps backwards (not sideways) to not bump in follower's left foot."
+                        +""; br
                         i { +"Attention" }; +": Both need a proper frame (arms connected to torso, to hips/feet) for this to work,"
                         +"no noodle limbs but a moderate amount of tension kept for the connection to maintain."
                     }
@@ -41,7 +43,7 @@ fun ZoukBeginnerSections.complex(dsl: SectionedTabDsl) {
                         +"The position is closed again when stepping backwards and rounding up possibly with a regular (CCW) turn to be in the original position."
                     }
                     p {
-                        +"Another, more simple, variation is, once opened up in Viradinha, simply go forward and backward "
+                        +"Another, more simple, variation is, once opened up in Viradinha, simply go ";b{+"forward and backward"};+" "
                         +"(like a basic step), both looking in the same direction without a turn back (yet)."
                     }
                     p {

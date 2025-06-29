@@ -95,7 +95,7 @@ fun ZoukBeginnerSections.simple(dsl: SectionedTabDsl) {
                         +"The inverted/reversed body-wave is often also called waterplant/seaweed, which is led by the legs/hips first upwards. "
                     }
                     p {
-                        +"From embrace, once the leader has done his right side-step, stay on the spot -don't travel! "
+                        +"From ";b{+"Embrace"};+", once the leader has done his right side-step, stay on the spot -don't travel! "
                         +"Once the follower is turned left, melt into each other with a soft sideway-hug. "
                         +"The quality of this movement should resemble an airbag, a soft squeeze, in contrast to a hard bump. "
                         +"To do so, roll the point of contact from the hand, over the arm, into the body. "
@@ -110,6 +110,7 @@ fun ZoukBeginnerSections.simple(dsl: SectionedTabDsl) {
                     p {
                         +"When a wave towards the back has finished, you can enter again with a side-step to the left, on the boom sound. "
                         +"Lower your center first, bend your knees, and rotate left/CCW a bit before taking a step. "
+                        +"Use the left hand (like with Rotisserie) to show the movement by moving your own body, and avoid pushing with your right on the back. "
                         +"Lead the follower to an embrace, or immediately transition into basic, as you prefer. "
                     }
                     youtube("T7-6y_3JiDM?si=k-kWJVZ7vlB9LoAd", "From lateral, to embrace, to body-wave, quick embrace and return to basic")
