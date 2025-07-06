@@ -11,5 +11,6 @@ val ZoukTabs.general: Tab
         ZoukGeneralSections.basics(this)
         ZoukGeneralSections.principles(this)
         ZoukGeneralSections.advice(this)
+        ZoukGeneralSections.zoukStyles(this)
         ZoukGeneralSections.latin(this)
     }

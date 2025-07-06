@@ -80,8 +80,14 @@ fun <R> TagConsumer<R>.wikiTitle(text: String) {
     }
 }
 
+
 @HtmlTagMarker
 fun FlowContent.youtube(id: String, caption: String) {
+    youtube(id) { +caption }
+}
+
+@HtmlTagMarker
+inline fun FlowContent.youtube(id: String, crossinline captionContent: kotlinx.html.P.() -> Unit) {
     div(classes = "videoContainer") {
         iframe {
             src = "https://www.youtube.com/embed/$id"
@@ -90,7 +96,7 @@ fun FlowContent.youtube(id: String, caption: String) {
             attributes["referrerpolicy"] = "strict-origin-when-cross-origin"
             attributes["allowfullscreen"] = ""
         }
-        p(classes = "caption") { +caption }
+        p(classes = "caption", captionContent)
     }
 }
 

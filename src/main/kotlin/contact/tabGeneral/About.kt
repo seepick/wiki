@@ -1,6 +1,8 @@
 package contact.tabGeneral
 
+import common.externalLink
 import common.image
+import common.youtube
 import kotlinx.html.*
 import tabs.SectionedTabDsl
 
@@ -16,6 +18,13 @@ fun ContactGeneralSections.about(dsl: SectionedTabDsl) {
                     p {
                         +"Whenever you follow along a practice, doing some (abstract) exercise, always ask yourself: "
                         +"\"";i{+"Why is this relevant? How can it be applied?"};+"\""
+                    }
+                }
+            }
+            subSection("History") {
+                html {
+                    youtube("wkIgV000mUw?si=2c0vMIPfNKsNSxWz") {
+                        +"The not-so-quick History of CI in 3 Parts (";externalLink("http://crashcoursecontact.org/CI-History-Slides.pdf", "download the slides");+")"
                     }
                 }
             }

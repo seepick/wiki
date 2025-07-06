@@ -1,5 +1,6 @@
 package zouk.tabBeginner
 
+import common.image
 import common.ref
 import common.youtube
 import kotlinx.html.*
@@ -40,6 +41,7 @@ fun ZoukBeginnerSections.general(dsl: SectionedTabDsl) {
                         +"We usual stand ";b{+"frontal"};+" to each other, slightly offset to occupy different lines for footwork, more left to each other. "
                         +"When getting closer, the leader turns slightly out (to the left), so his genitals won't accidentally rub on the follower's leg, and her breasts are avoided of touch. "
                     }
+                    image("images/offset_positions.jpg", 350 to 222, "Occupying different lines in offset position")
                     p {
                         +"When both stand next to each other, facing the ";b{+"same direction"};+", as for example happens during the ";ref(ZoukRef.Viradinha);+", "
                         +"the hand slides a bit further \"into\" the back. "
