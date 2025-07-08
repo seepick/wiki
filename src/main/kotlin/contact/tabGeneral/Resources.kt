@@ -29,13 +29,16 @@ fun ContactGeneralSections.resources(dsl: SectionedTabDsl) {
                     p {
                         +"In case you are looking to practice (classes, workshops, festivals) anywhere in the world, check out the "
                         a("https://ciglobalcalendar.net") { +"CI global calendar" }; +". "
-                        +"Other well-known international teachers includes: ";externalLink("https://www.facebook.com/KatriLuukkonen", "Vega Luukkonen")
+                        +"Other teachers I can recommend are: ";externalLink("https://tomgoldhand.com","Tom Goldhand")
+                        +", ";externalLink("https://www.casagrafia.com", "Raul Saldarriaga")
+                        +", ";externalLink("https://www.thaliastella.com", "Thalia Laric")
+                        +", ";externalLink("https://www.facebook.com/KatriLuukkonen", "Vega Luukkonen")
                         +", "; externalLink("https://www.facebook.com/arye.bursztyn", "Arye Bursztyn")
                         +", and "; externalLink("https://bennovoorham.com/", "Benno Voorham"); +"."
                     }
                     p {
-                        +"If you need something more close to the ";b{+"Netherlands"};+", lookup the community calendar "
-                        a("https://amsterdamjam.nl") { +"Amsterdam Jam" }; +". "
+                        +"If you need something more close to the Netherlands, lookup the "
+                        a("https://amsterdamjam.nl") { +"Amsterdam Jam" }; +" calendar. "
                     }
                     // festivals in europe:
                     // France

@@ -22,6 +22,7 @@
 * https://www.riozoukimmersion.com/zouk-basic-moves-for-beginners/ techniques overview
 * https://amozouk.com/blog/7-foundational-zouk-moves-all-beginners-should-know => soltinho, boomerang
 * https://www.youtube.com/watch?v=lYeU6SnPa2k&list=PLtg3wEXTYx6pDBoVcgGk2CIRA05dJytoW => watch and incorporate
+* https://amozouk.com/zouk-move-dictionary
 * go through all improvers (=beginners) videos from 2025
 
 ### Techniques

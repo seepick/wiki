@@ -8,7 +8,7 @@ import contact.tabGeneral.general
 object ContactTabs // via extensions
 
 object ContactWiki : Wiki() {
-    override val titleText = "Crash Course Contact"
+    override val titleText = "Crash Course Contact Wiki"
     override val tabs = listOf(
         ContactTabs.general,
         ContactTabs.animalCrossings,

@@ -12,12 +12,15 @@ fun ContactGeneralSections.about(dsl: SectionedTabDsl) {
             subSection("Wiki") {
                 html {
                     p {
-                        +"This wiki will explain several moves and techniques common in CI. "
-                        +"It will do so with detailed step-by-step instructions with lots of videos for visual comprehension. "
+                        +"The following pages will explain several moves and techniques common in Contact Improvisation (CI) and provide additional information complementary to the book, the classes, and more provided by ";externalLink("https://crashcoursecontact.org", "crashcoursecontact.org");+". "
+                        +"The techniques shown will come along with detailed ";b{+"step-by-step instructions"};+" with lots of videos for visual comprehension (as printing static pictures in a book seemed not very useful for learning). "
                     }
                     p {
                         +"Whenever you follow along a practice, doing some (abstract) exercise, always ask yourself: "
-                        +"\"";i{+"Why is this relevant? How can it be applied?"};+"\""
+                        +"\"";i{+"Why is this relevant? How can it be applied?"};+"\""; br
+                        +"Always consider that CI is an invitation for ";b{+"research and investigation"};+", not believing or blindly trusting. "
+                        +"Only when you fully understand the reasons of why (and why not) you may feel satisfied and lean back. "
+                        +"Know the differences, the circumstances in which one or the other approach has certain pros and cons. "
                     }
                 }
             }
@@ -47,7 +50,12 @@ fun ContactGeneralSections.about(dsl: SectionedTabDsl) {
             subSection("Me") {
                 html {
                     p {
-                        +"For any questions or remarks, feel free to contact me via: "; br
+                        +"My name is Christoph Pickl, living in the Netherlands, Amsterdam, and I have my main background in (internal) martial arts, which is mainly (solely?) concerned with a pragmatic, functional approach. "
+                        +"I consider myself a movement researcher, and have little to do with dancing. "
+                        +"Working most of my life in a domain which required analytical thinking, structuring, ordering, grouping,... shaped my perspective on movement through a lense of (bio-)mechanics. "
+                    }
+                    p {
+                        +"For any questions or remarks, feel free to contact me via: "
                         a(href = "mailto:christoph@crashcoursecontact.org") { +"christoph@crashcoursecontact.org" }
                     }
                 }
