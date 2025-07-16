@@ -1,3 +1,4 @@
+import acro.AcroWiki
 import common.onAnchorChanged
 import common.showAlertIfInvalidRefsFound
 import common.parseAnchor
@@ -34,5 +35,6 @@ private fun parseWikiType() = when (val raw = js("wikiType")) {
     "lindy" -> LindyWiki
     "zouk" -> ZoukWiki
     "contact" -> ContactWiki
+    "acro" -> AcroWiki
     else -> error("Invalid wiki type [$raw]!")
 }

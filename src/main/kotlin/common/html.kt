@@ -22,6 +22,17 @@ fun FlowContent.topics(vararg topics: Topic) {
     }
 }
 
+fun FlowContent.ulDefinition(vararg keys: Pair<String, String>) {
+    ul {
+        keys.forEach { (key, value) ->
+            li {
+                b { +"${key}: " }
+                +value
+            }
+        }
+    }
+}
+
 fun FlowContent.olDefinition(vararg keys: Pair<String, String>) {
     ol {
         keys.forEach { (key, value) ->

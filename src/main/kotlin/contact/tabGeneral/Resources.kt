@@ -32,6 +32,7 @@ fun ContactGeneralSections.resources(dsl: SectionedTabDsl) {
                         +"Other teachers I can recommend are: ";externalLink("https://tomgoldhand.com","Tom Goldhand")
                         +", ";externalLink("https://www.casagrafia.com", "Raul Saldarriaga")
                         +", ";externalLink("https://www.thaliastella.com", "Thalia Laric")
+                        +", ";externalLink("https://www.facebook.com/noam.carmeli", "Noam Carmeli")
                         +", ";externalLink("https://www.facebook.com/KatriLuukkonen", "Vega Luukkonen")
                         +", "; externalLink("https://www.facebook.com/arye.bursztyn", "Arye Bursztyn")
                         +", and "; externalLink("https://bennovoorham.com/", "Benno Voorham"); +"."
