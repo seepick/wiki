@@ -9,8 +9,9 @@
         }
         :root {
             --color-contact: #596AD1;
-            --color-lindy: rgba(136,92,54,1);
-            --color-zouk: rgba(204,67,49,1);
+            --color-acro: rgba(235, 167, 235, 1);
+            --color-zouk: rgba(204, 67, 49, 1);
+            --color-lindy: rgba(136, 92, 54, 1);
         }
         #root {
             position: absolute;
@@ -55,6 +56,9 @@
         div.tile:hover > p#lindyTitle {
             color: var(--color-lindy);
         }
+        div.tile:hover > p#acroTitle {
+            color: var(--color-acro);
+        }
         div.tile:hover > p#zoukTitle {
             color: var(--color-zouk);
         }
@@ -92,16 +96,16 @@
                 <img src="contact/tile.png" width="184" height="251" class="tileImg" alt="Contact Improvisation"/>
             </div>
         </a>
-        <a href="lindy">
-            <div class="tile">
-                <p id="lindyTitle" class="title">Lindy</p>
-                <img src="lindy/tile.png" width="184" height="251" class="tileImg" alt="Lindy Hop"/>
-            </div>
-        </a>
         <a href="zouk">
             <div class="tile">
                 <p id="zoukTitle" class="title">Zouk</p>
                 <img src="zouk/tile.png" width="184" height="251" class="tileImg" alt="Brazilian Zouk"/>
+            </div>
+        </a>
+        <a href="acro">
+            <div class="tile">
+                <p id="acroTitle" class="title">AcroYoga</p>
+                <img src="acro/tile.png" width="184" height="251" class="tileImg" alt="AcroYoga"/>
             </div>
         </a>
     </div>
