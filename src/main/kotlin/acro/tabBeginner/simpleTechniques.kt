@@ -9,10 +9,6 @@ import tabs.SectionedTabDsl
 - from airplane into massaging; hands in prayer and stretch
 - base doing glute bridge, flyer head between, shoulders on legs, holding on shins
 - flyer backwards, back stretch
-
-intermediate:
-- reverse star
-- icarian throne to throne
  */
 
 fun AcroBeginnerSections.simpleTechniques(dsl: SectionedTabDsl) {
@@ -96,7 +92,7 @@ fun AcroBeginnerSections.simpleTechniques(dsl: SectionedTabDsl) {
                         +"Also learn what could happen (if you would be without a spotter) if the flyer falls over, doing a roll, still with the base's hands on her shoulders, to not fall on him. "
 
                     }
-                    youtube("anguDNE8amE", "fo")
+                    youtube("anguDNE8amE", "Acro Connection demonstrating how to do the Candlestick")
                 }
             }
             subSection("Star") {
@@ -110,7 +106,7 @@ fun AcroBeginnerSections.simpleTechniques(dsl: SectionedTabDsl) {
                     p {
                         +"The spotter could help with going up, so no jump is required, but ultimately is (as always) on at back side of the follower. "
                     }
-                    youtube("6HngmitsKuQ", "star")
+                    youtube("6HngmitsKuQ", "Super Dave presenting the Star pose")
                 }
             }
         }
