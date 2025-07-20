@@ -1,6 +1,6 @@
 :root {
-    --color-bright: rgba(237, 228, 238, 1);
-    --color-normal: rgba(225, 191, 227, 1);
-    --color-main: rgba(235, 167, 235, 1);
+    --color-bright: rgba(237, 228, 238, 1); /* bg */
+    --color-normal: rgba(225, 191, 227, 1); /* hover */
+    --color-main: rgba(209, 168, 213); /* font */
     --color-dark: rgba(182, 109, 179, 1);
 }

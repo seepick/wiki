@@ -23,6 +23,17 @@ fun AcroBeginnerSections.basics(dsl: SectionedTabDsl) {
                     )
                 }
             }
+            subSection("Advice for the Base") {
+                html {
+                    ul {
+                        li {
+                            +"Stop to lift, start to ";b{+"carry"};+", be (like) the ground (my friend). "
+                            +"Meaning to use architecture/structure to allow bone stacking, instead of muscular effort. "
+                            +"The flyer can then feel the ground through the base. "
+                        }
+                    }
+                }
+            }
         }
     }
 }

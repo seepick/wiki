@@ -27,6 +27,25 @@ fun AcroBeginnerSections.simpleTechniques(dsl: SectionedTabDsl) {
                 }
             }
         }
+        section("Intermediate Techniques") {
+            subSection("Side Star") {
+                html {
+                    p {
+                        +"The flyer basically balances on one of the base's leg while being in yoga's \"half moon pose\". "
+                        +"Flyer standing next to the pelvis of the base, looking cranial. "
+                        +"The hands which is on the closer side connect (peace finger), and the other two come a bit later, not yet. "
+                        +"The flyer hinges to the side, lifting the outer leg (do NOT do a lateral flexion in your upper body!), creating a trough at the pelvis. "
+                        +"This enables the base to have a proper structure to put the foot, and it doesn't slide above the pelvis, or even to the ribs. "
+                        +"The flyer's inner leg stays as much as possible on the ground; remembering to \"kick his ass\" (close to the base's butt). "
+                    }
+                    p {
+                        +"Once the flyer is up, try to keep the body horizontal / parallel to the ground, and facing to the front, not to the floor. "
+                        +"If you manage to get until here, you can go ";b{+"one step further"};+" and let go of the hands, on the the base's inner leg, the other reaching up. "
+                    }
+                    youtube("d_lto3XbRgY", "Super Dave explains Side Star")
+                }
+            }
+        }
         section("Inversions") {
             html {
                 p {
@@ -34,7 +53,16 @@ fun AcroBeginnerSections.simpleTechniques(dsl: SectionedTabDsl) {
                     +"For those it is recommended, for safety reasons, to always have a spotter (a guardian angel) with you. "
                 }
             }
-            // TODO base doing glute bridge, flyer head between, shoulders on legs, holding on shins
+            // TODO more techniques
+            /*
+            - from airplane into massaging; hands in prayer and stretch
+            - base doing glute bridge, flyer head between, shoulders on legs, holding on shins
+            - flyer backwards, back stretch
+
+            intermediate:
+            - reverse star
+            - icarian throne to throne
+             */
             subSection("Candlestick") {
                 html {
                     p {
