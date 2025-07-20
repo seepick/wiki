@@ -23,13 +23,24 @@ fun AcroBeginnerSections.basics(dsl: SectionedTabDsl) {
                     )
                 }
             }
-            subSection("Advice for the Base") {
-                html {
-                    ul {
-                        li {
-                            +"Stop to lift, start to ";b{+"carry"};+", be (like) the ground (my friend). "
-                            +"Meaning to use architecture/structure to allow bone stacking, instead of muscular effort. "
-                            +"The flyer can then feel the ground through the base. "
+            subSection("General Advice") {
+                subSubSection("Universally") {
+                    html {
+                        ul {
+                            li {
+                                +"We help the base ";b{+"going down and getting up"};+" (to and from the mat), by reaching a firm grip with the hands as an act of support, care, and respect. "
+                            }
+                        }
+                    }
+                }
+                subSubSection("Base") {
+                    html {
+                        ul {
+                            li {
+                                +"Stop to lift, start to ";b { +"carry" };+", be (like) the ground (my friend). "
+                                +"Meaning to use architecture/structure to allow bone stacking, instead of muscular effort. "
+                                +"The flyer can then feel the ground through the base. "
+                            }
                         }
                     }
                 }
