@@ -53,7 +53,7 @@ fun ContactAnimalSections.hopOn(dsl: SectionedTabDsl) {
                 }
 //                subSubSection("Facing opposite direction") {
 //                    content {
-//                        p { +"TODO" }
+//                        p { +"xxx" }
 //                        ol("prosa") {
 //                            li { +"xx" }
 //                        }
@@ -88,7 +88,7 @@ fun ContactAnimalSections.hopOn(dsl: SectionedTabDsl) {
                 }
 //                subSubSection("Facing opposite direction") {
 //                    content {
-//                        p { +"TODO" }
+//                        p { +"xxx" }
 //                        ol("prosa") {
 //                            li { +"xx" }
 //                        }
@@ -116,7 +116,7 @@ fun ContactAnimalSections.hopOn(dsl: SectionedTabDsl) {
                 }
 //                subSubSection("Facing opposite direction") {
 //                    content {
-//                        p { +"TODO" }
+//                        p { +"xxx" }
 //                        ol("prosa") {
 //                            li { +"xx" }
 //                        }
@@ -160,7 +160,7 @@ fun ContactAnimalSections.hopOn(dsl: SectionedTabDsl) {
                 }
 //                subSubSection("Facing opposite direction") {
 //                    content {
-//                        p { +"TODO" }
+//                        p { +"xxx" }
 //                        ol("prosa") {
 //                            li { +"xx" }
 //                        }
@@ -169,7 +169,7 @@ fun ContactAnimalSections.hopOn(dsl: SectionedTabDsl) {
             }
         }
         /*
-        // TODO content
+        // ... hop on content
         smoother/more advance variation of "Legs first, landing on side (not belly)" using proper spiral:
             1. full weight on outer hand and inner foot
             2. rotate into an "inverted position/little animal" (reverse table top)

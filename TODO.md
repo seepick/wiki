@@ -11,11 +11,12 @@
 * list of CI festivals in europe (move resources from book to website)
 * teachers: CI founders, ... vega luukkonen, arye bursztyn
 
-## LINDY
+## ACRO
 
-* incorporate: https://dancepoise.com/charleston-dance-steps-how-to-dance-charleston
-* Swivels, swing-out, trading water, circle from closed, whoosh, stromps; kick ball (change), tuck turn, spin
-* https://www.youtube.com/watch?v=o8MTZFCM9zU -> slingshot (from circle)
+- from airplane, to shoulder stand into hands of base, grab the shins. variations than when base is lying, and push hands against thighes.
+- from airplane into massaging; hands in prayer and stretch
+- base doing glute bridge, flyer head between, shoulders on legs, holding on shins
+- flyer backwards, back stretch
 
 ## ZOUK
 
@@ -43,3 +44,9 @@ and:
 * chicote
 * boneca
 * rolinho
+
+## LINDY
+
+* incorporate: https://dancepoise.com/charleston-dance-steps-how-to-dance-charleston
+* Swivels, swing-out, trading water, circle from closed, whoosh, stromps; kick ball (change), tuck turn, spin
+* https://www.youtube.com/watch?v=o8MTZFCM9zU -> slingshot (from circle)

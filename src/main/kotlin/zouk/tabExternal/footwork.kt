@@ -20,7 +20,6 @@ fun ZoukExternalSections.footwork(dsl: SectionedTabDsl) {
                         +"While doing lateral steps, it is possible to ";b{+"enter from both sides"};+": While leader is on the left (CW, easier) or on the right (CCW, difficult, but necessary for Viradinha entrance). "
                         +"The follower is doing her lateral with a slight change in rotation, to stay facing leader (with upper body and feet). "
                         +"The leader is walking around her, crossing her line, and rotate continuously staying facing each other. "
-                        // TODO "pacinia"?!
                         +"Give the follower a slight push (by rotating yourself) at the end to signal her step back and over-rotate. "
                     }
                     youtube("YyKKj3ALVM8?si=ThIQ4y_uSp6NEFzG", "From Lateral to Inverted Lateral (ZoukAtom)")
@@ -55,7 +54,6 @@ fun ZoukExternalSections.footwork(dsl: SectionedTabDsl) {
 //                html {
 //                    p {
 //                        +"Basically a variation of inverted lateral, with different entrance/exit possibilities. "
-//                        +"TODO!"
 //                    }
 //                }
 //            }

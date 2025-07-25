@@ -1,5 +1,6 @@
 package acro.tabBeginner
 
+import common.image
 import common.ulDefinition
 import common.youtube
 import kotlinx.html.*
@@ -10,7 +11,7 @@ fun AcroBeginnerSections.basics(dsl: SectionedTabDsl) {
         section("Basics") {
             html {
                 p {
-                    +"There are two types of acroyoga: L-shape on the ground (more common), and standing."
+                    +"There are two types of AcroYoga: L-shape on the ground (more common), and standing."
                 }
             }
             subSection("Terminology") {
@@ -21,6 +22,16 @@ fun AcroBeginnerSections.basics(dsl: SectionedTabDsl) {
                         "Spotter" to "A third person for safe guarding.",
                         "To mount" to "To enter a pose as a flyer; like mounting on a horse."
                     )
+                }
+                subSubSection("Gymnastics") {
+                    html {
+                        p {
+                            +"In acrobatics (and AcroYoga as a simplified version of partner acrobatics) it is common to reuse vocabulary from gymnastics. "
+                            +"Make yourself familiar with those to be able to clearly communicate with your partner. "
+                        }
+                        image("images/gymnastics.jpg", 700 to 500)
+                        youtube("odtTxfO0k6k", "Demonstration and of 10 beginner gymnastic moves/positions")
+                    }
                 }
             }
             subSection("General Advice") {

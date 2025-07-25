@@ -10,4 +10,7 @@ val AcroTabs.beginner: Tab
     get() = sectionedTab("Beginner") {
         AcroBeginnerSections.basics(this)
         AcroBeginnerSections.simpleTechniques(this)
+        AcroBeginnerSections.intermediateTechniques(this)
+        AcroBeginnerSections.inversions(this)
+
     }

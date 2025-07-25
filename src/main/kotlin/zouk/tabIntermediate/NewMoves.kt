@@ -147,7 +147,7 @@ fun ZoukIntermediateSections.newMoves(dsl: SectionedTabDsl) {
                             +"Exactly the same as when we are in embrace, going more down-up, instead forward-backward. "; br
                             +"Change between the two circles only when the weight is back, never when it is on the front leg. "
                         }
-                        // TODO graphics of circles
+                        // ... graphics of circles
                     }
                 }
             }
