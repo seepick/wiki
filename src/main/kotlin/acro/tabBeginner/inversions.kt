@@ -20,9 +20,11 @@ fun AcroBeginnerSections.inversions(dsl: SectionedTabDsl) {
             subSection("Wombstand") {
                 html {
                     p {
-                        +"CAVE: The name is unknown and made up for now."; br
-                        +"The base is in a glute bridge, and the flyer puts her head between the (upper) legs, hands on the shins, pushing the legs together slightly. "
-                        +"The base stays completely passive from now on. "
+                        +"The name is unknown and is made up for now."; br
+                        +"The base is in a high ";b{+"glute bridge"};+", and the flyer in a ";b{+"shoulder stance"};+", "
+                        +"putting her head between the (upper) legs, hands on the shins, pushing the legs together slightly. "
+                        +"The head is close to the knee and not too far proximal. "
+                        +"The base stays completely passive throughout the movement. "
                         +"For easier entrance, the flyer can put one foot after the other on the base's knees/legs, and then slowly rise up; kneeling, stretching, splitting. "
                     }
                 }
@@ -32,7 +34,6 @@ fun AcroBeginnerSections.inversions(dsl: SectionedTabDsl) {
                     p {
                         +"The base is in a table top position, forming a stable platform for the flyer throughout. "
                         +"The arm position of the flyer can vary, you can go for one around the belly, the other at the upper part of the closer upper arm. "
-                        +""
                     }
                     youtube("WAUjkB4vAkE", "London Acro Ladies explaining the Beach Pose")
                 }

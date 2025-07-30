@@ -20,7 +20,8 @@ fun AcroBeginnerSections.basics(dsl: SectionedTabDsl) {
                         "Base" to "To person on the bottom.",
                         "Flyer" to "To person flying on top. ",
                         "Spotter" to "A third person for safe guarding.",
-                        "To mount" to "To enter a pose as a flyer; like mounting on a horse."
+                        "To mount" to "To enter a pose as a flyer; like mounting on a horse.",
+                        "Hot Potato" to "The way the spotter only sparely touches to support.",
                     )
                 }
                 subSubSection("Gymnastics") {

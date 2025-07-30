@@ -48,6 +48,22 @@ fun AcroBeginnerSections.simpleTechniques(dsl: SectionedTabDsl) {
                     youtube("mwETRw_OOXs", "Candace showing a direct entrance into Straddle Bat")
                 }
             }
+            subSection("Foot to Shin") {
+                html {
+                    p {
+                        +"Connecting both hands (just like in Bird), the flyer steps on the lower legs of the base. "
+                        +"Slightly below the knees, with the big toes and 2nd toes between the shin bones. "; br
+                        +"The flyer stands up upright, balancing herself only with the feet, gaze is forward (not down anymore). "
+                        +"The base can have the legs fully bent or the knees above the hips (slightly more advanced), "
+                        +"but always keep the feet slightly higher than the knees to provide a safe foundation for the flyer. "
+                    }
+                    youtube("GNq_MVWxLB0", "Acro Connection demonstrating the Foot to Shin pose")
+                    p {
+                        +"You can of course transition from/into different positions, like Airplane, Throne and Whale (see video below). "
+                    }
+                    youtube("gixLd-6i9ko", "Yogafreq showing several different transitions for Foot to Shin")
+                }
+            }
             subSection("Whale Pose") {
                 html {
                     p {
