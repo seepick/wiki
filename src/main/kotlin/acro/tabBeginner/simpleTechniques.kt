@@ -12,7 +12,7 @@ fun AcroBeginnerSections.simpleTechniques(dsl: SectionedTabDsl) {
             subSection("Airplane") {
                 html {
                     p {
-                        +"Also sometimes called \"Bird Pose\", is the most simple technique in Acroyoga. "; br
+                        +"Also sometimes called \"Bird Pose\" (or \"Front Bird\"), is the most simple technique in Acroyoga. "; br
                         +"";b { +"Preparation" };+": The base on his back, the flyer at the feet, facing towards the base. "
                         +"The base can almost touch the toes of the flyer (depending on the leg-body-proportion of the flyer more/less distance). "
                         +"The feet are parallel (not V-shaped) at the hips (toes on superior anterior part of spina illica) of the flyer. "; br
@@ -35,6 +35,21 @@ fun AcroBeginnerSections.simpleTechniques(dsl: SectionedTabDsl) {
                         +"Base is pushing a bit with the legs to help the flyer going back straight again, standing on her own feet. "
                     }
                     youtube("bmktYLuksek", "Airplane tutorial by Acro Connection")
+                }
+            }
+            subSection("Tuck Sit") {
+                html {
+                    p {
+                        +"This is a very basic and fundamental position which will show up in many other techniques as well. "
+                        +"You start in a peace-grip and hands in 45 degrees; not straight, no platform; not 90 degrees, too heavy for the wrists. "
+                        +"The palms are \"sucked\" into each other, almost creating a vacuum so that no air-pocket is in between. "; br
+                        +"The base simply lies on his back with the arms straight up. "
+                        +"For more stability, engage your latissimus dorsi, locking shoulder and especially the stabilizers, and embrace your ribs; do not push from your shoulders up. "; br
+                        +"The flyer is slowly pouring her weight into hands, and then release one leg after the other from the ground. "
+                        +"Next, move your legs forward, through the arms, but do NOT lean backward, as then you are off balance and might fall with your back onto the base. "
+                        +"You have to round your chest, shoulder forward; don't change your hand position, as you might have the tendency to go to 90 degrees, flat, putting pressure on your wrists. "
+                    }
+                    youtube("4UAfHgjbvxY", "Tuck Sit quickly demonstrated by AcroYogaTV")
                 }
             }
             subSection("Straddle Bat") {

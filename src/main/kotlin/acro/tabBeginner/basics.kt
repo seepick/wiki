@@ -11,7 +11,7 @@ fun AcroBeginnerSections.basics(dsl: SectionedTabDsl) {
         section("Basics") {
             html {
                 p {
-                    +"There are two types of AcroYoga: L-shape on the ground (more common), and standing."
+                    +"There are two types of AcroYoga: L-shape (L-basing) on the ground (more common), and standing."
                 }
             }
             subSection("Terminology") {
@@ -22,6 +22,7 @@ fun AcroBeginnerSections.basics(dsl: SectionedTabDsl) {
                         "Spotter" to "A third person for safe guarding.",
                         "To mount" to "To enter a pose as a flyer; like mounting on a horse.",
                         "Hot Potato" to "The way the spotter only sparely touches to support.",
+                        "Peace Grip" to "Hands of both connected with middle and index fingers on forearms.",
                     )
                 }
                 subSubSection("Gymnastics") {
@@ -54,6 +55,19 @@ fun AcroBeginnerSections.basics(dsl: SectionedTabDsl) {
                                 +"The flyer can then feel the ground through the base. "
                             }
                         }
+                    }
+                }
+            }
+            subSection("Warming up") {
+                html {
+                    p { +"Solo: "}
+                    ul {
+                        li { +"Wrist strengthening, shifting weight onto them in table top" }
+                        li { +"Planking, to fire up the core (esp. for flyers)" }
+                    }
+                    p { +"Partnered: "}
+                    ul {
+                        li { +"Counter balancing, weight shifting movements" }
                     }
                 }
             }
