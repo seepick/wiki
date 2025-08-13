@@ -1,5 +1,6 @@
 package acro.tabBeginner
 
+import acro.AcroRef
 import acro.AcroRef.*
 import common.ref
 import common.youtube
@@ -9,10 +10,10 @@ import tabs.SectionedTabDsl
 fun AcroBeginnerSections.simpleTechniques(dsl: SectionedTabDsl) {
     with(dsl) {
         section("Simple Techniques") {
-            subSection("Airplane") {
+            subSection("Bird") {
                 html {
                     p {
-                        +"Also sometimes called \"Bird Pose\" (or \"Front Bird\"), is the most simple technique in Acroyoga. "; br
+                        +"Also sometimes called \"Airplane\" (or \"Front Bird\"), is the most simple technique in Acroyoga. "; br
                         +"";b { +"Preparation" };+": The base on his back, the flyer at the feet, facing towards the base. "
                         +"The base can almost touch the toes of the flyer (depending on the leg-body-proportion of the flyer more/less distance). "
                         +"The feet are parallel (not V-shaped) at the hips (toes on superior anterior part of spina illica) of the flyer. "; br
@@ -37,6 +38,49 @@ fun AcroBeginnerSections.simpleTechniques(dsl: SectionedTabDsl) {
                     youtube("bmktYLuksek", "Airplane tutorial by Acro Connection")
                 }
             }
+            subSection("Reverse Bird") {
+                html {
+                    p {
+                        +"Flyer stand next to base's ear, facing caudal. "
+                        +"The base reaching with his toes pretty low, so that the heels will be roughly at the hip-bones. "
+                        +"Base grabbing her shins, flyer grabbing his calves; alternately you can have a peace grip, or no hand support at all.  "
+                        +"Once the flyer opens her chest, it should be possible to let go of any hand contact. "
+                    }
+                    p {
+                        +"The flyer can change her shape (grabbing own legs), or transition into (and out from) a side star. "
+                    }
+                    youtube("5ZkOrxwq-9A", "Acro Nerds silent explanation of the Reverse Bird ")
+                    youtube("c-eHZmKy3ro", "Enter Reverse Bird from a Hand-to-Foot")
+                    youtube("hCu4fWYdQ8I", "Simply fall through from Reverse Bird to Straddle Bat")
+                }
+                subSubSection("Transition to Back Bird") {
+                    html {
+                        p {
+                            +"Once in Reverse Bird, connect both hands, one reaching through the legs, the other outside. "
+                            +"With the side where hand is connected inside, that foot stays connected, the other moves out. "
+                            +"Rotate the leg so the heel turns outwards onto the flyer's upper leg. "
+                            +"Both flex their arms ending up basically in a one-legged Straddle Bat. "
+                            +"Reposition your foot, and place both feet on her butt. "
+                            +"Circle the arms first to the side and push her chest up, ending up in a Back Bird. "
+                        }
+                    }
+                }
+            }
+            subSection("Back Bird") {
+                html {
+                    p {
+                        +"Flyer facing away, base with his feet on her butt with his toes near the Quadratus Lumborum muscle. "
+                        +"Flyer grabs his ankles with her thumbs facing inwards for more stability. "
+                        +"Base reaching for her elbows and then walking towards her shoulders for support (if necessary)."; br
+                        +"Once you let go of the hand support, you are in a ";b{+"Free Back Bird"};+". "; br
+                        +"Several different, simple variations are possible from here, like: back bow, back plank, and boat pose."
+                    }
+                    youtube("qa5iG6k3W0s", "Super Dave explaining Back Bird step-by-step with some variations")
+                    p {
+                        +"From here it is easy to ";b{+"transition"};+" into a ";ref(StraddleBat);+". "
+                    }
+                }
+            }
             subSection("Tuck Sit") {
                 html {
                     p {
@@ -56,11 +100,18 @@ fun AcroBeginnerSections.simpleTechniques(dsl: SectionedTabDsl) {
                 html {
                     p {
                         +"The flyer simply hanging upside down with the legs on the base's extended feet/legs (straddle), legs extended sideways. "
+                        +"It is important when transitioning into it, that the flyer provides a proper platform by spreading the legs, toes pulled towards the floor. "
                         +"You can be facing either direction, but the name and position is identical for both. "; br
-                        +"It's usually a common transition pose: from ";ref(Airplane);+" letting yourself down, "
+                        +"It's usually a common transition pose: from ";ref(Bird);+" letting yourself down, "
                         +"step up/down to/from ";ref(Star);+", into Floating Paschi, an in-between pose of a Cart Wheel between Side Stars, etc."
                     }
                     youtube("mwETRw_OOXs", "Candace showing a direct entrance into Straddle Bat")
+                    p {
+                        +"A possible ";b{+"exit"};+" from here would be by first connecting via a peace grip to be able to shift the weight. "
+                        +"Get one leg out and place the flexed foot under her butt and shins under her back. "
+                        +"Then do the same with the other leg and both are in some kind of \"";i{+"stacked inverted child pose"};+"\". "
+                        +"Hold onto her shoulders, and slowly roll forward using her gravitational pull so both end sitting upright. "
+                    }
                 }
             }
             subSection("Foot to Shin") {
@@ -98,7 +149,7 @@ fun AcroBeginnerSections.simpleTechniques(dsl: SectionedTabDsl) {
                     p {
                         +"Basically sitting on the base's feet like on a throne. "
                         +"The entrance can be the same as with the ";ref(WhalePose);+", going backwards (flexible Happy Baby for the base), "
-                        +"or transition from ";ref(Airplane);+". "
+                        +"or transition from ";ref(Bird);+". "
                     }
                     youtube("Mz_P0UzoBbk", "Super Dave showing variations of the Throne Pose")
                 }

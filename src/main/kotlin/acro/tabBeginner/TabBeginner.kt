@@ -12,5 +12,5 @@ val AcroTabs.beginner: Tab
         AcroBeginnerSections.simpleTechniques(this)
         AcroBeginnerSections.intermediateTechniques(this)
         AcroBeginnerSections.inversions(this)
-
+        AcroBeginnerSections.simpleFlows(this)
     }

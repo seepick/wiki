@@ -1,6 +1,8 @@
 package acro.tabBeginner
 
+import acro.AcroRef.*
 import common.image
+import common.ref
 import common.ulDefinition
 import common.youtube
 import kotlinx.html.*
@@ -21,7 +23,8 @@ fun AcroBeginnerSections.basics(dsl: SectionedTabDsl) {
                         "Flyer" to "To person flying on top. ",
                         "Spotter" to "A third person for safe guarding.",
                         "To mount" to "To enter a pose as a flyer; like mounting on a horse.",
-                        "Hot Potato" to "The way the spotter only sparely touches to support.",
+                        "Inversion" to "Basically a fancy way of saying upside-down.",
+                        "Hot Potato" to "The way a spotter only sparely touches to (not over-)support.",
                         "Peace Grip" to "Hands of both connected with middle and index fingers on forearms.",
                     )
                 }
@@ -33,6 +36,17 @@ fun AcroBeginnerSections.basics(dsl: SectionedTabDsl) {
                         }
                         image("images/gymnastics.jpg", 700 to 500)
                         youtube("odtTxfO0k6k", "Demonstration and of 10 beginner gymnastic moves/positions")
+                        p {
+                            +"For the ";b{+"flyer"};+", there are different positions each with a name useful to be familiar with. "
+                            +"The video for ";ref(Candlestick);+" has at the end a demonstration of those positions."
+                        }
+                        ul {
+                            li { +"";b{+"Tuck"};+": Knees bent and close to the chest, like a little ball. " }
+                            li { +"";b{+"Straddle Pike"};+": Legs fully extended and spread to the side (90 degrees). " }
+                            li { +"";b{+"Straddle"};+": Legs extended and 45 degrees diagonally." }
+                            li { +"";b{+"Straight"};+": Extended legs together and straight up (like a candle). " }
+                            li { +"";b{+"Double Stag"};+": Both legs slightly bent, one front other back (like running). " }
+                        }
                     }
                 }
             }
