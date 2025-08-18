@@ -16,6 +16,13 @@ fun AcroBeginnerSections.inversions(dsl: SectionedTabDsl) {
                     +"Not only to ensure everyone's safety, but also to possibly help a lot in case the pose is difficult to reach (as usual). "; br
                     +"You can pike or split up your legs, with before bent legs; you can hop (impact, dangerous!) or better go up (slowly) with control. "
                 }
+                p {
+                    +"Although we want to stay relaxed (flexible, agile, adaptable) and thus keep a calm, deep, continuous breath, "
+                    +"it can help to breathe in, and hold the breath until you found a stable position (it may, or may not work for you, try it)."
+                }
+                p {
+                    +"Any inversion you can transition into a ";b{+"needle"};+", being totally straight and having both arms next to your own body (no arm support). "
+                }
             }
             subSection("Belly Tripod") {
                 html {
@@ -62,6 +69,13 @@ fun AcroBeginnerSections.inversions(dsl: SectionedTabDsl) {
                         +"The arm position of the flyer can vary, you can go for one around the belly, the other at the upper part of the closer upper arm. "
                     }
                     youtube("WAUjkB4vAkE", "London Acro Ladies explaining the Beach Pose")
+                    p {
+                        +"As a base, you can try to (slowly!) stand up, whereas the flyer needs to synchronously adjust the legs so they always point up; "
+                        +"Communicating each others position, constantly compensating each movement. "; br
+                        +"Or fool around even more, by having two couples racing for which base is crawling faster without falling down ;)"
+                    }
+                    youtube("QbuQwROAYfA", "Beach racing, crawling competition")
+
                 }
             }
             subSection("Candlestick") {
@@ -71,13 +85,20 @@ fun AcroBeginnerSections.inversions(dsl: SectionedTabDsl) {
                         +"The flyer is stepping next to the pelvis of the base, facing forward, hands on his upper legs. "
                         +"The base is offering his palms (all five fingers one direction over the shoulder, thumb not stretched away to prevent choking), "
                         +"and the flyer is putting her (the soft part of the) shoulder into it. "
-                        +"The fingers touching the shoulder blade, and the \"heel of the palms\" on the trapezius. "; br
-                        +"To get up, you can either jump, or more easily, climb one by one on the knees like a little monkey. "
+                        +"The \"heel of the palms\" are NOT on the clavicular bone (hard) but on trapezius muscle (soft). "
+                        +"Also, for a better support and safer feeling, ";b{+"actively push the fingers"};+" into the flyer, instead of providing just a passive platform; "
+                        +"The fingers touching the shoulder blade. "; br
+                        +"To get up, you can either jump, or more easily, climb one-by-one on the knees like a little monkey. "
                         +"Flyer is lifting the hips up (creating a vertical, rather an horizontal force), in one line with the shoulders. "
                         +"The base's arms are diagonal, never perpendicular to the ground. "; br
                         +"There is no need to jump from once you are in this preliminary position, instead simply pull your legs to your chest into the ";b { +"tuck position" };+". "
                         +"You can extend the legs sideways into a ";b { +"stradle pipe" };+" or upwards (which has a much higher center of gravity) into a regular ";b { +"stradle" };+" (legs up and open) or a ";b { +"straight" };+" (legs up and closed). "
                         +"The flyer's gaze is focused on the belly button to maintain a proper posture and orientation during upside down. "
+                    }
+                    p {
+                        +"Once up, you can switch the hands to grab the base's arms (remove them from the legs)."
+                        +"Watch out, as it can feel super scary to remove especially the second hand; do it slowly. "
+                        +"The base can help with that by moving the knees closer to his arms, making the gap to bridge smaller. "
                     }
                     p {
                         +"To go down, either step slowly and controlled again on the knees of the base, or simply extend the legs sideways and land on the ground directly. "
@@ -110,9 +131,10 @@ fun AcroBeginnerSections.inversions(dsl: SectionedTabDsl) {
             subSection("Star") {
                 html {
                     p {
-                        +"Good to first practice a tripod headstand by yourself as a flyer. "; br
+                        +"Good to first practice a tripod head-/shoulder-stand by yourself as a flyer. "; br
                         +"Flyer stands next to the head facing downwards, grabbing with peace fingers, full contact with the whole palms. "
                         +"Base extending the legs, close to the head, toes on the clavicula, bending the knees. "
+                        +"To get up, engage core a lot, and/or use a little jump to get into the position. "
                         +"Flyer keeps the elbows bent and using the hands to push into in order to avoid going too far to the back. "; br
                         +"From here, you can easily ";b{+"step down"};+" and transition into a ";ref(StraddleBat);+". "
                     }
@@ -120,6 +142,21 @@ fun AcroBeginnerSections.inversions(dsl: SectionedTabDsl) {
                         +"The spotter could help with going up, so no jump is required, but ultimately is (as always) on at back side of the follower. "
                     }
                     youtube("6HngmitsKuQ", "Super Dave presenting the Star pose")
+                }
+            }
+            subSection("Reverse Star") {
+                html {
+                    p {
+                        +"Slightly more difficult than the regular star, as the flyer is facing away. "
+                        +"The flyer is standing at the bottom side of the flyer, facing towards him. "
+                        +"Place the shoulders onto his feet, and grab either his calves or alternatively grab your base's hands. "
+                        +"There is some timing necessary to get up with a small jump; first tuck (small ball) and then straddle sideways. "
+                        +"If the jump is yet not possible (too scary), make use of the spotter to push you up."
+                    }
+                    youtube("h_E4npeVE-0", "Super Dave explains Reverse Star")
+                    p {
+                        +"Try different variations, looking in different directions, and putting the flyer's shoulders onto hands or feet."
+                    }
                 }
             }
         }

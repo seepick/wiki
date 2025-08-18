@@ -154,6 +154,9 @@ fun AcroBeginnerSections.simpleTechniques(dsl: SectionedTabDsl) {
                     youtube("Mz_P0UzoBbk", "Super Dave showing variations of the Throne Pose")
                 }
             }
+            subSection("Throne Pose") {
+
+            }
         }
     }
 }
