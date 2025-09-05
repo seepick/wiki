@@ -1,11 +1,11 @@
-package acro.tabBeginner
+package acro.tabIntermediate
 
+import acro.tabBeginner.AcroBeginnerSections
 import common.youtube
 import kotlinx.html.p
 import tabs.SectionedTabDsl
 
-
-fun AcroBeginnerSections.trio(dsl: SectionedTabDsl) {
+fun AcroIntermediateSections.trio(dsl: SectionedTabDsl) {
     with(dsl) {
         section("Trio") {
             html {

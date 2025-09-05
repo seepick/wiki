@@ -2,6 +2,7 @@ package acro.tabBeginner
 
 import acro.AcroRef
 import acro.AcroRef.*
+import common.Ref
 import common.ref
 import common.youtube
 import kotlinx.html.*
@@ -10,77 +11,6 @@ import tabs.SectionedTabDsl
 fun AcroBeginnerSections.simpleTechniques(dsl: SectionedTabDsl) {
     with(dsl) {
         section("Simple Techniques") {
-            subSection("Bird") {
-                html {
-                    p {
-                        +"Also sometimes called \"Airplane\" (or \"Front Bird\"), is the most simple technique in Acroyoga. "; br
-                        +"";b { +"Preparation" };+": The base on his back, the flyer at the feet, facing towards the base. "
-                        +"The base can almost touch the toes of the flyer (depending on the leg-body-proportion of the flyer more/less distance). "
-                        +"The feet are parallel (not V-shaped) at the hips (toes on superior anterior part of spina illica) of the flyer. "; br
-                        +"The base starts squatting, with arms staying straight; the flyer is a passive plank (straight, not bending at the hips) leaning forward. "
-                        +"Base's fingers facing sideways, the flyer's upward; contact comes from the palm, not the fingers. "
-                    }
-                    p {
-                        +"";b { +"Lifting" };+": Finally push with the heels, flexing the forefoot, and extending the legs, so that they are perpendicular to the floor, just as the arms. "
-                        +"You need to have a continuous movement here, receiving weight, and pushing straight up (not diagonal) in one go, otherwise it will get heavy. "
-                        +"The flyer engages the whole back side, the (lower) back and glutes, pointing toes, being totally straight, looking forward. "
-                    }
-                    p {
-                        +"By pushing more into to the forefoot (not curling the toes, painful for the flyer!), "
-                        +"weight is taken away from the hands, to transition into a ";b { +"free bird" };+", basically a hands-free airplane. "
-                        +"You can also of course immediately enter into free bird, totally without any hand-connection. "
-                    }
-                    p {
-                        +"";b { +"Landing" };+": is done by bending the legs, yet without bending the arms (dangerous to fall over). "
-                        +"The base pointing, to tilt the flyer for a smooth transition onto the ground. "
-                        +"Base is pushing a bit with the legs to help the flyer going back straight again, standing on her own feet. "
-                    }
-                    youtube("bmktYLuksek", "Airplane tutorial by Acro Connection")
-                }
-            }
-            subSection("Reverse Bird") {
-                html {
-                    p {
-                        +"Flyer stand next to base's ear, facing caudal. "
-                        +"The base reaching with his toes pretty low, so that the heels will be roughly at the hip-bones. "
-                        +"Base grabbing her shins, flyer grabbing his calves; alternately you can have a peace grip, or no hand support at all.  "
-                        +"Once the flyer opens her chest, it should be possible to let go of any hand contact. "
-                    }
-                    p {
-                        +"The flyer can change her shape (grabbing own legs), or transition into (and out from) a side star. "
-                    }
-                    youtube("5ZkOrxwq-9A", "Acro Nerds silent explanation of the Reverse Bird ")
-                    youtube("c-eHZmKy3ro", "Enter Reverse Bird from a Hand-to-Foot")
-                    youtube("hCu4fWYdQ8I", "Simply fall through from Reverse Bird to Straddle Bat")
-                }
-                subSubSection("Transition to Back Bird") {
-                    html {
-                        p {
-                            +"Once in Reverse Bird, connect both hands, one reaching through the legs, the other outside. "
-                            +"With the side where hand is connected inside, that foot stays connected, the other moves out. "
-                            +"Rotate the leg so the heel turns outwards onto the flyer's upper leg. "
-                            +"Both flex their arms ending up basically in a one-legged Straddle Bat. "
-                            +"Reposition your foot, and place both feet on her butt. "
-                            +"Circle the arms first to the side and push her chest up, ending up in a Back Bird. "
-                        }
-                    }
-                }
-            }
-            subSection("Back Bird") {
-                html {
-                    p {
-                        +"Flyer facing away, base with his feet on her butt with his toes near the Quadratus Lumborum muscle. "
-                        +"Flyer grabs his ankles with her thumbs facing inwards for more stability. "
-                        +"Base reaching for her elbows and then walking towards her shoulders for support (if necessary)."; br
-                        +"Once you let go of the hand support, you are in a ";b{+"Free Back Bird"};+". "; br
-                        +"Several different, simple variations are possible from here, like: back bow, back plank, and boat pose."
-                    }
-                    youtube("qa5iG6k3W0s", "Super Dave explaining Back Bird step-by-step with some variations")
-                    p {
-                        +"From here it is easy to ";b{+"transition"};+" into a ";ref(StraddleBat);+". "
-                    }
-                }
-            }
             subSection("Tuck Sit") {
                 html {
                     p {
@@ -114,7 +44,7 @@ fun AcroBeginnerSections.simpleTechniques(dsl: SectionedTabDsl) {
                     }
                 }
             }
-            subSection("Foot to Shin") {
+            subSection("Foot-to-Shin") {
                 html {
                     p {
                         +"Connecting both hands (just like in Bird), the flyer steps on the lower legs of the base. "
@@ -128,10 +58,18 @@ fun AcroBeginnerSections.simpleTechniques(dsl: SectionedTabDsl) {
                         +"You can of course transition from/into different positions, like Airplane, Throne and Whale (see video below). "
                     }
                     youtube("gixLd-6i9ko", "Yogafreq showing several different transitions for Foot to Shin")
+                    p {
+                        +"Instead of the flyer's feet onto the base's shins, it can also be the other way round: "
+                        +"";b{+"Shin-to-foot"};+", the flyer thus basically shin-kneeling on the base's feet. "; br
+                        +"If you the sides differ, one shin-to-foot, the other foot-to-shin, you are basically in a ";b{+"Flamingo"};+" position."
+                    }
                 }
             }
             subSection("Whale Pose") {
                 html {
+                    p {
+                        +"It's basically a Reverse ";ref(BackBird);+" but with the contact points repositioned. "
+                    }
                     p {
                         +"Flyer stands next to base's head, facing away; base is grabbing the ankles. "
                         +"Reach with toes under the shoulder blades (maybe with help of flyer reaching for them), and flyer bends backwards. "
@@ -147,15 +85,24 @@ fun AcroBeginnerSections.simpleTechniques(dsl: SectionedTabDsl) {
             subSection("Throne Pose") {
                 html {
                     p {
-                        +"Basically sitting on the base's feet like on a throne. "
+                        +"Also called ";b{+"Chair Pose"};+", which is basically sitting on the base's feet like on a throne/chair. "
+                    }
+                    p {
                         +"The entrance can be the same as with the ";ref(WhalePose);+", going backwards (flexible Happy Baby for the base), "
-                        +"or transition from ";ref(Bird);+". "
+                        +"or transition from ";ref(Bird);+". "; br
+                        +"Another entrance, which requires less flexibility from the base, is coming from the front. "
+                        +"The flyer steps with one foot on the base hand (elbow touching the ground for more support if needed). "
+                        +"On the other side, the flyer is pushing on the base's foot (extended leg). "
+                        +"Now the base is reaching with the foot underneath the lifted flyer's leg on one buttock. "
+                        +"The base is initiating to shift the weight towards his head, while the flyer is pushing weight onto all contact points. "
+                        +"Now the second foot of the flyer can be given a platform with the hand, and finally reach with the second foot underneath the other buttock. "
+                    }
+                    p {
+                        +"Watch out to keep the base's legs bent until the flyer is fully upright, and only then extend the legs. "; br
+                        +"It's nice and easy to transition here from/to shin-to-foot or foot-to-shin. "
                     }
                     youtube("Mz_P0UzoBbk", "Super Dave showing variations of the Throne Pose")
                 }
-            }
-            subSection("Throne Pose") {
-
             }
         }
     }
