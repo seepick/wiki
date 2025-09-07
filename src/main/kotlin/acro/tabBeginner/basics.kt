@@ -65,6 +65,9 @@ fun AcroBeginnerSections.basics(dsl: SectionedTabDsl) {
                             li {
                                 +"Always keep ";b { +"breathing" };+"; if you can talk effortlessly and calmly with each other, you are doing fine."
                             }
+                            li {
+                                +"When having a ";b{+"hand connection"};+", it's more like providing a passive platform; there is no active grabbing or pulling with the fingers. "
+                            }
                         }
                     }
                 }
@@ -74,13 +77,18 @@ fun AcroBeginnerSections.basics(dsl: SectionedTabDsl) {
                             li {
                                 +"Stop to lift, start to ";b { +"carry" };+", be (like) the ground (my friend). "
                                 +"Meaning to use architecture/structure to allow bone stacking, instead of muscular effort. "
-                                +"The flyer can then feel the ground through the base. "
+                                +"The flyer can then feel the ground through the base, being more relaxed instead actively pushing up. "
+                                +"Similar to when the flyer is upside-down, to relax the shoulders into the platform. "
                             }
                             li {
-                                +"When tilting the flyer (in Bird), don't only push from the toes (painful) but from the balls of the feet. "
+                                +"When ";b{+"tilting the flyer"};+" (e.g. in ";ref(Bird);+"), don't only push from the toes (painful) but from the balls of the feet. "
                             }
                             li {
-                                +"When letting the flyer down, do so by bending your legs, instead moving them just sideways. "
+                                +"When letting the ";b{+"flyer down"};+", do so by bending your legs, instead moving them just sideways. "
+                            }
+                            li {
+                                +"";b{+"Relaxed feet"};+" makes the flyer's life much more enjoyable. "
+                                +"Breathe, trust, relax you must."
                             }
                         }
                     }

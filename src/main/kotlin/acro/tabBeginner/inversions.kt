@@ -1,5 +1,6 @@
 package acro.tabBeginner
 
+import acro.AcroRef
 import acro.AcroRef.*
 import common.ref
 import common.youtube
@@ -18,7 +19,9 @@ fun AcroBeginnerSections.inversions(dsl: SectionedTabDsl) {
                 }
                 p {
                     +"Although we want to stay relaxed (flexible, agile, adaptable) and thus keep a calm, deep, continuous breath, "
-                    +"it can help to breathe in, and hold the breath until you found a stable position (it may, or may not work for you, try it)."
+                    +"it can help to breathe in, and hold the breath until you found a stable position (it may, or may not work for you, try it). "; br
+                    +"When going up, for example in ";ref(AcroRef.Beach);+", move from your butt up, don't kick from your legs. "
+                    +"First get into a knee-to-chest position, and from there, once you are balanced, you can go into a straight position. "
                 }
                 p {
                     +"Any inversion you can transition into a ";b{+"needle"};+", being totally straight and having both arms next to your own body (no arm support). "

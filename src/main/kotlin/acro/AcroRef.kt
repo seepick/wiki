@@ -9,9 +9,12 @@ enum class AcroRef(
     // BEGINNER
     Bird("Bird", "beginner/birds/bird"),
     BackBird("Back Bird", "beginner/birds/back_bird"),
+
     StraddleBat("Straddle Bat", "beginner/simple_techniques/straddle_bat"),
     WhalePose("Whale Pose", "beginner/simple_techniques/whale_pose"),
     ThronePose("Whale Pose", "beginner/simple_techniques/throne_pose"),
+
+    Beach("Beach", "beginner/inversions/beach"),
     Candlestick("Candlestick", "beginner/inversions/candlestick"),
 
     // INTERMEDIATE

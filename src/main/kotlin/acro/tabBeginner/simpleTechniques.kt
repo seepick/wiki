@@ -102,6 +102,10 @@ fun AcroBeginnerSections.simpleTechniques(dsl: SectionedTabDsl) {
                         +"It's nice and easy to transition here from/to shin-to-foot or foot-to-shin. "
                     }
                     youtube("Mz_P0UzoBbk", "Super Dave showing variations of the Throne Pose")
+                    p {
+                        +"A variation would be to place the feet not on the buttocks but more towards the knees. "
+                        +"The flyer then wraps (like a snake) her legs around yours, which makes things a bit more stable/easier. "
+                    }
                 }
             }
         }

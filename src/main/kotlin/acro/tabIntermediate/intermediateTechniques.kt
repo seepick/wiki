@@ -36,7 +36,10 @@ fun AcroIntermediateSections.intermediateTechniques(dsl: SectionedTabDsl) {
                         +"Alternatively, you can enter from a hands-free ";ref(Bird);+". "
                         +"The flyer grabs one of the base's ankles and slides down the grip on the shin, close to the knee. "
                         +"From there, without any hand-connection, go directly into a Side Star, and right to the other side. "
-                        +"As with many techniques, timing, positioning, and lowering the new platform is crucial to succeed. "
+                    }
+                    p {
+                        +"As with many techniques, timing, positioning, and lowering the new platform is crucial to succeed. "; br
+                        +"Like the bird's point/flex to tilt the flyer, becomes pronation (outside up) supination (inside up) in side star. "
                     }
                     p {
                         +"A typical ";b { +"beginner's mistake" };+" is that the flyer is not lifting the outer leg enough, or not pouring enough weight into the base. "
@@ -52,6 +55,7 @@ fun AcroIntermediateSections.intermediateTechniques(dsl: SectionedTabDsl) {
                             +"The flyer hinges to the side, lifting the outer leg (do NOT do a lateral flexion in your upper body!), creating a trough at the pelvis. "
                             +"This enables the base to have a proper structure to put the foot, and it doesn't slide above the pelvis, or even to the ribs. "
                             +"The flyer's inner leg stays as much as possible on the ground; remembering to \"kick his ass\" (close to the base's butt). "
+                            +"The base is giving some resistance (no collapse/fall) while the flyer is pouring her weight, and once she is above the center, push her straight up. "
                         }
                         p {
                             +"Once the flyer is up, try to keep the body horizontal / parallel to the ground, and facing to the front, not to the floor. "
@@ -89,6 +93,10 @@ fun AcroIntermediateSections.intermediateTechniques(dsl: SectionedTabDsl) {
                         +"One pair of hands are connected L/R-diagonally and stay connected, they are only changing the grip by rotating. "
                         +"The base walks around the flyer, thus the flyer is continuously rolling. "
                         +"Stepping on the sides (hip area) and near the sacrum (not on the lower back!), skipping the front area."
+                    }
+                    p {
+                        +"A common mistake for the base is to shift the flyer's weight too much to the front. "
+                        +"Keep with your legs a bicycle motion, continuously shifting her weight back, maintaining it over your center, legs perpendicular to the ground. "
                     }
                     youtube("OWJO7WevE", "Jacob Brown quickly demonstrating the Rotisserie")
                 }
