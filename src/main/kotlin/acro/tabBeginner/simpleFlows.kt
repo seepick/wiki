@@ -9,11 +9,36 @@ import tabs.SectionedTabDsl
 fun AcroBeginnerSections.simpleFlows(dsl: SectionedTabDsl) {
     with(dsl) {
         section("Beginner Flows") {
+            subSection("Whale-Chair") {
+                html {
+                    youtube("0dGS_6KFf4s", "Christoph and Stefanie practicing this simple sequence")
+                    p {
+                        +"Transition from ";ref(WhalePose);+" to "; ref(ThronePose); +":"
+                    }
+                    ol {
+                        li { +"Once the flyer is in Whale Pose, spread the arms sideways in a Jesus arm position" }
+                        li { +"The base changes both hand positions sequentially from below carves to underneath the feet" }
+                        li { +"Then change also feet positions, further towards the knee (crucial repositioning!)" }
+                        li { +"When 2nd foot moves, do a bicycle move to keep her over your center; flyer doing a strong sit-up (super crucial moment!)" }
+                    }
+                    p {
+                        +"Transition from ";ref(ThronePose);+" to ";b{+"Reverse Low Foot-to-Hand"};+":"
+                    }
+                    ol {
+                        li { +"The base's hands grab the flyer's feet (if not already doing so)" }
+                        li { +"Flyer's forearms on feet of base (needs repositioning)" }
+                        li { +"Base lowering arms, close to the torso (more stable, like one compact unit)" }
+                        li { +"Base pronate arms to push weight more towards heel (more stable for flyer)" }
+                        li { +"Flyer stands up; can use base's legs for support; base can then cheat a bit with legs to support more" }
+                        li { +"Fingers of base wrapped more stability (at least psychological help), but don't lose center of palm surface contact" }
+                    }
+                }
+            }
             subSection("Three in One") {
                 html {
                     youtube("sYM4GrsJcRo", "Acro Connection - Simple and beautiful flow for beginners")
                     p {
-                        +"";b{+"First sequence"};+" from 0:00 until 0:46"
+                        +"";b { +"First sequence" };+" from 0:00 until 0:46"
                     }
                     ol {
                         li { +"Both on their backs, lift her with hands on her hips." }
@@ -26,7 +51,7 @@ fun AcroBeginnerSections.simpleFlows(dsl: SectionedTabDsl) {
                         li { +"Flip forward to exit." }
                     }
                     p {
-                        +"";b{+"Second sequence"};+" from 0:47 until 1:10"
+                        +"";b { +"Second sequence" };+" from 0:47 until 1:10"
                     }
                     ol {
                         li { +"Start into a ";ref(Candlestick);+"." }
@@ -35,7 +60,7 @@ fun AcroBeginnerSections.simpleFlows(dsl: SectionedTabDsl) {
                         li { +"Exit with a front flip via a Back Bird." }
                     }
                     p {
-                        +"";b{+"Third sequence"};+" from 1:11 until 1:52"
+                        +"";b { +"Third sequence" };+" from 1:11 until 1:52"
                     }
                     ol {
                         li { +"Step into a ";ref(ThronePose);+"." }

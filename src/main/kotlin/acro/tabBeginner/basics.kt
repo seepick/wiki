@@ -28,6 +28,7 @@ fun AcroBeginnerSections.basics(dsl: SectionedTabDsl) {
                         "Peace Grip" to "Hands of both connected with middle and index fingers on forearms.",
                         "Inside xxx" to "A technique where the flyer's body is inside the base's legs (default is outside)",
                         "Reverse xxx" to "A technique where the flyer is facing away from the base (default is towards base's head)",
+                        "X-to-Y" to "Convention in nomenclatur is to always put the flyer first and then the base, like in " + ref(FootToShin),
                     )
                 }
                 subSubSection("Gymnastics") {
@@ -60,10 +61,10 @@ fun AcroBeginnerSections.basics(dsl: SectionedTabDsl) {
                                 +"We help the base ";b { +"going down and getting up" };+" (to and from the mat), by reaching a firm grip with the hands as an act of support, care, and respect. "
                             }
                             li {
-                                +"Keep everything ";b { +"soft yet strong" };+", especially at the contact points (feet, legs, buttocks) to increase surface area. "
+                                +"Keep everything ";b { +"soft yet strong" };+", especially at the contact points to increase surface area. "
                             }
                             li {
-                                +"Always keep ";b { +"breathing" };+"; if you can talk effortlessly and calmly with each other, you are doing fine."
+                                +"Always keep ";b { +"breathing" };+"; if you can talk effortlessly with each other, you are doing fine."
                             }
                             li {
                                 +"When having a ";b{+"hand connection"};+", it's more like providing a passive platform; there is no active grabbing or pulling with the fingers. "
@@ -81,14 +82,17 @@ fun AcroBeginnerSections.basics(dsl: SectionedTabDsl) {
                                 +"Similar to when the flyer is upside-down, to relax the shoulders into the platform. "
                             }
                             li {
-                                +"When ";b{+"tilting the flyer"};+" (e.g. in ";ref(Bird);+"), don't only push from the toes (painful) but from the balls of the feet. "
+                                +"When ";b{+"tilting the flyer"};+", don't only push from the toes (painful) but from the balls of the feet. "
                             }
                             li {
-                                +"When letting the ";b{+"flyer down"};+", do so by bending your legs, instead moving them just sideways. "
+                                +"Letting the ";b{+"flyer down"};+" by bending your legs, instead moving just sideways. "
                             }
                             li {
                                 +"";b{+"Relaxed feet"};+" makes the flyer's life much more enjoyable. "
                                 +"Breathe, trust, relax you must."
+                            }
+                            li {
+                                +"";b{+"Squeeze"};+" the foot/hand to indicate which side is going to move first."
                             }
                         }
                     }
@@ -96,8 +100,8 @@ fun AcroBeginnerSections.basics(dsl: SectionedTabDsl) {
                 subSubSection("Flyer") {
                     html {
                         ul {
-                            li { +"You are not only planking, but you are ";b { +"birding" };+", to really extend the back into an arched, active shape. " }
-
+                            li { +"Tension makes you heavy, so you better ";b{+"relax to be light"};+". " }
+                            li { +"You are not only planking, but you are ";b { +"birding" };+"; to extend and arch the back. " }
                         }
                     }
                 }
