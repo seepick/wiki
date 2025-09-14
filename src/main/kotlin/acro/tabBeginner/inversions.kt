@@ -24,7 +24,7 @@ fun AcroBeginnerSections.inversions(dsl: SectionedTabDsl) {
                     +"First get into a knee-to-chest position, and from there, once you are balanced, you can go into a straight position. "
                 }
                 p {
-                    +"Any inversion you can transition into a ";b{+"needle"};+", being totally straight and having both arms next to your own body (no arm support). "
+                    +"Any inversion you can transition into a ";b { +"needle" };+", being totally straight and having both arms next to your own body (no arm support). "
                 }
             }
             subSection("Belly Tripod") {
@@ -34,14 +34,14 @@ fun AcroBeginnerSections.inversions(dsl: SectionedTabDsl) {
                         +"It's more like a warming up, than a role pose, as it can't be transitioned from or into it. "; br
                     }
                     p {
-                        +"For the ";b{+"base"};+": "
+                        +"For the ";b { +"base" };+": "
                         +"Lie on your belly, maybe having your upper body up (cobra position), and push with your forearms into the ground. "
                         +"The lower legs are more than 90 degrees bent, almost 45 degrees to the ground, so you can properly push into your flyer. "
                         +"Resist the temptation to push out your butt out (tilting the pelvis backwards); "
                         +"instead push pelvis forward into the ground, and engage your muscles around the ribs."
                     }
                     p {
-                        +"For the ";b{+"flyer"};+": "
+                        +"For the ";b { +"flyer" };+": "
                         +"Position your clavicles on the base's toes, not directly on the arch yet. "
                         +"This is a very common initial positioning, as you will roll into the right position later. "
                         +"Your hands must be further away from the base, so that your arms can be fully extended later; "
@@ -57,7 +57,7 @@ fun AcroBeginnerSections.inversions(dsl: SectionedTabDsl) {
                 html {
                     p {
                         +"The name is unknown and is made up for now."; br
-                        +"The base is in a high ";b{+"glute bridge"};+", and the flyer in a ";b{+"shoulder stance"};+", "
+                        +"The base is in a high ";b { +"glute bridge" };+", and the flyer in a ";b { +"shoulder stance" };+", "
                         +"putting her head between the (upper) legs, hands on the shins, pushing the legs together slightly. "
                         +"The head is close to the knee and not too far proximal. "
                         +"The base stays completely passive throughout the movement. "
@@ -81,6 +81,28 @@ fun AcroBeginnerSections.inversions(dsl: SectionedTabDsl) {
 
                 }
             }
+            subSection("Shoulderstand") {
+                html {
+                    // TODO candlestick VS shoulderstand?!
+                    p {
+                        +"There seems to be an inconsistency in the community about the difference (or whether they are the same?) between a candlestick and a shoulderstand..."; br
+                        +"Once the flyer's shoulders are on the base's feet, it's called ";ref(Star);+" instead. "
+                    }
+                    p {
+                        +"Best to start from a ";ref(Bird);+" and let the flyer tilt forward and grab the base's ankles, base reaching for the shoulders. "
+                        +"Already and continuously pushing with the arms into the flyer's shoulders, providing a safe, strong, reliable platform. "
+                        +"Base pushing back with the heels, flyer extending the arms to create a firm structure. "
+                    }
+                    p {
+                        +"";b { +"Going down" };+" can be a bit tricky with the foot position: The flyer is pulling the feet on the right position to go back to Bird."
+                    }
+                    youtube("kT4KNu4sDC8", "SuperDave showing the regular Shoulderstand and some variations")
+                    p {
+                        +"The variation shows Knee(s)-to-Foot (a.k.a. kneepdrop) and letting go of the flyer's handgrip. "
+                        +"Scorpion is basically bending the knees backwards, requiring a stronger grip on the base's legs. "
+                    }
+                }
+            }
             subSection("Candlestick") {
                 html {
                     p {
@@ -89,7 +111,7 @@ fun AcroBeginnerSections.inversions(dsl: SectionedTabDsl) {
                         +"The base is offering his palms (all five fingers one direction over the shoulder, thumb not stretched away to prevent choking), "
                         +"and the flyer is putting her (the soft part of the) shoulder into it. "
                         +"The \"heel of the palms\" are NOT on the clavicular bone (hard) but on trapezius muscle (soft). "
-                        +"Also, for a better support and safer feeling, ";b{+"actively push the fingers"};+" into the flyer, instead of providing just a passive platform; "
+                        +"Also, for a better support and safer feeling, ";b { +"actively push the fingers" };+" into the flyer, instead of providing just a passive platform; "
                         +"The fingers touching the shoulder blade. "; br
                         +"To get up, you can either jump, or more easily, climb one-by-one on the knees like a little monkey. "
                         +"Flyer is lifting the hips up (creating a vertical, rather an horizontal force), in one line with the shoulders. "
@@ -109,29 +131,31 @@ fun AcroBeginnerSections.inversions(dsl: SectionedTabDsl) {
 
                     }
                     youtube("anguDNE8amE", "Acro Connection demonstrating how to do the Candlestick")
+                    p {
+                        +"From this low (grabbing upper legs) Candlestick, you can also try to grab the base's arms instead, being free:"
+                    }
+                    youtube("usu93tTl1HQ", "SUperDave showing supported and free Shoulderstand")
                 }
-            }
-
-            subSection("Bird to Candlestick") {
-                html {
-                    p {
-                        +"Start in a bird, and then the flyer grabs the ankles/shins of the base. "
-                        +"The base is bending his knees, flexing the feet to make the flyer drop forward. "
-                        +"Here, the flyer need to have a very strong engaged core, and might use the arms as additional support to stay planked. "
-                        +"Reach for shoulders with all fingers same direction (don't strangle your flyer with the thumbs facing anterior). "
-                        +"Push the heels backwards, to avoid having the flyer fall backwards (scary, dangerous). "
+                subSubSection("Bird to Candlestick") {
+                    html {
+                        p {
+                            +"Start in a bird, and then the flyer grabs the ankles/shins of the base. "
+                            +"The base is bending his knees, flexing the feet to make the flyer drop forward. "
+                            +"Here, the flyer need to have a very strong engaged core, and might use the arms as additional support to stay planked. "
+                            +"Reach for shoulders with all fingers same direction (don't strangle your flyer with the thumbs facing anterior). "
+                            +"Push the heels backwards, to avoid having the flyer fall backwards (scary, dangerous). "
+                        }
+                        p {
+                            +"Again, it is important that the flyer stays continuously like a totally straight plank (don't bend at hips). "
+                            +"The base will bend his knees again (don't push flyer back by trying to reach their legs). "
+                            +"It is the flyer's responsibility to pull with her hands the base's feet onto right position for a bird again. "
+                            +"Then the base pushes his legs straight up again, pointing the toes to put flyer in a horizontal position. "
+                            +"The flyer is still grabbing the ankles and using that for support by pushing against. "
+                        }
+                        youtube("aXDDjqyc6ao", "SupaFlyMe demonstrating the transition from Bird to Candlestick")
                     }
-                    p {
-                        +"Again, it is important that the flyer stays continuously like a totally straight plank (don't bend at hips). "
-                        +"The base will bend his knees again (don't push flyer back by trying to reach their legs). "
-                        +"It is the flyer's responsibility to pull with her hands the base's feet onto right position for a bird again. "
-                        +"Then the base pushes his legs straight up again, pointing the toes to put flyer in a horizontal position. "
-                        +"The flyer is still grabbing the ankles and using that for support by pushing against. "
-                    }
-                    youtube("aXDDjqyc6ao", "SupaFlyMe demonstrating the transition from bird to candelstick")
                 }
             }
         }
-
     }
 }

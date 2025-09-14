@@ -12,9 +12,12 @@ fun AcroIntermediateSections.inversions(dsl: SectionedTabDsl) {
             subSection("Star") {
                 html {
                     p {
+                        +"Basically a ";ref(Shoulderstand);+" on feet, but then called Star..."
+                    }
+                    p {
                         +"Good to first practice a tripod head-/shoulder-stand by yourself as a flyer. "; br
                         +"Flyer stands next to the head facing downwards, grabbing with peace fingers, full contact with the whole palms. "
-                        +"Base extending the legs, close to the head, toes on the clavicula, bending the knees. "
+                        +"Base extending the legs, close to the head, toes on the clavicula, bending the knees to lower the platform. "
                         +"To get up, engage core a lot, and/or use a little jump to get into the position. "
                         +"Flyer keeps the elbows bent and using the hands to push into in order to avoid going too far to the back. "; br
                         +"From here, you can easily ";b{+"step down"};+" and transition into a ";ref(StraddleBat);+". "
@@ -22,7 +25,8 @@ fun AcroIntermediateSections.inversions(dsl: SectionedTabDsl) {
                     p {
                         +"The spotter could help with going up, so no jump is required, but ultimately is (as always) on at back side of the follower. "
                     }
-                    youtube("6HngmitsKuQ", "Super Dave presenting the Star pose")
+                    youtube("6HngmitsKuQ", "SuperDave presenting the Star pose")
+                    youtube("T81646R4btk", "MovementLink with a 9-minutes tutorial for Star")
                 }
             }
             subSection("Reverse Star") {

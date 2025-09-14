@@ -12,7 +12,7 @@ fun AcroBeginnerSections.birds(dsl: SectionedTabDsl) {
             subSection("Bird") {
                 html {
                     p {
-                        +"Also sometimes called \"Airplane\" (or \"Front Bird\"), is the most simple technique in Acroyoga. "; br
+                        +"Also sometimes called \"Airplane\" (or \"Front Bird\", or \"Front Plank\"), is the most simple technique in Acroyoga. "; br
                         +"";b { +"Preparation" };+": The base on his back, the flyer at the feet, facing towards the base. "
                         +"The base can almost touch the toes of the flyer (depending on the leg-body-proportion of the flyer more/less distance). "
                         +"The feet are parallel (not V-shaped) at the hips (toes on superior anterior part of spina illica) of the flyer. "; br

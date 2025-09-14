@@ -16,6 +16,7 @@ enum class AcroRef(
     FootToShin("Foot-to-Shin", "beginner/simple_techniques/foot_to_shin"),
 
     Beach("Beach", "beginner/inversions/beach"),
+    Shoulderstand("Shoulderstand", "beginner/inversions/shoulderstand"),
     Candlestick("Candlestick", "beginner/inversions/candlestick"),
 
     // INTERMEDIATE
