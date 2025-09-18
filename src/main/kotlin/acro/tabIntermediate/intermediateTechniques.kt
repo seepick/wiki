@@ -98,7 +98,7 @@ fun AcroIntermediateSections.intermediateTechniques(dsl: SectionedTabDsl) {
                         +"A common mistake for the base is to shift the flyer's weight too much to the front. "
                         +"Keep with your legs a bicycle motion, continuously shifting her weight back, maintaining it over your center, legs perpendicular to the ground. "
                     }
-                    youtube("OWJO7WevE", "Jacob Brown quickly demonstrating the Rotisserie")
+                    youtube("u-OWJO7WevE", "Jacob Brown quickly demonstrating the Rotisserie")
                 }
             }
         }

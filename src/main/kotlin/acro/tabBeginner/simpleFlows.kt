@@ -9,6 +9,28 @@ import tabs.SectionedTabDsl
 fun AcroBeginnerSections.simpleFlows(dsl: SectionedTabDsl) {
     with(dsl) {
         section("Beginner Flows") {
+            subSection("ClapYourWings Beginner") {
+                subSubSection("Class 1") {
+                    html {
+                        ol {
+                            li { +"Regular bird" }
+                            li { +"Shoulder stand" }
+                            li { +"Butt-to-shin" }
+                            li { +"Whale" }
+                            li { +"Hand-Bird (via butt-to-shin)" }
+                            li { +"Bird (via handstand-drop)" }
+                        }
+                        youtube("WXU28K3NrHc", "Strong flyer core sequence")
+                    }
+                }
+                subSubSection("Class 2") {
+                    html {
+                        p {
+                            +"Coming soon..."
+                        }
+                    }
+                }
+            }
             subSection("Whale-Chair") {
                 html {
                     youtube("0dGS_6KFf4s", "Christoph and Stefanie practicing this simple sequence")
