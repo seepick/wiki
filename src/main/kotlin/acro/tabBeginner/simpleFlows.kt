@@ -25,6 +25,19 @@ fun AcroBeginnerSections.simpleFlows(dsl: SectionedTabDsl) {
                 }
                 subSubSection("Class 2") {
                     html {
+                        ol {
+                            li { +"Side entry" }
+                            li { +"Shin supported Side-sit" }
+                            li { +"One-legged Side-sit" }
+                            li { +"Inner-leg Side-star" }
+                            li { +"Upside-down Whale" }
+                            li { +"Shit-to-hand into Shoulder-stand" }
+                        }
+                        youtube("ZPn2fwsVPyo", "A very chair-y sequence")
+                    }
+                }
+                subSubSection("Class 3") {
+                    html {
                         p {
                             +"Coming soon..."
                         }
