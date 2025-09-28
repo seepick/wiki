@@ -228,16 +228,19 @@ fun ContactGeneralSections.resources(dsl: SectionedTabDsl) {
                     }
                     ul {
                         ali(
-                            // or: https://www.youtube.com/watch?v=9FeSDsmIeHA
-                            url = "https://www.youtube.com/watch?v=RRwQdkgaiMs",
-                            label = "Chute - The Invention of CI - 1972",
-                            text = "When a group of people came together to investigate CI",
+                            url = "https://www.youtube.com/watch?v=9FeSDsmIeHA",
+                            label = "Chute",
+                            text = "(1972) When a group of people came together to investigate CI",
                         )
                         ali(
-                            // or: https://www.youtube.com/watch?v=k768K_OTePM + https://www.youtube.com/watch?v=_iGtJSxNUpI + https://www.youtube.com/watch?v=vMj3Coktu40
-                            url = "https://www.youtube.com/watch?v=9tS3OVsPk6A",
-                            label = "Fall After Newton - 1987",
-                            text = "10 years of practice of Steve Paxton and Nancy Stark Smith",
+                            url = "https://www.youtube.com/watch?v=n9aAi2DvkqY",
+                            label = "Contact at 10th and 2nd",
+                            text = "(1983) Conference for CI's 11th anniversary",
+                        )
+                        ali(
+                            url = "https://www.youtube.com/watch?v=k768K_OTePM",
+                            label = "Fall After Newton",
+                            text = "(1987) 10 years of practice of Steve Paxton and Nancy Stark Smith",
                         )
                     }
                     p {
