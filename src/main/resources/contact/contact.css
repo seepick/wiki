@@ -10,6 +10,6 @@ table#animalHopOn td, table#animalHopOff td {
     color: black;
 }
 
-img#book {
+img#book, img#animal_crossings_cover {
     filter: drop-shadow(rgba(0,0,0,0.2) 2px 5px 4px);
 }

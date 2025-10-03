@@ -1,5 +1,6 @@
 package contact.tabCrossings
 
+import common.image
 import common.ref
 import common.youtube
 import contact.ContactRef
@@ -25,6 +26,11 @@ fun ContactAnimalSections.introduction(dsl: SectionedTabDsl) {
                     +"The relation between to bodies in their height, their weight but also \"how massive they are\" will change things. "
                     +"The degree of flexibility will expand (or limit) certain possibilities and will require specific adaptations. "
                 }
+                image(
+                    id = "animal_crossings_cover",
+                    source = "images/animal_crossings-cover.jpg",
+                    size = 462 to 360,
+                )
             }
             subSection("General Advice") {
                 html {
